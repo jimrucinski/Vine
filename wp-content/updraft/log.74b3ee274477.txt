@@ -1,0 +1,2051 @@
+0000.050 (0) Opened log file at time: Sun, 13 Sep 2015 01:59:31 +0000 on http://vine.pma.com
+0000.055 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.250 (0) Free space on disk containing Updraft's temporary directory: 661481.9 Mb
+0000.282 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.286 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.325 (0) Requesting semaphore lock (fd)
+0000.330 (0) Semaphore (fd) was stuck, set lock time to 2015-09-13 01:59:31
+0000.332 (0) Semaphore (fd) reset to 1
+0000.333 (0) Set semaphore last lock (fd) time to 2015-09-13 01:59:31
+0000.334 (0) Semaphore lock (fd) complete
+0000.392 (0) Backup run: resumption=0, nonce=74b3ee274477, begun at=1442109571 (0s ago), job type=backup
+0000.396 (0) Scheduling a resumption (1) after 300 seconds (1442109871) in case this run gets aborted
+0000.440 (0) Checking if we have a zip executable available
+0000.442 (0) Testing: /usr/bin/zip
+0000.464 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.466 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.467 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.468 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.475 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.478 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.480 (0) Stderr output: 
+0000.481 (0) Stderr output: 
+0000.482 (0) Stderr output: 
+0000.505 (0) Working binary zip found: /usr/bin/zip
+0000.507 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.508 (0) Creation of backups of directories: beginning
+0000.513 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.365 (0) Total entities for the zip file: 502 directories, 3468 files (0 skipped as non-modified), 44.4 Mb
+0002.374 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.377 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.381 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.385 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.388 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.389 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 Mb, 3468 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0003.638 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: size is now: 3.00 Mb
+0003.649 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 600 files added (on-disk size: 3043.6 Kb)
+0003.653 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 700 files added (on-disk size: 3043.6 Kb)
+0003.656 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 800 files added (on-disk size: 3043.6 Kb)
+0003.659 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 900 files added (on-disk size: 3043.6 Kb)
+0003.663 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1000 files added (on-disk size: 3043.6 Kb)
+0003.664 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 Mb, 3468 files batched, 501 (1002) added so far); re-opening (prior size: 3043.6 Kb)
+0006.509 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: size is now: 6.30 Mb
+0006.523 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1100 files added (on-disk size: 6474.1 Kb)
+0006.526 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1200 files added (on-disk size: 6474.1 Kb)
+0006.530 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1300 files added (on-disk size: 6474.1 Kb)
+0006.534 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1400 files added (on-disk size: 6474.1 Kb)
+0006.537 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1500 files added (on-disk size: 6474.1 Kb)
+0006.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 Mb, 3468 files batched, 501 (1503) added so far); re-opening (prior size: 6474.1 Kb)
+0008.772 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: size is now: 7.60 Mb
+0008.785 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1600 files added (on-disk size: 7794.1 Kb)
+0008.789 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1700 files added (on-disk size: 7794.1 Kb)
+0008.792 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1800 files added (on-disk size: 7794.1 Kb)
+0008.796 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 1900 files added (on-disk size: 7794.1 Kb)
+0008.800 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2000 files added (on-disk size: 7794.1 Kb)
+0008.800 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 Mb, 3468 files batched, 501 (2004) added so far); re-opening (prior size: 7794.1 Kb)
+0011.487 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: size is now: 10.40 Mb
+0011.498 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2100 files added (on-disk size: 10694.6 Kb)
+0011.501 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2200 files added (on-disk size: 10694.6 Kb)
+0011.505 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2300 files added (on-disk size: 10694.6 Kb)
+0011.509 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2400 files added (on-disk size: 10694.6 Kb)
+0011.512 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2500 files added (on-disk size: 10694.6 Kb)
+0011.513 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 Mb, 3468 files batched, 501 (2505) added so far); re-opening (prior size: 10694.6 Kb)
+0014.088 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2600 files added (on-disk size: 11425.6 Kb)
+0014.092 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2700 files added (on-disk size: 11425.6 Kb)
+0014.095 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2800 files added (on-disk size: 11425.6 Kb)
+0014.099 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 2900 files added (on-disk size: 11425.6 Kb)
+0014.102 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 3000 files added (on-disk size: 11425.6 Kb)
+0014.103 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 Mb, 3468 files batched, 501 (3006) added so far); re-opening (prior size: 11425.6 Kb)
+0016.874 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: size is now: 15.60 Mb
+0016.887 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 3100 files added (on-disk size: 15933.4 Kb)
+0016.890 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 3200 files added (on-disk size: 15933.4 Kb)
+0016.894 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 3300 files added (on-disk size: 15933.4 Kb)
+0016.897 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip.tmp: 3400 files added (on-disk size: 15933.4 Kb)
+0019.011 (0) Created plugins zip (0) - 17782.2 Kb in 18.4 s (967.7 Kb/s) (SHA1 checksum: 177fc71772a57278d08e607ae40fde49c6675353)
+0019.016 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0022.484 (0) Total entities for the zip file: 534 directories, 2099 files (0 skipped as non-modified), 35.1 Mb
+0022.486 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0022.539 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: size is now: 0.10 Mb
+0022.545 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 100 files added (on-disk size: 113.2 Kb)
+0022.549 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 200 files added (on-disk size: 113.2 Kb)
+0022.552 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 300 files added (on-disk size: 113.2 Kb)
+0022.556 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 400 files added (on-disk size: 113.2 Kb)
+0022.560 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 500 files added (on-disk size: 113.2 Kb)
+0022.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.5 Mb, 2099 files batched, 501 (502) added so far); re-opening (prior size: 113.2 Kb)
+0030.117 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: size is now: 5.30 Mb
+0030.138 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 600 files added (on-disk size: 5387.1 Kb)
+0030.142 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 700 files added (on-disk size: 5387.1 Kb)
+0030.146 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 800 files added (on-disk size: 5387.1 Kb)
+0030.150 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 900 files added (on-disk size: 5387.1 Kb)
+0030.154 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1000 files added (on-disk size: 5387.1 Kb)
+0030.155 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 Mb, 2099 files batched, 501 (1003) added so far); re-opening (prior size: 5387.1 Kb)
+0032.424 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: size is now: 10.00 Mb
+0032.516 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1100 files added (on-disk size: 10280.6 Kb)
+0032.520 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1200 files added (on-disk size: 10280.6 Kb)
+0032.524 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1300 files added (on-disk size: 10280.6 Kb)
+0032.530 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1400 files added (on-disk size: 10280.6 Kb)
+0032.533 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1500 files added (on-disk size: 10280.6 Kb)
+0032.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 Mb, 2099 files batched, 501 (1504) added so far); re-opening (prior size: 10280.6 Kb)
+0034.615 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: size is now: 13.20 Mb
+0034.627 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1600 files added (on-disk size: 13566.3 Kb)
+0034.631 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1700 files added (on-disk size: 13566.3 Kb)
+0034.634 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1800 files added (on-disk size: 13566.3 Kb)
+0034.638 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 1900 files added (on-disk size: 13566.3 Kb)
+0034.642 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: 2000 files added (on-disk size: 13566.3 Kb)
+0034.643 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 Mb, 2099 files batched, 501 (2005) added so far); re-opening (prior size: 13566.3 Kb)
+0037.276 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip.tmp: size is now: 16.70 Mb
+0037.720 (0) Created themes zip (0) - 17961 Kb in 18.7 s (961.3 Kb/s) (SHA1 checksum: 9da4fb0f7327e47ceb1fcc8d4016046d77935b56)
+0037.727 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0037.729 (0) Looking for candidates to back up in: /home/pma26606/public_html/vine/wp-content/uploads
+0037.730 (0) finding files: featured_image.jpg: adding to list (1)
+0037.731 (0) finding files: builder-export-data: adding to list (2)
+0037.731 (0) finding files: 2015: adding to list (3)
+0037.732 (0) finding files: 2011: adding to list (4)
+0037.733 (0) finding files: et_temp: adding to list (5)
+0037.734 (0) finding files: 2014: adding to list (6)
+0037.734 (0) finding files: it-file-cache: adding to list (7)
+0037.735 (0) finding files: download-manager-files: adding to list (8)
+0037.737 (0) finding files: wpscSupportTickets: adding to list (9)
+0037.738 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0039.715 (0) Total entities for the zip file: 24 directories, 3211 files (0 skipped as non-modified), 937.5 Mb
+0039.722 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0039.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.5 Mb, 3211 files batched, 125 (125) added so far); re-opening (prior size: 0 Kb)
+0041.126 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 25.50 Mb
+0041.131 (0) A useful amount of data was added after this amount of zip processing: 4.3 s (normalised: 4.3 s, rate: 6010.6 Kb/s)
+0041.133 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.3371810913086, normalised_time=4.2591401276904, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=36929144)
+0041.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.2 Mb added on this batch (35.4 Mb, 3211 files batched, 72 (197) added so far); re-opening (prior size: 26096.8 Kb)
+0042.831 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 60.80 Mb
+0042.835 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 17743.6 Kb/s)
+0042.837 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0414810180664, normalised_time=2.0324887667252, max_time=-1, data points known=0, old_max_bytes=36929144, new_max_bytes=109016525)
+0042.839 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 200 files added (on-disk size: 62237.1 Kb)
+0042.843 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 300 files added (on-disk size: 62237.1 Kb)
+0042.846 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 400 files added (on-disk size: 62237.1 Kb)
+0042.850 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 500 files added (on-disk size: 62237.1 Kb)
+0042.853 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 600 files added (on-disk size: 62237.1 Kb)
+0042.859 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (57.6 Mb, 3211 files batched, 501 (698) added so far); re-opening (prior size: 62237.1 Kb)
+0046.762 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 118.50 Mb
+0046.772 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 700 files added (on-disk size: 121363.7 Kb)
+0046.775 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 800 files added (on-disk size: 121363.7 Kb)
+0046.778 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 900 files added (on-disk size: 121363.7 Kb)
+0046.782 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1000 files added (on-disk size: 121363.7 Kb)
+0046.785 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1100 files added (on-disk size: 121363.7 Kb)
+0046.789 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.4 Mb, 3211 files batched, 501 (1199) added so far); re-opening (prior size: 121363.7 Kb)
+0049.848 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1200 files added (on-disk size: 139222.1 Kb)
+0049.852 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1300 files added (on-disk size: 139222.1 Kb)
+0049.855 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1400 files added (on-disk size: 139222.1 Kb)
+0049.859 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1500 files added (on-disk size: 139222.1 Kb)
+0049.862 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1600 files added (on-disk size: 139222.1 Kb)
+0049.866 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (100.3 Mb, 3211 files batched, 501 (1700) added so far); re-opening (prior size: 139222.1 Kb)
+0061.876 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 236.20 Mb
+0061.885 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1700 files added (on-disk size: 241868.2 Kb)
+0061.889 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1800 files added (on-disk size: 241868.2 Kb)
+0061.893 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1900 files added (on-disk size: 241868.2 Kb)
+0061.897 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2000 files added (on-disk size: 241868.2 Kb)
+0061.900 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 104 Mb added on this batch (122 Mb, 3211 files batched, 385 (2085) added so far); re-opening (prior size: 241868.2 Kb)
+0077.052 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 357.90 Mb
+0077.060 (0) A useful amount of data was added after this amount of zip processing: 15.3 s (normalised: 13 s, rate: 8183.9 Kb/s)
+0077.064 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2100 files added (on-disk size: 366526.8 Kb)
+0077.070 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2200 files added (on-disk size: 366526.8 Kb)
+0077.076 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2300 files added (on-disk size: 366526.8 Kb)
+0077.080 (0) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2400 files added (on-disk size: 366526.8 Kb)
+0077.081 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 104 Mb added on this batch (104.5 Mb, 3211 files batched, 350 (2435) added so far); re-opening (prior size: 366526.8 Kb)
+0090.903 (0) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: size is now: 462.20 Mb
+0090.964 (0) A useful amount of data was added after this amount of zip processing: 14.2 s (normalised: 14.1 s, rate: 7552.6 Kb/s)
+0090.981 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (37.1 Mb, 50 (2485) files added so far); last ratio: 0.998; re-opening (prior size: 473332.6 Kb)
+0095.658 (0) Zip size is at/near split limit (499.3 Mb / 500 Mb) - bumping index (from: 0)
+0371.308 (1) Opened log file at time: Sun, 13 Sep 2015 02:05:42 +0000 on http://vine.pma.com
+0371.309 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0371.325 (1) Free space on disk containing Updraft's temporary directory: 660979.7 Mb
+0371.327 (1) Backup run: resumption=1, nonce=74b3ee274477, begun at=1442109571 (371s ago), job type=backup, previous check-in=95.6s
+0371.329 (1) Scheduling a resumption (2) after 300 seconds (1442110242) in case this run gets aborted
+0371.339 (1) Checking if we have a zip executable available
+0371.340 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0371.341 (1) Creation of backups of directories: had begun; will resume
+0371.344 (1) Beginning creation of dump of plugins (split every: 500 Mb)
+0371.345 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: this file has already been created (age: 352 s)
+0371.351 (1) Beginning creation of dump of themes (split every: 500 Mb)
+0371.352 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: this file has already been created (age: 334 s)
+0371.358 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0371.359 (1) Looking for candidates to back up in: /home/pma26606/public_html/vine/wp-content/uploads
+0371.360 (1) finding files: featured_image.jpg: adding to list (1)
+0371.360 (1) finding files: builder-export-data: adding to list (2)
+0371.361 (1) finding files: 2015: adding to list (3)
+0371.362 (1) finding files: 2011: adding to list (4)
+0371.362 (1) finding files: et_temp: adding to list (5)
+0371.363 (1) finding files: 2014: adding to list (6)
+0371.364 (1) finding files: it-file-cache: adding to list (7)
+0371.365 (1) finding files: download-manager-files: adding to list (8)
+0371.365 (1) finding files: wpscSupportTickets: adding to list (9)
+0371.366 (1) Beginning creation of dump of uploads (split every: 500 Mb)
+0371.369 (1) File exists (/home/pma26606/public_html/vine/wp-content/updraft/backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1442109666, time_now=1442109942, diff=276)
+0371.499 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: Zip file already exists, with 2485 files
+0371.570 (1) Total entities for the zip file: 24 directories, 3211 files (0 skipped as non-modified), 937.5 Mb
+0371.572 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 100 files added (on-disk size: 511294.7 Kb)
+0371.574 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 200 files added (on-disk size: 511294.7 Kb)
+0371.576 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 300 files added (on-disk size: 511294.7 Kb)
+0371.578 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 400 files added (on-disk size: 511294.7 Kb)
+0371.580 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 500 files added (on-disk size: 511294.7 Kb)
+0371.581 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 600 files added (on-disk size: 511294.7 Kb)
+0371.583 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 700 files added (on-disk size: 511294.7 Kb)
+0371.585 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 800 files added (on-disk size: 511294.7 Kb)
+0371.587 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 900 files added (on-disk size: 511294.7 Kb)
+0371.589 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1000 files added (on-disk size: 511294.7 Kb)
+0371.590 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1100 files added (on-disk size: 511294.7 Kb)
+0371.592 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1200 files added (on-disk size: 511294.7 Kb)
+0371.594 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1300 files added (on-disk size: 511294.7 Kb)
+0371.596 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1400 files added (on-disk size: 511294.7 Kb)
+0371.597 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1500 files added (on-disk size: 511294.7 Kb)
+0371.599 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1600 files added (on-disk size: 511294.7 Kb)
+0371.601 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1700 files added (on-disk size: 511294.7 Kb)
+0371.602 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1800 files added (on-disk size: 511294.7 Kb)
+0371.604 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 1900 files added (on-disk size: 511294.7 Kb)
+0371.606 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2000 files added (on-disk size: 511294.7 Kb)
+0371.608 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2100 files added (on-disk size: 511294.7 Kb)
+0371.610 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2200 files added (on-disk size: 511294.7 Kb)
+0371.612 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2300 files added (on-disk size: 511294.7 Kb)
+0371.613 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip.tmp: 2400 files added (on-disk size: 511294.7 Kb)
+0371.615 (1) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (0.9 Mb, 3 (3) files added so far); last ratio: 0.9991; re-opening (prior size: 511294.7 Kb)
+0372.552 (1) Zip size is at/near split limit (500.2 Mb / 500 Mb) - bumping index (from: 0)
+0375.164 (1) Created uploads zip (0) - 512227.3 Kb in 1.2 s (439329 Kb/s) (SHA1 checksum: 14fd82be64f91dfa92f3121eca90c40230893c7b)
+0375.168 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (4) files added so far); re-opening (prior size: 0 Kb)
+0375.187 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: size is now: 0.00 Mb
+0375.191 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 2500 files added (on-disk size: 34.8 Kb)
+0375.194 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 2600 files added (on-disk size: 34.8 Kb)
+0375.198 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 2700 files added (on-disk size: 34.8 Kb)
+0375.200 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 104 Mb added on this batch (110 Mb, 3211 files batched, 258 (262) added so far); re-opening (prior size: 34.8 Kb)
+0378.079 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: size is now: 110.10 Mb
+0378.086 (1) A useful amount of data was added after this amount of zip processing: 3.3 s (normalised: 3.1 s, rate: 34217.3 Kb/s)
+0378.088 (1) Performance is good - will increase the amount of data we attempt to batch (time=3.2921209335327, normalised_time=3.1113349925142, max_time=96, data points known=1, old_max_bytes=109016525, new_max_bytes=209715200)
+0378.091 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 2800 files added (on-disk size: 112729.8 Kb)
+0378.094 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 2900 files added (on-disk size: 112729.8 Kb)
+0378.098 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 3000 files added (on-disk size: 112729.8 Kb)
+0378.101 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 200 Mb added on this batch (200.2 Mb, 3211 files batched, 337 (599) added so far); re-opening (prior size: 112729.8 Kb)
+0393.401 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: size is now: 283.40 Mb
+0393.411 (1) A useful amount of data was added after this amount of zip processing: 15.6 s (normalised: 15.6 s, rate: 13127.6 Kb/s)
+0393.412 (1) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=15.616995096207, normalised_time=15.600668695644, max_time=96, data points known=1, max_bytes=209715200)
+0393.415 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 3100 files added (on-disk size: 290156.6 Kb)
+0393.418 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: 3200 files added (on-disk size: 290156.6 Kb)
+0403.878 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip.tmp: size is now: 395.90 Mb
+0405.956 (1) Created uploads zip (1) - 405450.7 Kb in 30.8 s (13167.8 Kb/s) (SHA1 checksum: 270d10275eaa353c001673b418a39c6057db3e17)
+0405.962 (1) Exclusion option setting (wpcore): 
+0405.963 (1) Looking for candidates to back up in: /home/pma26606/public_html/vine
+0405.964 (1) finding files: wp-activate.php: adding to list (1)
+0405.965 (1) finding files: .htaccess: adding to list (2)
+0405.965 (1) finding files: wp-trackback.php: adding to list (3)
+0405.966 (1) finding files: wp-content: skipping: this is the wp-content directory
+0405.966 (1) finding files: cgi-bin: adding to list (4)
+0405.967 (1) finding files: wp-blog-header.php: adding to list (5)
+0405.968 (1) finding files: wp-includes: adding to list (6)
+0405.969 (1) finding files: PMA-Docs: adding to list (7)
+0405.970 (1) finding files: xmlrpc.php: adding to list (8)
+0405.970 (1) finding files: PMA: adding to list (9)
+0405.971 (1) finding files: index.php: adding to list (10)
+0405.972 (1) finding files: wp-settings.php: adding to list (11)
+0405.972 (1) finding files: license.txt: adding to list (12)
+0405.973 (1) finding files: wp-comments-post.php: adding to list (13)
+0405.974 (1) finding files: wp-load.php: adding to list (14)
+0405.975 (1) finding files: wp-links-opml.php: adding to list (15)
+0405.976 (1) finding files: php_mail.log: adding to list (16)
+0405.977 (1) finding files: wp-admin: adding to list (17)
+0405.978 (1) finding files: wp-config-sample.php: adding to list (18)
+0405.979 (1) finding files: wp-mail.php: adding to list (19)
+0405.980 (1) finding files: wp-login.php: adding to list (20)
+0405.980 (1) finding files: wp-cron.php: adding to list (21)
+0405.981 (1) finding files: wp-config.php: adding to list (22)
+0405.982 (1) finding files: readme.html: adding to list (23)
+0405.983 (1) finding files: wp-signup.php: adding to list (24)
+0405.983 (1) finding files: php_errorlog: adding to list (25)
+0405.984 (1) Beginning creation of dump of wpcore (split every: 500 Mb)
+0406.818 (1) Total entities for the zip file: 107 directories, 1145 files (0 skipped as non-modified), 224.6 Mb
+0406.823 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0406.826 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0406.830 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0406.833 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0406.837 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0406.838 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 Mb, 1145 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0413.280 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: size is now: 3.30 Mb
+0413.293 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 600 files added (on-disk size: 3389.6 Kb)
+0413.296 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 200 Mb added on this batch (200.4 Mb, 1145 files batched, 154 (655) added so far); re-opening (prior size: 3389.6 Kb)
+0432.866 (1) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: size is now: 119.10 Mb
+0432.873 (1) A useful amount of data was added after this amount of zip processing: 20.1 s (normalised: 20 s, rate: 10220.9 Kb/s)
+0432.874 (1) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=20.079572916031, normalised_time=20.037438488725, max_time=96, data points known=1, max_bytes=209715200)
+0432.877 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 700 files added (on-disk size: 122008.4 Kb)
+0432.881 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 800 files added (on-disk size: 122008.4 Kb)
+0432.884 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 900 files added (on-disk size: 122008.4 Kb)
+0432.888 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 1000 files added (on-disk size: 122008.4 Kb)
+0432.891 (1) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 1100 files added (on-disk size: 122008.4 Kb)
+0739.883 (2) Opened log file at time: Sun, 13 Sep 2015 02:11:51 +0000 on http://vine.pma.com
+0739.884 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0739.928 (2) Free space on disk containing Updraft's temporary directory: 660453.4 Mb
+0739.931 (2) Backup run: resumption=2, nonce=74b3ee274477, begun at=1442109571 (740s ago), job type=backup, previous check-in=61.6s
+0739.932 (2) Scheduling a resumption (3) after 300 seconds (1442110611) in case this run gets aborted
+0739.948 (2) Checking if we have a zip executable available
+0739.950 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0739.951 (2) Creation of backups of directories: had begun; will resume
+0739.957 (2) Beginning creation of dump of plugins (split every: 500 Mb)
+0739.958 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: this file has already been created (age: 721 s)
+0739.969 (2) Beginning creation of dump of themes (split every: 500 Mb)
+0739.970 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: this file has already been created (age: 703 s)
+0739.977 (2) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0739.978 (2) Looking for candidates to back up in: /home/pma26606/public_html/vine/wp-content/uploads
+0739.979 (2) finding files: featured_image.jpg: adding to list (1)
+0739.979 (2) finding files: builder-export-data: adding to list (2)
+0739.980 (2) finding files: 2015: adding to list (3)
+0739.981 (2) finding files: 2011: adding to list (4)
+0739.981 (2) finding files: et_temp: adding to list (5)
+0739.982 (2) finding files: 2014: adding to list (6)
+0739.983 (2) finding files: it-file-cache: adding to list (7)
+0739.984 (2) finding files: download-manager-files: adding to list (8)
+0739.985 (2) finding files: wpscSupportTickets: adding to list (9)
+0739.986 (2) Beginning creation of dump of uploads (split every: 500 Mb)
+0739.987 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: this file has already been created (age: 337 s)
+0739.994 (2) Exclusion option setting (wpcore): 
+0739.995 (2) Looking for candidates to back up in: /home/pma26606/public_html/vine
+0739.996 (2) finding files: wp-activate.php: adding to list (1)
+0739.997 (2) finding files: .htaccess: adding to list (2)
+0739.998 (2) finding files: wp-trackback.php: adding to list (3)
+0740.001 (2) finding files: wp-content: skipping: this is the wp-content directory
+0740.002 (2) finding files: cgi-bin: adding to list (4)
+0740.003 (2) finding files: wp-blog-header.php: adding to list (5)
+0740.004 (2) finding files: wp-includes: adding to list (6)
+0740.005 (2) finding files: PMA-Docs: adding to list (7)
+0740.006 (2) finding files: xmlrpc.php: adding to list (8)
+0740.007 (2) finding files: PMA: adding to list (9)
+0740.008 (2) finding files: index.php: adding to list (10)
+0740.008 (2) finding files: wp-settings.php: adding to list (11)
+0740.009 (2) finding files: license.txt: adding to list (12)
+0740.010 (2) finding files: wp-comments-post.php: adding to list (13)
+0740.011 (2) finding files: wp-load.php: adding to list (14)
+0740.012 (2) finding files: wp-links-opml.php: adding to list (15)
+0740.013 (2) finding files: php_mail.log: adding to list (16)
+0740.014 (2) finding files: wp-admin: adding to list (17)
+0740.015 (2) finding files: wp-config-sample.php: adding to list (18)
+0740.016 (2) finding files: wp-mail.php: adding to list (19)
+0740.017 (2) finding files: wp-login.php: adding to list (20)
+0740.018 (2) finding files: wp-cron.php: adding to list (21)
+0740.019 (2) finding files: wp-config.php: adding to list (22)
+0740.021 (2) finding files: readme.html: adding to list (23)
+0740.022 (2) finding files: wp-signup.php: adding to list (24)
+0740.023 (2) finding files: php_errorlog: adding to list (25)
+0740.024 (2) Beginning creation of dump of wpcore (split every: 500 Mb)
+0740.028 (2) File exists (/home/pma26606/public_html/vine/wp-content/updraft/backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1442110013, time_now=1442110311, diff=298)
+0740.107 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: Zip file already exists, with 1145 files
+0740.149 (2) Total entities for the zip file: 107 directories, 1145 files (0 skipped as non-modified), 224.6 Mb
+0740.152 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 100 files added (on-disk size: 130597.6 Kb)
+0740.153 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 200 files added (on-disk size: 130597.6 Kb)
+0740.155 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 300 files added (on-disk size: 130597.6 Kb)
+0740.157 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 400 files added (on-disk size: 130597.6 Kb)
+0740.159 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 500 files added (on-disk size: 130597.6 Kb)
+0740.162 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 600 files added (on-disk size: 130597.6 Kb)
+0740.165 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 700 files added (on-disk size: 130597.6 Kb)
+0740.167 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 800 files added (on-disk size: 130597.6 Kb)
+0740.170 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 900 files added (on-disk size: 130597.6 Kb)
+0740.173 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 1000 files added (on-disk size: 130597.6 Kb)
+0740.176 (2) Zip: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip.tmp: 1100 files added (on-disk size: 130597.6 Kb)
+0741.476 (2) Created wpcore zip (0) - 130597.6 Kb in 1.4 s (91586.9 Kb/s) (SHA1 checksum: 55adaf7628034f67efbcf9deda048b7807ca1253)
+0741.483 (2) Beginning backup of other directories found in the content directory (index: 0)
+0741.484 (2) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0741.485 (2) Looking for candidates to back up in: /home/pma26606/public_html/vine/wp-content
+0741.486 (2) finding files: plugins: skipping: this is the plugins directory
+0741.488 (2) finding files: uploads: skipping: this is the uploads directory
+0741.489 (2) finding files: updraft: skipping: this is the updraft directory
+0741.490 (2) finding files: index.php: adding to list (1)
+0741.491 (2) finding files: upgrade: skipping: excluded by options
+0741.492 (2) finding files: fv-flowplayer-custom: adding to list (2)
+0741.493 (2) finding files: themes: skipping: this is the themes directory
+0741.535 (2) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0.1 Mb
+0741.591 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip.tmp: size is now: 0.00 Mb
+0741.596 (2) Created others zip (0) - 9.2 Kb in 0.1 s (114.4 Kb/s) (SHA1 checksum: 3d48848f2e408b9cbb1aaf13959765d75d63d811)
+0741.604 (2) No backup of more: excluded by user's options
+0741.610 (2) Saving backup status to database (elements: 11)
+0741.614 (2) Resuming creation of database dump (WordPress DB)
+0741.617 (2) Testing: /usr/bin/mysqldump
+0741.662 (2) Working binary mysqldump found: /usr/bin/mysqldump
+0741.671 (2) Table rms_options: Total expected rows (approximate): 416
+0741.763 (2) Table rms_options: Total rows added: 469 in 0.09 seconds
+0741.768 (2) Table rms_options: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_options.table.gz - 131.6 Kb)
+0741.827 (2) Table rms_users: Total expected rows (approximate): 97
+0741.836 (2) Table rms_users: Total rows added: 97 in 0.01 seconds
+0741.837 (2) Table rms_users: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_users.table.gz - 5.9 Kb)
+0741.929 (2) Table rms_usermeta: Total expected rows (approximate): 5797
+0742.096 (2) Table rms_usermeta: Total rows added: 4943 in 0.17 seconds
+0742.097 (2) Table rms_usermeta: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_usermeta.table.gz - 48.1 Kb)
+0742.122 (2) Table rms_commentmeta: Total expected rows (approximate): 0
+0742.125 (2) Table rms_commentmeta: Total rows added: 0 in 0.00 seconds
+0742.127 (2) Table rms_commentmeta: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_commentmeta.table.gz - 0.3 Kb)
+0742.150 (2) Table rms_comments: Total expected rows (approximate): 57
+0742.209 (2) Table rms_comments: Total rows added: 54 in 0.06 seconds
+0742.210 (2) Table rms_comments: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_comments.table.gz - 5.1 Kb)
+0742.234 (2) Table rms_links: Total expected rows (approximate): 0
+0742.237 (2) Table rms_links: Total rows added: 0 in 0.00 seconds
+0742.237 (2) Table rms_links: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_links.table.gz - 0.4 Kb)
+0742.305 (2) Table rms_postmeta: Total expected rows (approximate): 9937
+0742.446 (2) Table rms_postmeta: binary mysqldump finished (writes: 32) in 0.14 seconds
+0742.448 (2) Table rms_postmeta: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_postmeta.table.gz - 104.4 Kb)
+0742.522 (2) Table rms_posts: Total expected rows (approximate): 2432
+0743.243 (2) Table rms_posts: Total rows added: 1770 in 0.72 seconds
+0743.245 (2) Table rms_posts: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_posts.table.gz - 264.8 Kb)
+0743.327 (2) Table rms_term_relationships: Total expected rows (approximate): 1308
+0743.366 (2) Table rms_term_relationships: Total rows added: 1620 in 0.04 seconds
+0743.368 (2) Table rms_term_relationships: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_term_relationships.table.gz - 4.5 Kb)
+0743.400 (2) Table rms_term_taxonomy: Total expected rows (approximate): 157
+0743.407 (2) Table rms_term_taxonomy: Total rows added: 157 in 0.01 seconds
+0743.409 (2) Table rms_term_taxonomy: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_term_taxonomy.table.gz - 1.7 Kb)
+0743.435 (2) Table rms_terms: Total expected rows (approximate): 157
+0743.442 (2) Table rms_terms: Total rows added: 157 in 0.01 seconds
+0743.443 (2) Table rms_terms: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_terms.table.gz - 2.4 Kb)
+0743.445 (2) Skipping table (lacks our prefix (rms_)): pma_department_request_types
+0743.446 (2) Skipping table (lacks our prefix (rms_)): pma_departments
+0743.447 (2) Skipping table (lacks our prefix (rms_)): pma_ticket_agents
+0743.447 (2) Skipping table (lacks our prefix (rms_)): pma_ticket_comments
+0743.448 (2) Skipping table (lacks our prefix (rms_)): pma_ticket_disallowed_file_extensions
+0743.449 (2) Skipping table (lacks our prefix (rms_)): pma_ticket_file_uploads
+0743.450 (2) Skipping table (lacks our prefix (rms_)): pma_ticket_status
+0743.451 (2) Skipping table (lacks our prefix (rms_)): pma_tickets
+0743.473 (2) Table rms_ahm_download_stats: Total expected rows (approximate): 230
+0743.496 (2) Table rms_ahm_download_stats: Total rows added: 230 in 0.02 seconds
+0743.782 (2) Table rms_ahm_download_stats: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_ahm_download_stats.table.gz - 2.9 Kb)
+0743.840 (2) Table rms_ahm_emails: Total expected rows (approximate): 0
+0743.843 (2) Table rms_ahm_emails: Total rows added: 0 in 0.00 seconds
+0743.844 (2) Table rms_ahm_emails: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_ahm_emails.table.gz - 0.3 Kb)
+0743.914 (2) Table rms_email_subscription: Total expected rows (approximate): 1
+0743.918 (2) Table rms_email_subscription: Total rows added: 1 in 0.00 seconds
+0743.919 (2) Table rms_email_subscription: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_email_subscription.table.gz - 0.4 Kb)
+0743.971 (2) Table rms_post_notification_cats: Total expected rows (approximate): 0
+0743.974 (2) Table rms_post_notification_cats: Total rows added: 0 in 0.00 seconds
+0743.975 (2) Table rms_post_notification_cats: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_post_notification_cats.table.gz - 0.3 Kb)
+0744.009 (2) Table rms_post_notification_posts: Total expected rows (approximate): 0
+0744.014 (2) Table rms_post_notification_posts: Total rows added: 0 in 0.00 seconds
+0744.015 (2) Table rms_post_notification_posts: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_post_notification_posts.table.gz - 0.3 Kb)
+0744.058 (2) Table rms_subscribe2: Total expected rows (approximate): 1
+0744.062 (2) Table rms_subscribe2: Total rows added: 1 in 0.00 seconds
+0744.063 (2) Table rms_subscribe2: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_subscribe2.table.gz - 0.4 Kb)
+0744.155 (2) Table rms_wfBadLeechers: Total expected rows (approximate): 0
+0744.158 (2) Table rms_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0744.159 (2) Table rms_wfBadLeechers: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBadLeechers.table.gz - 0.3 Kb)
+0744.218 (2) Table rms_wfBlockedIPLog: Total expected rows (approximate): 2
+0744.224 (2) Table rms_wfBlockedIPLog: Total rows added: 2 in 0.00 seconds
+0744.225 (2) Table rms_wfBlockedIPLog: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlockedIPLog.table.gz - 0.4 Kb)
+0744.261 (2) Table rms_wfBlocks: Total expected rows (approximate): 0
+0744.265 (2) Table rms_wfBlocks: Total rows added: 0 in 0.00 seconds
+0744.267 (2) Table rms_wfBlocks: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlocks.table.gz - 0.4 Kb)
+0744.313 (2) Table rms_wfBlocksAdv: Total expected rows (approximate): 0
+0744.315 (2) Table rms_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0744.316 (2) Table rms_wfBlocksAdv: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlocksAdv.table.gz - 0.3 Kb)
+0744.333 (2) Table rms_wfConfig: Total expected rows (approximate): 120
+0744.339 (2) Table rms_wfConfig: Total rows added: 120 in 0.01 seconds
+0744.341 (2) Table rms_wfConfig: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfConfig.table.gz - 2.3 Kb)
+0744.366 (2) Table rms_wfCrawlers: Total expected rows (approximate): 3
+0744.369 (2) Table rms_wfCrawlers: Total rows added: 3 in 0.00 seconds
+0744.370 (2) Table rms_wfCrawlers: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfCrawlers.table.gz - 0.5 Kb)
+0744.455 (2) Table rms_wfFileMods: Total expected rows (approximate): 8113
+0744.805 (2) Table rms_wfFileMods: binary mysqldump finished (writes: 32) in 0.35 seconds
+0744.809 (2) Table rms_wfFileMods: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfFileMods.table.gz - 401.4 Kb)
+0744.813 (2) Table rms_wfHits: Total expected rows (approximate): 295
+0744.847 (2) Table rms_wfHits: Total rows added: 401 in 0.03 seconds
+0744.849 (2) Table rms_wfHits: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfHits.table.gz - 5.6 Kb)
+0744.893 (2) Table rms_wfHoover: Total expected rows (approximate): 0
+0744.896 (2) Table rms_wfHoover: Total rows added: 0 in 0.00 seconds
+0744.896 (2) Table rms_wfHoover: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfHoover.table.gz - 0.3 Kb)
+0744.920 (2) Table rms_wfIssues: Total expected rows (approximate): 0
+0744.922 (2) Table rms_wfIssues: Total rows added: 0 in 0.00 seconds
+0744.923 (2) Table rms_wfIssues: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfIssues.table.gz - 0.3 Kb)
+0744.968 (2) Table rms_wfLeechers: Total expected rows (approximate): 1993
+0745.020 (2) Table rms_wfLeechers: Total rows added: 2397 in 0.05 seconds
+0745.021 (2) Table rms_wfLeechers: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLeechers.table.gz - 8 Kb)
+0745.037 (2) Table rms_wfLockedOut: Total expected rows (approximate): 0
+0745.039 (2) Table rms_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0745.040 (2) Table rms_wfLockedOut: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLockedOut.table.gz - 0.3 Kb)
+0745.066 (2) Table rms_wfLocs: Total expected rows (approximate): 0
+0745.068 (2) Table rms_wfLocs: Total rows added: 0 in 0.00 seconds
+0745.069 (2) Table rms_wfLocs: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLocs.table.gz - 0.4 Kb)
+0745.118 (2) Table rms_wfLogins: Total expected rows (approximate): 487
+0745.164 (2) Table rms_wfLogins: Total rows added: 496 in 0.04 seconds
+0745.166 (2) Table rms_wfLogins: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLogins.table.gz - 9.7 Kb)
+0745.224 (2) Table rms_wfNet404s: Total expected rows (approximate): 0
+0745.226 (2) Table rms_wfNet404s: Total rows added: 0 in 0.00 seconds
+0745.228 (2) Table rms_wfNet404s: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfNet404s.table.gz - 0.3 Kb)
+0745.242 (2) Table rms_wfReverseCache: Total expected rows (approximate): 0
+0745.245 (2) Table rms_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0745.246 (2) Table rms_wfReverseCache: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfReverseCache.table.gz - 0.3 Kb)
+0745.276 (2) Table rms_wfScanners: Total expected rows (approximate): 0
+0745.278 (2) Table rms_wfScanners: Total rows added: 0 in 0.00 seconds
+0745.279 (2) Table rms_wfScanners: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfScanners.table.gz - 0.3 Kb)
+0745.361 (2) Table rms_wfStatus: Total expected rows (approximate): 929
+0745.407 (2) Table rms_wfStatus: Total rows added: 986 in 0.04 seconds
+0745.409 (2) Table rms_wfStatus: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfStatus.table.gz - 14.5 Kb)
+0745.437 (2) Table rms_wfThrottleLog: Total expected rows (approximate): 0
+0745.440 (2) Table rms_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0745.441 (2) Table rms_wfThrottleLog: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfThrottleLog.table.gz - 0.3 Kb)
+0745.495 (2) Table rms_wfVulnScanners: Total expected rows (approximate): 0
+0745.500 (2) Table rms_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0745.501 (2) Table rms_wfVulnScanners: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfVulnScanners.table.gz - 0.3 Kb)
+0745.521 (2) Table rms_wpscst_replies: Total expected rows (approximate): 0
+0745.523 (2) Table rms_wpscst_replies: Total rows added: 0 in 0.00 seconds
+0745.524 (2) Table rms_wpscst_replies: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpscst_replies.table.gz - 0.3 Kb)
+0745.531 (2) Table rms_wpscst_tickets: Total expected rows (approximate): 1
+0745.536 (2) Table rms_wpscst_tickets: Total rows added: 1 in 0.00 seconds
+0745.537 (2) Table rms_wpscst_tickets: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpscst_tickets.table.gz - 0.6 Kb)
+0745.569 (2) Table rms_wpstorecart_meta: Total expected rows (approximate): 8
+0745.576 (2) Table rms_wpstorecart_meta: Total rows added: 8 in 0.00 seconds
+0745.577 (2) Table rms_wpstorecart_meta: finishing file (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpstorecart_meta.table.gz - 0.5 Kb)
+0745.581 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_options.table.gz (1/48): adding to final database dump
+0745.623 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_users.table.gz (2/48): adding to final database dump
+0745.626 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_usermeta.table.gz (3/48): adding to final database dump
+0745.659 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_commentmeta.table.gz (4/48): adding to final database dump
+0745.660 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_comments.table.gz (5/48): adding to final database dump
+0745.663 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_links.table.gz (6/48): adding to final database dump
+0745.664 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_postmeta.table.gz (7/48): adding to final database dump
+0745.704 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_posts.table.gz (8/48): adding to final database dump
+0745.823 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_term_relationships.table.gz (9/48): adding to final database dump
+0745.831 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_term_taxonomy.table.gz (10/48): adding to final database dump
+0745.833 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_terms.table.gz (11/48): adding to final database dump
+0745.836 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_ahm_download_stats.table.gz (12/48): adding to final database dump
+0745.839 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_ahm_emails.table.gz (13/48): adding to final database dump
+0745.844 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_email_subscription.table.gz (14/48): adding to final database dump
+0745.845 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_post_notification_cats.table.gz (15/48): adding to final database dump
+0745.851 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_post_notification_posts.table.gz (16/48): adding to final database dump
+0745.852 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_subscribe2.table.gz (17/48): adding to final database dump
+0745.853 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBadLeechers.table.gz (18/48): adding to final database dump
+0745.854 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlockedIPLog.table.gz (19/48): adding to final database dump
+0745.854 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlocks.table.gz (20/48): adding to final database dump
+0745.855 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfBlocksAdv.table.gz (21/48): adding to final database dump
+0745.856 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfConfig.table.gz (22/48): adding to final database dump
+0745.858 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfCrawlers.table.gz (23/48): adding to final database dump
+0745.859 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfFileMods.table.gz (24/48): adding to final database dump
+0745.930 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfHits.table.gz (25/48): adding to final database dump
+0745.935 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfHoover.table.gz (26/48): adding to final database dump
+0745.936 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfIssues.table.gz (27/48): adding to final database dump
+0745.937 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLeechers.table.gz (28/48): adding to final database dump
+0745.953 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLockedOut.table.gz (29/48): adding to final database dump
+0745.955 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLocs.table.gz (30/48): adding to final database dump
+0745.956 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfLogins.table.gz (31/48): adding to final database dump
+0745.962 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfNet404s.table.gz (32/48): adding to final database dump
+0745.963 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfReverseCache.table.gz (33/48): adding to final database dump
+0745.964 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfScanners.table.gz (34/48): adding to final database dump
+0745.965 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfStatus.table.gz (35/48): adding to final database dump
+0745.973 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfThrottleLog.table.gz (36/48): adding to final database dump
+0745.974 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wfVulnScanners.table.gz (37/48): adding to final database dump
+0745.975 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpscst_replies.table.gz (38/48): adding to final database dump
+0745.976 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpscst_tickets.table.gz (39/48): adding to final database dump
+0745.977 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db-table-rms_wpstorecart_meta.table.gz (40/48): adding to final database dump
+0745.977 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: finished writing out complete database file (1008 Kb)
+0745.988 (2) Total database tables backed up: 40 (backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz, size: 1042324, checksum (SHA1): 49f8d572a95409a12063f85d7ecbcda011c36a23)
+0745.990 (2) Saving backup history
+0745.998 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0745.998 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0745.999 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0746.000 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0746.001 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0746.001 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+0746.002 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+0746.006 (2) Requesting upload of the files that have not yet been successfully uploaded (7)
+0746.010 (2) Cloud backup selection (1/1): googledrive (last)
+0746.014 (2) Beginning dispatch of backup to remote (googledrive)
+0746.073 (2) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+0746.317 (2) Google Drive: successfully obtained access token
+0747.620 (2) Google Drive quota usage: used=5517.9 Mb, total=15360 Mb, available=9842.1 Mb
+0747.621 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+0748.618 (2) Googledrive chunked upload: 5.8 % uploaded (1048576)
+0749.216 (2) Googledrive chunked upload: 11.5 % uploaded (2097152)
+0749.802 (2) Googledrive chunked upload: 17.3 % uploaded (3145728)
+0750.330 (2) Googledrive chunked upload: 23 % uploaded (4194304)
+0750.870 (2) Googledrive chunked upload: 28.8 % uploaded (5242880)
+0751.441 (2) Googledrive chunked upload: 34.6 % uploaded (6291456)
+0751.995 (2) Googledrive chunked upload: 40.3 % uploaded (7340032)
+0752.763 (2) Googledrive chunked upload: 46.1 % uploaded (8388608)
+0753.471 (2) Googledrive chunked upload: 51.8 % uploaded (9437184)
+0754.294 (2) Googledrive chunked upload: 57.6 % uploaded (10485760)
+0755.060 (2) Googledrive chunked upload: 63.3 % uploaded (11534336)
+0755.792 (2) Googledrive chunked upload: 69.1 % uploaded (12582912)
+0757.113 (2) Googledrive chunked upload: 74.9 % uploaded (13631488)
+0757.780 (2) Googledrive chunked upload: 80.6 % uploaded (14680064)
+0758.475 (2) Googledrive chunked upload: 86.4 % uploaded (15728640)
+0759.315 (2) Googledrive chunked upload: 92.1 % uploaded (16777216)
+0760.069 (2) Googledrive chunked upload: 97.9 % uploaded (17825792)
+0761.464 (2) Googledrive chunked upload: 100 % uploaded (17825792)
+0761.467 (2) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip uploaded to Google Drive in 13.85 seconds
+0761.469 (2) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip (fd40b30181328ad1ccd587e3d93ef3f4)
+0761.479 (2) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: OK
+0761.740 (2) Google Drive quota usage: used=5535.3 Mb, total=15360 Mb, available=9824.7 Mb
+0761.741 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+0762.656 (2) Googledrive chunked upload: 5.7 % uploaded (1048576)
+0763.352 (2) Googledrive chunked upload: 11.4 % uploaded (2097152)
+0764.049 (2) Googledrive chunked upload: 17.1 % uploaded (3145728)
+0764.775 (2) Googledrive chunked upload: 22.8 % uploaded (4194304)
+0765.471 (2) Googledrive chunked upload: 28.5 % uploaded (5242880)
+0766.172 (2) Googledrive chunked upload: 34.2 % uploaded (6291456)
+0768.704 (2) Googledrive chunked upload: 39.9 % uploaded (7340032)
+0769.383 (2) Googledrive chunked upload: 45.6 % uploaded (8388608)
+0770.220 (2) Googledrive chunked upload: 51.3 % uploaded (9437184)
+0770.905 (2) Googledrive chunked upload: 57 % uploaded (10485760)
+0771.663 (2) Googledrive chunked upload: 62.7 % uploaded (11534336)
+0772.359 (2) Googledrive chunked upload: 68.4 % uploaded (12582912)
+0773.034 (2) Googledrive chunked upload: 74.1 % uploaded (13631488)
+0773.821 (2) Googledrive chunked upload: 79.8 % uploaded (14680064)
+0774.508 (2) Googledrive chunked upload: 85.5 % uploaded (15728640)
+0775.253 (2) Googledrive chunked upload: 91.2 % uploaded (16777216)
+0775.955 (2) Googledrive chunked upload: 96.9 % uploaded (17825792)
+0777.332 (2) Googledrive chunked upload: 100 % uploaded (17825792)
+0777.337 (2) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip uploaded to Google Drive in 15.59 seconds
+0777.340 (2) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip (135655aa72b59b0299566e03f539e55d)
+0777.352 (2) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: OK
+0777.720 (2) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+0777.721 (2) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+0778.623 (2) Googledrive chunked upload: 0.2 % uploaded (1048576)
+0779.344 (2) Googledrive chunked upload: 0.4 % uploaded (2097152)
+0780.059 (2) Googledrive chunked upload: 0.6 % uploaded (3145728)
+0780.772 (2) Googledrive chunked upload: 0.8 % uploaded (4194304)
+0781.454 (2) Googledrive chunked upload: 1 % uploaded (5242880)
+0782.152 (2) Googledrive chunked upload: 1.2 % uploaded (6291456)
+0782.832 (2) Googledrive chunked upload: 1.4 % uploaded (7340032)
+0783.525 (2) Googledrive chunked upload: 1.6 % uploaded (8388608)
+0784.691 (2) Googledrive chunked upload: 1.8 % uploaded (9437184)
+0785.369 (2) Googledrive chunked upload: 2 % uploaded (10485760)
+0786.097 (2) Googledrive chunked upload: 2.2 % uploaded (11534336)
+0787.044 (2) Googledrive chunked upload: 2.4 % uploaded (12582912)
+0787.723 (2) Googledrive chunked upload: 2.6 % uploaded (13631488)
+0788.412 (2) Googledrive chunked upload: 2.8 % uploaded (14680064)
+0789.114 (2) Googledrive chunked upload: 3 % uploaded (15728640)
+0789.832 (2) Googledrive chunked upload: 3.2 % uploaded (16777216)
+0790.516 (2) Googledrive chunked upload: 3.4 % uploaded (17825792)
+0791.206 (2) Googledrive chunked upload: 3.6 % uploaded (18874368)
+0792.477 (2) Googledrive chunked upload: 3.8 % uploaded (19922944)
+0793.269 (2) Googledrive chunked upload: 4 % uploaded (20971520)
+0794.064 (2) Googledrive chunked upload: 4.2 % uploaded (22020096)
+0794.751 (2) Googledrive chunked upload: 4.4 % uploaded (23068672)
+0795.471 (2) Googledrive chunked upload: 4.6 % uploaded (24117248)
+0796.168 (2) Googledrive chunked upload: 4.8 % uploaded (25165824)
+0796.965 (2) Googledrive chunked upload: 5 % uploaded (26214400)
+0797.647 (2) Googledrive chunked upload: 5.2 % uploaded (27262976)
+0798.328 (2) Googledrive chunked upload: 5.4 % uploaded (28311552)
+0799.284 (2) Googledrive chunked upload: 5.6 % uploaded (29360128)
+1093.764 (3) Opened log file at time: Sun, 13 Sep 2015 02:17:44 +0000 on http://vine.pma.com
+1093.765 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1093.786 (3) Free space on disk containing Updraft's temporary directory: 660481 Mb
+1093.798 (3) Backup run: resumption=3, nonce=74b3ee274477, begun at=1442109571 (1094s ago), job type=backup, previous check-in=59.4s
+1093.800 (3) Scheduling a resumption (4) after 300 seconds (1442110965) in case this run gets aborted
+1093.810 (3) Checking if we have a zip executable available
+1093.811 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1093.812 (3) Creation of backups of directories: already finished
+1093.813 (3) Saving backup status to database (elements: 11)
+1093.815 (3) Database dump (WordPress DB): Creation was completed already
+1093.816 (3) Saving backup history
+1093.823 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+1093.823 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+1093.824 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1093.825 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1093.825 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+1093.826 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+1093.827 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+1093.830 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1093.831 (3) Cloud backup selection (1/1): googledrive (last)
+1093.834 (3) Beginning dispatch of backup to remote (googledrive)
+1093.852 (3) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+1094.037 (3) Google Drive: successfully obtained access token
+1095.067 (3) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+1095.070 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+1095.204 (3) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 30408703
+1095.755 (3) Googledrive chunked upload: 6 % uploaded (31457280)
+1096.306 (3) Googledrive chunked upload: 6.2 % uploaded (32505856)
+1096.886 (3) Googledrive chunked upload: 6.4 % uploaded (33554432)
+1097.486 (3) Googledrive chunked upload: 6.6 % uploaded (34603008)
+1097.980 (3) Googledrive chunked upload: 6.8 % uploaded (35651584)
+1098.729 (3) Googledrive chunked upload: 7 % uploaded (36700160)
+1099.306 (3) Googledrive chunked upload: 7.2 % uploaded (37748736)
+1099.824 (3) Googledrive chunked upload: 7.4 % uploaded (38797312)
+1100.359 (3) Googledrive chunked upload: 7.6 % uploaded (39845888)
+1100.866 (3) Googledrive chunked upload: 7.8 % uploaded (40894464)
+1101.661 (3) Googledrive chunked upload: 8 % uploaded (41943040)
+1102.222 (3) Googledrive chunked upload: 8.2 % uploaded (42991616)
+1102.990 (3) Googledrive chunked upload: 8.4 % uploaded (44040192)
+1103.569 (3) Googledrive chunked upload: 8.6 % uploaded (45088768)
+1104.116 (3) Googledrive chunked upload: 8.8 % uploaded (46137344)
+1104.665 (3) Googledrive chunked upload: 9 % uploaded (47185920)
+1105.267 (3) Googledrive chunked upload: 9.2 % uploaded (48234496)
+1105.806 (3) Googledrive chunked upload: 9.4 % uploaded (49283072)
+1106.369 (3) Googledrive chunked upload: 9.6 % uploaded (50331648)
+1106.961 (3) Googledrive chunked upload: 9.8 % uploaded (51380224)
+1107.509 (3) Googledrive chunked upload: 10 % uploaded (52428800)
+1108.071 (3) Googledrive chunked upload: 10.2 % uploaded (53477376)
+1108.605 (3) Googledrive chunked upload: 10.4 % uploaded (54525952)
+1109.159 (3) Googledrive chunked upload: 10.6 % uploaded (55574528)
+1109.705 (3) Googledrive chunked upload: 10.8 % uploaded (56623104)
+1110.271 (3) Googledrive chunked upload: 11 % uploaded (57671680)
+1110.874 (3) Googledrive chunked upload: 11.2 % uploaded (58720256)
+1111.397 (3) Googledrive chunked upload: 11.4 % uploaded (59768832)
+1111.968 (3) Googledrive chunked upload: 11.6 % uploaded (60817408)
+1112.526 (3) Googledrive chunked upload: 11.8 % uploaded (61865984)
+1113.079 (3) Googledrive chunked upload: 12 % uploaded (62914560)
+1113.609 (3) Googledrive chunked upload: 12.2 % uploaded (63963136)
+1114.153 (3) Googledrive chunked upload: 12.4 % uploaded (65011712)
+1114.850 (3) Googledrive chunked upload: 12.6 % uploaded (66060288)
+1115.558 (3) Googledrive chunked upload: 12.8 % uploaded (67108864)
+1116.275 (3) Googledrive chunked upload: 13 % uploaded (68157440)
+1116.940 (3) Googledrive chunked upload: 13.2 % uploaded (69206016)
+1117.656 (3) Googledrive chunked upload: 13.4 % uploaded (70254592)
+1118.355 (3) Googledrive chunked upload: 13.6 % uploaded (71303168)
+1119.038 (3) Googledrive chunked upload: 13.8 % uploaded (72351744)
+1119.701 (3) Googledrive chunked upload: 14 % uploaded (73400320)
+1120.386 (3) Googledrive chunked upload: 14.2 % uploaded (74448896)
+1121.068 (3) Googledrive chunked upload: 14.4 % uploaded (75497472)
+1121.743 (3) Googledrive chunked upload: 14.6 % uploaded (76546048)
+1122.426 (3) Googledrive chunked upload: 14.8 % uploaded (77594624)
+1123.131 (3) Googledrive chunked upload: 15 % uploaded (78643200)
+1123.925 (3) Googledrive chunked upload: 15.2 % uploaded (79691776)
+1124.619 (3) Googledrive chunked upload: 15.4 % uploaded (80740352)
+1125.314 (3) Googledrive chunked upload: 15.6 % uploaded (81788928)
+1126.010 (3) Googledrive chunked upload: 15.8 % uploaded (82837504)
+1126.724 (3) Googledrive chunked upload: 16 % uploaded (83886080)
+1127.398 (3) Googledrive chunked upload: 16.2 % uploaded (84934656)
+1128.070 (3) Googledrive chunked upload: 16.4 % uploaded (85983232)
+1128.762 (3) Googledrive chunked upload: 16.6 % uploaded (87031808)
+1129.450 (3) Googledrive chunked upload: 16.8 % uploaded (88080384)
+1130.131 (3) Googledrive chunked upload: 17 % uploaded (89128960)
+1130.833 (3) Googledrive chunked upload: 17.2 % uploaded (90177536)
+1131.552 (3) Googledrive chunked upload: 17.4 % uploaded (91226112)
+1132.375 (3) Googledrive chunked upload: 17.6 % uploaded (92274688)
+1133.031 (3) Googledrive chunked upload: 17.8 % uploaded (93323264)
+1133.740 (3) Googledrive chunked upload: 18 % uploaded (94371840)
+1135.000 (3) Googledrive chunked upload: 18.2 % uploaded (95420416)
+1135.676 (3) Googledrive chunked upload: 18.4 % uploaded (96468992)
+1136.367 (3) Googledrive chunked upload: 18.6 % uploaded (97517568)
+1137.062 (3) Googledrive chunked upload: 18.8 % uploaded (98566144)
+1137.770 (3) Googledrive chunked upload: 19 % uploaded (99614720)
+1138.496 (3) Googledrive chunked upload: 19.2 % uploaded (100663296)
+1139.184 (3) Googledrive chunked upload: 19.4 % uploaded (101711872)
+1139.926 (3) Googledrive chunked upload: 19.6 % uploaded (102760448)
+1140.604 (3) Googledrive chunked upload: 19.8 % uploaded (103809024)
+1141.331 (3) Googledrive chunked upload: 20 % uploaded (104857600)
+1142.423 (3) Googledrive chunked upload: 20.2 % uploaded (105906176)
+1143.331 (3) Googledrive chunked upload: 20.4 % uploaded (106954752)
+1144.706 (3) Googledrive chunked upload: 20.6 % uploaded (108003328)
+1145.417 (3) Googledrive chunked upload: 20.8 % uploaded (109051904)
+1146.150 (3) Googledrive chunked upload: 21 % uploaded (110100480)
+1146.847 (3) Googledrive chunked upload: 21.2 % uploaded (111149056)
+1147.537 (3) Googledrive chunked upload: 21.4 % uploaded (112197632)
+1148.252 (3) Googledrive chunked upload: 21.6 % uploaded (113246208)
+1148.950 (3) Googledrive chunked upload: 21.8 % uploaded (114294784)
+1149.650 (3) Googledrive chunked upload: 22 % uploaded (115343360)
+1150.342 (3) Googledrive chunked upload: 22.2 % uploaded (116391936)
+1151.038 (3) Googledrive chunked upload: 22.4 % uploaded (117440512)
+1152.244 (3) Googledrive chunked upload: 22.6 % uploaded (118489088)
+1152.947 (3) Googledrive chunked upload: 22.8 % uploaded (119537664)
+1153.718 (3) Googledrive chunked upload: 23 % uploaded (120586240)
+1396.604 (4) Opened log file at time: Sun, 13 Sep 2015 02:22:47 +0000 on http://vine.pma.com
+1396.605 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1396.633 (4) Free space on disk containing Updraft's temporary directory: 660477.5 Mb
+1396.636 (4) Backup run: resumption=4, nonce=74b3ee274477, begun at=1442109571 (1396s ago), job type=backup, previous check-in=60s
+1396.638 (4) Scheduling a resumption (5) after 300 seconds (1442111267) in case this run gets aborted
+1396.649 (4) Checking if we have a zip executable available
+1396.649 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1396.650 (4) Creation of backups of directories: already finished
+1396.651 (4) Saving backup status to database (elements: 11)
+1396.654 (4) Database dump (WordPress DB): Creation was completed already
+1396.655 (4) Saving backup history
+1396.663 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+1396.664 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+1396.665 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1396.666 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1396.666 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+1396.667 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+1396.668 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+1396.671 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1396.672 (4) Cloud backup selection (1/1): googledrive (last)
+1396.676 (4) Beginning dispatch of backup to remote (googledrive)
+1396.694 (4) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+1396.901 (4) Google Drive: successfully obtained access token
+1398.170 (4) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+1398.173 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+1398.307 (4) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 120586239
+1398.894 (4) Googledrive chunked upload: 23.2 % uploaded (121634816)
+1400.125 (4) Googledrive chunked upload: 23.4 % uploaded (122683392)
+1400.626 (4) Googledrive chunked upload: 23.6 % uploaded (123731968)
+1401.181 (4) Googledrive chunked upload: 23.8 % uploaded (124780544)
+1401.941 (4) Googledrive chunked upload: 24 % uploaded (125829120)
+1402.471 (4) Googledrive chunked upload: 24.2 % uploaded (126877696)
+1402.976 (4) Googledrive chunked upload: 24.4 % uploaded (127926272)
+1403.517 (4) Googledrive chunked upload: 24.6 % uploaded (128974848)
+1404.070 (4) Googledrive chunked upload: 24.8 % uploaded (130023424)
+1404.606 (4) Googledrive chunked upload: 25 % uploaded (131072000)
+1405.172 (4) Googledrive chunked upload: 25.2 % uploaded (132120576)
+1405.662 (4) Googledrive chunked upload: 25.4 % uploaded (133169152)
+1406.426 (4) Googledrive chunked upload: 25.6 % uploaded (134217728)
+1407.397 (4) Googledrive chunked upload: 25.8 % uploaded (135266304)
+1408.418 (4) Googledrive chunked upload: 26 % uploaded (136314880)
+1409.395 (4) Googledrive chunked upload: 26.2 % uploaded (137363456)
+1410.095 (4) Googledrive chunked upload: 26.4 % uploaded (138412032)
+1410.784 (4) Googledrive chunked upload: 26.6 % uploaded (139460608)
+1411.507 (4) Googledrive chunked upload: 26.8 % uploaded (140509184)
+1412.501 (4) Googledrive chunked upload: 27 % uploaded (141557760)
+1413.202 (4) Googledrive chunked upload: 27.2 % uploaded (142606336)
+1413.900 (4) Googledrive chunked upload: 27.4 % uploaded (143654912)
+1414.610 (4) Googledrive chunked upload: 27.6 % uploaded (144703488)
+1415.313 (4) Googledrive chunked upload: 27.8 % uploaded (145752064)
+1416.007 (4) Googledrive chunked upload: 28 % uploaded (146800640)
+1416.810 (4) Googledrive chunked upload: 28.2 % uploaded (147849216)
+1417.509 (4) Googledrive chunked upload: 28.4 % uploaded (148897792)
+1418.201 (4) Googledrive chunked upload: 28.6 % uploaded (149946368)
+1419.361 (4) Googledrive chunked upload: 28.8 % uploaded (150994944)
+1420.070 (4) Googledrive chunked upload: 29 % uploaded (152043520)
+1421.055 (4) Googledrive chunked upload: 29.2 % uploaded (153092096)
+1421.823 (4) Googledrive chunked upload: 29.4 % uploaded (154140672)
+1422.571 (4) Googledrive chunked upload: 29.6 % uploaded (155189248)
+1423.297 (4) Googledrive chunked upload: 29.8 % uploaded (156237824)
+1424.169 (4) Googledrive chunked upload: 30 % uploaded (157286400)
+1424.944 (4) Googledrive chunked upload: 30.2 % uploaded (158334976)
+1425.672 (4) Googledrive chunked upload: 30.4 % uploaded (159383552)
+1426.439 (4) Googledrive chunked upload: 30.6 % uploaded (160432128)
+1427.174 (4) Googledrive chunked upload: 30.8 % uploaded (161480704)
+1428.286 (4) Googledrive chunked upload: 31 % uploaded (162529280)
+1428.990 (4) Googledrive chunked upload: 31.2 % uploaded (163577856)
+1429.714 (4) Googledrive chunked upload: 31.4 % uploaded (164626432)
+1430.676 (4) Googledrive chunked upload: 31.6 % uploaded (165675008)
+1431.419 (4) Googledrive chunked upload: 31.8 % uploaded (166723584)
+1432.126 (4) Googledrive chunked upload: 32 % uploaded (167772160)
+1432.820 (4) Googledrive chunked upload: 32.2 % uploaded (168820736)
+1433.546 (4) Googledrive chunked upload: 32.4 % uploaded (169869312)
+1434.274 (4) Googledrive chunked upload: 32.6 % uploaded (170917888)
+1434.981 (4) Googledrive chunked upload: 32.8 % uploaded (171966464)
+1435.704 (4) Googledrive chunked upload: 33 % uploaded (173015040)
+1436.442 (4) Googledrive chunked upload: 33.2 % uploaded (174063616)
+1437.160 (4) Googledrive chunked upload: 33.4 % uploaded (175112192)
+1438.751 (4) Googledrive chunked upload: 33.6 % uploaded (176160768)
+1439.469 (4) Googledrive chunked upload: 33.8 % uploaded (177209344)
+1440.219 (4) Googledrive chunked upload: 34 % uploaded (178257920)
+1441.170 (4) Googledrive chunked upload: 34.2 % uploaded (179306496)
+1441.985 (4) Googledrive chunked upload: 34.4 % uploaded (180355072)
+1443.403 (4) Googledrive chunked upload: 34.6 % uploaded (181403648)
+1444.205 (4) Googledrive chunked upload: 34.8 % uploaded (182452224)
+1445.457 (4) Googledrive chunked upload: 35 % uploaded (183500800)
+1446.550 (4) Googledrive chunked upload: 35.2 % uploaded (184549376)
+1447.333 (4) Googledrive chunked upload: 35.4 % uploaded (185597952)
+1448.132 (4) Googledrive chunked upload: 35.6 % uploaded (186646528)
+1448.895 (4) Googledrive chunked upload: 35.8 % uploaded (187695104)
+1449.597 (4) Googledrive chunked upload: 36 % uploaded (188743680)
+1450.325 (4) Googledrive chunked upload: 36.2 % uploaded (189792256)
+1451.049 (4) Googledrive chunked upload: 36.4 % uploaded (190840832)
+1451.823 (4) Googledrive chunked upload: 36.6 % uploaded (191889408)
+1453.318 (4) Googledrive chunked upload: 36.8 % uploaded (192937984)
+1454.411 (4) Googledrive chunked upload: 37 % uploaded (193986560)
+1455.431 (4) Googledrive chunked upload: 37.2 % uploaded (195035136)
+1456.365 (4) Googledrive chunked upload: 37.4 % uploaded (196083712)
+1703.447 (5) Opened log file at time: Sun, 13 Sep 2015 02:27:54 +0000 on http://vine.pma.com
+1703.448 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1703.478 (5) Free space on disk containing Updraft's temporary directory: 660474.1 Mb
+1703.481 (5) Backup run: resumption=5, nonce=74b3ee274477, begun at=1442109571 (1703s ago), job type=backup, previous check-in=59.8s
+1703.483 (5) Scheduling a resumption (6) after 300 seconds (1442111574) in case this run gets aborted
+1703.494 (5) Checking if we have a zip executable available
+1703.495 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1703.496 (5) Creation of backups of directories: already finished
+1703.497 (5) Saving backup status to database (elements: 11)
+1703.500 (5) Database dump (WordPress DB): Creation was completed already
+1703.501 (5) Saving backup history
+1703.506 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+1703.507 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+1703.508 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1703.508 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1703.509 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+1703.510 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+1703.511 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+1703.514 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1703.515 (5) Cloud backup selection (1/1): googledrive (last)
+1703.519 (5) Beginning dispatch of backup to remote (googledrive)
+1703.537 (5) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+1703.740 (5) Google Drive: successfully obtained access token
+1704.890 (5) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+1704.893 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+1705.020 (5) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 196083711
+1705.499 (5) Googledrive chunked upload: 37.6 % uploaded (197132288)
+1705.971 (5) Googledrive chunked upload: 37.8 % uploaded (198180864)
+1707.452 (5) Googledrive chunked upload: 38 % uploaded (199229440)
+1707.975 (5) Googledrive chunked upload: 38.2 % uploaded (200278016)
+1708.479 (5) Googledrive chunked upload: 38.4 % uploaded (201326592)
+1709.056 (5) Googledrive chunked upload: 38.6 % uploaded (202375168)
+1709.549 (5) Googledrive chunked upload: 38.8 % uploaded (203423744)
+1711.169 (5) Googledrive chunked upload: 39 % uploaded (204472320)
+1711.702 (5) Googledrive chunked upload: 39.2 % uploaded (205520896)
+1712.213 (5) Googledrive chunked upload: 39.4 % uploaded (206569472)
+1712.715 (5) Googledrive chunked upload: 39.6 % uploaded (207618048)
+1713.194 (5) Googledrive chunked upload: 39.8 % uploaded (208666624)
+1713.764 (5) Googledrive chunked upload: 40 % uploaded (209715200)
+1714.319 (5) Googledrive chunked upload: 40.2 % uploaded (210763776)
+1714.906 (5) Googledrive chunked upload: 40.4 % uploaded (211812352)
+1715.411 (5) Googledrive chunked upload: 40.6 % uploaded (212860928)
+1715.946 (5) Googledrive chunked upload: 40.8 % uploaded (213909504)
+1716.504 (5) Googledrive chunked upload: 41 % uploaded (214958080)
+1717.081 (5) Googledrive chunked upload: 41.2 % uploaded (216006656)
+1717.604 (5) Googledrive chunked upload: 41.4 % uploaded (217055232)
+1719.355 (5) Googledrive chunked upload: 41.6 % uploaded (218103808)
+1721.412 (5) Googledrive chunked upload: 41.8 % uploaded (219152384)
+1721.960 (5) Googledrive chunked upload: 42 % uploaded (220200960)
+1722.574 (5) Googledrive chunked upload: 42.2 % uploaded (221249536)
+1724.385 (5) Googledrive chunked upload: 42.4 % uploaded (222298112)
+1724.902 (5) Googledrive chunked upload: 42.6 % uploaded (223346688)
+1725.450 (5) Googledrive chunked upload: 42.8 % uploaded (224395264)
+1731.157 (5) Googledrive chunked upload: 43 % uploaded (225443840)
+1731.746 (5) Googledrive chunked upload: 43.2 % uploaded (226492416)
+1732.393 (5) Googledrive chunked upload: 43.4 % uploaded (227540992)
+1733.140 (5) Googledrive chunked upload: 43.6 % uploaded (228589568)
+1733.688 (5) Googledrive chunked upload: 43.8 % uploaded (229638144)
+1734.303 (5) Googledrive chunked upload: 44 % uploaded (230686720)
+1734.863 (5) Googledrive chunked upload: 44.2 % uploaded (231735296)
+1735.459 (5) Googledrive chunked upload: 44.4 % uploaded (232783872)
+1736.030 (5) Googledrive chunked upload: 44.6 % uploaded (233832448)
+1736.620 (5) Googledrive chunked upload: 44.8 % uploaded (234881024)
+1737.184 (5) Googledrive chunked upload: 45 % uploaded (235929600)
+1745.290 (5) Googledrive chunked upload: 45.2 % uploaded (236978176)
+1745.896 (5) Googledrive chunked upload: 45.4 % uploaded (238026752)
+1746.478 (5) Googledrive chunked upload: 45.6 % uploaded (239075328)
+1747.080 (5) Googledrive chunked upload: 45.8 % uploaded (240123904)
+1751.687 (5) Googledrive chunked upload: 46 % uploaded (241172480)
+1752.345 (5) Googledrive chunked upload: 46.2 % uploaded (242221056)
+1752.935 (5) Googledrive chunked upload: 46.4 % uploaded (243269632)
+1753.656 (5) Googledrive chunked upload: 46.6 % uploaded (244318208)
+1754.282 (5) Googledrive chunked upload: 46.8 % uploaded (245366784)
+1754.919 (5) Googledrive chunked upload: 47 % uploaded (246415360)
+1755.548 (5) Googledrive chunked upload: 47.2 % uploaded (247463936)
+1756.187 (5) Googledrive chunked upload: 47.4 % uploaded (248512512)
+1756.847 (5) Googledrive chunked upload: 47.6 % uploaded (249561088)
+1757.445 (5) Googledrive chunked upload: 47.8 % uploaded (250609664)
+1758.082 (5) Googledrive chunked upload: 48 % uploaded (251658240)
+1758.694 (5) Googledrive chunked upload: 48.2 % uploaded (252706816)
+1759.331 (5) Googledrive chunked upload: 48.4 % uploaded (253755392)
+1759.972 (5) Googledrive chunked upload: 48.6 % uploaded (254803968)
+1761.352 (5) Googledrive chunked upload: 48.8 % uploaded (255852544)
+1761.966 (5) Googledrive chunked upload: 49 % uploaded (256901120)
+1762.560 (5) Googledrive chunked upload: 49.2 % uploaded (257949696)
+1763.187 (5) Googledrive chunked upload: 49.4 % uploaded (258998272)
+2006.390 (6) Opened log file at time: Sun, 13 Sep 2015 02:32:57 +0000 on http://vine.pma.com
+2006.391 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2006.407 (6) Free space on disk containing Updraft's temporary directory: 660473.3 Mb
+2006.409 (6) Backup run: resumption=6, nonce=74b3ee274477, begun at=1442109571 (2006s ago), job type=backup, previous check-in=59.7s
+2006.412 (6) Scheduling a resumption (7) after 300 seconds (1442111877) in case this run gets aborted
+2006.422 (6) Checking if we have a zip executable available
+2006.423 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2006.424 (6) Creation of backups of directories: already finished
+2006.425 (6) Saving backup status to database (elements: 11)
+2006.428 (6) Database dump (WordPress DB): Creation was completed already
+2006.429 (6) Saving backup history
+2006.437 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+2006.438 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+2006.439 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2006.439 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2006.440 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+2006.441 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+2006.442 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+2006.445 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2006.446 (6) Cloud backup selection (1/1): googledrive (last)
+2006.450 (6) Beginning dispatch of backup to remote (googledrive)
+2006.470 (6) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+2006.657 (6) Google Drive: successfully obtained access token
+2007.697 (6) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+2007.701 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+2007.841 (6) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 258998271
+2008.658 (6) Googledrive chunked upload: 49.6 % uploaded (260046848)
+2009.387 (6) Googledrive chunked upload: 49.8 % uploaded (261095424)
+2010.104 (6) Googledrive chunked upload: 50 % uploaded (262144000)
+2010.802 (6) Googledrive chunked upload: 50.2 % uploaded (263192576)
+2011.626 (6) Googledrive chunked upload: 50.4 % uploaded (264241152)
+2012.306 (6) Googledrive chunked upload: 50.6 % uploaded (265289728)
+2013.034 (6) Googledrive chunked upload: 50.8 % uploaded (266338304)
+2013.750 (6) Googledrive chunked upload: 51 % uploaded (267386880)
+2014.443 (6) Googledrive chunked upload: 51.2 % uploaded (268435456)
+2015.292 (6) Googledrive chunked upload: 51.4 % uploaded (269484032)
+2016.027 (6) Googledrive chunked upload: 51.6 % uploaded (270532608)
+2016.725 (6) Googledrive chunked upload: 51.8 % uploaded (271581184)
+2017.432 (6) Googledrive chunked upload: 52 % uploaded (272629760)
+2018.130 (6) Googledrive chunked upload: 52.2 % uploaded (273678336)
+2018.822 (6) Googledrive chunked upload: 52.4 % uploaded (274726912)
+2019.521 (6) Googledrive chunked upload: 52.6 % uploaded (275775488)
+2021.117 (6) Googledrive chunked upload: 52.8 % uploaded (276824064)
+2022.004 (6) Googledrive chunked upload: 53 % uploaded (277872640)
+2022.767 (6) Googledrive chunked upload: 53.2 % uploaded (278921216)
+2023.466 (6) Googledrive chunked upload: 53.4 % uploaded (279969792)
+2024.438 (6) Googledrive chunked upload: 53.6 % uploaded (281018368)
+2025.646 (6) Googledrive chunked upload: 53.8 % uploaded (282066944)
+2026.335 (6) Googledrive chunked upload: 54 % uploaded (283115520)
+2027.046 (6) Googledrive chunked upload: 54.2 % uploaded (284164096)
+2028.357 (6) Googledrive chunked upload: 54.4 % uploaded (285212672)
+2029.076 (6) Googledrive chunked upload: 54.6 % uploaded (286261248)
+2030.044 (6) Googledrive chunked upload: 54.8 % uploaded (287309824)
+2030.739 (6) Googledrive chunked upload: 55 % uploaded (288358400)
+2031.478 (6) Googledrive chunked upload: 55.2 % uploaded (289406976)
+2032.182 (6) Googledrive chunked upload: 55.4 % uploaded (290455552)
+2032.883 (6) Googledrive chunked upload: 55.6 % uploaded (291504128)
+2033.565 (6) Googledrive chunked upload: 55.8 % uploaded (292552704)
+2034.275 (6) Googledrive chunked upload: 56 % uploaded (293601280)
+2034.956 (6) Googledrive chunked upload: 56.2 % uploaded (294649856)
+2035.695 (6) Googledrive chunked upload: 56.4 % uploaded (295698432)
+2036.369 (6) Googledrive chunked upload: 56.6 % uploaded (296747008)
+2037.056 (6) Googledrive chunked upload: 56.8 % uploaded (297795584)
+2037.749 (6) Googledrive chunked upload: 57 % uploaded (298844160)
+2038.457 (6) Googledrive chunked upload: 57.2 % uploaded (299892736)
+2039.161 (6) Googledrive chunked upload: 57.4 % uploaded (300941312)
+2039.878 (6) Googledrive chunked upload: 57.6 % uploaded (301989888)
+2040.581 (6) Googledrive chunked upload: 57.8 % uploaded (303038464)
+2041.276 (6) Googledrive chunked upload: 58 % uploaded (304087040)
+2042.022 (6) Googledrive chunked upload: 58.2 % uploaded (305135616)
+2042.692 (6) Googledrive chunked upload: 58.4 % uploaded (306184192)
+2043.417 (6) Googledrive chunked upload: 58.6 % uploaded (307232768)
+2044.132 (6) Googledrive chunked upload: 58.8 % uploaded (308281344)
+2044.837 (6) Googledrive chunked upload: 59 % uploaded (309329920)
+2045.581 (6) Googledrive chunked upload: 59.2 % uploaded (310378496)
+2046.274 (6) Googledrive chunked upload: 59.4 % uploaded (311427072)
+2046.981 (6) Googledrive chunked upload: 59.6 % uploaded (312475648)
+2047.710 (6) Googledrive chunked upload: 59.8 % uploaded (313524224)
+2048.412 (6) Googledrive chunked upload: 60 % uploaded (314572800)
+2049.109 (6) Googledrive chunked upload: 60.2 % uploaded (315621376)
+2049.802 (6) Googledrive chunked upload: 60.4 % uploaded (316669952)
+2050.498 (6) Googledrive chunked upload: 60.6 % uploaded (317718528)
+2051.220 (6) Googledrive chunked upload: 60.8 % uploaded (318767104)
+2051.916 (6) Googledrive chunked upload: 61 % uploaded (319815680)
+2052.634 (6) Googledrive chunked upload: 61.2 % uploaded (320864256)
+2053.359 (6) Googledrive chunked upload: 61.4 % uploaded (321912832)
+2054.066 (6) Googledrive chunked upload: 61.6 % uploaded (322961408)
+2054.791 (6) Googledrive chunked upload: 61.8 % uploaded (324009984)
+2055.565 (6) Googledrive chunked upload: 62 % uploaded (325058560)
+2056.276 (6) Googledrive chunked upload: 62.2 % uploaded (326107136)
+2056.985 (6) Googledrive chunked upload: 62.4 % uploaded (327155712)
+2057.686 (6) Googledrive chunked upload: 62.6 % uploaded (328204288)
+2058.378 (6) Googledrive chunked upload: 62.8 % uploaded (329252864)
+2059.102 (6) Googledrive chunked upload: 63 % uploaded (330301440)
+2059.780 (6) Googledrive chunked upload: 63.2 % uploaded (331350016)
+2060.477 (6) Googledrive chunked upload: 63.4 % uploaded (332398592)
+2061.178 (6) Googledrive chunked upload: 63.6 % uploaded (333447168)
+2061.881 (6) Googledrive chunked upload: 63.8 % uploaded (334495744)
+2062.540 (6) Googledrive chunked upload: 64 % uploaded (335544320)
+2063.210 (6) Googledrive chunked upload: 64.2 % uploaded (336592896)
+2063.907 (6) Googledrive chunked upload: 64.4 % uploaded (337641472)
+2064.629 (6) Googledrive chunked upload: 64.6 % uploaded (338690048)
+2065.379 (6) Googledrive chunked upload: 64.8 % uploaded (339738624)
+2066.071 (6) Googledrive chunked upload: 65 % uploaded (340787200)
+2066.790 (6) Googledrive chunked upload: 65.2 % uploaded (341835776)
+2067.502 (6) Googledrive chunked upload: 65.4 % uploaded (342884352)
+2068.191 (6) Googledrive chunked upload: 65.6 % uploaded (343932928)
+2068.858 (6) Googledrive chunked upload: 65.8 % uploaded (344981504)
+2069.549 (6) Googledrive chunked upload: 66 % uploaded (346030080)
+2070.235 (6) Googledrive chunked upload: 66.2 % uploaded (347078656)
+2070.934 (6) Googledrive chunked upload: 66.4 % uploaded (348127232)
+2071.647 (6) Googledrive chunked upload: 66.6 % uploaded (349175808)
+2072.815 (6) Googledrive chunked upload: 66.8 % uploaded (350224384)
+2073.549 (6) Googledrive chunked upload: 67 % uploaded (351272960)
+2074.269 (6) Googledrive chunked upload: 67.2 % uploaded (352321536)
+2075.341 (6) Googledrive chunked upload: 67.4 % uploaded (353370112)
+2076.054 (6) Googledrive chunked upload: 67.6 % uploaded (354418688)
+2076.751 (6) Googledrive chunked upload: 67.8 % uploaded (355467264)
+2077.773 (6) Googledrive chunked upload: 68 % uploaded (356515840)
+2078.503 (6) Googledrive chunked upload: 68.2 % uploaded (357564416)
+2311.160 (7) Opened log file at time: Sun, 13 Sep 2015 02:38:02 +0000 on http://vine.pma.com
+2311.162 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2311.201 (7) Free space on disk containing Updraft's temporary directory: 660470.4 Mb
+2311.205 (7) Backup run: resumption=7, nonce=74b3ee274477, begun at=1442109571 (2311s ago), job type=backup, previous check-in=72.1s
+2311.207 (7) Scheduling a resumption (8) after 300 seconds (1442112182) in case this run gets aborted
+2311.217 (7) Checking if we have a zip executable available
+2311.218 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2311.219 (7) Creation of backups of directories: already finished
+2311.220 (7) Saving backup status to database (elements: 11)
+2311.223 (7) Database dump (WordPress DB): Creation was completed already
+2311.224 (7) Saving backup history
+2311.230 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+2311.231 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+2311.231 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2311.232 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2311.233 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+2311.234 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+2311.234 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+2311.238 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2311.239 (7) Cloud backup selection (1/1): googledrive (last)
+2311.242 (7) Beginning dispatch of backup to remote (googledrive)
+2311.268 (7) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+2311.476 (7) Google Drive: successfully obtained access token
+2312.447 (7) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+2312.449 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+2312.589 (7) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 357564415
+2313.306 (7) Googledrive chunked upload: 68.4 % uploaded (358612992)
+2314.013 (7) Googledrive chunked upload: 68.6 % uploaded (359661568)
+2314.719 (7) Googledrive chunked upload: 68.8 % uploaded (360710144)
+2315.590 (7) Googledrive chunked upload: 69 % uploaded (361758720)
+2316.277 (7) Googledrive chunked upload: 69.2 % uploaded (362807296)
+2316.962 (7) Googledrive chunked upload: 69.4 % uploaded (363855872)
+2317.660 (7) Googledrive chunked upload: 69.6 % uploaded (364904448)
+2318.373 (7) Googledrive chunked upload: 69.8 % uploaded (365953024)
+2319.098 (7) Googledrive chunked upload: 70 % uploaded (367001600)
+2319.823 (7) Googledrive chunked upload: 70.2 % uploaded (368050176)
+2320.537 (7) Googledrive chunked upload: 70.4 % uploaded (369098752)
+2321.270 (7) Googledrive chunked upload: 70.6 % uploaded (370147328)
+2321.980 (7) Googledrive chunked upload: 70.8 % uploaded (371195904)
+2322.691 (7) Googledrive chunked upload: 71 % uploaded (372244480)
+2323.433 (7) Googledrive chunked upload: 71.2 % uploaded (373293056)
+2324.139 (7) Googledrive chunked upload: 71.4 % uploaded (374341632)
+2325.528 (7) Googledrive chunked upload: 71.6 % uploaded (375390208)
+2326.195 (7) Googledrive chunked upload: 71.8 % uploaded (376438784)
+2326.900 (7) Googledrive chunked upload: 72 % uploaded (377487360)
+2327.591 (7) Googledrive chunked upload: 72.2 % uploaded (378535936)
+2328.349 (7) Googledrive chunked upload: 72.4 % uploaded (379584512)
+2329.099 (7) Googledrive chunked upload: 72.6 % uploaded (380633088)
+2329.811 (7) Googledrive chunked upload: 72.8 % uploaded (381681664)
+2330.522 (7) Googledrive chunked upload: 73 % uploaded (382730240)
+2331.207 (7) Googledrive chunked upload: 73.2 % uploaded (383778816)
+2332.099 (7) Googledrive chunked upload: 73.4 % uploaded (384827392)
+2332.824 (7) Googledrive chunked upload: 73.6 % uploaded (385875968)
+2333.527 (7) Googledrive chunked upload: 73.8 % uploaded (386924544)
+2334.250 (7) Googledrive chunked upload: 74 % uploaded (387973120)
+2335.027 (7) Googledrive chunked upload: 74.2 % uploaded (389021696)
+2335.754 (7) Googledrive chunked upload: 74.4 % uploaded (390070272)
+2336.514 (7) Googledrive chunked upload: 74.6 % uploaded (391118848)
+2337.209 (7) Googledrive chunked upload: 74.8 % uploaded (392167424)
+2338.663 (7) Googledrive chunked upload: 75 % uploaded (393216000)
+2339.356 (7) Googledrive chunked upload: 75.2 % uploaded (394264576)
+2340.154 (7) Googledrive chunked upload: 75.4 % uploaded (395313152)
+2340.860 (7) Googledrive chunked upload: 75.6 % uploaded (396361728)
+2341.546 (7) Googledrive chunked upload: 75.8 % uploaded (397410304)
+2342.797 (7) Googledrive chunked upload: 76 % uploaded (398458880)
+2343.530 (7) Googledrive chunked upload: 76.2 % uploaded (399507456)
+2345.077 (7) Googledrive chunked upload: 76.4 % uploaded (400556032)
+2345.779 (7) Googledrive chunked upload: 76.6 % uploaded (401604608)
+2346.481 (7) Googledrive chunked upload: 76.8 % uploaded (402653184)
+2347.181 (7) Googledrive chunked upload: 77 % uploaded (403701760)
+2347.906 (7) Googledrive chunked upload: 77.2 % uploaded (404750336)
+2348.639 (7) Googledrive chunked upload: 77.4 % uploaded (405798912)
+2349.339 (7) Googledrive chunked upload: 77.6 % uploaded (406847488)
+2350.050 (7) Googledrive chunked upload: 77.8 % uploaded (407896064)
+2350.778 (7) Googledrive chunked upload: 78 % uploaded (408944640)
+2351.465 (7) Googledrive chunked upload: 78.2 % uploaded (409993216)
+2351.976 (7) Googledrive chunked upload: 78.4 % uploaded (411041792)
+2352.521 (7) Googledrive chunked upload: 78.6 % uploaded (412090368)
+2353.091 (7) Googledrive chunked upload: 78.8 % uploaded (413138944)
+2353.589 (7) Googledrive chunked upload: 79 % uploaded (414187520)
+2354.075 (7) Googledrive chunked upload: 79.2 % uploaded (415236096)
+2354.576 (7) Googledrive chunked upload: 79.4 % uploaded (416284672)
+2355.076 (7) Googledrive chunked upload: 79.6 % uploaded (417333248)
+2358.471 (7) Googledrive chunked upload: 79.8 % uploaded (418381824)
+2358.949 (7) Googledrive chunked upload: 80 % uploaded (419430400)
+2359.427 (7) Googledrive chunked upload: 80.2 % uploaded (420478976)
+2359.931 (7) Googledrive chunked upload: 80.4 % uploaded (421527552)
+2360.445 (7) Googledrive chunked upload: 80.6 % uploaded (422576128)
+2361.054 (7) Googledrive chunked upload: 80.8 % uploaded (423624704)
+2361.549 (7) Googledrive chunked upload: 81 % uploaded (424673280)
+2362.070 (7) Googledrive chunked upload: 81.2 % uploaded (425721856)
+2362.585 (7) Googledrive chunked upload: 81.4 % uploaded (426770432)
+2363.076 (7) Googledrive chunked upload: 81.6 % uploaded (427819008)
+2363.615 (7) Googledrive chunked upload: 81.8 % uploaded (428867584)
+2364.133 (7) Googledrive chunked upload: 82 % uploaded (429916160)
+2364.648 (7) Googledrive chunked upload: 82.2 % uploaded (430964736)
+2365.166 (7) Googledrive chunked upload: 82.4 % uploaded (432013312)
+2365.688 (7) Googledrive chunked upload: 82.6 % uploaded (433061888)
+2366.256 (7) Googledrive chunked upload: 82.8 % uploaded (434110464)
+2366.756 (7) Googledrive chunked upload: 83 % uploaded (435159040)
+2367.267 (7) Googledrive chunked upload: 83.2 % uploaded (436207616)
+2367.934 (7) Googledrive chunked upload: 83.4 % uploaded (437256192)
+2368.498 (7) Googledrive chunked upload: 83.6 % uploaded (438304768)
+2369.026 (7) Googledrive chunked upload: 83.8 % uploaded (439353344)
+2369.533 (7) Googledrive chunked upload: 84 % uploaded (440401920)
+2370.051 (7) Googledrive chunked upload: 84.2 % uploaded (441450496)
+2370.573 (7) Googledrive chunked upload: 84.4 % uploaded (442499072)
+2371.086 (7) Googledrive chunked upload: 84.6 % uploaded (443547648)
+2615.424 (8) Opened log file at time: Sun, 13 Sep 2015 02:43:06 +0000 on http://vine.pma.com
+2615.426 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2615.441 (8) Free space on disk containing Updraft's temporary directory: 660466 Mb
+2615.444 (8) Backup run: resumption=8, nonce=74b3ee274477, begun at=1442109571 (2615s ago), job type=backup, previous check-in=59.9s
+2615.447 (8) Time passed on previous resumptions: 0:95.6 1:61.6 2:59.4 3:60 4:59.8 5:59.7 6:72.1 7:59.9  (known: 8, max: 96)
+2615.447 (8) Based on the available data, we are bringing the resumption interval down to: 148 seconds
+2615.450 (8) Scheduling a resumption (9) after 148 seconds (1442112334) in case this run gets aborted
+2615.461 (8) Checking if we have a zip executable available
+2615.462 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2615.463 (8) Creation of backups of directories: already finished
+2615.466 (8) Saving backup status to database (elements: 11)
+2615.472 (8) Database dump (WordPress DB): Creation was completed already
+2615.473 (8) Saving backup history
+2615.478 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+2615.479 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+2615.480 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2615.481 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2615.481 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+2615.482 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+2615.483 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+2615.487 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2615.488 (8) Cloud backup selection (1/1): googledrive (last)
+2615.501 (8) Beginning dispatch of backup to remote (googledrive)
+2615.520 (8) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+2615.722 (8) Google Drive: successfully obtained access token
+2616.870 (8) Google Drive quota usage: used=5552.8 Mb, total=15360 Mb, available=9807.2 Mb
+2616.872 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+2617.004 (8) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempting to resume from byte 443547647
+2617.677 (8) Googledrive chunked upload: 84.8 % uploaded (444596224)
+2618.411 (8) Googledrive chunked upload: 85 % uploaded (445644800)
+2619.059 (8) Googledrive chunked upload: 85.2 % uploaded (446693376)
+2619.741 (8) Googledrive chunked upload: 85.4 % uploaded (447741952)
+2620.382 (8) Googledrive chunked upload: 85.6 % uploaded (448790528)
+2621.035 (8) Googledrive chunked upload: 85.8 % uploaded (449839104)
+2621.687 (8) Googledrive chunked upload: 86 % uploaded (450887680)
+2622.340 (8) Googledrive chunked upload: 86.2 % uploaded (451936256)
+2622.972 (8) Googledrive chunked upload: 86.4 % uploaded (452984832)
+2623.636 (8) Googledrive chunked upload: 86.6 % uploaded (454033408)
+2624.338 (8) Googledrive chunked upload: 86.8 % uploaded (455081984)
+2624.995 (8) Googledrive chunked upload: 87 % uploaded (456130560)
+2626.652 (8) Googledrive chunked upload: 87.2 % uploaded (457179136)
+2627.981 (8) Googledrive chunked upload: 87.4 % uploaded (458227712)
+2628.635 (8) Googledrive chunked upload: 87.6 % uploaded (459276288)
+2629.336 (8) Googledrive chunked upload: 87.8 % uploaded (460324864)
+2629.994 (8) Googledrive chunked upload: 88 % uploaded (461373440)
+2630.686 (8) Googledrive chunked upload: 88.2 % uploaded (462422016)
+2631.355 (8) Googledrive chunked upload: 88.4 % uploaded (463470592)
+2632.596 (8) Googledrive chunked upload: 88.6 % uploaded (464519168)
+2633.279 (8) Googledrive chunked upload: 88.8 % uploaded (465567744)
+2633.944 (8) Googledrive chunked upload: 89 % uploaded (466616320)
+2634.621 (8) Googledrive chunked upload: 89.2 % uploaded (467664896)
+2635.376 (8) Googledrive chunked upload: 89.4 % uploaded (468713472)
+2636.074 (8) Googledrive chunked upload: 89.6 % uploaded (469762048)
+2636.770 (8) Googledrive chunked upload: 89.8 % uploaded (470810624)
+2637.508 (8) Googledrive chunked upload: 90 % uploaded (471859200)
+2638.155 (8) Googledrive chunked upload: 90.2 % uploaded (472907776)
+2638.811 (8) Googledrive chunked upload: 90.4 % uploaded (473956352)
+2639.478 (8) Googledrive chunked upload: 90.6 % uploaded (475004928)
+2640.141 (8) Googledrive chunked upload: 90.8 % uploaded (476053504)
+2641.496 (8) Googledrive chunked upload: 91 % uploaded (477102080)
+2642.145 (8) Googledrive chunked upload: 91.2 % uploaded (478150656)
+2642.975 (8) Googledrive chunked upload: 91.4 % uploaded (479199232)
+2643.768 (8) Googledrive chunked upload: 91.6 % uploaded (480247808)
+2644.440 (8) Googledrive chunked upload: 91.8 % uploaded (481296384)
+2645.109 (8) Googledrive chunked upload: 92 % uploaded (482344960)
+2645.925 (8) Googledrive chunked upload: 92.2 % uploaded (483393536)
+2646.639 (8) Googledrive chunked upload: 92.4 % uploaded (484442112)
+2647.342 (8) Googledrive chunked upload: 92.6 % uploaded (485490688)
+2648.223 (8) Googledrive chunked upload: 92.8 % uploaded (486539264)
+2648.951 (8) Googledrive chunked upload: 93 % uploaded (487587840)
+2649.662 (8) Googledrive chunked upload: 93.2 % uploaded (488636416)
+2650.336 (8) Googledrive chunked upload: 93.4 % uploaded (489684992)
+2651.024 (8) Googledrive chunked upload: 93.6 % uploaded (490733568)
+2651.716 (8) Googledrive chunked upload: 93.8 % uploaded (491782144)
+2652.387 (8) Googledrive chunked upload: 94 % uploaded (492830720)
+2653.041 (8) Googledrive chunked upload: 94.2 % uploaded (493879296)
+2653.723 (8) Googledrive chunked upload: 94.4 % uploaded (494927872)
+2654.383 (8) Googledrive chunked upload: 94.6 % uploaded (495976448)
+2655.080 (8) Googledrive chunked upload: 94.8 % uploaded (497025024)
+2655.774 (8) Googledrive chunked upload: 95 % uploaded (498073600)
+2656.476 (8) Googledrive chunked upload: 95.2 % uploaded (499122176)
+2657.812 (8) Googledrive chunked upload: 95.4 % uploaded (500170752)
+2658.455 (8) Googledrive chunked upload: 95.6 % uploaded (501219328)
+2659.147 (8) Googledrive chunked upload: 95.8 % uploaded (502267904)
+2660.438 (8) Googledrive chunked upload: 96 % uploaded (503316480)
+2661.117 (8) Googledrive chunked upload: 96.2 % uploaded (504365056)
+2661.823 (8) Googledrive chunked upload: 96.4 % uploaded (505413632)
+2662.513 (8) Googledrive chunked upload: 96.6 % uploaded (506462208)
+2663.189 (8) Googledrive chunked upload: 96.8 % uploaded (507510784)
+2663.879 (8) Googledrive chunked upload: 97 % uploaded (508559360)
+2664.539 (8) Googledrive chunked upload: 97.2 % uploaded (509607936)
+2665.273 (8) Googledrive chunked upload: 97.4 % uploaded (510656512)
+2665.961 (8) Googledrive chunked upload: 97.6 % uploaded (511705088)
+2666.645 (8) Googledrive chunked upload: 97.8 % uploaded (512753664)
+2667.331 (8) Googledrive chunked upload: 98 % uploaded (513802240)
+2668.022 (8) Googledrive chunked upload: 98.2 % uploaded (514850816)
+2669.051 (8) Googledrive chunked upload: 98.4 % uploaded (515899392)
+2669.716 (8) Googledrive chunked upload: 98.6 % uploaded (516947968)
+2670.371 (8) Googledrive chunked upload: 98.8 % uploaded (517996544)
+2671.034 (8) Googledrive chunked upload: 99 % uploaded (519045120)
+2671.799 (8) Googledrive chunked upload: 99.2 % uploaded (520093696)
+2672.497 (8) Googledrive chunked upload: 99.4 % uploaded (521142272)
+2673.328 (8) Googledrive chunked upload: 99.6 % uploaded (522190848)
+2674.009 (8) Googledrive chunked upload: 99.8 % uploaded (523239424)
+2674.704 (8) Googledrive chunked upload: 100 % uploaded (524288000)
+2818.650 (9) Opened log file at time: Sun, 13 Sep 2015 02:46:29 +0000 on http://vine.pma.com
+2818.651 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+2818.667 (9) Free space on disk containing Updraft's temporary directory: 660480.6 Mb
+2818.671 (9) Backup run: resumption=9, nonce=74b3ee274477, begun at=1442109571 (2818s ago), job type=backup, previous check-in=59.3s
+2818.673 (9) Scheduling a resumption (10) after 148 seconds (1442112537) in case this run gets aborted
+2818.684 (9) Creation of backups of directories: already finished
+2818.685 (9) Saving backup status to database (elements: 11)
+2818.688 (9) Database dump (WordPress DB): Creation was completed already
+2818.689 (9) Saving backup history
+2818.694 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+2818.695 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+2818.696 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2818.696 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2818.697 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+2818.698 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+2818.698 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+2818.701 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+2818.702 (9) Cloud backup selection (1/1): googledrive (last)
+2818.706 (9) Beginning dispatch of backup to remote (googledrive)
+2818.724 (9) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+2818.882 (9) Google Drive: successfully obtained access token
+2819.823 (9) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+2819.825 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+2819.956 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: upload already began; attempt to resume did not succeed (HTTP code: 200)
+2820.280 (9) Googledrive chunked upload: 100 % uploaded (524288000)
+2820.282 (9) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip uploaded to Google Drive in 0.46 seconds
+2820.284 (9) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip (546140b4e7c0adc7f38d94d17d28fc71)
+2820.480 (9) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: OK
+2820.740 (9) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+2820.742 (9) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+2827.586 (9) Googledrive chunked upload: 0.3 % uploaded (1048576)
+2828.259 (9) Googledrive chunked upload: 0.5 % uploaded (2097152)
+2828.939 (9) Googledrive chunked upload: 0.8 % uploaded (3145728)
+2829.697 (9) Googledrive chunked upload: 1 % uploaded (4194304)
+2830.410 (9) Googledrive chunked upload: 1.3 % uploaded (5242880)
+2831.109 (9) Googledrive chunked upload: 1.5 % uploaded (6291456)
+2831.773 (9) Googledrive chunked upload: 1.8 % uploaded (7340032)
+2832.522 (9) Googledrive chunked upload: 2 % uploaded (8388608)
+2833.235 (9) Googledrive chunked upload: 2.3 % uploaded (9437184)
+2833.905 (9) Googledrive chunked upload: 2.5 % uploaded (10485760)
+2834.639 (9) Googledrive chunked upload: 2.8 % uploaded (11534336)
+2835.307 (9) Googledrive chunked upload: 3 % uploaded (12582912)
+2835.984 (9) Googledrive chunked upload: 3.3 % uploaded (13631488)
+2836.665 (9) Googledrive chunked upload: 3.5 % uploaded (14680064)
+2837.402 (9) Googledrive chunked upload: 3.8 % uploaded (15728640)
+2838.066 (9) Googledrive chunked upload: 4 % uploaded (16777216)
+2838.720 (9) Googledrive chunked upload: 4.3 % uploaded (17825792)
+2839.404 (9) Googledrive chunked upload: 4.5 % uploaded (18874368)
+2840.068 (9) Googledrive chunked upload: 4.8 % uploaded (19922944)
+2840.740 (9) Googledrive chunked upload: 5.1 % uploaded (20971520)
+2841.450 (9) Googledrive chunked upload: 5.3 % uploaded (22020096)
+2842.159 (9) Googledrive chunked upload: 5.6 % uploaded (23068672)
+2842.829 (9) Googledrive chunked upload: 5.8 % uploaded (24117248)
+2843.493 (9) Googledrive chunked upload: 6.1 % uploaded (25165824)
+2844.154 (9) Googledrive chunked upload: 6.3 % uploaded (26214400)
+2844.895 (9) Googledrive chunked upload: 6.6 % uploaded (27262976)
+2845.611 (9) Googledrive chunked upload: 6.8 % uploaded (28311552)
+2846.297 (9) Googledrive chunked upload: 7.1 % uploaded (29360128)
+2846.946 (9) Googledrive chunked upload: 7.3 % uploaded (30408704)
+2847.636 (9) Googledrive chunked upload: 7.6 % uploaded (31457280)
+2848.374 (9) Googledrive chunked upload: 7.8 % uploaded (32505856)
+2849.056 (9) Googledrive chunked upload: 8.1 % uploaded (33554432)
+2849.713 (9) Googledrive chunked upload: 8.3 % uploaded (34603008)
+2853.238 (9) Googledrive chunked upload: 8.6 % uploaded (35651584)
+2853.912 (9) Googledrive chunked upload: 8.8 % uploaded (36700160)
+2854.595 (9) Googledrive chunked upload: 9.1 % uploaded (37748736)
+2855.284 (9) Googledrive chunked upload: 9.3 % uploaded (38797312)
+2855.985 (9) Googledrive chunked upload: 9.6 % uploaded (39845888)
+2856.646 (9) Googledrive chunked upload: 9.8 % uploaded (40894464)
+2857.334 (9) Googledrive chunked upload: 10.1 % uploaded (41943040)
+2858.033 (9) Googledrive chunked upload: 10.4 % uploaded (42991616)
+2858.707 (9) Googledrive chunked upload: 10.6 % uploaded (44040192)
+2860.728 (9) Googledrive chunked upload: 10.9 % uploaded (45088768)
+2861.402 (9) Googledrive chunked upload: 11.1 % uploaded (46137344)
+2862.090 (9) Googledrive chunked upload: 11.4 % uploaded (47185920)
+2864.791 (9) Googledrive chunked upload: 11.6 % uploaded (48234496)
+2865.478 (9) Googledrive chunked upload: 11.9 % uploaded (49283072)
+2866.142 (9) Googledrive chunked upload: 12.1 % uploaded (50331648)
+2866.851 (9) Googledrive chunked upload: 12.4 % uploaded (51380224)
+2867.536 (9) Googledrive chunked upload: 12.6 % uploaded (52428800)
+2868.202 (9) Googledrive chunked upload: 12.9 % uploaded (53477376)
+2869.045 (9) Googledrive chunked upload: 13.1 % uploaded (54525952)
+2869.707 (9) Googledrive chunked upload: 13.4 % uploaded (55574528)
+2870.385 (9) Googledrive chunked upload: 13.6 % uploaded (56623104)
+2871.180 (9) Googledrive chunked upload: 13.9 % uploaded (57671680)
+2874.892 (9) Googledrive chunked upload: 14.1 % uploaded (58720256)
+2875.564 (9) Googledrive chunked upload: 14.4 % uploaded (59768832)
+2876.254 (9) Googledrive chunked upload: 14.6 % uploaded (60817408)
+2877.024 (9) Googledrive chunked upload: 14.9 % uploaded (61865984)
+2877.747 (9) Googledrive chunked upload: 15.2 % uploaded (62914560)
+2878.419 (9) Googledrive chunked upload: 15.4 % uploaded (63963136)
+3064.709 (10) Opened log file at time: Sun, 13 Sep 2015 02:50:35 +0000 on http://vine.pma.com
+3064.711 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3064.726 (10) Free space on disk containing Updraft's temporary directory: 660834.9 Mb
+3064.729 (10) Backup run: resumption=10, nonce=74b3ee274477, begun at=1442109571 (3064s ago), job type=backup, previous check-in=59.8s
+3064.731 (10) Scheduling a resumption (11) after 148 seconds (1442112783) in case this run gets aborted
+3064.743 (10) Creation of backups of directories: already finished
+3064.743 (10) Saving backup status to database (elements: 11)
+3064.746 (10) Database dump (WordPress DB): Creation was completed already
+3064.747 (10) Saving backup history
+3064.752 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+3064.753 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+3064.754 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+3064.754 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3064.755 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+3064.756 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3064.757 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3064.760 (10) Requesting upload of the files that have not yet been successfully uploaded (4)
+3064.762 (10) Cloud backup selection (1/1): googledrive (last)
+3064.765 (10) Beginning dispatch of backup to remote (googledrive)
+3064.785 (10) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+3064.982 (10) Google Drive: successfully obtained access token
+3065.999 (10) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3066.001 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3066.129 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 63963135
+3066.653 (10) Googledrive chunked upload: 15.7 % uploaded (65011712)
+3067.243 (10) Googledrive chunked upload: 15.9 % uploaded (66060288)
+3067.725 (10) Googledrive chunked upload: 16.2 % uploaded (67108864)
+3068.240 (10) Googledrive chunked upload: 16.4 % uploaded (68157440)
+3070.528 (10) Googledrive chunked upload: 16.7 % uploaded (69206016)
+3071.117 (10) Googledrive chunked upload: 16.9 % uploaded (70254592)
+3071.634 (10) Googledrive chunked upload: 17.2 % uploaded (71303168)
+3072.103 (10) Googledrive chunked upload: 17.4 % uploaded (72351744)
+3072.580 (10) Googledrive chunked upload: 17.7 % uploaded (73400320)
+3073.053 (10) Googledrive chunked upload: 17.9 % uploaded (74448896)
+3073.543 (10) Googledrive chunked upload: 18.2 % uploaded (75497472)
+3088.925 (10) ERROR: Google Drive upload error: Operation timed out after 15375 milliseconds with 0 out of -1 bytes received (line: 81, file: /home/pma26606/public_html/vine/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+3088.926 (10) An error condition has occurred for the first time during this job
+3089.587 (10) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3089.588 (10) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3090.395 (10) Googledrive chunked upload: 0.8 % uploaded (1048576)
+3090.893 (10) Googledrive chunked upload: 1.6 % uploaded (2097152)
+3091.429 (10) Googledrive chunked upload: 2.4 % uploaded (3145728)
+3106.020 (10) Googledrive chunked upload: 3.1 % uploaded (4194304)
+3106.540 (10) Googledrive chunked upload: 3.9 % uploaded (5242880)
+3107.074 (10) Googledrive chunked upload: 4.7 % uploaded (6291456)
+3107.550 (10) Googledrive chunked upload: 5.5 % uploaded (7340032)
+3108.023 (10) Googledrive chunked upload: 6.3 % uploaded (8388608)
+3108.548 (10) Googledrive chunked upload: 7.1 % uploaded (9437184)
+3109.057 (10) Googledrive chunked upload: 7.8 % uploaded (10485760)
+3109.558 (10) Googledrive chunked upload: 8.6 % uploaded (11534336)
+3110.100 (10) Googledrive chunked upload: 9.4 % uploaded (12582912)
+3110.617 (10) Googledrive chunked upload: 10.2 % uploaded (13631488)
+3116.644 (10) Googledrive chunked upload: 11 % uploaded (14680064)
+3117.191 (10) Googledrive chunked upload: 11.8 % uploaded (15728640)
+3117.746 (10) Googledrive chunked upload: 12.5 % uploaded (16777216)
+3118.266 (10) Googledrive chunked upload: 13.3 % uploaded (17825792)
+3118.817 (10) Googledrive chunked upload: 14.1 % uploaded (18874368)
+3119.314 (10) Googledrive chunked upload: 14.9 % uploaded (19922944)
+3119.848 (10) Googledrive chunked upload: 15.7 % uploaded (20971520)
+3120.409 (10) Googledrive chunked upload: 16.5 % uploaded (22020096)
+3121.014 (10) Googledrive chunked upload: 17.2 % uploaded (23068672)
+3122.588 (10) Googledrive chunked upload: 18 % uploaded (24117248)
+3123.112 (10) Googledrive chunked upload: 18.8 % uploaded (25165824)
+3123.657 (10) Googledrive chunked upload: 19.6 % uploaded (26214400)
+3124.148 (10) Googledrive chunked upload: 20.4 % uploaded (27262976)
+3124.712 (10) Googledrive chunked upload: 21.2 % uploaded (28311552)
+3125.254 (10) Googledrive chunked upload: 22 % uploaded (29360128)
+3125.807 (10) Googledrive chunked upload: 22.7 % uploaded (30408704)
+3126.358 (10) Googledrive chunked upload: 23.5 % uploaded (31457280)
+3126.955 (10) Googledrive chunked upload: 24.3 % uploaded (32505856)
+3127.464 (10) Googledrive chunked upload: 25.1 % uploaded (33554432)
+3127.990 (10) Googledrive chunked upload: 25.9 % uploaded (34603008)
+3128.483 (10) Googledrive chunked upload: 26.7 % uploaded (35651584)
+3128.973 (10) Googledrive chunked upload: 27.4 % uploaded (36700160)
+3129.508 (10) Googledrive chunked upload: 28.2 % uploaded (37748736)
+3130.191 (10) Googledrive chunked upload: 29 % uploaded (38797312)
+3130.755 (10) Googledrive chunked upload: 29.8 % uploaded (39845888)
+3131.274 (10) Googledrive chunked upload: 30.6 % uploaded (40894464)
+3131.776 (10) Googledrive chunked upload: 31.4 % uploaded (41943040)
+3132.297 (10) Googledrive chunked upload: 32.1 % uploaded (42991616)
+3132.817 (10) Googledrive chunked upload: 32.9 % uploaded (44040192)
+3133.735 (10) Googledrive chunked upload: 33.7 % uploaded (45088768)
+3221.416 (11) Opened log file at time: Sun, 13 Sep 2015 02:53:12 +0000 on http://vine.pma.com
+3221.417 (11) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3221.434 (11) Free space on disk containing Updraft's temporary directory: 660831.5 Mb
+3221.437 (11) Backup run: resumption=11, nonce=74b3ee274477, begun at=1442109571 (3221s ago), job type=backup, previous check-in=69s
+3221.440 (11) Scheduling a resumption (12) after 148 seconds (1442112940) in case this run gets aborted
+3221.450 (11) Creation of backups of directories: already finished
+3221.451 (11) Saving backup status to database (elements: 11)
+3221.455 (11) Database dump (WordPress DB): Creation was completed already
+3221.456 (11) Saving backup history
+3221.461 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+3221.462 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+3221.462 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+3221.463 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3221.464 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+3221.465 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3221.465 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3221.468 (11) Requesting upload of the files that have not yet been successfully uploaded (4)
+3221.469 (11) Cloud backup selection (1/1): googledrive (last)
+3221.473 (11) Beginning dispatch of backup to remote (googledrive)
+3221.492 (11) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+3221.655 (11) Google Drive: successfully obtained access token
+3222.655 (11) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3222.660 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3222.799 (11) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 76546047
+3223.995 (11) Googledrive chunked upload: 18.7 % uploaded (77594624)
+3224.520 (11) Googledrive chunked upload: 18.9 % uploaded (78643200)
+3225.039 (11) Googledrive chunked upload: 19.2 % uploaded (79691776)
+3225.525 (11) Googledrive chunked upload: 19.4 % uploaded (80740352)
+3226.029 (11) Googledrive chunked upload: 19.7 % uploaded (81788928)
+3226.515 (11) Googledrive chunked upload: 20 % uploaded (82837504)
+3226.995 (11) Googledrive chunked upload: 20.2 % uploaded (83886080)
+3227.475 (11) Googledrive chunked upload: 20.5 % uploaded (84934656)
+3227.966 (11) Googledrive chunked upload: 20.7 % uploaded (85983232)
+3228.470 (11) Googledrive chunked upload: 21 % uploaded (87031808)
+3228.949 (11) Googledrive chunked upload: 21.2 % uploaded (88080384)
+3229.471 (11) Googledrive chunked upload: 21.5 % uploaded (89128960)
+3230.008 (11) Googledrive chunked upload: 21.7 % uploaded (90177536)
+3231.740 (11) Googledrive chunked upload: 22 % uploaded (91226112)
+3232.500 (11) Googledrive chunked upload: 22.2 % uploaded (92274688)
+3233.050 (11) Googledrive chunked upload: 22.5 % uploaded (93323264)
+3233.589 (11) Googledrive chunked upload: 22.7 % uploaded (94371840)
+3234.073 (11) Googledrive chunked upload: 23 % uploaded (95420416)
+3234.549 (11) Googledrive chunked upload: 23.2 % uploaded (96468992)
+3235.059 (11) Googledrive chunked upload: 23.5 % uploaded (97517568)
+3235.590 (11) Googledrive chunked upload: 23.7 % uploaded (98566144)
+3236.095 (11) Googledrive chunked upload: 24 % uploaded (99614720)
+3236.583 (11) Googledrive chunked upload: 24.2 % uploaded (100663296)
+3237.123 (11) Googledrive chunked upload: 24.5 % uploaded (101711872)
+3237.638 (11) Googledrive chunked upload: 24.8 % uploaded (102760448)
+3238.145 (11) Googledrive chunked upload: 25 % uploaded (103809024)
+3238.850 (11) Googledrive chunked upload: 25.3 % uploaded (104857600)
+3239.378 (11) Googledrive chunked upload: 25.5 % uploaded (105906176)
+3239.921 (11) Googledrive chunked upload: 25.8 % uploaded (106954752)
+3240.431 (11) Googledrive chunked upload: 26 % uploaded (108003328)
+3240.948 (11) Googledrive chunked upload: 26.3 % uploaded (109051904)
+3241.509 (11) Googledrive chunked upload: 26.5 % uploaded (110100480)
+3242.023 (11) Googledrive chunked upload: 26.8 % uploaded (111149056)
+3242.709 (11) Googledrive chunked upload: 27 % uploaded (112197632)
+3243.272 (11) Googledrive chunked upload: 27.3 % uploaded (113246208)
+3243.807 (11) Googledrive chunked upload: 27.5 % uploaded (114294784)
+3244.321 (11) Googledrive chunked upload: 27.8 % uploaded (115343360)
+3244.941 (11) Googledrive chunked upload: 28 % uploaded (116391936)
+3245.458 (11) Googledrive chunked upload: 28.3 % uploaded (117440512)
+3245.977 (11) Googledrive chunked upload: 28.5 % uploaded (118489088)
+3246.499 (11) Googledrive chunked upload: 28.8 % uploaded (119537664)
+3247.032 (11) Googledrive chunked upload: 29 % uploaded (120586240)
+3248.478 (11) Googledrive chunked upload: 29.3 % uploaded (121634816)
+3249.018 (11) Googledrive chunked upload: 29.5 % uploaded (122683392)
+3249.585 (11) Googledrive chunked upload: 29.8 % uploaded (123731968)
+3250.137 (11) Googledrive chunked upload: 30.1 % uploaded (124780544)
+3250.698 (11) Googledrive chunked upload: 30.3 % uploaded (125829120)
+3251.242 (11) Googledrive chunked upload: 30.6 % uploaded (126877696)
+3251.803 (11) Googledrive chunked upload: 30.8 % uploaded (127926272)
+3252.523 (11) Googledrive chunked upload: 31.1 % uploaded (128974848)
+3253.412 (11) Googledrive chunked upload: 31.3 % uploaded (130023424)
+3254.107 (11) Googledrive chunked upload: 31.6 % uploaded (131072000)
+3254.797 (11) Googledrive chunked upload: 31.8 % uploaded (132120576)
+3255.488 (11) Googledrive chunked upload: 32.1 % uploaded (133169152)
+3256.209 (11) Googledrive chunked upload: 32.3 % uploaded (134217728)
+3256.903 (11) Googledrive chunked upload: 32.6 % uploaded (135266304)
+3257.604 (11) Googledrive chunked upload: 32.8 % uploaded (136314880)
+3258.258 (11) Googledrive chunked upload: 33.1 % uploaded (137363456)
+3260.467 (11) Googledrive chunked upload: 33.3 % uploaded (138412032)
+3261.140 (11) Googledrive chunked upload: 33.6 % uploaded (139460608)
+3261.833 (11) Googledrive chunked upload: 33.8 % uploaded (140509184)
+3262.534 (11) Googledrive chunked upload: 34.1 % uploaded (141557760)
+3263.219 (11) Googledrive chunked upload: 34.3 % uploaded (142606336)
+3263.905 (11) Googledrive chunked upload: 34.6 % uploaded (143654912)
+3264.568 (11) Googledrive chunked upload: 34.9 % uploaded (144703488)
+3265.284 (11) Googledrive chunked upload: 35.1 % uploaded (145752064)
+3265.959 (11) Googledrive chunked upload: 35.4 % uploaded (146800640)
+3266.679 (11) Googledrive chunked upload: 35.6 % uploaded (147849216)
+3267.349 (11) Googledrive chunked upload: 35.9 % uploaded (148897792)
+3268.017 (11) Googledrive chunked upload: 36.1 % uploaded (149946368)
+3268.698 (11) Googledrive chunked upload: 36.4 % uploaded (150994944)
+3269.376 (11) Googledrive chunked upload: 36.6 % uploaded (152043520)
+3270.062 (11) Googledrive chunked upload: 36.9 % uploaded (153092096)
+3278.382 (11) Googledrive chunked upload: 37.1 % uploaded (154140672)
+3279.087 (11) Googledrive chunked upload: 37.4 % uploaded (155189248)
+3279.757 (11) Googledrive chunked upload: 37.6 % uploaded (156237824)
+3280.442 (11) Googledrive chunked upload: 37.9 % uploaded (157286400)
+3281.126 (11) Googledrive chunked upload: 38.1 % uploaded (158334976)
+3431.201 (12) Opened log file at time: Sun, 13 Sep 2015 02:56:42 +0000 on http://vine.pma.com
+3431.202 (12) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3431.237 (12) Free space on disk containing Updraft's temporary directory: 660829.1 Mb
+3431.240 (12) Backup run: resumption=12, nonce=74b3ee274477, begun at=1442109571 (3431s ago), job type=backup, previous check-in=59.7s
+3431.243 (12) Scheduling a resumption (13) after 148 seconds (1442113150) in case this run gets aborted
+3431.253 (12) Creation of backups of directories: already finished
+3431.255 (12) Saving backup status to database (elements: 11)
+3431.259 (12) Database dump (WordPress DB): Creation was completed already
+3431.261 (12) Saving backup history
+3431.267 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+3431.268 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+3431.269 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+3431.270 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3431.270 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+3431.271 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3431.272 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3431.275 (12) Requesting upload of the files that have not yet been successfully uploaded (4)
+3431.275 (12) Cloud backup selection (1/1): googledrive (last)
+3431.279 (12) Beginning dispatch of backup to remote (googledrive)
+3431.298 (12) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+3431.501 (12) Google Drive: successfully obtained access token
+3432.701 (12) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3432.703 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3432.835 (12) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 158597119
+3433.325 (12) Googledrive chunked upload: 38.5 % uploaded (159645696)
+3433.804 (12) Googledrive chunked upload: 38.7 % uploaded (160694272)
+3434.453 (12) Googledrive chunked upload: 39 % uploaded (161742848)
+3434.999 (12) Googledrive chunked upload: 39.2 % uploaded (162791424)
+3435.787 (12) Googledrive chunked upload: 39.5 % uploaded (163840000)
+3436.331 (12) Googledrive chunked upload: 39.7 % uploaded (164888576)
+3436.852 (12) Googledrive chunked upload: 40 % uploaded (165937152)
+3437.407 (12) Googledrive chunked upload: 40.2 % uploaded (166985728)
+3437.944 (12) Googledrive chunked upload: 40.5 % uploaded (168034304)
+3438.489 (12) Googledrive chunked upload: 40.7 % uploaded (169082880)
+3439.015 (12) Googledrive chunked upload: 41 % uploaded (170131456)
+3439.525 (12) Googledrive chunked upload: 41.2 % uploaded (171180032)
+3440.086 (12) Googledrive chunked upload: 41.5 % uploaded (172228608)
+3440.649 (12) Googledrive chunked upload: 41.7 % uploaded (173277184)
+3441.210 (12) Googledrive chunked upload: 42 % uploaded (174325760)
+3441.732 (12) Googledrive chunked upload: 42.2 % uploaded (175374336)
+3442.262 (12) Googledrive chunked upload: 42.5 % uploaded (176422912)
+3442.810 (12) Googledrive chunked upload: 42.7 % uploaded (177471488)
+3443.406 (12) Googledrive chunked upload: 43 % uploaded (178520064)
+3443.990 (12) Googledrive chunked upload: 43.3 % uploaded (179568640)
+3444.550 (12) Googledrive chunked upload: 43.5 % uploaded (180617216)
+3445.126 (12) Googledrive chunked upload: 43.8 % uploaded (181665792)
+3445.652 (12) Googledrive chunked upload: 44 % uploaded (182714368)
+3446.176 (12) Googledrive chunked upload: 44.3 % uploaded (183762944)
+3447.185 (12) Googledrive chunked upload: 44.5 % uploaded (184811520)
+3447.725 (12) Googledrive chunked upload: 44.8 % uploaded (185860096)
+3448.292 (12) Googledrive chunked upload: 45 % uploaded (186908672)
+3448.819 (12) Googledrive chunked upload: 45.3 % uploaded (187957248)
+3449.333 (12) Googledrive chunked upload: 45.5 % uploaded (189005824)
+3449.909 (12) Googledrive chunked upload: 45.8 % uploaded (190054400)
+3450.437 (12) Googledrive chunked upload: 46 % uploaded (191102976)
+3450.995 (12) Googledrive chunked upload: 46.3 % uploaded (192151552)
+3451.655 (12) Googledrive chunked upload: 46.5 % uploaded (193200128)
+3452.313 (12) Googledrive chunked upload: 46.8 % uploaded (194248704)
+3453.090 (12) Googledrive chunked upload: 47 % uploaded (195297280)
+3453.726 (12) Googledrive chunked upload: 47.3 % uploaded (196345856)
+3454.347 (12) Googledrive chunked upload: 47.5 % uploaded (197394432)
+3454.987 (12) Googledrive chunked upload: 47.8 % uploaded (198443008)
+3455.604 (12) Googledrive chunked upload: 48 % uploaded (199491584)
+3456.238 (12) Googledrive chunked upload: 48.3 % uploaded (200540160)
+3456.888 (12) Googledrive chunked upload: 48.6 % uploaded (201588736)
+3457.541 (12) Googledrive chunked upload: 48.8 % uploaded (202637312)
+3458.178 (12) Googledrive chunked upload: 49.1 % uploaded (203685888)
+3458.842 (12) Googledrive chunked upload: 49.3 % uploaded (204734464)
+3459.569 (12) Googledrive chunked upload: 49.6 % uploaded (205783040)
+3460.187 (12) Googledrive chunked upload: 49.8 % uploaded (206831616)
+3460.831 (12) Googledrive chunked upload: 50.1 % uploaded (207880192)
+3461.446 (12) Googledrive chunked upload: 50.3 % uploaded (208928768)
+3462.084 (12) Googledrive chunked upload: 50.6 % uploaded (209977344)
+3462.734 (12) Googledrive chunked upload: 50.8 % uploaded (211025920)
+3463.350 (12) Googledrive chunked upload: 51.1 % uploaded (212074496)
+3463.970 (12) Googledrive chunked upload: 51.3 % uploaded (213123072)
+3464.648 (12) Googledrive chunked upload: 51.6 % uploaded (214171648)
+3465.357 (12) Googledrive chunked upload: 51.8 % uploaded (215220224)
+3466.135 (12) Googledrive chunked upload: 52.1 % uploaded (216268800)
+3466.771 (12) Googledrive chunked upload: 52.3 % uploaded (217317376)
+3467.407 (12) Googledrive chunked upload: 52.6 % uploaded (218365952)
+3468.045 (12) Googledrive chunked upload: 52.8 % uploaded (219414528)
+3468.675 (12) Googledrive chunked upload: 53.1 % uploaded (220463104)
+3469.305 (12) Googledrive chunked upload: 53.4 % uploaded (221511680)
+3469.918 (12) Googledrive chunked upload: 53.6 % uploaded (222560256)
+3470.601 (12) Googledrive chunked upload: 53.9 % uploaded (223608832)
+3471.287 (12) Googledrive chunked upload: 54.1 % uploaded (224657408)
+3471.937 (12) Googledrive chunked upload: 54.4 % uploaded (225705984)
+3472.646 (12) Googledrive chunked upload: 54.6 % uploaded (226754560)
+3473.301 (12) Googledrive chunked upload: 54.9 % uploaded (227803136)
+3473.967 (12) Googledrive chunked upload: 55.1 % uploaded (228851712)
+3474.607 (12) Googledrive chunked upload: 55.4 % uploaded (229900288)
+3475.227 (12) Googledrive chunked upload: 55.6 % uploaded (230948864)
+3475.864 (12) Googledrive chunked upload: 55.9 % uploaded (231997440)
+3476.545 (12) Googledrive chunked upload: 56.1 % uploaded (233046016)
+3477.185 (12) Googledrive chunked upload: 56.4 % uploaded (234094592)
+3477.834 (12) Googledrive chunked upload: 56.6 % uploaded (235143168)
+3478.471 (12) Googledrive chunked upload: 56.9 % uploaded (236191744)
+3479.141 (12) Googledrive chunked upload: 57.1 % uploaded (237240320)
+3479.820 (12) Googledrive chunked upload: 57.4 % uploaded (238288896)
+3480.464 (12) Googledrive chunked upload: 57.6 % uploaded (239337472)
+3481.097 (12) Googledrive chunked upload: 57.9 % uploaded (240386048)
+3481.747 (12) Googledrive chunked upload: 58.2 % uploaded (241434624)
+3482.453 (12) Googledrive chunked upload: 58.4 % uploaded (242483200)
+3483.127 (12) Googledrive chunked upload: 58.7 % uploaded (243531776)
+3483.767 (12) Googledrive chunked upload: 58.9 % uploaded (244580352)
+3487.442 (12) Googledrive chunked upload: 59.2 % uploaded (245628928)
+3488.097 (12) Googledrive chunked upload: 59.4 % uploaded (246677504)
+3488.780 (12) Googledrive chunked upload: 59.7 % uploaded (247726080)
+3489.415 (12) Googledrive chunked upload: 59.9 % uploaded (248774656)
+3490.100 (12) Googledrive chunked upload: 60.2 % uploaded (249823232)
+3490.724 (12) Googledrive chunked upload: 60.4 % uploaded (250871808)
+3680.773 (13) Opened log file at time: Sun, 13 Sep 2015 03:00:51 +0000 on http://vine.pma.com
+3680.785 (13) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3680.813 (13) Free space on disk containing Updraft's temporary directory: 660802.3 Mb
+3680.841 (13) Backup run: resumption=13, nonce=74b3ee274477, begun at=1442109571 (3681s ago), job type=backup, previous check-in=59.5s
+3680.843 (13) Scheduling a resumption (14) after 148 seconds (1442113400) in case this run gets aborted
+3681.194 (13) Creation of backups of directories: already finished
+3681.230 (13) Saving backup status to database (elements: 11)
+3681.357 (13) Database dump (WordPress DB): Creation was completed already
+3681.358 (13) Saving backup history
+3681.456 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+3681.458 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+3681.460 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+3681.462 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3681.464 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+3681.465 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3681.467 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3681.473 (13) Requesting upload of the files that have not yet been successfully uploaded (4)
+3681.474 (13) Cloud backup selection (1/1): googledrive (last)
+3681.478 (13) Beginning dispatch of backup to remote (googledrive)
+3681.497 (13) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+3681.661 (13) Google Drive: successfully obtained access token
+3682.668 (13) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3682.670 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3682.803 (13) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 251658239
+3683.430 (13) Googledrive chunked upload: 60.9 % uploaded (252706816)
+3683.961 (13) Googledrive chunked upload: 61.1 % uploaded (253755392)
+3684.702 (13) Googledrive chunked upload: 61.4 % uploaded (254803968)
+3685.807 (13) Googledrive chunked upload: 61.6 % uploaded (255852544)
+3686.532 (13) Googledrive chunked upload: 61.9 % uploaded (256901120)
+3687.246 (13) Googledrive chunked upload: 62.1 % uploaded (257949696)
+3688.251 (13) Googledrive chunked upload: 62.4 % uploaded (258998272)
+3688.950 (13) Googledrive chunked upload: 62.6 % uploaded (260046848)
+3689.683 (13) Googledrive chunked upload: 62.9 % uploaded (261095424)
+3690.420 (13) Googledrive chunked upload: 63.1 % uploaded (262144000)
+3691.166 (13) Googledrive chunked upload: 63.4 % uploaded (263192576)
+3691.908 (13) Googledrive chunked upload: 63.6 % uploaded (264241152)
+3692.702 (13) Googledrive chunked upload: 63.9 % uploaded (265289728)
+3693.414 (13) Googledrive chunked upload: 64.1 % uploaded (266338304)
+3694.104 (13) Googledrive chunked upload: 64.4 % uploaded (267386880)
+3694.798 (13) Googledrive chunked upload: 64.7 % uploaded (268435456)
+3695.513 (13) Googledrive chunked upload: 64.9 % uploaded (269484032)
+3696.375 (13) Googledrive chunked upload: 65.2 % uploaded (270532608)
+3697.127 (13) Googledrive chunked upload: 65.4 % uploaded (271581184)
+3697.804 (13) Googledrive chunked upload: 65.7 % uploaded (272629760)
+3698.516 (13) Googledrive chunked upload: 65.9 % uploaded (273678336)
+3699.219 (13) Googledrive chunked upload: 66.2 % uploaded (274726912)
+3699.922 (13) Googledrive chunked upload: 66.4 % uploaded (275775488)
+3700.615 (13) Googledrive chunked upload: 66.7 % uploaded (276824064)
+3701.350 (13) Googledrive chunked upload: 66.9 % uploaded (277872640)
+3702.083 (13) Googledrive chunked upload: 67.2 % uploaded (278921216)
+3702.768 (13) Googledrive chunked upload: 67.4 % uploaded (279969792)
+3703.496 (13) Googledrive chunked upload: 67.7 % uploaded (281018368)
+3704.205 (13) Googledrive chunked upload: 67.9 % uploaded (282066944)
+3705.000 (13) Googledrive chunked upload: 68.2 % uploaded (283115520)
+3706.385 (13) Googledrive chunked upload: 68.4 % uploaded (284164096)
+3707.166 (13) Googledrive chunked upload: 68.7 % uploaded (285212672)
+3707.910 (13) Googledrive chunked upload: 68.9 % uploaded (286261248)
+3708.597 (13) Googledrive chunked upload: 69.2 % uploaded (287309824)
+3709.276 (13) Googledrive chunked upload: 69.5 % uploaded (288358400)
+3709.975 (13) Googledrive chunked upload: 69.7 % uploaded (289406976)
+3710.677 (13) Googledrive chunked upload: 70 % uploaded (290455552)
+3711.358 (13) Googledrive chunked upload: 70.2 % uploaded (291504128)
+3712.035 (13) Googledrive chunked upload: 70.5 % uploaded (292552704)
+3712.700 (13) Googledrive chunked upload: 70.7 % uploaded (293601280)
+3713.393 (13) Googledrive chunked upload: 71 % uploaded (294649856)
+3714.106 (13) Googledrive chunked upload: 71.2 % uploaded (295698432)
+3714.819 (13) Googledrive chunked upload: 71.5 % uploaded (296747008)
+3716.156 (13) Googledrive chunked upload: 71.7 % uploaded (297795584)
+3717.547 (13) Googledrive chunked upload: 72 % uploaded (298844160)
+3718.256 (13) Googledrive chunked upload: 72.2 % uploaded (299892736)
+3718.977 (13) Googledrive chunked upload: 72.5 % uploaded (300941312)
+3720.279 (13) Googledrive chunked upload: 72.7 % uploaded (301989888)
+3721.614 (13) Googledrive chunked upload: 73 % uploaded (303038464)
+3722.292 (13) Googledrive chunked upload: 73.2 % uploaded (304087040)
+3722.971 (13) Googledrive chunked upload: 73.5 % uploaded (305135616)
+3723.647 (13) Googledrive chunked upload: 73.7 % uploaded (306184192)
+3724.325 (13) Googledrive chunked upload: 74 % uploaded (307232768)
+3725.033 (13) Googledrive chunked upload: 74.3 % uploaded (308281344)
+3725.720 (13) Googledrive chunked upload: 74.5 % uploaded (309329920)
+3726.432 (13) Googledrive chunked upload: 74.8 % uploaded (310378496)
+3727.146 (13) Googledrive chunked upload: 75 % uploaded (311427072)
+3727.855 (13) Googledrive chunked upload: 75.3 % uploaded (312475648)
+3728.534 (13) Googledrive chunked upload: 75.5 % uploaded (313524224)
+3729.195 (13) Googledrive chunked upload: 75.8 % uploaded (314572800)
+3729.862 (13) Googledrive chunked upload: 76 % uploaded (315621376)
+3730.526 (13) Googledrive chunked upload: 76.3 % uploaded (316669952)
+3731.412 (13) Googledrive chunked upload: 76.5 % uploaded (317718528)
+3732.103 (13) Googledrive chunked upload: 76.8 % uploaded (318767104)
+3732.890 (13) Googledrive chunked upload: 77 % uploaded (319815680)
+3733.578 (13) Googledrive chunked upload: 77.3 % uploaded (320864256)
+3734.239 (13) Googledrive chunked upload: 77.5 % uploaded (321912832)
+3734.911 (13) Googledrive chunked upload: 77.8 % uploaded (322961408)
+3735.652 (13) Googledrive chunked upload: 78 % uploaded (324009984)
+3736.352 (13) Googledrive chunked upload: 78.3 % uploaded (325058560)
+3737.100 (13) Googledrive chunked upload: 78.5 % uploaded (326107136)
+3737.872 (13) Googledrive chunked upload: 78.8 % uploaded (327155712)
+3738.576 (13) Googledrive chunked upload: 79.1 % uploaded (328204288)
+3739.344 (13) Googledrive chunked upload: 79.3 % uploaded (329252864)
+3740.007 (13) Googledrive chunked upload: 79.6 % uploaded (330301440)
+3740.719 (13) Googledrive chunked upload: 79.8 % uploaded (331350016)
+3831.243 (14) Opened log file at time: Sun, 13 Sep 2015 03:03:22 +0000 on http://vine.pma.com
+3831.244 (14) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3831.260 (14) Free space on disk containing Updraft's temporary directory: 660802.4 Mb
+3831.263 (14) Backup run: resumption=14, nonce=74b3ee274477, begun at=1442109571 (3831s ago), job type=backup, previous check-in=59.9s
+3831.265 (14) Scheduling a resumption (15) after 148 seconds (1442113550) in case this run gets aborted
+3831.276 (14) Creation of backups of directories: already finished
+3831.277 (14) Saving backup status to database (elements: 11)
+3831.280 (14) Database dump (WordPress DB): Creation was completed already
+3831.281 (14) Saving backup history
+3831.287 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+3831.287 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+3831.288 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+3831.289 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+3831.289 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+3831.290 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+3831.291 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+3831.294 (14) Requesting upload of the files that have not yet been successfully uploaded (4)
+3831.295 (14) Cloud backup selection (1/1): googledrive (last)
+3831.298 (14) Beginning dispatch of backup to remote (googledrive)
+3831.317 (14) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+3831.478 (14) Google Drive: successfully obtained access token
+3832.478 (14) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+3832.480 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+3832.609 (14) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 331350015
+3833.144 (14) Googledrive chunked upload: 80.1 % uploaded (332398592)
+3833.867 (14) Googledrive chunked upload: 80.3 % uploaded (333447168)
+3834.681 (14) Googledrive chunked upload: 80.6 % uploaded (334495744)
+3835.381 (14) Googledrive chunked upload: 80.8 % uploaded (335544320)
+3836.016 (14) Googledrive chunked upload: 81.1 % uploaded (336592896)
+3836.682 (14) Googledrive chunked upload: 81.3 % uploaded (337641472)
+3837.345 (14) Googledrive chunked upload: 81.6 % uploaded (338690048)
+3837.984 (14) Googledrive chunked upload: 81.8 % uploaded (339738624)
+3838.640 (14) Googledrive chunked upload: 82.1 % uploaded (340787200)
+3839.271 (14) Googledrive chunked upload: 82.3 % uploaded (341835776)
+3839.936 (14) Googledrive chunked upload: 82.6 % uploaded (342884352)
+3840.622 (14) Googledrive chunked upload: 82.8 % uploaded (343932928)
+3841.261 (14) Googledrive chunked upload: 83.1 % uploaded (344981504)
+3841.890 (14) Googledrive chunked upload: 83.3 % uploaded (346030080)
+3842.525 (14) Googledrive chunked upload: 83.6 % uploaded (347078656)
+3843.159 (14) Googledrive chunked upload: 83.8 % uploaded (348127232)
+3843.770 (14) Googledrive chunked upload: 84.1 % uploaded (349175808)
+3844.408 (14) Googledrive chunked upload: 84.4 % uploaded (350224384)
+3845.103 (14) Googledrive chunked upload: 84.6 % uploaded (351272960)
+3845.746 (14) Googledrive chunked upload: 84.9 % uploaded (352321536)
+3846.418 (14) Googledrive chunked upload: 85.1 % uploaded (353370112)
+3847.071 (14) Googledrive chunked upload: 85.4 % uploaded (354418688)
+3847.739 (14) Googledrive chunked upload: 85.6 % uploaded (355467264)
+3848.350 (14) Googledrive chunked upload: 85.9 % uploaded (356515840)
+3855.475 (14) Googledrive chunked upload: 86.1 % uploaded (357564416)
+3856.196 (14) Googledrive chunked upload: 86.4 % uploaded (358612992)
+3859.950 (14) Googledrive chunked upload: 86.6 % uploaded (359661568)
+3860.619 (14) Googledrive chunked upload: 86.9 % uploaded (360710144)
+3861.270 (14) Googledrive chunked upload: 87.1 % uploaded (361758720)
+3863.699 (14) Googledrive chunked upload: 87.4 % uploaded (362807296)
+3864.347 (14) Googledrive chunked upload: 87.6 % uploaded (363855872)
+3864.983 (14) Googledrive chunked upload: 87.9 % uploaded (364904448)
+3865.616 (14) Googledrive chunked upload: 88.1 % uploaded (365953024)
+3869.377 (14) Googledrive chunked upload: 88.4 % uploaded (367001600)
+3870.801 (14) Googledrive chunked upload: 88.6 % uploaded (368050176)
+3871.404 (14) Googledrive chunked upload: 88.9 % uploaded (369098752)
+3872.275 (14) Googledrive chunked upload: 89.2 % uploaded (370147328)
+3872.882 (14) Googledrive chunked upload: 89.4 % uploaded (371195904)
+3873.506 (14) Googledrive chunked upload: 89.7 % uploaded (372244480)
+3874.150 (14) Googledrive chunked upload: 89.9 % uploaded (373293056)
+3877.881 (14) Googledrive chunked upload: 90.2 % uploaded (374341632)
+3878.526 (14) Googledrive chunked upload: 90.4 % uploaded (375390208)
+3879.138 (14) Googledrive chunked upload: 90.7 % uploaded (376438784)
+3879.774 (14) Googledrive chunked upload: 90.9 % uploaded (377487360)
+3880.456 (14) Googledrive chunked upload: 91.2 % uploaded (378535936)
+3881.075 (14) Googledrive chunked upload: 91.4 % uploaded (379584512)
+3881.767 (14) Googledrive chunked upload: 91.7 % uploaded (380633088)
+3883.163 (14) Googledrive chunked upload: 91.9 % uploaded (381681664)
+3883.792 (14) Googledrive chunked upload: 92.2 % uploaded (382730240)
+3890.140 (14) Googledrive chunked upload: 92.4 % uploaded (383778816)
+3890.765 (14) Googledrive chunked upload: 92.7 % uploaded (384827392)
+4049.948 (15) Opened log file at time: Sun, 13 Sep 2015 03:07:01 +0000 on http://vine.pma.com
+4049.949 (15) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+4049.966 (15) Free space on disk containing Updraft's temporary directory: 660800.6 Mb
+4049.969 (15) Backup run: resumption=15, nonce=74b3ee274477, begun at=1442109571 (4050s ago), job type=backup, previous check-in=59.5s
+4049.971 (15) Scheduling a resumption (16) after 148 seconds (1442113769) in case this run gets aborted
+4049.982 (15) Creation of backups of directories: already finished
+4049.983 (15) Saving backup status to database (elements: 11)
+4049.986 (15) Database dump (WordPress DB): Creation was completed already
+4049.987 (15) Saving backup history
+4049.992 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+4049.993 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+4049.994 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+4049.994 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+4049.995 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+4049.996 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+4049.997 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+4050.000 (15) Requesting upload of the files that have not yet been successfully uploaded (4)
+4050.001 (15) Cloud backup selection (1/1): googledrive (last)
+4050.004 (15) Beginning dispatch of backup to remote (googledrive)
+4050.022 (15) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+4050.219 (15) Google Drive: successfully obtained access token
+4051.323 (15) Google Drive quota usage: used=6053.1 Mb, total=15360 Mb, available=9306.9 Mb
+4051.499 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+4051.630 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: upload already began; attempting to resume from byte 385613823
+4052.420 (15) Googledrive chunked upload: 93.1 % uploaded (386662400)
+4053.066 (15) Googledrive chunked upload: 93.4 % uploaded (387710976)
+4053.954 (15) Googledrive chunked upload: 93.6 % uploaded (388759552)
+4054.588 (15) Googledrive chunked upload: 93.9 % uploaded (389808128)
+4055.306 (15) Googledrive chunked upload: 94.1 % uploaded (390856704)
+4055.914 (15) Googledrive chunked upload: 94.4 % uploaded (391905280)
+4056.570 (15) Googledrive chunked upload: 94.6 % uploaded (392953856)
+4057.226 (15) Googledrive chunked upload: 94.9 % uploaded (394002432)
+4057.902 (15) Googledrive chunked upload: 95.2 % uploaded (395051008)
+4058.535 (15) Googledrive chunked upload: 95.4 % uploaded (396099584)
+4059.197 (15) Googledrive chunked upload: 95.7 % uploaded (397148160)
+4059.801 (15) Googledrive chunked upload: 95.9 % uploaded (398196736)
+4060.460 (15) Googledrive chunked upload: 96.2 % uploaded (399245312)
+4061.115 (15) Googledrive chunked upload: 96.4 % uploaded (400293888)
+4061.737 (15) Googledrive chunked upload: 96.7 % uploaded (401342464)
+4062.364 (15) Googledrive chunked upload: 96.9 % uploaded (402391040)
+4063.037 (15) Googledrive chunked upload: 97.2 % uploaded (403439616)
+4063.699 (15) Googledrive chunked upload: 97.4 % uploaded (404488192)
+4064.336 (15) Googledrive chunked upload: 97.7 % uploaded (405536768)
+4064.991 (15) Googledrive chunked upload: 97.9 % uploaded (406585344)
+4066.296 (15) Googledrive chunked upload: 98.2 % uploaded (407633920)
+4066.949 (15) Googledrive chunked upload: 98.4 % uploaded (408682496)
+4067.618 (15) Googledrive chunked upload: 98.7 % uploaded (409731072)
+4068.269 (15) Googledrive chunked upload: 98.9 % uploaded (410779648)
+4068.938 (15) Googledrive chunked upload: 99.2 % uploaded (411828224)
+4069.619 (15) Googledrive chunked upload: 99.4 % uploaded (412876800)
+4070.231 (15) Googledrive chunked upload: 99.7 % uploaded (413925376)
+4070.848 (15) Googledrive chunked upload: 100 % uploaded (414973952)
+4072.813 (15) Googledrive chunked upload: 100 % uploaded (414973952)
+4072.816 (15) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip uploaded to Google Drive in 21.31 seconds
+4072.818 (15) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip (1b454190a711d235818fb77f1a696191)
+4072.994 (15) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: OK
+4073.258 (15) Google Drive quota usage: used=6449 Mb, total=15360 Mb, available=8911 Mb
+4073.260 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+4073.399 (15) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: upload already began; attempting to resume from byte 46137343
+4074.066 (15) Googledrive chunked upload: 35.3 % uploaded (47185920)
+4074.722 (15) Googledrive chunked upload: 36.1 % uploaded (48234496)
+4075.525 (15) Googledrive chunked upload: 36.9 % uploaded (49283072)
+4076.172 (15) Googledrive chunked upload: 37.6 % uploaded (50331648)
+4076.915 (15) Googledrive chunked upload: 38.4 % uploaded (51380224)
+4077.700 (15) Googledrive chunked upload: 39.2 % uploaded (52428800)
+4078.439 (15) Googledrive chunked upload: 40 % uploaded (53477376)
+4079.090 (15) Googledrive chunked upload: 40.8 % uploaded (54525952)
+4079.947 (15) Googledrive chunked upload: 41.6 % uploaded (55574528)
+4080.614 (15) Googledrive chunked upload: 42.3 % uploaded (56623104)
+4081.303 (15) Googledrive chunked upload: 43.1 % uploaded (57671680)
+4082.008 (15) Googledrive chunked upload: 43.9 % uploaded (58720256)
+4082.713 (15) Googledrive chunked upload: 44.7 % uploaded (59768832)
+4086.351 (15) Googledrive chunked upload: 45.5 % uploaded (60817408)
+4087.045 (15) Googledrive chunked upload: 46.3 % uploaded (61865984)
+4088.755 (15) Googledrive chunked upload: 47 % uploaded (62914560)
+4089.501 (15) Googledrive chunked upload: 47.8 % uploaded (63963136)
+4090.199 (15) Googledrive chunked upload: 48.6 % uploaded (65011712)
+4090.891 (15) Googledrive chunked upload: 49.4 % uploaded (66060288)
+4091.608 (15) Googledrive chunked upload: 50.2 % uploaded (67108864)
+4092.278 (15) Googledrive chunked upload: 51 % uploaded (68157440)
+4093.094 (15) Googledrive chunked upload: 51.7 % uploaded (69206016)
+4093.752 (15) Googledrive chunked upload: 52.5 % uploaded (70254592)
+4094.435 (15) Googledrive chunked upload: 53.3 % uploaded (71303168)
+4095.107 (15) Googledrive chunked upload: 54.1 % uploaded (72351744)
+4095.792 (15) Googledrive chunked upload: 54.9 % uploaded (73400320)
+4096.508 (15) Googledrive chunked upload: 55.7 % uploaded (74448896)
+4097.236 (15) Googledrive chunked upload: 56.5 % uploaded (75497472)
+4097.908 (15) Googledrive chunked upload: 57.2 % uploaded (76546048)
+4098.694 (15) Googledrive chunked upload: 58 % uploaded (77594624)
+4100.120 (15) Googledrive chunked upload: 58.8 % uploaded (78643200)
+4100.799 (15) Googledrive chunked upload: 59.6 % uploaded (79691776)
+4101.460 (15) Googledrive chunked upload: 60.4 % uploaded (80740352)
+4102.762 (15) Googledrive chunked upload: 61.2 % uploaded (81788928)
+4105.639 (15) Googledrive chunked upload: 61.9 % uploaded (82837504)
+4106.337 (15) Googledrive chunked upload: 62.7 % uploaded (83886080)
+4106.981 (15) Googledrive chunked upload: 63.5 % uploaded (84934656)
+4107.860 (15) Googledrive chunked upload: 64.3 % uploaded (85983232)
+4108.571 (15) Googledrive chunked upload: 65.1 % uploaded (87031808)
+4109.230 (15) Googledrive chunked upload: 65.9 % uploaded (88080384)
+4109.920 (15) Googledrive chunked upload: 66.6 % uploaded (89128960)
+4110.683 (15) Googledrive chunked upload: 67.4 % uploaded (90177536)
+4111.367 (15) Googledrive chunked upload: 68.2 % uploaded (91226112)
+4113.159 (15) Googledrive chunked upload: 69 % uploaded (92274688)
+4114.014 (15) Googledrive chunked upload: 69.8 % uploaded (93323264)
+4114.682 (15) Googledrive chunked upload: 70.6 % uploaded (94371840)
+4115.615 (15) Googledrive chunked upload: 71.4 % uploaded (95420416)
+4116.304 (15) Googledrive chunked upload: 72.1 % uploaded (96468992)
+4117.006 (15) Googledrive chunked upload: 72.9 % uploaded (97517568)
+4117.693 (15) Googledrive chunked upload: 73.7 % uploaded (98566144)
+4119.471 (15) Googledrive chunked upload: 74.5 % uploaded (99614720)
+4120.161 (15) Googledrive chunked upload: 75.3 % uploaded (100663296)
+4120.864 (15) Googledrive chunked upload: 76.1 % uploaded (101711872)
+4121.568 (15) Googledrive chunked upload: 76.8 % uploaded (102760448)
+4122.235 (15) Googledrive chunked upload: 77.6 % uploaded (103809024)
+4122.969 (15) Googledrive chunked upload: 78.4 % uploaded (104857600)
+4123.683 (15) Googledrive chunked upload: 79.2 % uploaded (105906176)
+4124.805 (15) Googledrive chunked upload: 80 % uploaded (106954752)
+4125.498 (15) Googledrive chunked upload: 80.8 % uploaded (108003328)
+4126.197 (15) Googledrive chunked upload: 81.5 % uploaded (109051904)
+4126.923 (15) Googledrive chunked upload: 82.3 % uploaded (110100480)
+4127.597 (15) Googledrive chunked upload: 83.1 % uploaded (111149056)
+4128.265 (15) Googledrive chunked upload: 83.9 % uploaded (112197632)
+4128.962 (15) Googledrive chunked upload: 84.7 % uploaded (113246208)
+4129.640 (15) Googledrive chunked upload: 85.5 % uploaded (114294784)
+4130.328 (15) Googledrive chunked upload: 86.2 % uploaded (115343360)
+4131.027 (15) Googledrive chunked upload: 87 % uploaded (116391936)
+4132.433 (15) Googledrive chunked upload: 87.8 % uploaded (117440512)
+4133.297 (15) Googledrive chunked upload: 88.6 % uploaded (118489088)
+4134.009 (15) Googledrive chunked upload: 89.4 % uploaded (119537664)
+4134.744 (15) Googledrive chunked upload: 90.2 % uploaded (120586240)
+4135.434 (15) Googledrive chunked upload: 91 % uploaded (121634816)
+4136.142 (15) Googledrive chunked upload: 91.7 % uploaded (122683392)
+4136.925 (15) Googledrive chunked upload: 92.5 % uploaded (123731968)
+4137.698 (15) Googledrive chunked upload: 93.3 % uploaded (124780544)
+4138.386 (15) Googledrive chunked upload: 94.1 % uploaded (125829120)
+4298.256 (16) Opened log file at time: Sun, 13 Sep 2015 03:11:09 +0000 on http://vine.pma.com
+4298.257 (16) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.4.20 WP: 4.3 PHP: 5.4.44 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL: 5.5.44 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.1M | 41.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+4298.280 (16) Free space on disk containing Updraft's temporary directory: 661180.2 Mb
+4298.282 (16) Backup run: resumption=16, nonce=74b3ee274477, begun at=1442109571 (4298s ago), job type=backup, previous check-in=88.4s
+4298.285 (16) Scheduling a resumption (17) after 148 seconds (1442114017) in case this run gets aborted
+4298.295 (16) Creation of backups of directories: already finished
+4298.296 (16) Saving backup status to database (elements: 11)
+4298.298 (16) Database dump (WordPress DB): Creation was completed already
+4298.300 (16) Saving backup history
+4298.305 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-plugins.zip: plugins: This file has already been successfully uploaded
+4298.305 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-themes.zip: themes: This file has already been successfully uploaded
+4298.306 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads.zip: uploads: This file has already been successfully uploaded
+4298.307 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-uploads2.zip: uploads: This file has already been successfully uploaded
+4298.307 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+4298.308 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: others: This file has not yet been successfully uploaded: will queue
+4298.309 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: db: This file has not yet been successfully uploaded: will queue
+4298.312 (16) Requesting upload of the files that have not yet been successfully uploaded (3)
+4298.313 (16) Cloud backup selection (1/1): googledrive (last)
+4298.316 (16) Beginning dispatch of backup to remote (googledrive)
+4298.334 (16) Google Drive: requesting access token: client_id=962256125650-59qqnpdhi699lgekmhc1el5fqmvf38ho.apps.googleusercontent.com
+4298.490 (16) Google Drive: successfully obtained access token
+4299.398 (16) Google Drive quota usage: used=6449 Mb, total=15360 Mb, available=8911 Mb
+4299.400 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+4299.547 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: upload already began; attempting to resume from byte 125829119
+4300.102 (16) Googledrive chunked upload: 94.9 % uploaded (126877696)
+4300.575 (16) Googledrive chunked upload: 95.7 % uploaded (127926272)
+4301.053 (16) Googledrive chunked upload: 96.4 % uploaded (128974848)
+4301.632 (16) Googledrive chunked upload: 97.2 % uploaded (130023424)
+4302.146 (16) Googledrive chunked upload: 98 % uploaded (131072000)
+4302.656 (16) Googledrive chunked upload: 98.8 % uploaded (132120576)
+4303.192 (16) Googledrive chunked upload: 99.6 % uploaded (133169152)
+4304.616 (16) Googledrive chunked upload: 100 % uploaded (133169152)
+4304.620 (16) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip uploaded to Google Drive in 5.22 seconds
+4304.623 (16) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip (7e9eb621f9db5ec8eeb1facf30c93d1f)
+4304.691 (16) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-wpcore.zip: OK
+4304.956 (16) Google Drive quota usage: used=6576.6 Mb, total=15360 Mb, available=8783.4 Mb
+4304.958 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+4306.355 (16) Googledrive chunked upload: 100 % uploaded
+4306.360 (16) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip uploaded to Google Drive in 1.4 seconds
+4306.362 (16) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip (7e781dde75361b0de691eb2748692c8c)
+4306.368 (16) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-others.zip: OK
+4306.636 (16) Google Drive quota usage: used=6576.6 Mb, total=15360 Mb, available=8783.4 Mb
+4306.637 (16) backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: Attempting to upload to Google Drive (into folder id: 0B9WyOu2WfQIFbXdEbjhuUTBrc1E)
+4308.134 (16) Googledrive chunked upload: 100 % uploaded
+4308.138 (16) OK: Archive backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz uploaded to Google Drive in 1.5 seconds
+4308.140 (16) Recording as successfully uploaded: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz (6b319d7017e11cd5474fbaeb4e2a3d2a)
+4308.144 (16) Deleting local file: backup_2015-09-12-2059_PMA_Vine_74b3ee274477-db.gz: OK
+4308.147 (16) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+4308.149 (16) Number of backup sets in history: 7
+4308.150 (16) Examining backup set with datestamp: 1442109571 (Sep 13 2015 01:59:31)
+4308.150 (16) 1442109571: this backup set remains non-empty (1/1); will retain in history
+4308.151 (16) Examining backup set with datestamp: 1442023210 (Sep 12 2015 02:00:10)
+4308.152 (16) 1442023210: this backup set remains non-empty (1/1); will retain in history
+4308.153 (16) Examining backup set with datestamp: 1441936798 (Sep 11 2015 01:59:58)
+4308.153 (16) 1441936798: this backup set remains non-empty (1/1); will retain in history
+4308.154 (16) Examining backup set with datestamp: 1441898968 (Sep 10 2015 15:29:28)
+4308.155 (16) This backup set (1441898968) was an automatic backup, and we have not yet reached the retain limit, so it will not be counted or pruned. Skipping.
+4308.156 (16) This backup set (1441898968) was an automatic backup, and we have not yet reached the retain limit, so it will not be counted or pruned. Skipping.
+4308.156 (16) 1441898968: this backup set remains non-empty (1/1); will retain in history
+4308.156 (16) Examining backup set with datestamp: 1441850380 (Sep 10 2015 01:59:40)
+4308.157 (16) 1441850380: this backup set remains non-empty (1/1); will retain in history
+4308.158 (16) Examining backup set with datestamp: 1441763942 (Sep 09 2015 01:59:02)
+4308.159 (16) 1441763942: this backup set remains non-empty (1/1); will retain in history
+4308.159 (16) Examining backup set with datestamp: 1441677571 (Sep 08 2015 01:59:31)
+4308.160 (16) 1441677571: db: this set includes a database (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-db.gz); db count is now 6
+4308.161 (16) 1441677571: db: over retain limit (5); will delete this database
+4308.161 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-db.gz, service=googledrive
+4309.535 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-db.gz: Deletion successful
+4309.577 (16) plugins: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-plugins.zip)
+4309.578 (16) themes: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-themes.zip)
+4309.579 (16) uploads: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads.zip)
+4309.580 (16) uploads: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads2.zip)
+4309.580 (16) wpcore: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-wpcore.zip)
+4309.581 (16) others: 1441677571: over retain limit (5); will delete this file (backup_2015-09-07-2059_PMA_Vine_355ec4b06132-others.zip)
+4309.582 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-plugins.zip, service=googledrive
+4309.583 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-themes.zip, service=googledrive
+4309.583 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads.zip, service=googledrive
+4309.584 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads2.zip, service=googledrive
+4309.585 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-wpcore.zip, service=googledrive
+4309.586 (16) Delete file: backup_2015-09-07-2059_PMA_Vine_355ec4b06132-others.zip, service=googledrive
+4310.405 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-others.zip: Deletion successful
+4310.849 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-wpcore.zip: Deletion successful
+4311.270 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads2.zip: Deletion successful
+4311.736 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-uploads.zip: Deletion successful
+4312.165 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-themes.zip: Deletion successful
+4312.582 (16) backup_2015-09-07-2059_PMA_Vine_355ec4b06132-plugins.zip: Deletion successful
+4312.588 (16) 1441677571: this backup set is now empty; will remove from history
+4312.589 (16) 1441677571: deleting log file (log.355ec4b06132.txt)
+4312.714 (16) Retain: saving new backup history (sets now: 6) and finishing retain operation
+4312.719 (16) Resume backup (74b3ee274477, 16): finish run
+4312.720 (16) There were no errors in the uploads, so the 'resume' event (17) is being unscheduled
+4312.724 (16) No email will/can be sent - the user has not configured an email address.
+4312.725 (16) The backup apparently succeeded and is now complete

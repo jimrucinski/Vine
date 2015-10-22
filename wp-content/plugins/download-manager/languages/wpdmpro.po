@@ -1,0 +1,1590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Download Manager Pro v4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-01 13:27+0600\n"
+"PO-Revision-Date: 2014-12-01 13:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: Shaon <proshaon@yahoo.com>\n"
+"Language: en_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: /Applications/xampp/htdocs/wpdmpro4x/wp-content/"
+"plugins/download-manager\n"
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:427
+msgid "Edit Download Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:427
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:24
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:24
+msgid "View Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:430
+msgid "Add New Download Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:446
+msgid "Enable permalink structure"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:464
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4342
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:4129
+msgid "Attached Files"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:482
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files-front.php:44
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files.php:46
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:251
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:263
+msgid "Action"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:483
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files-front.php:45
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files.php:47
+msgid "Filename"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:484
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2363
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2193
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files-front.php:46
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files.php:48
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:313
+msgid "Title"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:485
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2440
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:77
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:90
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2259
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files-front.php:47
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attached-files.php:49
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:25
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:30
+msgid "Password"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:555
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3547
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4344
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3344
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:4131
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:3
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:6
+msgid "Package Settings"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:559
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:19
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:27
+msgid "Link Label:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:564
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:24
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:32
+msgid "Stock&nbsp;Limit:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:569
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:29
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:37
+msgid "Download&nbsp;Limit:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:573
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:33
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:47
+msgid "Download&nbsp;Count:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:578
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:41
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:57
+msgid "Allow Access:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:607
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:72
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:89
+msgid "Individual File:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:614
+msgid "Individual File Download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:619
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:184
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:278
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:400
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:86
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:103
+msgid "Link Template:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:651
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:120
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:137
+msgid "Page Template:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:679
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:150
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:168
+msgid "Reset Key"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:680
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:151
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:169
+msgid "Regenerate Master Key for Download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:680
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:151
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:169
+msgid "This key can be used for direct download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:690
+msgid "Package Lock Settings"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:690
+msgid ""
+"This section will allow you to lock your download link using password, "
+"facebook like or google +1"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:692
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:2
+msgid ""
+"You can use one or more of following methods to lock your package download:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:697
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:7
+msgid "Enable Password Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:701
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:11
+msgid "Password:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:705
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:15
+msgid "PW Usage Limit:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:706
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:16
+msgid "password"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:706
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:16
+msgid "Password will expire after it exceed this usage limit"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:710
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:24
+msgid "LinkedIn Share Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:714
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:28
+msgid "Custom linkedin share message:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:722
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:36
+msgid "Tweet Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:726
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:40
+msgid "Custom tweet message:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:731
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:45
+msgid "Enable Google +1 Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:735
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:49
+msgid "URL for +1:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:740
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:54
+msgid "Enable Facebook Like Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:745
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:59
+msgid "URL to Like:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:750
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:64
+msgid "Enable Email Lock"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:759
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:73
+msgid "Will ask for email (and checked custom data) before download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:777
+msgid "Version & Dates"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:780
+msgid "Current Package Version:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:781
+msgid "Create Date:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:781
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:782
+msgid ""
+"Date format yyyy-mm-dd , If you keep empty, system will set current date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:782
+msgid "Update Date:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:783
+msgid "Publish Date:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:783
+msgid "Date format yyyy-mm-dd , Time format hh:mm , Empty means, immediately"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:784
+msgid "Expire Date:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:784
+msgid "Date format yyyy-mm-dd , Empty means, never expire"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:793
+msgid "Remote File URL"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:793
+msgid ""
+"Here you can use a file url for your download package<br/>like, http://www."
+"domain.com/myfiles.zip<br/><b>If you use this option uploaded files for same "
+"package will be skipped.</b>"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:795
+msgid "Use Direct Link to download file"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:797
+msgid "Enable url protection"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:797
+msgid ""
+"If checked users will not know the actual download url.<br/><b>Important! </"
+"b>enabling this option may occur memory overflow error if you server cache "
+"memory size is smaller than file size"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:798
+msgid "Size"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:798
+msgid "Enter the size of remote file"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:804
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:56
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:66
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:56
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:66
+msgid "Categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:837
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:273
+msgid "Actions"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:842
+msgid "Reset"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:844
+msgid "Update Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:844
+msgid "Create Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:849
+msgid "Package Data Saved Successfully, Now:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:850
+msgid "Manage Packages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:850
+msgid "Add Another"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:850
+msgid "View Pacakge"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:850
+msgid "Hide this message"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:883
+msgid ""
+"upload your icons on '/wp-content/plugins/download-manager/file-type-icons/' "
+"using ftp"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:894
+msgid "Upload file(s) from PC"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:901
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file-front.php:12
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file.php:14
+msgid "Drop files here"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:921
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/file-icon.php:35
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file-front.php:36
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file.php:34
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/icons.php:26
+msgid "Allowed Files"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:1045
+msgid "Preview image"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:1202
+msgid "Must Enter a Package Title"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:1203
+msgid "Must Select a Link Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:1204
+msgid "Must Select a Page Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/add-new-file.php:1207
+msgid "Submission Errors:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:239
+msgid "Bulk Import &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:239
+msgid "Bulk Import"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:240
+msgid "Templates &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:240
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:253
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:235
+msgid "Templates"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:241
+msgid "Subscribers &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:241
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails-template.php:203
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:226
+msgid "Subscribers"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:242
+msgid "Stats &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:242
+msgid "Stats"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:243
+msgid "Add-Ons &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:243
+msgid "Add-Ons"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:244
+msgid "Settings &lsaquo; Download Manager"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/download-manager.php:244
+msgid "Settings"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/file-icon.php:12
+msgid "Select Icon"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/file-icon.php:17
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/icons.php:8
+msgid "Upload New Icon"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:6
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:6
+msgid "Top Level Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:17
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:29
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2345
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2364
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:79
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:92
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:17
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:29
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2175
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2194
+msgid "Downloads"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:18
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:18
+msgid "Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:19
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:28
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:19
+msgid "Add New"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:20
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:20
+msgid "Add New Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:21
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:21
+msgid "Edit Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:22
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:22
+msgid "New Package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:23
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:23
+msgid "All Packages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:25
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:25
+msgid "Search Packages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:26
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:26
+msgid "No Package Found"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:27
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:27
+msgid "No Packages found in Trash"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:57
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:76
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:89
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:57
+msgid "Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:58
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:58
+msgid "Search Categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:59
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:59
+msgid "All Categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:60
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:60
+msgid "Parent Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:61
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:61
+msgid "Parent Category:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:62
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:62
+msgid "Edit Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:63
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:63
+msgid "Update Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:64
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:64
+msgid "Add New Category"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:65
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:65
+msgid "New Category Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:257
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:282
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:445
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:449
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:476
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:501
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:669
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2441
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2465
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2467
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2673
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:257
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:282
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:444
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:448
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:475
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:500
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:667
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2260
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2284
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2286
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2486
+msgid "Download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:270
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:489
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:270
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:488
+msgid "Download was expired on"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:272
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:279
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:310
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:491
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:498
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:529
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:272
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:279
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:310
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:490
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:497
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:528
+msgid "Download:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:277
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:496
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:277
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:495
+msgid "Download will be available from "
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:358
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:578
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:358
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:577
+msgid "Submit"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:437
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:657
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:436
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:655
+msgid "Like or Share to Download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:449
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:669
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:448
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:667
+msgid "Please take any of the actions above to start download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:461
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:460
+msgid "Download limit exceeded!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:547
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:546
+msgid "Login"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:699
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:697
+msgid "Subscribe to download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:794
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:790
+msgid "Tweet to download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:905
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:898
+msgid "Share on Linkedin to download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1006
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:997
+msgid "Google +1 to download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1121
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1110
+msgid "Like on FB to Download"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1335
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1314
+msgid "Welcome Message"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1340
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1319
+msgid "Download link sent to your email!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1344
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1323
+msgid "Download link also sent to your email!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1352
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1723
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1331
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1699
+msgid "Invalid Email Address!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1718
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1694
+msgid "Username is Empty!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1762
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1738
+msgid "Email already exists."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:1768
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:1744
+msgid "User already exists."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2345
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2175
+msgid "Sub-Categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2365
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2195
+msgid "Publish Date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2366
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2196
+msgid "Update Date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2367
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2197
+msgid "Asc"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2368
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2198
+msgid "Desc"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2369
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:40
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2199
+msgid "Search"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2370
+msgid "Order By"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2451
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2270
+msgid "File"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:2894
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2681
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:32
+msgid "Remember Me"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3129
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2915
+msgid "You don't have permission to download this file"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3135
+msgid " )."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3137
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2923
+msgid "Download link is expired or not valid. Please get new download link."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3145
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2931
+msgid "Invalid download link."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3541
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3338
+msgid "Legends"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3542
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3339
+msgid ""
+" Click on the icon to launch media manager to select or upload preview images"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3542
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3339
+msgid " Reload link or page templates."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3548
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3345
+msgid ""
+"<b>Link Label:</b> Label to show with download link, like: download now, get "
+"it now<br/>\n"
+"                                    <b>Password:</b> You can set single or "
+"multiple password for a package. In case of multiple password, each password "
+"have to be inside `[]`, like: [1234][456][789sf] and user will be able to "
+"download package using any one of them<br/>\n"
+"                                    <b>PW Usage Limit:</b> When you are "
+"using multiple password, then you may want set a limit, how many time user "
+"will be able to use a password, you can set the numeric value here, suppose "
+"`n`. So each password will expire after it used for `n` times.<br/>\n"
+"                                    <b>Stock Limit:</b> Should be a numeric "
+"value, suppose `9`. After package dowloaded for `9` times, the no one will "
+"able to download it anymore, will show 'out of stock' message<br/>\n"
+"                                    <b>Download Limit/user:</b> Set a "
+"numeric value here if you want to block user after a certain times of "
+"download for this package.<br/>\n"
+"                                    <b>Access</b>: Check the user roles, you "
+"want to enable to download this package, `All Visitors` will enable every "
+"one to download this package<br/>\n"
+"                                    <b>Link Template:</b> Shortcode will be "
+"rendered based on select link template.<br/>\n"
+"                                    <b>Page Template:</b> Package details "
+"page will be rendered based on selected page template<br/>\n"
+"                                "
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3729
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3481
+msgid "Ask for Visitor's Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3732
+msgid "After submit form:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3734
+msgid "Mail Download Link"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3736
+msgid "Downlaod Instantly"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3750
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:3502
+msgid "Your Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3811
+msgid "Summary"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3812
+msgid "Social"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3813
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:210
+msgid "Messages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3814
+msgid "News Updates"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3821
+msgid "Total Packages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3825
+msgid "Total Downloads"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3829
+msgid "Total Categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3833
+msgid "Total Subscribers"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3837
+msgid "Subscribed Today"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3847
+msgid "Total FB Likes"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3851
+msgid "Total Tweets"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3855
+msgid "Total Google +1"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:3859
+msgid "Total LinkedIn Shares"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4238
+msgid "No related download found!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4272
+msgid ""
+"No package found! Please create at least 1 package to see template preview"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4343
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:4130
+msgid "Attach Dir"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4345
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:4132
+msgid "Attach File"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4547
+msgid "Version"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4550
+msgid "View(s)"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/functions.php:4553
+msgid "Download(s)"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:28
+msgid "Manage Download Packages"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:29
+msgid "Simply Copy and Paste the embed code at anywhere in post contents"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:41
+msgid "Delete Permanently"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:43
+msgid "Apply"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:55
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:311
+msgid "Reset Search"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:73
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:86
+msgid "Icon"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:74
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:87
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:246
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:258
+msgid "ID"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:75
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:88
+msgid "Package Title"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:78
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:91
+msgid "Access"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:141
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/stats/pvupd.php:81
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:296
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-import.php:158
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-list-files-front.php:109
+msgid "&laquo;"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:142
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/stats/pvupd.php:82
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:297
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-import.php:159
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-list-files-front.php:110
+msgid "&raquo;"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/list-files.php:155
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:317
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-import.php:172
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-list-files-front.php:123
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/server-dir-browser.php:78
+msgid "Open Dir Browser"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/server-file-browser.php:97
+msgid "Add file(s) from server"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:35
+msgid "WPDM Affiliate ID:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:78
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:120
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:176
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:265
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:381
+msgid "Title:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:180
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:269
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:391
+msgid "Number of packages to show:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/modules/widgets.php:385
+msgid "Select Category:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/process.php:44
+msgid "Sorry! Download is not available yet."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:63
+msgid ""
+"If you like, you may enter custom structures for your wpdm category and "
+"package URLs here. For example, using \"<b>packages</b>\" as your category "
+"base would make your category links like http://example.org/<b>packages</b>/"
+"category-slug/. If you leave these blank the defaults will be used."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:67
+msgid "WPDM Category URL Base"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:71
+msgid "WPDM Package URL Base"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:75
+msgid "WPDM Archive Page"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:99
+msgid "When user is not allowed to download:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:101
+msgid "Only Block Download Link"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:102
+msgid "Hide Everything"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:107
+msgid "File Browser Root:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:107
+msgid ""
+"Root dir for server file browser.<br/><b>*Don't add tailing slash (/)</b>"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:112
+msgid "File Browser Access:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:113
+msgid "Who will have access to server file browser"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:141
+msgid "Facebook APP ID"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:154
+msgid "Verify DNS:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:156
+msgid "No"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:157
+msgid "Yes"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:162
+msgid "Blocked Domains:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:168
+msgid "Blocked Emails:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:184
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:50
+msgid "When File Already Exists:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:186
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:52
+msgid "Rename New File"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:187
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:53
+msgid "Overwrite"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:214
+msgid "Plugin Update Notice:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:222
+msgid "Permission Denied Message for Packages:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:227
+msgid "Category Access Blocked Message:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:228
+msgid "You are not allowed to access this category!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:233
+msgid ""
+"Login Required Message <em>( use short-code [loginform] inside message box "
+"to integrate login form )</em>:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/basic.php:235
+msgid "Show Only Login Form Instead of Login Required Message"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/emails.php:2921
+msgid "Download link is expired. Please get new download link."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:4
+msgid "Front-end UI Settings"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:8
+msgid "Allowed User Roles to Create Package From Front-end"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:36
+msgid "Message For Blocked Users:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:42
+msgid "When Someone Create a Package:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:44
+msgid "Publish Instantly"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:45
+msgid "Pending for Review"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:58
+msgid "Allowed File Types From Front-end:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:63
+msgid "Max Upload Size From Front-end"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:76
+msgid "Category Page Options"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:85
+msgid "Select Package Info To Show in Category Page:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:86
+msgid "Show Version"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:87
+msgid "Show View Count"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:88
+msgid "Show Download Count"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:89
+msgid "Show Package Size"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:90
+msgid "Show Download Link"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:95
+msgid "Show Package Info:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:97
+msgid "After Excerpt"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:98
+msgid "Before Excerpt"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:109
+msgid "Select Link Template:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/settings/frontend.php:133
+msgid "Selected link template will replace the excerpt"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/stats/pvupd.php:90
+#, php-format
+msgid "Displaying %s&#8211;%s of %s users"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file-front.php:3
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file.php:3
+msgid "Upload"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file-front.php:5
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file.php:7
+msgid "URL"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/attach-file.php:5
+msgid "Browse"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/lock-options.php:19
+msgid "Reset Password Usage Count"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:4
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:7
+msgid "Lock Options"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:5
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:8
+msgid "Icons"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:37
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:52
+msgid "Package&nbsp;Size:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings-front.php:52
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:69
+msgid "All Visitors"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:22
+msgid "Version:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/metaboxes/package-settings.php:42
+msgid "View&nbsp;Count:"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/tpls/wpdm-addons-list.php:199
+msgid "WPDM Add-Ons"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-add-new-file-front.php:109
+msgid "Featured Image"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-add-new-file-front.php:118
+msgid "Add Featured Image"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-core.php:617
+msgid "No categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails-template.php:204
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:227
+msgid "Export All"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails-template.php:205
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:228
+msgid "Export Unique Emails"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails-template.php:210
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:233
+msgid "Emails"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails-template.php:211
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:234
+msgid "Email Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:247
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:259
+msgid "Email"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:248
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:260
+msgid "Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:249
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:261
+msgid "Package Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:250
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:262
+msgid "Date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-emails.php:309
+msgid "Delete Selected"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:255
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:237
+msgid "Create Page Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:255
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:237
+msgid "Create Link Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:265
+msgid ""
+"Pre-designed templates can't be deleted or edited from this section. But you "
+"can clone any of them and edit as your own. If you seriously want to edit "
+"any pre-designed template you have to edit those directly edting php files "
+"at /download-manager/templates/ dir"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:271
+msgid "Template Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:272
+msgid "Template ID"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:330
+msgid "Edit"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:331
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:317
+msgid "Preview"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-link-templates.php:332
+msgid "Delete"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:4
+msgid "You are already logged in."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:4
+msgid "Logout"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:12
+msgid "LogIn"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:16
+msgid "Login Failed!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:21
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:20
+msgid "Username"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:39
+msgid "Forgot Password?"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-login-form.php:39
+msgid "Request New Password."
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:16
+msgid "Full Name"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:24
+msgid "E-mail"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:35
+msgid "Confirm Password"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-reg-form.php:45
+msgid "Join Now!"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-stats.php:256
+msgid "Download Statistics"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-stats.php:260
+msgid "Monthly Stats"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-stats.php:261
+msgid "Package vs Date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-stats.php:262
+msgid "Package vs User"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:242
+msgid "Link Templates"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:243
+msgid "Page Templates"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:244
+msgid "Template Editor"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:258
+msgid "Page"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:258
+msgid "Link"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:258
+msgid "Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:316
+msgid "Code"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:374
+msgid "Save Template"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:401
+msgid "Template Variables"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:411
+msgid "download link open as popup"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:412
+msgid "download link open as page"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:414
+msgid "Package details page url"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:415
+msgid "show package title"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:416
+msgid "show categories"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:417
+msgid "show tags"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:418
+msgid "show icon if available"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:419
+msgid ""
+"show preview thumbnail with specified width and height if available,l eg: "
+"[thumb_700x400] will show 700px &times; 400px image preview "
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:420
+msgid ""
+"returns preview thumbnail url with specified width and height if available,l "
+"eg: [thumb_url_700x400] will return 700px &times; 400px image preview url"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:422
+msgid ""
+"show additional preview thumbnails in gallery format, each image height and "
+"with will be same as specified, eg: [gallery_50x30] will show image gallery "
+"of additional previews and each image size will be 50px &timesx40px"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:423
+msgid "show previews in a slider type gallery"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:425
+msgid ""
+"show a short description of package from description, eg: [excerpt_200] will "
+"show short description with first 200 chars of description"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:426
+msgid "package description"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:427
+msgid "download counter"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:428
+msgid "download url"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:429
+msgid "direct link to download using download link label"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:430
+msgid "number of downloads to expire download quota"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:431
+msgid "show list of all files in a package"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:432
+msgid "show package version"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:433
+msgid "show package create date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:434
+msgid "show package update date"
+msgstr ""
+
+#: /Applications/xampp/htdocs/wpdmpro4x/wp-content/plugins/download-manager/wpdm-template-editor.php:435
+msgid "Show mp3 player with your page or link template."
+msgstr ""

@@ -1,0 +1,157 @@
+0000.003 () Opened log file at time: Tue, 09 Dec 2014 19:40:48 +0000 on http://vine.pma.com
+0000.004 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.42.19 WP: 4.0.1 PHP: 5.5.17 (Linux serv01.siteground284.com 2.6.32.59-sg3 #9 SMP Wed Sep 26 03:29:25 CDT 2012 x86_64) MySQL:  Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.5M | 23M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.019 () Free space on disk containing Updraft's temporary directory: 782234.3 Mb
+0000.019 () Restore job started. Entities to restore: plugins, themes, uploads, others, db
+0000.036 () Entity: db
+0000.036 () restore_backup(backup_file=backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-db.gz, type=db, info=a:0:{}, last_one=)
+0000.036 () Unpacking backup...
+0000.037 () Database successfully unpacked
+0000.038 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.038 () Using direct MySQL access; value of use_mysqli is: 1
+0000.040 () Tried to raise max_allowed_packet from 8 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.040 () Max packet size: 8 Mb
+0000.040 () Entering maintenance mode
+0000.040 () Enabling Maintenance mode&#8230;
+0000.041 () Backup created by: 1.9.42
+0000.042 () <strong>Backup of:</strong> http://vinedev.pma.com
+0000.043 () Content URL: http://vinedev.pma.com/wp-content
+0000.043 () Old table prefix: pys_
+0000.044 () Site information: multisite=0
+0000.048 () New table prefix: rms_
+0000.096 () Restoring table (InnoDB): pys_options - will restore as: rms_options
+0000.364 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.364 () Options table fields changed OK
+0000.365 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.369 () Search and replacing table: rms_options: rows: 267
+0000.453 () Restoring table (InnoDB): pys_users - will restore as: rms_users
+0000.493 () Search and replacing table: rms_users: rows: 3
+0000.495 () Restoring table (InnoDB): pys_usermeta - will restore as: rms_usermeta
+0000.532 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.537 () Usermeta table fields changed OK
+0000.538 () Search and replacing table: rms_usermeta: rows: 59
+0000.543 () Restoring table (InnoDB): pys_commentmeta - will restore as: rms_commentmeta
+0000.584 () Search and replacing table: rms_commentmeta: rows: 0
+0000.584 () Restoring table (InnoDB): pys_comments - will restore as: rms_comments
+0000.610 () Search and replacing table: rms_comments: rows: 5
+0000.611 () Restoring table (InnoDB): pys_links - will restore as: rms_links
+0000.646 () Search and replacing table: rms_links: rows: 0
+0000.647 () Restoring table (InnoDB): pys_postmeta - will restore as: rms_postmeta
+0000.791 () Search and replacing table: rms_postmeta: rows: 7
+0000.824 () Restoring table (InnoDB): pys_posts - will restore as: rms_posts
+0000.949 () Search and replacing table: rms_posts: rows: 246
+0001.087 () Restoring table (InnoDB): pys_term_relationships - will restore as: rms_term_relationships
+0001.116 () Skipping this table: data in this table (rms_term_relationships) should not be search/replaced
+0001.116 () Restoring table (InnoDB): pys_term_taxonomy - will restore as: rms_term_taxonomy
+0001.132 () Search and replacing table: rms_term_taxonomy: rows: 12
+0001.135 () Restoring table (InnoDB): pys_terms - will restore as: rms_terms
+0001.149 () Search and replacing table: rms_terms: rows: 12
+0001.150 () Restoring table (MyISAM): pys_ahm_download_stats - will restore as: rms_ahm_download_stats
+0001.158 () Search and replacing table: rms_ahm_download_stats: rows: 4
+0001.159 () Restoring table (InnoDB): pys_wfBadLeechers - will restore as: rms_wfBadLeechers
+0001.169 () Search and replacing table: rms_wfBadLeechers: rows: 0
+0001.169 () Restoring table (InnoDB): pys_wfBlocks - will restore as: rms_wfBlocks
+0001.180 () Search and replacing table: rms_wfBlocks: rows: 0
+0001.180 () Restoring table (InnoDB): pys_wfBlocksAdv - will restore as: rms_wfBlocksAdv
+0001.188 () Search and replacing table: rms_wfBlocksAdv: rows: 0
+0001.188 () Restoring table (InnoDB): pys_wfConfig - will restore as: rms_wfConfig
+0001.216 () Database queries processed: 50 in 1.18 seconds
+0001.219 () Search and replacing table: rms_wfConfig: rows: 103
+0001.224 () Restoring table (InnoDB): pys_wfCrawlers - will restore as: rms_wfCrawlers
+0001.233 () Search and replacing table: rms_wfCrawlers: rows: 0
+0001.233 () Restoring table (InnoDB): pys_wfFileMods - will restore as: rms_wfFileMods
+0002.550 () Search and replacing table: rms_wfFileMods: rows: 5026
+0002.902 () Searching and replacing reached row: 5000
+0002.907 () Restoring table (InnoDB): pys_wfHits - will restore as: rms_wfHits
+0002.935 () Skipping this table: data in this table (rms_wfHits) should not be search/replaced
+0002.935 () Restoring table (InnoDB): pys_wfHoover - will restore as: rms_wfHoover
+0003.428 () Search and replacing table: rms_wfHoover: rows: 1494
+0003.535 () Restoring table (InnoDB): pys_wfIssues - will restore as: rms_wfIssues
+0003.545 () Search and replacing table: rms_wfIssues: rows: 0
+0003.545 () Restoring table (InnoDB): pys_wfLeechers - will restore as: rms_wfLeechers
+0003.565 () Search and replacing table: rms_wfLeechers: rows: 24
+0003.568 () Restoring table (InnoDB): pys_wfLockedOut - will restore as: rms_wfLockedOut
+0003.578 () Search and replacing table: rms_wfLockedOut: rows: 0
+0003.579 () Restoring table (InnoDB): pys_wfLocs - will restore as: rms_wfLocs
+0003.590 () Search and replacing table: rms_wfLocs: rows: 1
+0003.591 () Restoring table (InnoDB): pys_wfLogins - will restore as: rms_wfLogins
+0003.602 () Search and replacing table: rms_wfLogins: rows: 2
+0003.602 () Restoring table (InnoDB): pys_wfNet404s - will restore as: rms_wfNet404s
+0003.611 () Search and replacing table: rms_wfNet404s: rows: 0
+0003.611 () Restoring table (InnoDB): pys_wfReverseCache - will restore as: rms_wfReverseCache
+0003.621 () Search and replacing table: rms_wfReverseCache: rows: 1
+0003.622 () Restoring table (InnoDB): pys_wfScanners - will restore as: rms_wfScanners
+0003.631 () Search and replacing table: rms_wfScanners: rows: 0
+0003.631 () Restoring table (InnoDB): pys_wfStatus - will restore as: rms_wfStatus
+0003.688 () Search and replacing table: rms_wfStatus: rows: 195
+0003.703 () Restoring table (InnoDB): pys_wfThrottleLog - will restore as: rms_wfThrottleLog
+0003.714 () Search and replacing table: rms_wfThrottleLog: rows: 0
+0003.714 () Restoring table (InnoDB): pys_wfVulnScanners - will restore as: rms_wfVulnScanners
+0003.719 () Leaving maintenance mode
+0003.719 () Disabling Maintenance mode&#8230;
+0003.720 () Search and replacing table: rms_wfVulnScanners: rows: 0
+0003.720 () Finished: lines processed: 96 in 3.68 seconds
+0003.721 () Cleaning up rubbish...
+0003.721 () Begin search and replace (updraftplus_restored_db)
+0003.722 () Restored pre-migration site ID for this installation
+0003.728 () Database search and replace: replace http://vinedev.pma.com in backup dump with http://vine.pma.com
+0003.728 () Search and replacing table: rms_ahm_download_stats: already done
+0003.728 () Search and replacing table: rms_commentmeta: already done
+0003.728 () Search and replacing table: rms_comments: already done
+0003.728 () Search and replacing table: rms_links: already done
+0003.728 () Search and replacing table: rms_options: already done
+0003.728 () Search and replacing table: rms_postmeta: already done
+0003.728 () Search and replacing table: rms_posts: already done
+0003.728 () Search and replacing table: rms_term_relationships: already done
+0003.728 () Search and replacing table: rms_term_taxonomy: already done
+0003.728 () Search and replacing table: rms_terms: already done
+0003.728 () Search and replacing table: rms_usermeta: already done
+0003.728 () Search and replacing table: rms_users: already done
+0003.728 () Search and replacing table: rms_wfBadLeechers: already done
+0003.729 () Search and replacing table: rms_wfBlocks: already done
+0003.729 () Search and replacing table: rms_wfBlocksAdv: already done
+0003.729 () Search and replacing table: rms_wfConfig: already done
+0003.729 () Search and replacing table: rms_wfCrawlers: already done
+0003.729 () Search and replacing table: rms_wfFileMods: already done
+0003.729 () Search and replacing table: rms_wfHits: already done
+0003.729 () Search and replacing table: rms_wfHoover: already done
+0003.729 () Search and replacing table: rms_wfIssues: already done
+0003.729 () Search and replacing table: rms_wfLeechers: already done
+0003.729 () Search and replacing table: rms_wfLockedOut: already done
+0003.729 () Search and replacing table: rms_wfLocs: already done
+0003.729 () Search and replacing table: rms_wfLogins: already done
+0003.729 () Search and replacing table: rms_wfNet404s: already done
+0003.729 () Search and replacing table: rms_wfReverseCache: already done
+0003.729 () Search and replacing table: rms_wfScanners: already done
+0003.729 () Search and replacing table: rms_wfStatus: already done
+0003.729 () Search and replacing table: rms_wfThrottleLog: already done
+0003.729 () Search and replacing table: rms_wfVulnScanners: already done
+0003.732 () Entity: plugins
+0003.732 () restore_backup(backup_file=backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:50:"/home/pma26606/public_html/vine/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0003.732 () Unpacking backup... (backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-plugins.zip, 15.1 Mb)
+0004.380 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.380 () Moving old data: can potentially use wp_filesystem method / -old
+0004.380 () Moving old data out of the way...
+0004.655 () Moving unpacked backup into place...
+0005.033 () Cleaning up rubbish...
+0005.034 () Entity: themes
+0005.034 () restore_backup(backup_file=backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-themes.zip, type=themes, info=a:2:{s:4:"path";s:49:"/home/pma26606/public_html/vine/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0005.034 () Unpacking backup... (backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-themes.zip, 11.5 Mb)
+0005.560 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.561 () Moving old data: can potentially use wp_filesystem method / -old
+0005.561 () Moving old data out of the way...
+0005.908 () Moving unpacked backup into place...
+0006.269 () Cleaning up rubbish...
+0006.270 () Entity: uploads
+0006.270 () restore_backup(backup_file=backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:50:"/home/pma26606/public_html/vine/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0006.270 () Unpacking backup... (backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-uploads.zip, 16 Mb)
+0006.414 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.414 () Moving old data: can potentially use wp_filesystem method / -old
+0006.414 () Moving old data out of the way...
+0006.416 () Moving unpacked backup into place...
+0006.445 () Cleaning up rubbish...
+0006.445 () Entity: others
+0006.446 () restore_backup(backup_file=backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-others.zip, type=others, info=a:2:{s:4:"path";s:42:"/home/pma26606/public_html/vine/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0006.446 () Unpacking backup... (backup_2014-12-09-1923_PMA_Vine_bcc57ddb041b-others.zip, 0 Mb)
+0006.447 () Cleaning up rubbish...
+0006.481 () Restore successful!
+0006.481 () Restore successful

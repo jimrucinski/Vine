@@ -1,0 +1,725 @@
+0000.001 (0) Opened log file at time: Tue, 12 May 2015 13:08:53 +0000 on http://jxr980:8020/vinedev
+0000.005 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46.19 WP: 4.1 PHP: 5.6.3 (Windows NT JXR980 6.1 build 7601 (Windows 7 Business Edition Service Pack 1) i586) MySQL: 5.6.21 Server: Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.2M | 31.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 29683.7 Mb
+0000.018 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.021 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.026 (0) Requesting semaphore lock (fd)
+0000.036 (0) Set semaphore last lock (fd) time to 2015-05-12 13:08:53
+0000.039 (0) Semaphore lock (fd) complete
+0000.057 (0) Backup run: resumption=0, nonce=204b88572cc5, begun at=1431436133 (0s ago), job type=backup
+0000.063 (0) Scheduling a resumption (1) after 600 seconds (1431436733) in case this run gets aborted
+0000.079 (0) Checking if we have a zip executable available
+0000.085 (0) Creation of backups of directories: beginning
+0000.105 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0007.142 (0) Total entities for the zip file: 514 directories, 4358 files (0 skipped as non-modified), 74.2 Mb
+0007.156 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0007.309 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 100 files added (on-disk size: 76.5 Kb)
+0007.455 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 200 files added (on-disk size: 76.5 Kb)
+0007.593 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 300 files added (on-disk size: 76.5 Kb)
+0007.724 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 400 files added (on-disk size: 76.5 Kb)
+0007.862 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 500 files added (on-disk size: 76.5 Kb)
+0007.877 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.5 Mb, 4358 files batched, 501 (502) added so far); re-opening (prior size: 76.5 Kb)
+0008.649 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 600 files added (on-disk size: 1759.3 Kb)
+0008.788 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 700 files added (on-disk size: 1759.3 Kb)
+0008.934 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 800 files added (on-disk size: 1759.3 Kb)
+0009.095 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 900 files added (on-disk size: 1759.3 Kb)
+0009.266 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1000 files added (on-disk size: 1759.3 Kb)
+0009.273 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 Mb, 4358 files batched, 501 (1003) added so far); re-opening (prior size: 1759.3 Kb)
+0010.164 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1100 files added (on-disk size: 3584.5 Kb)
+0010.364 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1200 files added (on-disk size: 3584.5 Kb)
+0010.557 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1300 files added (on-disk size: 3584.5 Kb)
+0010.726 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1400 files added (on-disk size: 3584.5 Kb)
+0010.845 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1500 files added (on-disk size: 3584.5 Kb)
+0010.858 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 Mb, 4358 files batched, 501 (1504) added so far); re-opening (prior size: 3584.5 Kb)
+0011.517 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1600 files added (on-disk size: 4506.3 Kb)
+0011.630 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1700 files added (on-disk size: 4506.3 Kb)
+0011.748 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1800 files added (on-disk size: 4506.3 Kb)
+0011.912 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 1900 files added (on-disk size: 4506.3 Kb)
+0012.045 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2000 files added (on-disk size: 4506.3 Kb)
+0012.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (21.2 Mb, 4358 files batched, 501 (2005) added so far); re-opening (prior size: 4506.3 Kb)
+0014.995 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2100 files added (on-disk size: 11546 Kb)
+0015.129 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2200 files added (on-disk size: 11546 Kb)
+0015.255 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2300 files added (on-disk size: 11546 Kb)
+0015.385 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2400 files added (on-disk size: 11546 Kb)
+0015.512 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2500 files added (on-disk size: 11546 Kb)
+0015.522 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 Mb, 4358 files batched, 501 (2506) added so far); re-opening (prior size: 11546 Kb)
+0016.190 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2600 files added (on-disk size: 13259.6 Kb)
+0016.301 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2700 files added (on-disk size: 13259.6 Kb)
+0016.476 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2800 files added (on-disk size: 13259.6 Kb)
+0016.652 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 2900 files added (on-disk size: 13259.6 Kb)
+0016.811 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3000 files added (on-disk size: 13259.6 Kb)
+0016.826 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.6 Mb, 4358 files batched, 501 (3007) added so far); re-opening (prior size: 13259.6 Kb)
+0019.005 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3100 files added (on-disk size: 19402.4 Kb)
+0019.199 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3200 files added (on-disk size: 19402.4 Kb)
+0019.377 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3300 files added (on-disk size: 19402.4 Kb)
+0019.508 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3400 files added (on-disk size: 19402.4 Kb)
+0019.677 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3500 files added (on-disk size: 19402.4 Kb)
+0019.694 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 Mb, 4358 files batched, 501 (3508) added so far); re-opening (prior size: 19402.4 Kb)
+0020.595 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3600 files added (on-disk size: 21402.8 Kb)
+0020.771 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3700 files added (on-disk size: 21402.8 Kb)
+0020.927 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3800 files added (on-disk size: 21402.8 Kb)
+0021.101 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 3900 files added (on-disk size: 21402.8 Kb)
+0021.316 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 4000 files added (on-disk size: 21402.8 Kb)
+0021.332 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 Mb, 4358 files batched, 501 (4009) added so far); re-opening (prior size: 21402.8 Kb)
+0022.536 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 4100 files added (on-disk size: 23519.1 Kb)
+0022.697 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 4200 files added (on-disk size: 23519.1 Kb)
+0023.036 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip.tmp: 4300 files added (on-disk size: 23519.1 Kb)
+0025.198 (0) Created plugins zip (0) - 25961.9 Kb in 25 s (1036.5 Kb/s) (SHA1 checksum: 7d0bc6bdaf8e489e6fa15abcf7e0c192d7a9c1fe)
+0025.210 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0029.196 (0) Total entities for the zip file: 477 directories, 1884 files (0 skipped as non-modified), 19 Mb
+0029.210 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0029.378 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 100 files added (on-disk size: 85.5 Kb)
+0029.527 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 200 files added (on-disk size: 85.5 Kb)
+0029.735 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 300 files added (on-disk size: 85.5 Kb)
+0029.920 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 400 files added (on-disk size: 85.5 Kb)
+0030.082 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 500 files added (on-disk size: 85.5 Kb)
+0030.087 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 Mb, 1884 files batched, 501 (502) added so far); re-opening (prior size: 85.5 Kb)
+0030.895 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 600 files added (on-disk size: 4464.8 Kb)
+0031.123 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 700 files added (on-disk size: 4464.8 Kb)
+0031.286 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 800 files added (on-disk size: 4464.8 Kb)
+0031.440 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 900 files added (on-disk size: 4464.8 Kb)
+0031.635 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1000 files added (on-disk size: 4464.8 Kb)
+0031.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 Mb, 1884 files batched, 501 (1003) added so far); re-opening (prior size: 4464.8 Kb)
+0032.624 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1100 files added (on-disk size: 6665.5 Kb)
+0032.771 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1200 files added (on-disk size: 6665.5 Kb)
+0032.892 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1300 files added (on-disk size: 6665.5 Kb)
+0033.001 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1400 files added (on-disk size: 6665.5 Kb)
+0033.140 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1500 files added (on-disk size: 6665.5 Kb)
+0033.153 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 Mb, 1884 files batched, 501 (1504) added so far); re-opening (prior size: 6665.5 Kb)
+0033.995 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1600 files added (on-disk size: 8882.6 Kb)
+0034.147 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1700 files added (on-disk size: 8882.6 Kb)
+0034.273 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip.tmp: 1800 files added (on-disk size: 8882.6 Kb)
+0034.954 (0) Created themes zip (0) - 12182.9 Kb in 9.7 s (1255.1 Kb/s) (SHA1 checksum: 9f084bb8db08db0952d764f1b5f387a2d66b675e)
+0034.965 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0034.968 (0) Looking for candidates to back up in: C:\xampp\htdocs\VineDev/wp-content/uploads
+0034.972 (0) finding files: 2011: adding to list (1)
+0034.975 (0) finding files: 2014: adding to list (2)
+0034.978 (0) finding files: 2015: adding to list (3)
+0034.981 (0) finding files: avatars: adding to list (4)
+0034.984 (0) finding files: builder-export-data: adding to list (5)
+0034.988 (0) finding files: download-manager-files: adding to list (6)
+0034.991 (0) finding files: et_temp: adding to list (7)
+0035.005 (0) finding files: featured_image.jpg: adding to list (8)
+0035.010 (0) finding files: Headshots: adding to list (9)
+0035.013 (0) finding files: it-file-cache: adding to list (10)
+0035.016 (0) finding files: sp-client-document-manager: adding to list (11)
+0035.019 (0) finding files: userphoto: adding to list (12)
+0035.022 (0) finding files: users_csv: adding to list (13)
+0035.025 (0) finding files: wa-core: adding to list (14)
+0035.027 (0) finding files: wpscSupportTickets: adding to list (15)
+0035.030 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0035.995 (0) Total entities for the zip file: 29 directories, 920 files (0 skipped as non-modified), 275.4 Mb
+0036.132 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0036.258 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0036.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (25.6 Mb, 920 files batched, 278 (278) added so far); re-opening (prior size: 0 Kb)
+0038.319 (0) A useful amount of data was added after this amount of zip processing: 3.5 s (normalised: 3.4 s, rate: 7488 Kb/s)
+0038.326 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.4968600273132, normalised_time=3.4187833487046, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=46006542)
+0038.353 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 300 files added (on-disk size: 25903.5 Kb)
+0038.449 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 43.9 Mb added on this batch (47.3 Mb, 920 files batched, 104 (382) added so far); re-opening (prior size: 25903.5 Kb)
+0041.343 (0) A useful amount of data was added after this amount of zip processing: 3.5 s (normalised: 3.3 s, rate: 13744.1 Kb/s)
+0041.349 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.5211620330811, normalised_time=3.2689103695343, max_time=-1, data points known=0, old_max_bytes=46006542, new_max_bytes=84443811)
+0041.372 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 400 files added (on-disk size: 74196 Kb)
+0041.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 80.5 Mb added on this batch (84.4 Mb, 920 files batched, 96 (478) added so far); re-opening (prior size: 74196 Kb)
+0046.835 (0) A useful amount of data was added after this amount of zip processing: 6 s (normalised: 5.7 s, rate: 14368.9 Kb/s)
+0046.849 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.0127120018005, normalised_time=5.7391133447219, max_time=-1, data points known=0, old_max_bytes=84443811, new_max_bytes=88282428)
+0046.874 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 500 files added (on-disk size: 160402.3 Kb)
+0046.957 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 84.2 Mb added on this batch (90 Mb, 920 files batched, 104 (582) added so far); re-opening (prior size: 160402.3 Kb)
+0053.029 (0) A useful amount of data was added after this amount of zip processing: 6.2 s (normalised: 5.8 s, rate: 14851.1 Kb/s)
+0053.037 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.2073309421539, normalised_time=5.805199067882, max_time=-1, data points known=0, old_max_bytes=88282428, new_max_bytes=91244858)
+0053.061 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 600 files added (on-disk size: 252384.4 Kb)
+0053.155 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 700 files added (on-disk size: 252384.4 Kb)
+0053.246 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 800 files added (on-disk size: 252384.4 Kb)
+0053.333 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip.tmp: 900 files added (on-disk size: 252384.4 Kb)
+0057.332 (0) Created uploads zip (0) - 279739.2 Kb in 22.3 s (12564 Kb/s) (SHA1 checksum: 97d076e71194c2c05c3c9cace0f57cbd72dce38a)
+0057.344 (0) Exclusion option setting (wpcore): 
+0057.347 (0) Looking for candidates to back up in: C:\xampp\htdocs\VineDev
+0057.351 (0) finding files: .git: adding to list (1)
+0057.354 (0) finding files: .htaccess: adding to list (2)
+0057.357 (0) finding files: .project: adding to list (3)
+0057.361 (0) finding files: bootstrap.php: adding to list (4)
+0057.364 (0) finding files: cgi-bin: adding to list (5)
+0057.367 (0) finding files: index.php: adding to list (6)
+0057.370 (0) finding files: license.txt: adding to list (7)
+0057.373 (0) finding files: nbproject: adding to list (8)
+0057.376 (0) finding files: Pdo.php: adding to list (9)
+0057.379 (0) finding files: php5.ini: adding to list (10)
+0057.383 (0) finding files: php_errorlog: adding to list (11)
+0057.386 (0) finding files: php_mail.log: adding to list (12)
+0057.389 (0) finding files: PMA: adding to list (13)
+0057.392 (0) finding files: PMA-Docs: adding to list (14)
+0057.395 (0) finding files: PmaTicket.php: adding to list (15)
+0057.397 (0) finding files: pmavine.zip: adding to list (16)
+0057.400 (0) finding files: readme.html: adding to list (17)
+0057.403 (0) finding files: TestPdo.php: adding to list (18)
+0057.406 (0) finding files: wp-activate.php: adding to list (19)
+0057.410 (0) finding files: wp-admin: adding to list (20)
+0057.413 (0) finding files: wp-blog-header.php: adding to list (21)
+0057.416 (0) finding files: wp-comments-post.php: adding to list (22)
+0057.419 (0) finding files: wp-config-sample.php: adding to list (23)
+0057.422 (0) finding files: wp-config.php: adding to list (24)
+0057.425 (0) finding files: wp-content: skipping: this is the wp-content directory
+0057.434 (0) finding files: wp-cron.php: adding to list (25)
+0057.437 (0) finding files: wp-includes: adding to list (26)
+0057.441 (0) finding files: wp-links-opml.php: adding to list (27)
+0057.450 (0) finding files: wp-load.php: adding to list (28)
+0057.453 (0) finding files: wp-login.php: adding to list (29)
+0057.462 (0) finding files: wp-mail.php: adding to list (30)
+0057.465 (0) finding files: wp-settings.php: adding to list (31)
+0057.467 (0) finding files: wp-signup.php: adding to list (32)
+0057.470 (0) finding files: wp-trackback.php: adding to list (33)
+0057.472 (0) finding files: xmlrpc.php: adding to list (34)
+0057.475 (0) Beginning creation of dump of wpcore (split every: 500 Mb)
+0069.009 (0) Total entities for the zip file: 383 directories, 9754 files (0 skipped as non-modified), 4784.6 Mb
+0069.020 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0069.229 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 100 files added (on-disk size: 45.8 Kb)
+0069.400 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 200 files added (on-disk size: 45.8 Kb)
+0069.507 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 300 files added (on-disk size: 45.8 Kb)
+0069.655 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 400 files added (on-disk size: 45.8 Kb)
+0069.853 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 500 files added (on-disk size: 45.8 Kb)
+0069.922 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (29.6 Mb, 9754 files batched, 501 (502) added so far); re-opening (prior size: 45.8 Kb)
+0072.719 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 600 files added (on-disk size: 29399.5 Kb)
+0072.852 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 700 files added (on-disk size: 29399.5 Kb)
+0072.976 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 800 files added (on-disk size: 29399.5 Kb)
+0073.098 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 900 files added (on-disk size: 29399.5 Kb)
+0073.218 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 1000 files added (on-disk size: 29399.5 Kb)
+0073.228 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (25.2 Mb, 9754 files batched, 501 (1003) added so far); re-opening (prior size: 29399.5 Kb)
+0075.484 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip.tmp: 1100 files added (on-disk size: 55319.4 Kb)
+0075.593 (0) [Warning] A very large file was encountered: .git/objects/21/c01c5681ca5dd28ed1b520928d8838bb975d2c (size: 499 Mb)
+0075.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 87 Mb added on this batch (506.7 Mb, 9754 files batched, 178 (1181) added so far); re-opening (prior size: 55319.4 Kb)
+0107.517 (0) A useful amount of data was added after this amount of zip processing: 32.7 s (normalised: 5.6 s, rate: 15868.3 Kb/s)
+0107.536 (0) Performance is good - will increase the amount of data we attempt to batch (time=32.69477891922, normalised_time=5.6153516783266, max_time=-1, data points known=0, old_max_bytes=91244858, new_max_bytes=97495077)
+0107.557 (0) Zip size is at/near split limit (560.8 Mb / 500 Mb) - bumping index (from: 0)
+0110.705 (0) Created wpcore zip (0) - 574245 Kb in 50 s (11477.1 Kb/s) (SHA1 checksum: 8fe1151a828486fd58c09ced0b25f6518e0b78a5)
+0110.718 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1182) files added so far); re-opening (prior size: 0 Kb)
+0110.735 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1200 files added (on-disk size: 1.1 Kb)
+0110.793 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1300 files added (on-disk size: 1.1 Kb)
+0110.868 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1400 files added (on-disk size: 1.1 Kb)
+0110.938 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1500 files added (on-disk size: 1.1 Kb)
+0111.004 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1600 files added (on-disk size: 1.1 Kb)
+0111.062 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (40.5 Mb, 9754 files batched, 501 (1683) added so far); re-opening (prior size: 1.1 Kb)
+0114.377 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1700 files added (on-disk size: 41529.8 Kb)
+0114.455 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1800 files added (on-disk size: 41529.8 Kb)
+0114.529 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 1900 files added (on-disk size: 41529.8 Kb)
+0114.641 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2000 files added (on-disk size: 41529.8 Kb)
+0114.756 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2100 files added (on-disk size: 41529.8 Kb)
+0114.793 (0) [Warning] A very large file was encountered: .git/objects/3e/90c6b574cdefa6413e144932ab17dff9c44247 (size: 273.2 Mb)
+0114.797 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (333.3 Mb, 9754 files batched, 453 (2136) added so far); re-opening (prior size: 41529.8 Kb)
+0135.513 (0) A useful amount of data was added after this amount of zip processing: 21.7 s (normalised: 6.1 s, rate: 15735.7 Kb/s)
+0135.566 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2200 files added (on-disk size: 382981.9 Kb)
+0135.636 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2300 files added (on-disk size: 382981.9 Kb)
+0135.713 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2400 files added (on-disk size: 382981.9 Kb)
+0135.788 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2500 files added (on-disk size: 382981.9 Kb)
+0136.025 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2600 files added (on-disk size: 382981.9 Kb)
+0136.061 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (43 Mb, 9754 files batched, 501 (2637) added so far); re-opening (prior size: 382981.9 Kb)
+0145.943 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2700 files added (on-disk size: 427102.5 Kb)
+0146.379 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2800 files added (on-disk size: 427102.5 Kb)
+0146.828 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 2900 files added (on-disk size: 427102.5 Kb)
+0146.967 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 3000 files added (on-disk size: 427102.5 Kb)
+0147.088 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip.tmp: 3100 files added (on-disk size: 427102.5 Kb)
+0147.125 (0) [Warning] A very large file was encountered: .git/objects/5c/1e61d2ae742194e72f17c695b478385960de42 (size: 495.1 Mb)
+0147.137 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (525.7 Mb, 9754 files batched, 493 (3130) added so far); re-opening (prior size: 427102.5 Kb)
+0212.932 (0) A useful amount of data was added after this amount of zip processing: 68.1 s (normalised: 12 s, rate: 7904 Kb/s)
+0212.947 (0) Zip size is at/near split limit (943 Mb / 500 Mb) - bumping index (from: 1)
+0219.724 (0) Created wpcore zip (1) - 965619 Kb in 102.3 s (9443.1 Kb/s) (SHA1 checksum: ad890c88f3716b43e45eaf961d4642c57c3c4995)
+0219.757 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (3131) files added so far); re-opening (prior size: 0 Kb)
+0219.950 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3200 files added (on-disk size: 1.6 Kb)
+0220.270 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3300 files added (on-disk size: 1.6 Kb)
+0220.345 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3400 files added (on-disk size: 1.6 Kb)
+0220.421 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3500 files added (on-disk size: 1.6 Kb)
+0220.499 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3600 files added (on-disk size: 1.6 Kb)
+0220.529 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (65.9 Mb, 9754 files batched, 501 (3632) added so far); re-opening (prior size: 1.6 Kb)
+0227.060 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3700 files added (on-disk size: 67598.5 Kb)
+0227.135 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3800 files added (on-disk size: 67598.5 Kb)
+0227.188 (0) [Warning] A very large file was encountered: .git/objects/70/653eaf6b44884e9a155d30ff4350a954bd50c4 (size: 273.2 Mb)
+0227.199 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (319.9 Mb, 9754 files batched, 222 (3854) added so far); re-opening (prior size: 67598.5 Kb)
+0257.268 (0) A useful amount of data was added after this amount of zip processing: 30.4 s (normalised: 8.8 s, rate: 10760.2 Kb/s)
+0257.312 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 3900 files added (on-disk size: 395291.2 Kb)
+0257.401 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 4000 files added (on-disk size: 395291.2 Kb)
+0257.483 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 4100 files added (on-disk size: 395291.2 Kb)
+0257.566 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip.tmp: 4200 files added (on-disk size: 395291.2 Kb)
+0257.589 (0) [Warning] A very large file was encountered: .git/objects/7a/659d12f54711886667f72f1ff4731a6b6dc76a (size: 273.2 Mb)
+0257.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (299.9 Mb, 9754 files batched, 365 (4219) added so far); re-opening (prior size: 395291.2 Kb)
+0297.264 (0) A useful amount of data was added after this amount of zip processing: 40.4 s (normalised: 12.5 s, rate: 7593.3 Kb/s)
+0297.292 (0) Zip size is at/near split limit (686 Mb / 500 Mb) - bumping index (from: 2)
+0301.145 (0) Created wpcore zip (2) - 702495.4 Kb in 77.6 s (9057.1 Kb/s) (SHA1 checksum: 111b74230455c89346b16ce24cd94b313672d177)
+0301.160 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (4220) files added so far); re-opening (prior size: 0 Kb)
+0301.220 (0) [Warning] A very large file was encountered: .git/objects/7b/ac6768c4bbe822f5ed1d377254de7293e7bd15 (size: 273.2 Mb)
+0301.225 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (273.4 Mb, 9754 files batched, 49 (4269) added so far); re-opening (prior size: 28.5 Kb)
+0325.656 (0) A useful amount of data was added after this amount of zip processing: 24.8 s (normalised: 8.4 s, rate: 11271.5 Kb/s)
+0325.686 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4300 files added (on-disk size: 279994.4 Kb)
+0325.762 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4400 files added (on-disk size: 279994.4 Kb)
+0325.836 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4500 files added (on-disk size: 279994.4 Kb)
+0326.683 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4600 files added (on-disk size: 279994.4 Kb)
+0326.756 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4700 files added (on-disk size: 279994.4 Kb)
+0326.828 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (44.4 Mb, 9754 files batched, 501 (4770) added so far); re-opening (prior size: 279994.4 Kb)
+0339.077 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4800 files added (on-disk size: 325531.8 Kb)
+0339.160 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 4900 files added (on-disk size: 325531.8 Kb)
+0339.255 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 5000 files added (on-disk size: 325531.8 Kb)
+0339.324 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip.tmp: 5100 files added (on-disk size: 325531.8 Kb)
+0339.371 (0) [Warning] A very large file was encountered: .git/objects/95/23afd1c02a86b0b032abc743c0419377f12c18 (size: 273.2 Mb)
+0339.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (356.4 Mb, 9754 files batched, 369 (5139) added so far); re-opening (prior size: 325531.8 Kb)
+0381.110 (0) A useful amount of data was added after this amount of zip processing: 42.3 s (normalised: 11 s, rate: 8630.5 Kb/s)
+0381.132 (0) Zip size is at/near split limit (674.4 Mb / 500 Mb) - bumping index (from: 3)
+0386.458 (0) Created wpcore zip (3) - 690609.2 Kb in 80 s (8634.5 Kb/s) (SHA1 checksum: 74f0b9bd845586c7957f72486cf38004824da6d5)
+0386.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (5140) files added so far); re-opening (prior size: 0 Kb)
+0386.570 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5200 files added (on-disk size: 2.1 Kb)
+0386.633 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5300 files added (on-disk size: 2.1 Kb)
+0386.698 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5400 files added (on-disk size: 2.1 Kb)
+0386.754 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (160.1 Mb, 9754 files batched, 335 (5475) added so far); re-opening (prior size: 2.1 Kb)
+0399.154 (0) A useful amount of data was added after this amount of zip processing: 13.3 s (normalised: 7.7 s, rate: 12300.2 Kb/s)
+0399.199 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5500 files added (on-disk size: 164073 Kb)
+0399.271 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5600 files added (on-disk size: 164073 Kb)
+0399.339 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5700 files added (on-disk size: 164073 Kb)
+0399.412 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5800 files added (on-disk size: 164073 Kb)
+0399.496 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 5900 files added (on-disk size: 164073 Kb)
+0399.553 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (67.3 Mb, 9754 files batched, 501 (5976) added so far); re-opening (prior size: 164073 Kb)
+0410.011 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 6000 files added (on-disk size: 233075 Kb)
+0411.084 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 6100 files added (on-disk size: 233075 Kb)
+0411.198 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 6200 files added (on-disk size: 233075 Kb)
+0411.303 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 6300 files added (on-disk size: 233075 Kb)
+0411.393 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip.tmp: 6400 files added (on-disk size: 233075 Kb)
+0411.447 (0) [Warning] A very large file was encountered: .git/objects/be/0e5646551247441ef567363e28e564178b6c10 (size: 273.2 Mb)
+0411.460 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (310.1 Mb, 9754 files batched, 477 (6453) added so far); re-opening (prior size: 233075 Kb)
+0444.635 (0) A useful amount of data was added after this amount of zip processing: 34.8 s (normalised: 10.4 s, rate: 9122.5 Kb/s)
+0444.647 (0) Zip size is at/near split limit (537.9 Mb / 500 Mb) - bumping index (from: 4)
+0447.313 (0) Created wpcore zip (4) - 550800.1 Kb in 58.1 s (9472.9 Kb/s) (SHA1 checksum: 634ce20460176179b4317fe1bf8e06ef7235c49f)
+0447.333 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (6454) files added so far); re-opening (prior size: 0 Kb)
+0447.378 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 6500 files added (on-disk size: 0.7 Kb)
+0447.441 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 6600 files added (on-disk size: 0.7 Kb)
+0447.514 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 6700 files added (on-disk size: 0.7 Kb)
+0447.593 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 6800 files added (on-disk size: 0.7 Kb)
+0447.664 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 6900 files added (on-disk size: 0.7 Kb)
+0447.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (51.5 Mb, 9754 files batched, 501 (6955) added so far); re-opening (prior size: 0.7 Kb)
+0453.115 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 7000 files added (on-disk size: 52824.6 Kb)
+0453.282 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 7100 files added (on-disk size: 52824.6 Kb)
+0453.376 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip.tmp: 7200 files added (on-disk size: 52824.6 Kb)
+0453.432 (0) [Warning] A very large file was encountered: .git/objects/d5/5b106b7983bf8104842496de60d13259926e07 (size: 498.8 Mb)
+0453.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (518.1 Mb, 9754 files batched, 311 (7266) added so far); re-opening (prior size: 52824.6 Kb)
+0499.539 (0) A useful amount of data was added after this amount of zip processing: 46.7 s (normalised: 8.4 s, rate: 11357.2 Kb/s)
+0499.545 (0) Zip size is at/near split limit (569.9 Mb / 500 Mb) - bumping index (from: 5)
+0502.320 (0) Created wpcore zip (5) - 583539.4 Kb in 52.2 s (11172.4 Kb/s) (SHA1 checksum: b613e80de63f30ee3c91c013b82871e265bd1410)
+0502.344 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (7267) files added so far); re-opening (prior size: 0 Kb)
+0502.375 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7300 files added (on-disk size: 0.3 Kb)
+0502.445 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7400 files added (on-disk size: 0.3 Kb)
+0502.522 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7500 files added (on-disk size: 0.3 Kb)
+0502.589 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7600 files added (on-disk size: 0.3 Kb)
+0502.660 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7700 files added (on-disk size: 0.3 Kb)
+0502.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (89.3 Mb, 9754 files batched, 501 (7768) added so far); re-opening (prior size: 0.3 Kb)
+0510.622 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7800 files added (on-disk size: 91559.7 Kb)
+0510.694 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 7900 files added (on-disk size: 91559.7 Kb)
+0510.765 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 8000 files added (on-disk size: 91559.7 Kb)
+0510.836 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip.tmp: 8100 files added (on-disk size: 91559.7 Kb)
+0510.857 (0) [Warning] A very large file was encountered: .git/objects/ed/cd8d7daa1f71ce2d88ca0c418b36f5b1ce942b (size: 660.1 Mb)
+0510.861 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 93 Mb added on this batch (681.9 Mb, 9754 files batched, 347 (8115) added so far); re-opening (prior size: 91559.7 Kb)
+0573.666 (0) The time we have been running (573.6) is approaching the resumption interval (600) - increasing resumption interval to 604
+0573.693 (0) The scheduled resumption is within 45 seconds - will reschedule
+0573.706 (0) Rescheduling resumption 1: moving to 649 seconds from now (1431437355)
+0573.722 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 604 + 45 = 649
+0573.726 (0) A useful amount of data was added after this amount of zip processing: 63.9 s (normalised: 8.7 s, rate: 10927.3 Kb/s)
+0573.756 (0) Zip size is at/near split limit (771.5 Mb / 500 Mb) - bumping index (from: 6)
+0580.512 (0) Created wpcore zip (6) - 790037.8 Kb in 71.4 s (11059.2 Kb/s) (SHA1 checksum: 21e1781fae46887c38679cf4942bee450545b237)
+0580.550 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (8116) files added so far); re-opening (prior size: 0 Kb)
+0580.624 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8200 files added (on-disk size: 0.3 Kb)
+0580.702 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8300 files added (on-disk size: 0.3 Kb)
+0580.770 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8400 files added (on-disk size: 0.3 Kb)
+0580.858 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8500 files added (on-disk size: 0.3 Kb)
+0580.946 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8600 files added (on-disk size: 0.3 Kb)
+0580.979 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (24.9 Mb, 9754 files batched, 501 (8617) added so far); re-opening (prior size: 0.3 Kb)
+0583.817 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8700 files added (on-disk size: 25608.3 Kb)
+0584.184 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8800 files added (on-disk size: 25608.3 Kb)
+0584.288 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 8900 files added (on-disk size: 25608.3 Kb)
+0584.374 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9000 files added (on-disk size: 25608.3 Kb)
+0584.455 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9100 files added (on-disk size: 25608.3 Kb)
+0584.484 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 Mb, 9754 files batched, 501 (9118) added so far); re-opening (prior size: 25608.3 Kb)
+0585.412 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9200 files added (on-disk size: 28548.6 Kb)
+0585.527 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9300 files added (on-disk size: 28548.6 Kb)
+0585.642 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9400 files added (on-disk size: 28548.6 Kb)
+0585.776 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9500 files added (on-disk size: 28548.6 Kb)
+0586.452 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9600 files added (on-disk size: 28548.6 Kb)
+0586.483 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.5 Mb, 9754 files batched, 501 (9619) added so far); re-opening (prior size: 28548.6 Kb)
+0588.455 (0) Zip: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip.tmp: 9700 files added (on-disk size: 30971.9 Kb)
+0589.385 (0) Created wpcore zip (7) - 32059.1 Kb in 8.9 s (3621.7 Kb/s) (SHA1 checksum: cd733d577f53970907fdea592082c70321b3f810)
+0589.414 (0) Beginning backup of other directories found in the content directory (index: 0)
+0589.425 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0589.429 (0) Looking for candidates to back up in: C:\xampp\htdocs\VineDev/wp-content
+0589.433 (0) finding files: index.php: adding to list (1)
+0589.435 (0) finding files: index.php-old: adding to list (2)
+0589.444 (0) finding files: modules: adding to list (3)
+0589.460 (0) finding files: plugins: skipping: this is the plugins directory
+0589.467 (0) finding files: plugins-old: adding to list (4)
+0589.470 (0) finding files: themes: skipping: this is the themes directory
+0589.472 (0) finding files: themes-old: adding to list (5)
+0589.476 (0) finding files: updraft: skipping: this is the updraft directory
+0589.479 (0) finding files: upgrade: skipping: excluded by options
+0589.481 (0) finding files: uploads: skipping: this is the uploads directory
+0589.484 (0) finding files: uploads-old: adding to list (6)
+0589.487 (0) finding files: usersultramedia: adding to list (7)
+0589.586 (0) Total entities for the zip file: 7 directories, 11 files (0 skipped as non-modified), 0.6 Mb
+0589.662 (0) Created others zip (0) - 569.9 Kb in 0.1 s (5325.9 Kb/s) (SHA1 checksum: ea853983929079fe9e98457892baf947d7846a3b)
+0589.675 (0) No backup of more: excluded by user's options
+0589.700 (0) Saving backup status to database (elements: 17)
+0589.708 (0) Beginning creation of database dump (WordPress DB)
+0589.744 (0) Table rms_options: Total expected rows (approximate): 389
+0589.821 (0) Table rms_options: Total rows added: 395 in 0.07 seconds
+0590.262 (0) Table rms_options: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_options.table.gz - 151.5 Kb)
+0590.574 (0) Table rms_users: Total expected rows (approximate): 87
+0590.595 (0) Table rms_users: Total rows added: 90 in 0.01 seconds
+0590.598 (0) Table rms_users: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_users.table.gz - 5.2 Kb)
+0590.643 (0) Table rms_usermeta: Total expected rows (approximate): 1157
+0590.698 (0) Table rms_usermeta: Total rows added: 1237 in 0.05 seconds
+0590.709 (0) Table rms_usermeta: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_usermeta.table.gz - 11.4 Kb)
+0590.742 (0) Table rms_commentmeta: Total expected rows (approximate): 0
+0590.752 (0) Table rms_commentmeta: Total rows added: 0 in 0.01 seconds
+0590.758 (0) Table rms_commentmeta: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_commentmeta.table.gz - 0.3 Kb)
+0590.776 (0) Table rms_comments: Total expected rows (approximate): 1
+0590.786 (0) Table rms_comments: Total rows added: 1 in 0.01 seconds
+0590.791 (0) Table rms_comments: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_comments.table.gz - 0.8 Kb)
+0590.835 (0) Table rms_links: Total expected rows (approximate): 0
+0590.845 (0) Table rms_links: Total rows added: 0 in 0.01 seconds
+0590.849 (0) Table rms_links: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_links.table.gz - 0.4 Kb)
+0590.868 (0) Table rms_postmeta: Total expected rows (approximate): 1041
+0590.954 (0) Table rms_postmeta: Total rows added: 1159 in 0.08 seconds
+0590.960 (0) Table rms_postmeta: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_postmeta.table.gz - 16.8 Kb)
+0591.021 (0) Table rms_posts: Total expected rows (approximate): 558
+0591.348 (0) Table rms_posts: Total rows added: 618 in 0.31 seconds
+0591.355 (0) Table rms_posts: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_posts.table.gz - 68.3 Kb)
+0591.422 (0) Table rms_term_relationships: Total expected rows (approximate): 49
+0591.450 (0) Table rms_term_relationships: Total rows added: 45 in 0.01 seconds
+0591.468 (0) Table rms_term_relationships: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_term_relationships.table.gz - 0.5 Kb)
+0591.532 (0) Table rms_term_taxonomy: Total expected rows (approximate): 16
+0591.546 (0) Table rms_term_taxonomy: Total rows added: 16 in 0.01 seconds
+0591.557 (0) Table rms_term_taxonomy: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_term_taxonomy.table.gz - 0.5 Kb)
+0591.587 (0) Table rms_terms: Total expected rows (approximate): 16
+0591.603 (0) Table rms_terms: Total rows added: 16 in 0.01 seconds
+0591.609 (0) Table rms_terms: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_terms.table.gz - 0.6 Kb)
+0591.625 (0) Skipping table (lacks our prefix (rms_)): pma_department_request_types
+0591.651 (0) Skipping table (lacks our prefix (rms_)): pma_departments
+0591.672 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_agents
+0591.698 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_comments
+0591.718 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_disallowed_file_extensions
+0591.756 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_file_upload_mime_types
+0591.763 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_file_uploads
+0591.769 (0) Skipping table (lacks our prefix (rms_)): pma_ticket_status
+0591.780 (0) Skipping table (lacks our prefix (rms_)): pma_tickets
+0591.811 (0) Table rms_ahm_download_stats: Total expected rows (approximate): 10
+0592.135 (0) Table rms_ahm_download_stats: Total rows added: 10 in 0.01 seconds
+0592.347 (0) Table rms_ahm_download_stats: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_ahm_download_stats.table.gz - 0.5 Kb)
+0592.366 (0) Table rms_ahm_emails: Total expected rows (approximate): 0
+0592.378 (0) Table rms_ahm_emails: Total rows added: 0 in 0.01 seconds
+0592.388 (0) Table rms_ahm_emails: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_ahm_emails.table.gz - 0.3 Kb)
+0592.440 (0) Table rms_js_ticket_activity_log: Total expected rows (approximate): 5
+0592.447 (0) Table rms_js_ticket_activity_log: Total rows added: 5 in 0.01 seconds
+0592.451 (0) Table rms_js_ticket_activity_log: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_activity_log.table.gz - 0.5 Kb)
+0592.467 (0) Table rms_js_ticket_attachments: Total expected rows (approximate): 0
+0592.483 (0) Table rms_js_ticket_attachments: Total rows added: 0 in 0.01 seconds
+0592.493 (0) Table rms_js_ticket_attachments: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_attachments.table.gz - 0.4 Kb)
+0592.517 (0) Table rms_js_ticket_config: Total expected rows (approximate): 58
+0592.529 (0) Table rms_js_ticket_config: Total rows added: 58 in 0.01 seconds
+0592.539 (0) Table rms_js_ticket_config: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_config.table.gz - 0.9 Kb)
+0592.554 (0) Table rms_js_ticket_departments: Total expected rows (approximate): 3
+0592.569 (0) Table rms_js_ticket_departments: Total rows added: 3 in 0.01 seconds
+0592.578 (0) Table rms_js_ticket_departments: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_departments.table.gz - 0.5 Kb)
+0592.604 (0) Table rms_js_ticket_email: Total expected rows (approximate): 4
+0592.620 (0) Table rms_js_ticket_email: Total rows added: 4 in 0.01 seconds
+0592.635 (0) Table rms_js_ticket_email: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_email.table.gz - 0.7 Kb)
+0592.659 (0) Table rms_js_ticket_emailtemplates: Total expected rows (approximate): 18
+0592.674 (0) Table rms_js_ticket_emailtemplates: Total rows added: 18 in 0.01 seconds
+0592.678 (0) Table rms_js_ticket_emailtemplates: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_emailtemplates.table.gz - 1.5 Kb)
+0592.715 (0) Table rms_js_ticket_priorities: Total expected rows (approximate): 4
+0592.724 (0) Table rms_js_ticket_priorities: Total rows added: 4 in 0.01 seconds
+0592.728 (0) Table rms_js_ticket_priorities: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_priorities.table.gz - 0.4 Kb)
+0592.757 (0) Table rms_js_ticket_replies: Total expected rows (approximate): 1
+0592.775 (0) Table rms_js_ticket_replies: Total rows added: 1 in 0.01 seconds
+0592.784 (0) Table rms_js_ticket_replies: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_replies.table.gz - 0.4 Kb)
+0592.818 (0) Table rms_js_ticket_system_errors: Total expected rows (approximate): 0
+0592.834 (0) Table rms_js_ticket_system_errors: Total rows added: 0 in 0.01 seconds
+0592.838 (0) Table rms_js_ticket_system_errors: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_system_errors.table.gz - 0.3 Kb)
+0592.859 (0) Table rms_js_ticket_tickets: Total expected rows (approximate): 2
+0592.872 (0) Table rms_js_ticket_tickets: Total rows added: 2 in 0.01 seconds
+0592.880 (0) Table rms_js_ticket_tickets: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_tickets.table.gz - 1.1 Kb)
+0592.919 (0) Table rms_js_ticket_userfield_data: Total expected rows (approximate): 2
+0592.939 (0) Table rms_js_ticket_userfield_data: Total rows added: 2 in 0.01 seconds
+0592.978 (0) Table rms_js_ticket_userfield_data: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfield_data.table.gz - 0.4 Kb)
+0593.035 (0) Table rms_js_ticket_userfields: Total expected rows (approximate): 1
+0593.052 (0) Table rms_js_ticket_userfields: Total rows added: 1 in 0.01 seconds
+0593.062 (0) Table rms_js_ticket_userfields: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfields.table.gz - 0.5 Kb)
+0593.096 (0) Table rms_js_ticket_userfieldvalues: Total expected rows (approximate): 1
+0593.106 (0) Table rms_js_ticket_userfieldvalues: Total rows added: 1 in 0.01 seconds
+0593.116 (0) Table rms_js_ticket_userfieldvalues: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfieldvalues.table.gz - 0.4 Kb)
+0593.148 (0) Table rms_subscribers: Total expected rows (approximate): 0
+0593.158 (0) Table rms_subscribers: Total rows added: 1 in 0.01 seconds
+0593.169 (0) Table rms_subscribers: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_subscribers.table.gz - 0.4 Kb)
+0593.202 (0) Table rms_subscribers_log: Total expected rows (approximate): 0
+0593.212 (0) Table rms_subscribers_log: Total rows added: 0 in 0.01 seconds
+0593.221 (0) Table rms_subscribers_log: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_subscribers_log.table.gz - 0.3 Kb)
+0593.244 (0) Table rms_wfbadleechers: Total expected rows (approximate): 0
+0593.252 (0) Table rms_wfbadleechers: Total rows added: 0 in 0.01 seconds
+0593.256 (0) Table rms_wfbadleechers: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfbadleechers.table.gz - 0.3 Kb)
+0593.301 (0) Table rms_wfblockediplog: Total expected rows (approximate): 0
+0593.325 (0) Table rms_wfblockediplog: Total rows added: 0 in 0.01 seconds
+0593.331 (0) Table rms_wfblockediplog: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblockediplog.table.gz - 0.3 Kb)
+0593.359 (0) Table rms_wfblocks: Total expected rows (approximate): 0
+0593.376 (0) Table rms_wfblocks: Total rows added: 0 in 0.01 seconds
+0593.389 (0) Table rms_wfblocks: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblocks.table.gz - 0.3 Kb)
+0593.428 (0) Table rms_wfblocksadv: Total expected rows (approximate): 0
+0593.443 (0) Table rms_wfblocksadv: Total rows added: 0 in 0.01 seconds
+0593.454 (0) Table rms_wfblocksadv: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblocksadv.table.gz - 0.3 Kb)
+0593.488 (0) Table rms_wfconfig: Total expected rows (approximate): 105
+0593.508 (0) Table rms_wfconfig: Total rows added: 119 in 0.01 seconds
+0593.513 (0) Table rms_wfconfig: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfconfig.table.gz - 8.8 Kb)
+0593.530 (0) Table rms_wfcrawlers: Total expected rows (approximate): 0
+0593.544 (0) Table rms_wfcrawlers: Total rows added: 0 in 0.01 seconds
+0593.550 (0) Table rms_wfcrawlers: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfcrawlers.table.gz - 0.3 Kb)
+0593.576 (0) Table rms_wffilemods: Total expected rows (approximate): 11385
+0594.183 (0) Table rms_wffilemods: Total rows added: 11453 in 0.60 seconds
+0594.187 (0) Table rms_wffilemods: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wffilemods.table.gz - 572.7 Kb)
+0594.222 (0) Table rms_wfhits: Total expected rows (approximate): 1240
+0594.354 (0) Table rms_wfhits: Total rows added: 1366 in 0.12 seconds
+0594.364 (0) Table rms_wfhits: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfhits.table.gz - 24.4 Kb)
+0594.402 (0) Table rms_wfhoover: Total expected rows (approximate): 10724
+0594.955 (0) Table rms_wfhoover: Total rows added: 10628 in 0.54 seconds
+0594.966 (0) Table rms_wfhoover: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfhoover.table.gz - 129.2 Kb)
+0594.991 (0) Table rms_wfissues: Total expected rows (approximate): 1
+0595.012 (0) Table rms_wfissues: Total rows added: 1 in 0.01 seconds
+0595.019 (0) Table rms_wfissues: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfissues.table.gz - 0.6 Kb)
+0595.077 (0) Table rms_wfleechers: Total expected rows (approximate): 0
+0595.085 (0) Table rms_wfleechers: Total rows added: 0 in 0.01 seconds
+0595.095 (0) Table rms_wfleechers: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfleechers.table.gz - 0.3 Kb)
+0595.151 (0) Table rms_wflockedout: Total expected rows (approximate): 0
+0595.183 (0) Table rms_wflockedout: Total rows added: 0 in 0.01 seconds
+0595.196 (0) Table rms_wflockedout: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflockedout.table.gz - 0.3 Kb)
+0595.223 (0) Table rms_wflocs: Total expected rows (approximate): 1
+0595.238 (0) Table rms_wflocs: Total rows added: 0 in 0.01 seconds
+0595.242 (0) Table rms_wflocs: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflocs.table.gz - 0.3 Kb)
+0595.305 (0) Table rms_wflogins: Total expected rows (approximate): 150
+0595.336 (0) Table rms_wflogins: Total rows added: 182 in 0.02 seconds
+0595.357 (0) Table rms_wflogins: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflogins.table.gz - 3.5 Kb)
+0595.487 (0) Table rms_wfnet404s: Total expected rows (approximate): 0
+0595.505 (0) Table rms_wfnet404s: Total rows added: 0 in 0.01 seconds
+0595.510 (0) Table rms_wfnet404s: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfnet404s.table.gz - 0.3 Kb)
+0595.557 (0) Table rms_wfreversecache: Total expected rows (approximate): 1
+0595.589 (0) Table rms_wfreversecache: Total rows added: 0 in 0.02 seconds
+0595.607 (0) Table rms_wfreversecache: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.gz - 0.3 Kb)
+0595.613 (0) PHP event: code E_WARNING: rename(C:\xampp\htdocs\VineDev/wp-content/updraft/backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.tmp.gz,C:\xampp\htdocs\VineDev/wp-content/updraft/backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1147, C:\xampp\htdocs\VineDev\wp-content\plugins\updraftplus\backup.php)
+0595.722 (0) Table rms_wfscanners: Total expected rows (approximate): 0
+0595.738 (0) Table rms_wfscanners: Total rows added: 0 in 0.01 seconds
+0595.756 (0) Table rms_wfscanners: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfscanners.table.gz - 0.3 Kb)
+0595.794 (0) Table rms_wfstatus: Total expected rows (approximate): 1267
+0595.867 (0) Table rms_wfstatus: Total rows added: 1267 in 0.07 seconds
+0595.872 (0) Table rms_wfstatus: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfstatus.table.gz - 21 Kb)
+0595.909 (0) Table rms_wfthrottlelog: Total expected rows (approximate): 0
+0595.928 (0) Table rms_wfthrottlelog: Total rows added: 0 in 0.01 seconds
+0595.935 (0) Table rms_wfthrottlelog: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfthrottlelog.table.gz - 0.3 Kb)
+0596.006 (0) Table rms_wfvulnscanners: Total expected rows (approximate): 0
+0596.015 (0) Table rms_wfvulnscanners: Total rows added: 0 in 0.01 seconds
+0596.020 (0) Table rms_wfvulnscanners: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfvulnscanners.table.gz - 0.3 Kb)
+0596.071 (0) Table rms_wpscst_replies: Total expected rows (approximate): 0
+0596.138 (0) Table rms_wpscst_replies: Total rows added: 0 in 0.02 seconds
+0596.164 (0) Table rms_wpscst_replies: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpscst_replies.table.gz - 0.3 Kb)
+0596.199 (0) Table rms_wpscst_tickets: Total expected rows (approximate): 0
+0596.243 (0) Table rms_wpscst_tickets: Total rows added: 1 in 0.02 seconds
+0596.266 (0) Table rms_wpscst_tickets: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpscst_tickets.table.gz - 0.6 Kb)
+0596.331 (0) Table rms_wpstorecart_meta: Total expected rows (approximate): 8
+0596.356 (0) Table rms_wpstorecart_meta: Total rows added: 8 in 0.01 seconds
+0596.361 (0) Table rms_wpstorecart_meta: finishing file (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpstorecart_meta.table.gz - 0.5 Kb)
+0596.405 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_options.table.gz (1/60): adding to final database dump
+0596.471 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_users.table.gz (2/60): adding to final database dump
+0596.500 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_usermeta.table.gz (3/60): adding to final database dump
+0596.515 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_commentmeta.table.gz (4/60): adding to final database dump
+0596.526 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_comments.table.gz (5/60): adding to final database dump
+0596.553 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_links.table.gz (6/60): adding to final database dump
+0596.557 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_postmeta.table.gz (7/60): adding to final database dump
+0596.568 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_posts.table.gz (8/60): adding to final database dump
+0596.603 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_term_relationships.table.gz (9/60): adding to final database dump
+0596.615 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_term_taxonomy.table.gz (10/60): adding to final database dump
+0596.620 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_terms.table.gz (11/60): adding to final database dump
+0596.624 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_ahm_download_stats.table.gz (12/60): adding to final database dump
+0596.627 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_ahm_emails.table.gz (13/60): adding to final database dump
+0596.631 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_activity_log.table.gz (14/60): adding to final database dump
+0596.634 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_attachments.table.gz (15/60): adding to final database dump
+0596.652 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_config.table.gz (16/60): adding to final database dump
+0596.667 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_departments.table.gz (17/60): adding to final database dump
+0596.678 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_email.table.gz (18/60): adding to final database dump
+0596.698 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_emailtemplates.table.gz (19/60): adding to final database dump
+0596.707 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_priorities.table.gz (20/60): adding to final database dump
+0596.711 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_replies.table.gz (21/60): adding to final database dump
+0596.744 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_system_errors.table.gz (22/60): adding to final database dump
+0596.753 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_tickets.table.gz (23/60): adding to final database dump
+0596.763 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfield_data.table.gz (24/60): adding to final database dump
+0596.773 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfields.table.gz (25/60): adding to final database dump
+0596.783 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_js_ticket_userfieldvalues.table.gz (26/60): adding to final database dump
+0596.788 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_subscribers.table.gz (27/60): adding to final database dump
+0596.795 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_subscribers_log.table.gz (28/60): adding to final database dump
+0596.799 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfbadleechers.table.gz (29/60): adding to final database dump
+0596.822 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblockediplog.table.gz (30/60): adding to final database dump
+0596.839 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblocks.table.gz (31/60): adding to final database dump
+0596.858 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfblocksadv.table.gz (32/60): adding to final database dump
+0596.868 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfconfig.table.gz (33/60): adding to final database dump
+0596.883 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfcrawlers.table.gz (34/60): adding to final database dump
+0596.887 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wffilemods.table.gz (35/60): adding to final database dump
+0597.014 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfhits.table.gz (36/60): adding to final database dump
+0597.034 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfhoover.table.gz (37/60): adding to final database dump
+0597.110 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfissues.table.gz (38/60): adding to final database dump
+0597.128 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfleechers.table.gz (39/60): adding to final database dump
+0597.133 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflockedout.table.gz (40/60): adding to final database dump
+0597.137 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflocs.table.gz (41/60): adding to final database dump
+0597.142 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wflogins.table.gz (42/60): adding to final database dump
+0597.147 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfnet404s.table.gz (43/60): adding to final database dump
+0597.151 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.gz (44/60): adding to final database dump
+0597.155 (0) PHP event: code E_WARNING: gzopen(C:\xampp\htdocs\VineDev/wp-content/updraft/backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.gz): failed to open stream: No such file or directory (line 1202, C:\xampp\htdocs\VineDev\wp-content\plugins\updraftplus\backup.php)
+0597.159 (0) Error: Failed to open database file for reading: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfreversecache.table.gz
+0597.168 (0) An error condition has occurred for the first time during this job
+0597.180 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfscanners.table.gz (45/60): adding to final database dump
+0597.193 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfstatus.table.gz (46/60): adding to final database dump
+0597.210 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfthrottlelog.table.gz (47/60): adding to final database dump
+0597.219 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wfvulnscanners.table.gz (48/60): adding to final database dump
+0597.230 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpscst_replies.table.gz (49/60): adding to final database dump
+0597.246 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpscst_tickets.table.gz (50/60): adding to final database dump
+0597.261 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db-table-rms_wpstorecart_meta.table.gz (51/60): adding to final database dump
+0597.265 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db.gz: finished writing out complete database file (1016 Kb)
+0597.298 (0) Saving backup history
+0597.317 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0597.330 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0597.343 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0597.348 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.359 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.369 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.380 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.432 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.446 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.448 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.452 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0597.481 (0) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0597.497 (0) Requesting upload of the files that have not yet been successfully uploaded (12)
+0597.529 (0) Cloud backup selection: 
+0597.532 (0) No remote despatch: user chose no remote backup service
+0597.558 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip (f18bb75c0de6660327048a87a2fec27a)
+0597.592 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip (1470a343f1c85dd4c0231c41dfe5d6f7)
+0597.623 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip (2377fc59037fda876a5b8b6ad07ff7f9)
+0597.660 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip (3accdf7f7d507e541079dd28ddb300c8)
+0597.698 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip (7a02b55c428fd966bb5a167a66664bf8)
+0597.745 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip (b2eb75d145015b8f007d0aab64418a6d)
+0597.770 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip (d5f352262ff0542f270815d0a093810c)
+0597.829 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip (78c0a4d0ce442ff5213739a908b5e751)
+0597.872 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip (227033622246fdb4d526805edd93cecb)
+0597.928 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip (48a73a64f5731cbff4a168d18f5d01ba)
+0597.974 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip (5e2f12af85e16de36ab8e344c7ca00f9)
+0598.006 (0) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-others.zip (76848fc9065d457403f3f7b580924261)
+0598.074 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0598.086 (0) Number of backup sets in history: 6
+0598.092 (0) Examining backup set with datestamp: 1431436133 (May 12 2015 13:08:53)
+0598.127 (0) 1431436133: this backup set remains non-empty (1/0); will retain in history
+0598.148 (0) Examining backup set with datestamp: 1431349789 (May 11 2015 13:09:49)
+0598.162 (0) 1431349789: db: this set includes a database (backup_2015-05-11-0809_PMA_Vine_0d4c3f6c7a2f-db.gz); db count is now 1
+0598.192 (0) 1431349789: this backup set remains non-empty (1/1); will retain in history
+0598.197 (0) Examining backup set with datestamp: 1431032482 (May 07 2015 21:01:22)
+0598.202 (0) 1431032482: db: this set includes a database (backup_2015-05-07-1601_PMA_Vine_4cf01a465e74-db.gz); db count is now 2
+0598.239 (0) 1431032482: this backup set remains non-empty (1/1); will retain in history
+0598.245 (0) Examining backup set with datestamp: 1430945972 (May 06 2015 20:59:32)
+0598.255 (0) 1430945972: db: this set includes a database (backup_2015-05-06-1559_PMA_Vine_6b5087657d1c-db.gz); db count is now 3
+0598.276 (0) 1430945972: this backup set remains non-empty (1/1); will retain in history
+0598.283 (0) Examining backup set with datestamp: 1430918048 (May 06 2015 13:14:08)
+0598.293 (0) 1430918048: db: this set includes a database (backup_2015-05-06-0814_PMA_Vine_c6af976f2f6c-db.gz); db count is now 4
+0598.323 (0) 1430918048: this backup set remains non-empty (1/1); will retain in history
+0598.333 (0) Examining backup set with datestamp: 1430831237 (May 05 2015 13:07:17)
+0598.336 (0) 1430831237: db: this set includes a database (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-db.gz); db count is now 5
+0598.347 (0) plugins: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-plugins.zip)
+0598.351 (0) themes: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-themes.zip)
+0598.355 (0) uploads: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-uploads.zip)
+0598.357 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore.zip)
+0598.360 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore2.zip)
+0598.363 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore3.zip)
+0598.365 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore4.zip)
+0598.368 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore5.zip)
+0598.378 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore6.zip)
+0598.387 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore7.zip)
+0598.394 (0) wpcore: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore8.zip)
+0598.398 (0) others: 1430831237: over retain limit (5); will delete this file (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-others.zip)
+0598.401 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-plugins.zip, service=none
+0598.404 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-plugins.zip)
+0598.436 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-themes.zip, service=none
+0598.441 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-themes.zip)
+0598.445 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-uploads.zip, service=none
+0598.449 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-uploads.zip)
+0598.452 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore.zip, service=none
+0598.457 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore.zip)
+0598.492 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore2.zip, service=none
+0598.502 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore2.zip)
+0598.520 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore3.zip, service=none
+0598.530 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore3.zip)
+0598.551 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore4.zip, service=none
+0598.570 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore4.zip)
+0598.587 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore5.zip, service=none
+0598.596 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore5.zip)
+0598.605 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore6.zip, service=none
+0598.613 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore6.zip)
+0598.623 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore7.zip, service=none
+0598.627 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore7.zip)
+0598.637 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore8.zip, service=none
+0598.641 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-wpcore8.zip)
+0598.645 (0) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-others.zip, service=none
+0598.649 (0) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-others.zip)
+0598.663 (0) 1430831237: this backup set remains non-empty (0/1); will retain in history
+0598.674 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0598.702 (0) Resume backup (204b88572cc5, 0): finish run
+0598.723 (0) Decremented the semaphore (fd) by 1
+0598.758 (0) Semaphore (fd) unlocked
+0598.768 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0598.802 (0) No email will/can be sent - the user has not configured an email address.
+0598.818 (0) The backup has not finished; a resumption is scheduled
+1224.447 (1) Opened log file at time: Tue, 12 May 2015 13:29:17 +0000 on http://jxr980:8020/vinedev
+1224.463 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46.19 WP: 4.1 PHP: 5.6.3 (Windows NT JXR980 6.1 build 7601 (Windows 7 Business Edition Service Pack 1) i586) MySQL: 5.6.21 Server: Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.2M | 31.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1224.467 (1) Free space on disk containing Updraft's temporary directory: 29119 Mb
+1224.473 (1) Backup run: resumption=1, nonce=204b88572cc5, begun at=1431436133 (1224s ago), job type=backup, previous check-in=598.7s
+1224.479 (1) Scheduling a resumption (2) after 649 seconds (1431438006) in case this run gets aborted
+1224.493 (1) Checking if we have a zip executable available
+1224.496 (1) Creation of backups of directories: already finished
+1224.505 (1) Saving backup status to database (elements: 17)
+1224.513 (1) Database dump (WordPress DB): Creation was completed already
+1224.517 (1) Saving backup history
+1224.530 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-plugins.zip: plugins: This file has already been successfully uploaded
+1224.533 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-themes.zip: themes: This file has already been successfully uploaded
+1224.536 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-uploads.zip: uploads: This file has already been successfully uploaded
+1224.538 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore.zip: wpcore: This file has already been successfully uploaded
+1224.541 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore2.zip: wpcore: This file has already been successfully uploaded
+1224.544 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore3.zip: wpcore: This file has already been successfully uploaded
+1224.547 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore4.zip: wpcore: This file has already been successfully uploaded
+1224.551 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore5.zip: wpcore: This file has already been successfully uploaded
+1224.554 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore6.zip: wpcore: This file has already been successfully uploaded
+1224.556 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore7.zip: wpcore: This file has already been successfully uploaded
+1224.559 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-wpcore8.zip: wpcore: This file has already been successfully uploaded
+1224.562 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-others.zip: others: This file has already been successfully uploaded
+1224.565 (1) backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db.gz: db: This file has not yet been successfully uploaded: will queue
+1224.574 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+1224.581 (1) Cloud backup selection: 
+1224.585 (1) No remote despatch: user chose no remote backup service
+1224.591 (1) Recording as successfully uploaded: backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db.gz (fedf58ccb9ecf673aa5e547c644afdcb)
+1224.612 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+1224.616 (1) Number of backup sets in history: 6
+1224.619 (1) Examining backup set with datestamp: 1431436133 (May 12 2015 13:08:53)
+1224.622 (1) 1431436133: db: this set includes a database (backup_2015-05-12-0808_PMA_Vine_204b88572cc5-db.gz); db count is now 1
+1224.630 (1) 1431436133: this backup set remains non-empty (1/1); will retain in history
+1224.634 (1) Examining backup set with datestamp: 1431349789 (May 11 2015 13:09:49)
+1224.637 (1) 1431349789: db: this set includes a database (backup_2015-05-11-0809_PMA_Vine_0d4c3f6c7a2f-db.gz); db count is now 2
+1224.643 (1) 1431349789: this backup set remains non-empty (1/1); will retain in history
+1224.647 (1) Examining backup set with datestamp: 1431032482 (May 07 2015 21:01:22)
+1224.649 (1) 1431032482: db: this set includes a database (backup_2015-05-07-1601_PMA_Vine_4cf01a465e74-db.gz); db count is now 3
+1224.657 (1) 1431032482: this backup set remains non-empty (1/1); will retain in history
+1224.668 (1) Examining backup set with datestamp: 1430945972 (May 06 2015 20:59:32)
+1224.671 (1) 1430945972: db: this set includes a database (backup_2015-05-06-1559_PMA_Vine_6b5087657d1c-db.gz); db count is now 4
+1224.686 (1) 1430945972: this backup set remains non-empty (1/1); will retain in history
+1224.691 (1) Examining backup set with datestamp: 1430918048 (May 06 2015 13:14:08)
+1224.693 (1) 1430918048: db: this set includes a database (backup_2015-05-06-0814_PMA_Vine_c6af976f2f6c-db.gz); db count is now 5
+1224.706 (1) 1430918048: this backup set remains non-empty (1/1); will retain in history
+1224.709 (1) Examining backup set with datestamp: 1430831237 (May 05 2015 13:07:17)
+1224.712 (1) 1430831237: db: this set includes a database (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-db.gz); db count is now 6
+1224.715 (1) 1430831237: db: over retain limit (5); will delete this database
+1224.718 (1) Delete file: backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-db.gz, service=none
+1224.721 (1) Deleting local copy (backup_2015-05-05-0807_PMA_Vine_36b7c75b4a05-db.gz)
+1224.740 (1) 1430831237: this backup set is now empty; will remove from history
+1224.745 (1) 1430831237: deleting log file (log.36b7c75b4a05.txt)
+1224.749 (1) Retain: saving new backup history (sets now: 5) and finishing retain operation
+1224.757 (1) Resume backup (204b88572cc5, 1): finish run
+1224.763 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+1224.779 (1) No email will/can be sent - the user has not configured an email address.
+1224.782 (1) The backup apparently succeeded (with warnings) and is now complete

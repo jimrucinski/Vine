@@ -1,0 +1,9 @@
+0000.001 (0) Opened log file at time: Wed, 11 Feb 2015 21:00:04 +0000 on http://localhost:8020/vinedev
+0000.005 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46.19 WP: 4.1 PHP: 5.6.3 (Windows NT JXR980 6.1 build 7601 (Windows 7 Business Edition Service Pack 1) i586) MySQL: 5.6.21 Server: Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.1M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 57722.7 Mb
+0000.016 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.019 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.023 (0) Decremented the semaphore (fd) by 1
+0000.026 (0) Semaphore (fd) still locked
+0000.030 (0) No email will be sent - this backup set was empty.
+0000.033 (0) The backup apparently succeeded and is now complete

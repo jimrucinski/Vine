@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* These optionally adjust the width of the sidebars in some themes for widget controls
+#primary {
+	float: left;
+	margin: 0 -26.4% 0 0;
+	width: 100%;
+}
+
+#secondary {
+	float: right;
+	margin-right: 1.6%;
+	width: 22.8%;
+}
+#tertiary {
+	position: relative;
+	float: left;
+	width: 18.8%;
+	margin-left: -73.5%;
+}
+*/
+.searchright {
+float: right;
+margin-right: 5.6%;
+}
+
+.si-employees-wrap {	   
+   overflow: hidden; 
+   
+}
+.employeephoto {
+	padding: 10px 0 0 0;	
+    float: left; 
+}
+.employeephotoprofile {
+	padding: 10px 10px 0 0;
+	float: left; 
+}
+.sid_fullname {	
+	font-weight: bold;
+}
+.sid_title {	
+	font-style:italic;
+}
+.sid_dept {	
+	font-style:normal;
+}
+.sid_company {	
+	font-style:normal;
+}
+.sid_email {	
+	font-style:normal;
+}
+.sid_phone {	
+	font-style:normal;
+}
+.sid_phone_extension {	
+	font-style:normal;
+}
+.sid_mobile_phone {	
+	font-style:normal;
+}
+.sid_fax {	
+	font-style:normal;
+}
+sid_address {	
+	font-style:normal;
+}
+sid_postal {	
+	font-style:normal;
+}
+sid_city {	
+	font-style:normal;
+}
+sid_state{	
+	font-style:normal;
+}
+sid_country{	
+	font-style:normal;
+}
+sid_website{	
+	font-style:normal;
+}
+sid_custom1{	
+	font-style:normal;
+}
+sid_custom1_label{	
+	font-style:normal;
+}
+sid_custom2{	
+	font-style:normal;
+}
+sid_custom2_label{	
+	font-style:normal;
+}
+sid_custom3{	
+	font-style:normal;
+}
+sid_custom3_label{	
+	font-style:normal;
+}
+.socialicons  img {
+	padding: 10px 20px 0 0;	
+}
+.employeebio {
+	padding: 4px 0 0 10px;
+	overflow: hidden; 
+}
+.employeebioprofile {
+	padding: 4px 0 0 10px;
+	
+}
+.employeecustom {
+	padding: 4px 0 0 4px;
+	display:block;
+	float: left; 
+}
+.employeebiography {
+	padding: 4px 0 0 10px;
+	display:block;
+	float: left; 
+}
+.employeebiographyprofile {
+	padding: 4px 0 0 4px;
+	display:block;
+	float: left; 
+	width: 70%;
+}
+.employeeofthemonthphoto {
+	padding: 4px 5px 0 0;
+	width: 100px;
+    float: left; 
+}
+.employeeofthemonthname{
+overflow: hidden; 
+display: block;
+line-height: 1.5;
+padding: 4px 0 4px 0;
+}
+.employeeofthemonthtext {
+	padding: 4px 0 0 0;
+	display:block;
+	float: left; 
+	line-height: 1.5;
+}
+.outofoffice {
+padding: 0 0 0 0;
+color:red;
+}
+
+.employeephotowidget {
+height: 40px;
+width: 40px;
+float: left;
+padding: 4px 4px 4px 0;
+}
+
+.employeebiowidget {
+overflow: hidden; 
+display: block;
+line-height: 1.5;
+padding: 2px 0 10px 0;
+}
+
+
+
+.comments-title {
+	margin-bottom: 0px;
+	margin-bottom: 1.428571429rem;
+	font-size: 16px;
+	font-size: 1.142857143rem;
+	line-height: 1.5;
+	font-weight: normal;
+}
+.comments-area article {
+	margin: 0 0;
+	margin: 0.214285714rem 0;
+}
+.comments-area article header {
+	margin: 0 0 15px;
+	margin: 0 0 1.428571429rem;
+	overflow: hidden;
+	position: relative;
+}
+.comment-content {
+margin: 0 0;
+padding: 0 0;				  
+}
+
+#respond {
+	margin-top: 0px;
+	margin-top: 1.428571429rem;
+}
+#respond form {
+	margin: 0 0;
+	margin: 1.714285714rem 0;
+}
+#respond form p {
+	margin: 5px 0;
+	margin: 0.785714286rem 0;
+}
+#respond form p.logged-in-as {
+	margin-bottom: 5px;
+	margin-bottom: 1.714285714rem;
+}
+
+.commentlist .pingback {
+	line-height: 1.714285714;
+	margin-bottom: 4px;
+	margin-bottom: 1.714285714rem;
+}
+
+#employeesearchform {
+width: 50%;	
+}
+#searchsubmit{
+}

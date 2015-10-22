@@ -1,0 +1,3 @@
+"category_id","title","content","parent","wrapper_class","link_template","access"
+"carogry-name","Category Name","Category Description","","css-class-name","link-template-default.php","guest,administrator"
+"wordpress-themes","WordPress Themes","Premium WordPress Themes","carogry-name","","link-template-default.php","guest,administrator,editor"

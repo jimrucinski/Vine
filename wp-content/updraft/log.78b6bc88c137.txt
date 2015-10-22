@@ -1,0 +1,463 @@
+0000.001 (0) Opened log file at time: Tue, 06 Jan 2015 21:00:17 +0000 on http://localhost:8020/vinedev
+0000.016 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.45 WP: 4.1 PHP: 5.6.3 (Windows NT JXR980 6.1 build 7601 (Windows 7 Business Edition Service Pack 1) i586) MySQL: 5.6.21 Server: Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.2M | 19.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.020 (0) Free space on disk containing Updraft's temporary directory: 65465.8 Mb
+0000.027 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.031 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.035 (0) Requesting semaphore lock (fd)
+0000.046 (0) Set semaphore last lock (fd) time to 2015-01-06 21:00:17
+0000.049 (0) Semaphore lock (fd) complete
+0000.059 (0) Backup run: resumption=0, nonce=78b6bc88c137, begun at=1420578017 (0s ago), job type=backup
+0000.065 (0) Scheduling a resumption (1) after 300 seconds (1420578317) in case this run gets aborted
+0000.080 (0) Checking if we have a zip executable available
+0000.086 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0004.937 (0) Total entities for the zip file: 370 directories, 3378 files (0 skipped as non-modified), 58.8 Mb
+0004.944 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0005.055 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 100 files added (on-disk size: 61.1 Kb)
+0005.159 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 200 files added (on-disk size: 61.1 Kb)
+0005.263 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 300 files added (on-disk size: 61.1 Kb)
+0005.355 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 400 files added (on-disk size: 61.1 Kb)
+0005.457 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 500 files added (on-disk size: 61.1 Kb)
+0005.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 Mb, 3378 files batched, 501 (502) added so far); re-opening (prior size: 61.1 Kb)
+0006.108 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 600 files added (on-disk size: 1831.5 Kb)
+0006.217 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 700 files added (on-disk size: 1831.5 Kb)
+0006.333 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 800 files added (on-disk size: 1831.5 Kb)
+0006.455 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 900 files added (on-disk size: 1831.5 Kb)
+0006.564 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1000 files added (on-disk size: 1831.5 Kb)
+0006.569 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 Mb, 3378 files batched, 501 (1003) added so far); re-opening (prior size: 1831.5 Kb)
+0007.173 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1100 files added (on-disk size: 3103.8 Kb)
+0007.284 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1200 files added (on-disk size: 3103.8 Kb)
+0007.410 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1300 files added (on-disk size: 3103.8 Kb)
+0007.515 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1400 files added (on-disk size: 3103.8 Kb)
+0007.631 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1500 files added (on-disk size: 3103.8 Kb)
+0007.638 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.9 Mb, 3378 files batched, 501 (1504) added so far); re-opening (prior size: 3103.8 Kb)
+0008.421 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1600 files added (on-disk size: 5940.7 Kb)
+0008.546 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1700 files added (on-disk size: 5940.7 Kb)
+0008.670 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1800 files added (on-disk size: 5940.7 Kb)
+0008.796 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 1900 files added (on-disk size: 5940.7 Kb)
+0008.922 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2000 files added (on-disk size: 5940.7 Kb)
+0008.931 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.3 Mb, 3378 files batched, 501 (2005) added so far); re-opening (prior size: 5940.7 Kb)
+0012.035 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2100 files added (on-disk size: 11332.1 Kb)
+0012.162 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2200 files added (on-disk size: 11332.1 Kb)
+0012.268 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2300 files added (on-disk size: 11332.1 Kb)
+0012.411 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2400 files added (on-disk size: 11332.1 Kb)
+0012.548 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2500 files added (on-disk size: 11332.1 Kb)
+0012.562 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.3 Mb, 3378 files batched, 501 (2506) added so far); re-opening (prior size: 11332.1 Kb)
+0014.212 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2600 files added (on-disk size: 15097.9 Kb)
+0014.397 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2700 files added (on-disk size: 15097.9 Kb)
+0014.518 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2800 files added (on-disk size: 15097.9 Kb)
+0014.653 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 2900 files added (on-disk size: 15097.9 Kb)
+0014.763 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 3000 files added (on-disk size: 15097.9 Kb)
+0014.774 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.5 Mb, 3378 files batched, 501 (3007) added so far); re-opening (prior size: 15097.9 Kb)
+0016.924 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 3100 files added (on-disk size: 17673.5 Kb)
+0017.049 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 3200 files added (on-disk size: 17673.5 Kb)
+0017.165 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip.tmp: 3300 files added (on-disk size: 17673.5 Kb)
+0017.980 (0) Created plugins zip (0) - 19496.2 Kb in 17.9 s (1091.4 Kb/s) (SHA1 checksum: daaaa041f2ef0baa4197b5296855cbc8eb94bf3c)
+0017.996 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0021.579 (0) Total entities for the zip file: 477 directories, 1880 files (0 skipped as non-modified), 19 Mb
+0021.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0021.830 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 100 files added (on-disk size: 85.5 Kb)
+0022.084 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 200 files added (on-disk size: 85.5 Kb)
+0022.282 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 300 files added (on-disk size: 85.5 Kb)
+0022.409 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 400 files added (on-disk size: 85.5 Kb)
+0022.529 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 500 files added (on-disk size: 85.5 Kb)
+0022.534 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 Mb, 1880 files batched, 501 (502) added so far); re-opening (prior size: 85.5 Kb)
+0023.293 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 600 files added (on-disk size: 4464.8 Kb)
+0023.455 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 700 files added (on-disk size: 4464.8 Kb)
+0023.613 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 800 files added (on-disk size: 4464.8 Kb)
+0023.750 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 900 files added (on-disk size: 4464.8 Kb)
+0023.902 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1000 files added (on-disk size: 4464.8 Kb)
+0023.909 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 Mb, 1880 files batched, 501 (1003) added so far); re-opening (prior size: 4464.8 Kb)
+0024.591 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1100 files added (on-disk size: 6665.5 Kb)
+0024.737 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1200 files added (on-disk size: 6665.5 Kb)
+0024.856 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1300 files added (on-disk size: 6665.5 Kb)
+0024.952 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1400 files added (on-disk size: 6665.5 Kb)
+0025.047 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1500 files added (on-disk size: 6665.5 Kb)
+0025.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 Mb, 1880 files batched, 501 (1504) added so far); re-opening (prior size: 6665.5 Kb)
+0025.746 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1600 files added (on-disk size: 8882.1 Kb)
+0025.853 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1700 files added (on-disk size: 8882.1 Kb)
+0025.965 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip.tmp: 1800 files added (on-disk size: 8882.1 Kb)
+0026.608 (0) Created themes zip (0) - 12177.7 Kb in 8.6 s (1416.4 Kb/s) (SHA1 checksum: fa80b4f2c3985a74dc14eb26c980a6e0e9796862)
+0026.616 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0026.621 (0) Looking for candidates to back up in: C:\xampp\htdocs\VineDev/wp-content/uploads
+0026.624 (0) finding files: 2011: adding to list (1)
+0026.627 (0) finding files: 2014: adding to list (2)
+0026.630 (0) finding files: 2015: adding to list (3)
+0026.633 (0) finding files: builder-export-data: adding to list (4)
+0026.636 (0) finding files: download-manager-files: adding to list (5)
+0026.639 (0) finding files: et_temp: adding to list (6)
+0026.642 (0) finding files: featured_image.jpg: adding to list (7)
+0026.646 (0) finding files: it-file-cache: adding to list (8)
+0026.648 (0) finding files: sp-client-document-manager: adding to list (9)
+0026.650 (0) finding files: wa-core: adding to list (10)
+0026.653 (0) finding files: wpscSupportTickets: adding to list (11)
+0026.656 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0026.804 (0) Total entities for the zip file: 20 directories, 211 files (0 skipped as non-modified), 22.7 Mb
+0026.860 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0026.921 (0) Zip: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0028.997 (0) Created uploads zip (0) - 22065.5 Kb in 2.3 s (9473.3 Kb/s) (SHA1 checksum: dbaac6d9292dc690c613b7f589e1b082eb043b18)
+0029.007 (0) Beginning backup of other directories found in the content directory (index: 0)
+0029.016 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0029.020 (0) Looking for candidates to back up in: C:\xampp\htdocs\VineDev/wp-content
+0029.029 (0) finding files: index.php: adding to list (1)
+0029.032 (0) finding files: modules: adding to list (2)
+0029.036 (0) finding files: plugins: skipping: this is the plugins directory
+0029.039 (0) finding files: themes: skipping: this is the themes directory
+0029.042 (0) finding files: updraft: skipping: this is the updraft directory
+0029.045 (0) finding files: upgrade: skipping: excluded by options
+0029.048 (0) finding files: uploads: skipping: this is the uploads directory
+0029.071 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 Mb
+0029.091 (0) Created others zip (0) - 0.3 Kb in 0 s (12.8 Kb/s) (SHA1 checksum: 128b2c3bf57cc49acfb4e23b6732ddcc51e1605c)
+0029.114 (0) Saving backup status to database (elements: 8)
+0029.122 (0) Beginning creation of database dump (WordPress DB)
+0029.147 (0) Table pys_options: Total expected rows (approximate): 398
+0029.243 (0) Table pys_options: Total rows added: 405 in 0.09 seconds
+0029.246 (0) Table pys_options: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_options.table.gz - 236.1 Kb)
+0029.262 (0) Table pys_users: Total expected rows (approximate): 5
+0029.270 (0) Table pys_users: Total rows added: 5 in 0.00 seconds
+0029.273 (0) Table pys_users: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_users.table.gz - 0.8 Kb)
+0029.286 (0) Table pys_usermeta: Total expected rows (approximate): 100
+0029.295 (0) Table pys_usermeta: Total rows added: 102 in 0.01 seconds
+0029.298 (0) Table pys_usermeta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_usermeta.table.gz - 2.3 Kb)
+0029.311 (0) Table pys_commentmeta: Total expected rows (approximate): 0
+0029.317 (0) Table pys_commentmeta: Total rows added: 0 in 0.00 seconds
+0029.321 (0) Table pys_commentmeta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_commentmeta.table.gz - 0.3 Kb)
+0029.332 (0) Table pys_comments: Total expected rows (approximate): 23
+0029.342 (0) Table pys_comments: Total rows added: 21 in 0.01 seconds
+0029.345 (0) Table pys_comments: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_comments.table.gz - 2.8 Kb)
+0029.357 (0) Table pys_links: Total expected rows (approximate): 0
+0029.372 (0) Table pys_links: Total rows added: 0 in 0.01 seconds
+0029.375 (0) Table pys_links: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_links.table.gz - 0.4 Kb)
+0029.389 (0) Table pys_postmeta: Total expected rows (approximate): 833
+0029.417 (0) Table pys_postmeta: Total rows added: 833 in 0.03 seconds
+0029.422 (0) Table pys_postmeta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_postmeta.table.gz - 12.7 Kb)
+0029.436 (0) Table pys_posts: Total expected rows (approximate): 330
+0029.511 (0) Table pys_posts: Total rows added: 355 in 0.07 seconds
+0029.515 (0) Table pys_posts: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_posts.table.gz - 41.8 Kb)
+0029.529 (0) Table pys_term_relationships: Total expected rows (approximate): 33
+0029.537 (0) Table pys_term_relationships: Total rows added: 33 in 0.01 seconds
+0029.541 (0) Table pys_term_relationships: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_term_relationships.table.gz - 0.5 Kb)
+0029.554 (0) Table pys_term_taxonomy: Total expected rows (approximate): 49
+0029.563 (0) Table pys_term_taxonomy: Total rows added: 49 in 0.01 seconds
+0029.567 (0) Table pys_term_taxonomy: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_term_taxonomy.table.gz - 1.7 Kb)
+0029.580 (0) Table pys_terms: Total expected rows (approximate): 50
+0029.589 (0) Table pys_terms: Total rows added: 49 in 0.01 seconds
+0029.598 (0) Table pys_terms: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_terms.table.gz - 1 Kb)
+0029.612 (0) Table pys_ahm_download_stats: Total expected rows (approximate): 5
+0029.619 (0) Table pys_ahm_download_stats: Total rows added: 5 in 0.00 seconds
+0029.623 (0) Table pys_ahm_download_stats: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_ahm_download_stats.table.gz - 0.4 Kb)
+0029.644 (0) Table pys_ahm_emails: Total expected rows (approximate): 0
+0029.654 (0) Table pys_ahm_emails: Total rows added: 0 in 0.01 seconds
+0029.660 (0) Table pys_ahm_emails: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_ahm_emails.table.gz - 0.3 Kb)
+0029.675 (0) Table pys_cp_project_users: Total expected rows (approximate): 4
+0029.684 (0) Table pys_cp_project_users: Total rows added: 4 in 0.01 seconds
+0029.688 (0) Table pys_cp_project_users: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_cp_project_users.table.gz - 0.3 Kb)
+0029.703 (0) Table pys_customcontactforms_field_options: Total expected rows (approximate): 5
+0029.711 (0) Table pys_customcontactforms_field_options: Total rows added: 5 in 0.00 seconds
+0029.715 (0) Table pys_customcontactforms_field_options: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_field_options.table.gz - 0.4 Kb)
+0029.728 (0) Table pys_customcontactforms_fields: Total expected rows (approximate): 16
+0029.738 (0) Table pys_customcontactforms_fields: Total rows added: 16 in 0.01 seconds
+0029.748 (0) Table pys_customcontactforms_fields: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_fields.table.gz - 1.1 Kb)
+0029.771 (0) Table pys_customcontactforms_forms: Total expected rows (approximate): 2
+0029.780 (0) Table pys_customcontactforms_forms: Total rows added: 2 in 0.00 seconds
+0029.784 (0) Table pys_customcontactforms_forms: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_forms.table.gz - 0.9 Kb)
+0029.869 (0) Table pys_customcontactforms_styles: Total expected rows (approximate): 0
+0029.887 (0) Table pys_customcontactforms_styles: Total rows added: 0 in 0.01 seconds
+0029.891 (0) Table pys_customcontactforms_styles: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_styles.table.gz - 0.7 Kb)
+0029.907 (0) Table pys_customcontactforms_user_data: Total expected rows (approximate): 2
+0029.917 (0) Table pys_customcontactforms_user_data: Total rows added: 2 in 0.01 seconds
+0029.921 (0) Table pys_customcontactforms_user_data: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_user_data.table.gz - 0.5 Kb)
+0029.936 (0) Table pys_formmaker: Total expected rows (approximate): 9
+0029.951 (0) Table pys_formmaker: Total rows added: 11 in 0.01 seconds
+0029.955 (0) Table pys_formmaker: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker.table.gz - 5.3 Kb)
+0029.968 (0) Table pys_formmaker_blocked: Total expected rows (approximate): 0
+0029.976 (0) Table pys_formmaker_blocked: Total rows added: 0 in 0.00 seconds
+0029.980 (0) Table pys_formmaker_blocked: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_blocked.table.gz - 0.3 Kb)
+0029.995 (0) Table pys_formmaker_query: Total expected rows (approximate): 0
+0030.005 (0) Table pys_formmaker_query: Total rows added: 0 in 0.01 seconds
+0030.009 (0) Table pys_formmaker_query: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_query.table.gz - 0.3 Kb)
+0030.023 (0) Table pys_formmaker_sessions: Total expected rows (approximate): 0
+0030.033 (0) Table pys_formmaker_sessions: Total rows added: 0 in 0.01 seconds
+0030.037 (0) Table pys_formmaker_sessions: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_sessions.table.gz - 0.5 Kb)
+0030.052 (0) Table pys_formmaker_submits: Total expected rows (approximate): 0
+0030.062 (0) Table pys_formmaker_submits: Total rows added: 0 in 0.01 seconds
+0030.065 (0) Table pys_formmaker_submits: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_submits.table.gz - 0.3 Kb)
+0030.080 (0) Table pys_formmaker_themes: Total expected rows (approximate): 34
+0030.132 (0) Table pys_formmaker_themes: Total rows added: 37 in 0.05 seconds
+0030.136 (0) Table pys_formmaker_themes: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_themes.table.gz - 22.7 Kb)
+0030.151 (0) Table pys_formmaker_views: Total expected rows (approximate): 2
+0030.161 (0) Table pys_formmaker_views: Total rows added: 3 in 0.01 seconds
+0030.164 (0) Table pys_formmaker_views: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_views.table.gz - 0.3 Kb)
+0030.184 (0) Table pys_orbis_log: Total expected rows (approximate): 0
+0030.193 (0) Table pys_orbis_log: Total rows added: 1 in 0.01 seconds
+0030.197 (0) Table pys_orbis_log: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_orbis_log.table.gz - 0.5 Kb)
+0030.211 (0) Table pys_project_task_process_objects: Total expected rows (approximate): 0
+0030.218 (0) Table pys_project_task_process_objects: Total rows added: 0 in 0.01 seconds
+0030.222 (0) Table pys_project_task_process_objects: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_task_process_objects.table.gz - 0.4 Kb)
+0030.234 (0) Table pys_project_task_targets: Total expected rows (approximate): 8
+0030.244 (0) Table pys_project_task_targets: Total rows added: 9 in 0.01 seconds
+0030.247 (0) Table pys_project_task_targets: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_task_targets.table.gz - 0.4 Kb)
+0030.260 (0) Table pys_project_tasks: Total expected rows (approximate): 4
+0030.274 (0) Table pys_project_tasks: Total rows added: 4 in 0.01 seconds
+0030.279 (0) Table pys_project_tasks: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_tasks.table.gz - 1.1 Kb)
+0030.312 (0) Table pys_project_tasks_process: Total expected rows (approximate): 0
+0030.338 (0) Table pys_project_tasks_process: Total rows added: 0 in 0.01 seconds
+0030.346 (0) Table pys_project_tasks_process: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_tasks_process.table.gz - 0.4 Kb)
+0030.360 (0) Table pys_projectmanager_dataset: Total expected rows (approximate): 0
+0030.369 (0) Table pys_projectmanager_dataset: Total rows added: 0 in 0.01 seconds
+0030.372 (0) Table pys_projectmanager_dataset: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_dataset.table.gz - 0.3 Kb)
+0030.386 (0) Table pys_projectmanager_datasetmeta: Total expected rows (approximate): 0
+0030.403 (0) Table pys_projectmanager_datasetmeta: Total rows added: 0 in 0.01 seconds
+0030.407 (0) Table pys_projectmanager_datasetmeta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_datasetmeta.table.gz - 0.3 Kb)
+0030.427 (0) Table pys_projectmanager_projectmeta: Total expected rows (approximate): 0
+0030.439 (0) Table pys_projectmanager_projectmeta: Total rows added: 0 in 0.01 seconds
+0030.443 (0) Table pys_projectmanager_projectmeta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_projectmeta.table.gz - 0.4 Kb)
+0030.458 (0) Table pys_projectmanager_projects: Total expected rows (approximate): 0
+0030.475 (0) Table pys_projectmanager_projects: Total rows added: 1 in 0.01 seconds
+0030.480 (0) Table pys_projectmanager_projects: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_projects.table.gz - 0.5 Kb)
+0030.500 (0) Table pys_rp4wp_cache: Total expected rows (approximate): 51
+0030.513 (0) Table pys_rp4wp_cache: Total rows added: 55 in 0.01 seconds
+0030.517 (0) Table pys_rp4wp_cache: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_rp4wp_cache.table.gz - 0.8 Kb)
+0030.533 (0) Table pys_sp_cu: Total expected rows (approximate): 2
+0030.550 (0) Table pys_sp_cu: Total rows added: 3 in 0.01 seconds
+0030.554 (0) Table pys_sp_cu: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu.table.gz - 0.5 Kb)
+0030.581 (0) Table pys_sp_cu_cats: Total expected rows (approximate): 0
+0030.590 (0) Table pys_sp_cu_cats: Total rows added: 0 in 0.01 seconds
+0030.593 (0) Table pys_sp_cu_cats: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_cats.table.gz - 0.3 Kb)
+0030.607 (0) Table pys_sp_cu_form_entries: Total expected rows (approximate): 0
+0030.617 (0) Table pys_sp_cu_form_entries: Total rows added: 0 in 0.01 seconds
+0030.621 (0) Table pys_sp_cu_form_entries: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_form_entries.table.gz - 0.3 Kb)
+0030.642 (0) Table pys_sp_cu_forms: Total expected rows (approximate): 0
+0030.649 (0) Table pys_sp_cu_forms: Total rows added: 0 in 0.00 seconds
+0030.653 (0) Table pys_sp_cu_forms: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_forms.table.gz - 0.3 Kb)
+0030.669 (0) Table pys_sp_cu_groups: Total expected rows (approximate): 0
+0030.678 (0) Table pys_sp_cu_groups: Total rows added: 0 in 0.01 seconds
+0030.681 (0) Table pys_sp_cu_groups: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_groups.table.gz - 0.3 Kb)
+0030.696 (0) Table pys_sp_cu_groups_assign: Total expected rows (approximate): 0
+0030.707 (0) Table pys_sp_cu_groups_assign: Total rows added: 0 in 0.01 seconds
+0030.711 (0) Table pys_sp_cu_groups_assign: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_groups_assign.table.gz - 0.3 Kb)
+0030.725 (0) Table pys_sp_cu_project: Total expected rows (approximate): 0
+0030.733 (0) Table pys_sp_cu_project: Total rows added: 1 in 0.01 seconds
+0030.738 (0) Table pys_sp_cu_project: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_project.table.gz - 0.3 Kb)
+0030.751 (0) Table pys_todolists_usertask: Total expected rows (approximate): 0
+0030.761 (0) Table pys_todolists_usertask: Total rows added: 0 in 0.01 seconds
+0030.764 (0) Table pys_todolists_usertask: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_todolists_usertask.table.gz - 0.3 Kb)
+0030.780 (0) Table pys_wap_x_calendar: Total expected rows (approximate): 0
+0030.792 (0) Table pys_wap_x_calendar: Total rows added: 0 in 0.01 seconds
+0030.814 (0) Table pys_wap_x_calendar: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wap_x_calendar.table.gz - 0.6 Kb)
+0030.832 (0) Table pys_wfbadleechers: Total expected rows (approximate): 0
+0030.841 (0) Table pys_wfbadleechers: Total rows added: 0 in 0.00 seconds
+0030.845 (0) Table pys_wfbadleechers: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfbadleechers.table.gz - 0.3 Kb)
+0030.859 (0) Table pys_wfblocks: Total expected rows (approximate): 0
+0030.867 (0) Table pys_wfblocks: Total rows added: 0 in 0.01 seconds
+0030.871 (0) Table pys_wfblocks: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfblocks.table.gz - 0.3 Kb)
+0030.885 (0) Table pys_wfblocksadv: Total expected rows (approximate): 0
+0030.894 (0) Table pys_wfblocksadv: Total rows added: 0 in 0.01 seconds
+0030.898 (0) Table pys_wfblocksadv: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfblocksadv.table.gz - 0.3 Kb)
+0030.918 (0) Table pys_wfconfig: Total expected rows (approximate): 103
+0030.930 (0) Table pys_wfconfig: Total rows added: 113 in 0.01 seconds
+0030.935 (0) Table pys_wfconfig: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfconfig.table.gz - 2.7 Kb)
+0030.950 (0) Table pys_wfcrawlers: Total expected rows (approximate): 0
+0030.965 (0) Table pys_wfcrawlers: Total rows added: 0 in 0.01 seconds
+0030.969 (0) Table pys_wfcrawlers: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfcrawlers.table.gz - 0.3 Kb)
+0030.989 (0) Table pys_wffilemods: Total expected rows (approximate): 6633
+0031.259 (0) Table pys_wffilemods: Total rows added: 6407 in 0.27 seconds
+0031.263 (0) Table pys_wffilemods: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wffilemods.table.gz - 319.4 Kb)
+0031.278 (0) Table pys_wfhits: Total expected rows (approximate): 124
+0031.297 (0) Table pys_wfhits: Total rows added: 132 in 0.02 seconds
+0031.300 (0) Table pys_wfhits: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfhits.table.gz - 3 Kb)
+0031.314 (0) Table pys_wfhoover: Total expected rows (approximate): 0
+0031.323 (0) Table pys_wfhoover: Total rows added: 0 in 0.01 seconds
+0031.327 (0) Table pys_wfhoover: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfhoover.table.gz - 0.3 Kb)
+0031.339 (0) Table pys_wfissues: Total expected rows (approximate): 4
+0031.349 (0) Table pys_wfissues: Total rows added: 4 in 0.01 seconds
+0031.353 (0) Table pys_wfissues: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfissues.table.gz - 1.5 Kb)
+0031.366 (0) Table pys_wfleechers: Total expected rows (approximate): 1
+0031.376 (0) Table pys_wfleechers: Total rows added: 2 in 0.01 seconds
+0031.379 (0) Table pys_wfleechers: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfleechers.table.gz - 0.3 Kb)
+0031.399 (0) Table pys_wflockedout: Total expected rows (approximate): 0
+0031.408 (0) Table pys_wflockedout: Total rows added: 0 in 0.01 seconds
+0031.413 (0) Table pys_wflockedout: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflockedout.table.gz - 0.3 Kb)
+0031.427 (0) Table pys_wflocs: Total expected rows (approximate): 0
+0031.437 (0) Table pys_wflocs: Total rows added: 0 in 0.01 seconds
+0031.442 (0) Table pys_wflocs: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflocs.table.gz - 0.3 Kb)
+0031.456 (0) Table pys_wflogins: Total expected rows (approximate): 77
+0031.517 (0) Table pys_wflogins: Total rows added: 85 in 0.02 seconds
+0031.521 (0) Table pys_wflogins: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflogins.table.gz - 1.6 Kb)
+0031.534 (0) Table pys_wfnet404s: Total expected rows (approximate): 0
+0031.543 (0) Table pys_wfnet404s: Total rows added: 0 in 0.01 seconds
+0031.547 (0) Table pys_wfnet404s: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfnet404s.table.gz - 0.3 Kb)
+0031.561 (0) Table pys_wfreversecache: Total expected rows (approximate): 0
+0031.570 (0) Table pys_wfreversecache: Total rows added: 0 in 0.01 seconds
+0031.574 (0) Table pys_wfreversecache: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfreversecache.table.gz - 0.3 Kb)
+0031.587 (0) Table pys_wfscanners: Total expected rows (approximate): 0
+0031.596 (0) Table pys_wfscanners: Total rows added: 0 in 0.01 seconds
+0031.600 (0) Table pys_wfscanners: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfscanners.table.gz - 0.3 Kb)
+0031.614 (0) Table pys_wfstatus: Total expected rows (approximate): 1134
+0031.659 (0) Table pys_wfstatus: Total rows added: 1134 in 0.04 seconds
+0031.663 (0) Table pys_wfstatus: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfstatus.table.gz - 18 Kb)
+0031.685 (0) Table pys_wfthrottlelog: Total expected rows (approximate): 0
+0031.693 (0) Table pys_wfthrottlelog: Total rows added: 0 in 0.00 seconds
+0031.697 (0) Table pys_wfthrottlelog: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfthrottlelog.table.gz - 0.3 Kb)
+0031.708 (0) Table pys_wfvulnscanners: Total expected rows (approximate): 0
+0031.716 (0) Table pys_wfvulnscanners: Total rows added: 0 in 0.01 seconds
+0031.720 (0) Table pys_wfvulnscanners: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfvulnscanners.table.gz - 0.3 Kb)
+0031.735 (0) Table pys_wpscst_replies: Total expected rows (approximate): 0
+0031.745 (0) Table pys_wpscst_replies: Total rows added: 0 in 0.01 seconds
+0031.748 (0) Table pys_wpscst_replies: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpscst_replies.table.gz - 0.3 Kb)
+0031.763 (0) Table pys_wpscst_tickets: Total expected rows (approximate): 0
+0031.772 (0) Table pys_wpscst_tickets: Total rows added: 1 in 0.01 seconds
+0031.776 (0) Table pys_wpscst_tickets: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpscst_tickets.table.gz - 0.6 Kb)
+0031.792 (0) Table pys_wpsp_agent_settings: Total expected rows (approximate): 0
+0031.828 (0) Table pys_wpsp_agent_settings: Total rows added: 1 in 0.01 seconds
+0031.844 (0) Table pys_wpsp_agent_settings: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_agent_settings.table.gz - 0.3 Kb)
+0031.858 (0) Table pys_wpsp_attachments: Total expected rows (approximate): 0
+0031.868 (0) Table pys_wpsp_attachments: Total rows added: 0 in 0.01 seconds
+0031.872 (0) Table pys_wpsp_attachments: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_attachments.table.gz - 0.3 Kb)
+0031.886 (0) Table pys_wpsp_catagories: Total expected rows (approximate): 6
+0031.916 (0) Table pys_wpsp_catagories: Total rows added: 6 in 0.02 seconds
+0031.922 (0) Table pys_wpsp_catagories: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_catagories.table.gz - 0.4 Kb)
+0031.942 (0) Table pys_wpsp_ticket: Total expected rows (approximate): 0
+0031.950 (0) Table pys_wpsp_ticket: Total rows added: 0 in 0.00 seconds
+0031.954 (0) Table pys_wpsp_ticket: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_ticket.table.gz - 0.4 Kb)
+0031.968 (0) Table pys_wpsp_ticket_thread: Total expected rows (approximate): 0
+0031.977 (0) Table pys_wpsp_ticket_thread: Total rows added: 0 in 0.01 seconds
+0031.981 (0) Table pys_wpsp_ticket_thread: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_ticket_thread.table.gz - 0.3 Kb)
+0031.995 (0) Table pys_wpstorecart_meta: Total expected rows (approximate): 4
+0032.004 (0) Table pys_wpstorecart_meta: Total rows added: 4 in 0.01 seconds
+0032.009 (0) Table pys_wpstorecart_meta: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpstorecart_meta.table.gz - 0.4 Kb)
+0032.025 (0) Table pys_yarpp_related_cache: Total expected rows (approximate): 14
+0032.039 (0) Table pys_yarpp_related_cache: Total rows added: 14 in 0.01 seconds
+0032.043 (0) Table pys_yarpp_related_cache: finishing file (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_yarpp_related_cache.table.gz - 0.5 Kb)
+0032.061 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_options.table.gz (1/73): adding to final database dump
+0032.129 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_users.table.gz (2/73): adding to final database dump
+0032.131 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_usermeta.table.gz (3/73): adding to final database dump
+0032.136 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_commentmeta.table.gz (4/73): adding to final database dump
+0032.146 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_comments.table.gz (5/73): adding to final database dump
+0032.150 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_links.table.gz (6/73): adding to final database dump
+0032.154 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_postmeta.table.gz (7/73): adding to final database dump
+0032.163 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_posts.table.gz (8/73): adding to final database dump
+0032.183 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_term_relationships.table.gz (9/73): adding to final database dump
+0032.188 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_term_taxonomy.table.gz (10/73): adding to final database dump
+0032.192 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_terms.table.gz (11/73): adding to final database dump
+0032.196 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_ahm_download_stats.table.gz (12/73): adding to final database dump
+0032.200 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_ahm_emails.table.gz (13/73): adding to final database dump
+0032.203 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_cp_project_users.table.gz (14/73): adding to final database dump
+0032.207 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_field_options.table.gz (15/73): adding to final database dump
+0032.211 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_fields.table.gz (16/73): adding to final database dump
+0032.214 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_forms.table.gz (17/73): adding to final database dump
+0032.219 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_styles.table.gz (18/73): adding to final database dump
+0032.223 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_customcontactforms_user_data.table.gz (19/73): adding to final database dump
+0032.226 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker.table.gz (20/73): adding to final database dump
+0032.231 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_blocked.table.gz (21/73): adding to final database dump
+0032.234 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_query.table.gz (22/73): adding to final database dump
+0032.237 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_sessions.table.gz (23/73): adding to final database dump
+0032.241 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_submits.table.gz (24/73): adding to final database dump
+0032.245 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_themes.table.gz (25/73): adding to final database dump
+0032.263 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_formmaker_views.table.gz (26/73): adding to final database dump
+0032.267 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_orbis_log.table.gz (27/73): adding to final database dump
+0032.277 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_task_process_objects.table.gz (28/73): adding to final database dump
+0032.280 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_task_targets.table.gz (29/73): adding to final database dump
+0032.294 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_tasks.table.gz (30/73): adding to final database dump
+0032.298 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_project_tasks_process.table.gz (31/73): adding to final database dump
+0032.302 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_dataset.table.gz (32/73): adding to final database dump
+0032.306 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_datasetmeta.table.gz (33/73): adding to final database dump
+0032.311 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_projectmeta.table.gz (34/73): adding to final database dump
+0032.314 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_projectmanager_projects.table.gz (35/73): adding to final database dump
+0032.317 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_rp4wp_cache.table.gz (36/73): adding to final database dump
+0032.321 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu.table.gz (37/73): adding to final database dump
+0032.325 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_cats.table.gz (38/73): adding to final database dump
+0032.329 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_form_entries.table.gz (39/73): adding to final database dump
+0032.331 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_forms.table.gz (40/73): adding to final database dump
+0032.334 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_groups.table.gz (41/73): adding to final database dump
+0032.337 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_groups_assign.table.gz (42/73): adding to final database dump
+0032.341 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_sp_cu_project.table.gz (43/73): adding to final database dump
+0032.344 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_todolists_usertask.table.gz (44/73): adding to final database dump
+0032.347 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wap_x_calendar.table.gz (45/73): adding to final database dump
+0032.349 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfbadleechers.table.gz (46/73): adding to final database dump
+0032.352 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfblocks.table.gz (47/73): adding to final database dump
+0032.356 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfblocksadv.table.gz (48/73): adding to final database dump
+0032.360 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfconfig.table.gz (49/73): adding to final database dump
+0032.369 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfcrawlers.table.gz (50/73): adding to final database dump
+0032.378 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wffilemods.table.gz (51/73): adding to final database dump
+0032.437 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfhits.table.gz (52/73): adding to final database dump
+0032.443 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfhoover.table.gz (53/73): adding to final database dump
+0032.446 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfissues.table.gz (54/73): adding to final database dump
+0032.449 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfleechers.table.gz (55/73): adding to final database dump
+0032.452 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflockedout.table.gz (56/73): adding to final database dump
+0032.455 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflocs.table.gz (57/73): adding to final database dump
+0032.458 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wflogins.table.gz (58/73): adding to final database dump
+0032.462 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfnet404s.table.gz (59/73): adding to final database dump
+0032.471 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfreversecache.table.gz (60/73): adding to final database dump
+0032.475 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfscanners.table.gz (61/73): adding to final database dump
+0032.478 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfstatus.table.gz (62/73): adding to final database dump
+0032.486 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfthrottlelog.table.gz (63/73): adding to final database dump
+0032.490 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wfvulnscanners.table.gz (64/73): adding to final database dump
+0032.494 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpscst_replies.table.gz (65/73): adding to final database dump
+0032.497 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpscst_tickets.table.gz (66/73): adding to final database dump
+0032.500 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_agent_settings.table.gz (67/73): adding to final database dump
+0032.503 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_attachments.table.gz (68/73): adding to final database dump
+0032.507 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_catagories.table.gz (69/73): adding to final database dump
+0032.510 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_ticket.table.gz (70/73): adding to final database dump
+0032.513 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpsp_ticket_thread.table.gz (71/73): adding to final database dump
+0032.516 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_wpstorecart_meta.table.gz (72/73): adding to final database dump
+0032.519 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db-table-pys_yarpp_related_cache.table.gz (73/73): adding to final database dump
+0032.524 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db.gz: finished writing out complete database file (648 Kb)
+0032.560 (0) Total database tables backed up: 73 (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db.gz, size: 696667, checksum (SHA1): 632f4b73cc022c8e32e86b9ca2e63e1d2b86c684)
+0032.566 (0) Saving backup history
+0032.581 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.584 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.587 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.589 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.592 (0) backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.598 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0032.605 (0) Cloud backup selection: 
+0032.608 (0) No remote despatch: user chose no remote backup service
+0032.613 (0) Recording as successfully uploaded: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-plugins.zip (e9fa48bd319789191d06fd1c1066bcca)
+0032.627 (0) Recording as successfully uploaded: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-themes.zip (7ef97df8299cd7f26fe1a43e9ecbe400)
+0032.638 (0) Recording as successfully uploaded: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-uploads.zip (5470d8d0cd6f35501ed14e2169fddd08)
+0032.651 (0) Recording as successfully uploaded: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-others.zip (0de476f903f5e4aa31fe1eb225670ecd)
+0032.663 (0) Recording as successfully uploaded: backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db.gz (73b4e6c5c6376bb2c5a42f722615879c)
+0032.682 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0032.685 (0) Number of backup sets in history: 6
+0032.689 (0) Examining backup set with datestamp: 1420578017 (Jan 06 2015 21:00:17)
+0032.692 (0) 1420578017: db: this set includes a database (backup_2015-01-06-1600_PMA_Vine_78b6bc88c137-db.gz); db count is now 1
+0032.698 (0) 1420578017: this backup set remains non-empty (1/1); will retain in history
+0032.708 (0) Examining backup set with datestamp: 1420556208 (Jan 06 2015 14:56:48)
+0032.711 (0) 1420556208: db: this set includes a database (backup_2015-01-06-0956_PMA_Vine_cc8127727e81-db.gz); db count is now 2
+0032.717 (0) 1420556208: this backup set remains non-empty (1/1); will retain in history
+0032.720 (0) Examining backup set with datestamp: 1420466167 (Jan 05 2015 13:56:07)
+0032.723 (0) 1420466167: db: this set includes a database (backup_2015-01-05-0856_PMA_Vine_c67fdf4aaa6f-db.gz); db count is now 3
+0032.729 (0) 1420466167: this backup set remains non-empty (1/1); will retain in history
+0032.732 (0) Examining backup set with datestamp: 1419973144 (Dec 30 2014 20:59:04)
+0032.735 (0) 1419973144: db: this set includes a database (backup_2014-12-30-1559_PMA_Vine_0532bd7ddc0d-db.gz); db count is now 4
+0032.742 (0) 1419973144: this backup set remains non-empty (1/1); will retain in history
+0032.744 (0) Examining backup set with datestamp: 1419947563 (Dec 30 2014 13:52:43)
+0032.747 (0) 1419947563: db: this set includes a database (backup_2014-12-30-0852_PMA_Vine_6935595f709f-db.gz); db count is now 5
+0032.754 (0) 1419947563: this backup set remains non-empty (1/1); will retain in history
+0032.757 (0) Examining backup set with datestamp: 1419368366 (Dec 23 2014 20:59:26)
+0032.760 (0) 1419368366: db: this set includes a database (backup_2014-12-23-1559_PMA_Vine_f315528eab56-db.gz); db count is now 6
+0032.763 (0) 1419368366: db: over retain limit (5); will delete this database
+0032.766 (0) Delete file: backup_2014-12-23-1559_PMA_Vine_f315528eab56-db.gz, service=none
+0032.769 (0) Deleting local copy (backup_2014-12-23-1559_PMA_Vine_f315528eab56-db.gz)
+0032.776 (0) plugins: 1419368366: over retain limit (5); will delete this file (backup_2014-12-23-1559_PMA_Vine_f315528eab56-plugins.zip)
+0032.780 (0) themes: 1419368366: over retain limit (5); will delete this file (backup_2014-12-23-1559_PMA_Vine_f315528eab56-themes.zip)
+0032.783 (0) uploads: 1419368366: over retain limit (5); will delete this file (backup_2014-12-23-1559_PMA_Vine_f315528eab56-uploads.zip)
+0032.786 (0) others: 1419368366: over retain limit (5); will delete this file (backup_2014-12-23-1559_PMA_Vine_f315528eab56-others.zip)
+0032.789 (0) Delete file: backup_2014-12-23-1559_PMA_Vine_f315528eab56-plugins.zip, service=none
+0032.818 (0) Deleting local copy (backup_2014-12-23-1559_PMA_Vine_f315528eab56-plugins.zip)
+0032.840 (0) Delete file: backup_2014-12-23-1559_PMA_Vine_f315528eab56-themes.zip, service=none
+0032.846 (0) Deleting local copy (backup_2014-12-23-1559_PMA_Vine_f315528eab56-themes.zip)
+0032.851 (0) Delete file: backup_2014-12-23-1559_PMA_Vine_f315528eab56-uploads.zip, service=none
+0032.854 (0) Deleting local copy (backup_2014-12-23-1559_PMA_Vine_f315528eab56-uploads.zip)
+0032.859 (0) Delete file: backup_2014-12-23-1559_PMA_Vine_f315528eab56-others.zip, service=none
+0032.862 (0) Deleting local copy (backup_2014-12-23-1559_PMA_Vine_f315528eab56-others.zip)
+0032.869 (0) 1419368366: this backup set is now empty; will remove from history
+0032.873 (0) 1419368366: deleting log file (log.f315528eab56.txt)
+0032.876 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0032.883 (0) Resume backup (78b6bc88c137, 0): finish run
+0032.893 (0) Decremented the semaphore (fd) by 1
+0032.898 (0) Semaphore (fd) unlocked
+0032.901 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0032.911 (0) No email will/can be sent - the user has not configured an email address.
+0032.914 (0) The backup apparently succeeded and is now complete

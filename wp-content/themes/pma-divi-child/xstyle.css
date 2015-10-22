@@ -1,0 +1,416 @@
+/*
+ Theme Name:     PMA - Divi Child Theme
+ Theme URI:      http://vinedev.pma.com;
+ Description:    PMA - Divi Child Theme
+ Author:         Jim Rucinski
+ Author URI:     http://vinedev.pma.com;
+ Template:       Divi
+ Version:        0.1
+*/
+
+@import url("../Divi/style.css");
+
+/*added to fix an issue with the dropdown menus not displaying correctly with the DIVI upgrade*/
+ .nav li ul {
+    visibility:hidden;
+    background-color:#ffffff;
+}
+/*end DIVI fix here*/
+
+#BreadCrumbs{
+    margin-bottom:1em;font-size:1em;
+    margin-left:2em;
+}
+.BreadCrumbs{
+    list-style:none;
+    overflow:hidden;
+    font-size:.9em;
+}
+.BreadCrumbs li{
+    float:left;
+}
+.BreadCrumbs li a{
+   color: #fafafa;
+   text-decoration: none;
+   padding: 0px 0 0px 50px;
+   background: #4f803c; // fallback color for browsers that don't support HSLA
+   background: hsla(104.3,36.2%, 36.9%,1);
+   position: relative;
+   display: block;
+   float: left;
+}
+.BreadCrumbs li a:after {
+   content: " ";
+   display: block;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 30px solid  hsla(104.3,36.2%, 36.9%,1);
+   
+   position: absolute;
+   top: 50%;
+   margin-top: -50px;
+   left: 100%;
+   z-index: 2;
+}
+.BreadCrumbs li a:before {
+   content: " ";
+   display: block;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 30px solid white;
+   position: absolute;
+   top: 50%;
+   margin-top: -50px;
+   margin-left: 1px;
+   left: 100%;
+   z-index: 1;
+}
+.BreadCrumbs li a:hover{
+    text-decoration: underline;
+}
+.BreadCrumbs li:first-child a {
+   padding-left: 10px;
+}
+.BreadCrumbs li:last-child a {
+    background-color:#ffffff;
+    color:#000000;
+    font-style:oblique;
+}
+.BreadCrumbs li:last-child a:hover{
+    text-decoration:none;
+    
+    
+}
+.BreadCrumbs li:last-child a:after{
+ border:none;   
+ 
+}
+
+.PmaSupportTicket {
+	display: block;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: .35em;
+	padding-bottom: .625em;
+	padding-left: .75em;
+	padding-right: .75em;
+	border: 2px groove (internal value);
+        
+}
+
+.PmaSupportTicket input {
+	min-width: 300px;
+}
+
+.PmaSupportTicket select {
+	min-width: 300px;
+}
+
+.PmaSupportTicket li {
+	list-style-type: none;
+	margin-bottom: .5em;
+}
+
+.PmaSupportTicket label {
+	float: left;
+	font-weight: bolder;
+	display: inline-block;
+	width: 10em;
+	margin-right: 1em;
+	white-space: nowrap;
+	text-transform: capitalize;
+}
+
+#rightPanel{
+    float:right;
+    width: 40%;
+}
+.ChangeLogHeader {
+	display: block;
+	text-align: right;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.log {
+        position:relative;
+	max-height: 225px;
+	overflow: auto;
+	font-size: .9em;
+	float: right;
+	padding: .5em;
+	width:96%;
+	background-color: #eeeeee;
+	border: 1px solid #000000;
+        margin-bottom:10px;
+}
+
+.logEntry {
+	border-bottom: 1px dashed #b8b8b8;
+}
+
+#log .heavy {
+	font-weight: bolder;
+	display: block;
+}
+
+#supportTix {
+	display: block;
+	font-size: .9em;
+	padding: .15em;
+
+}
+
+#supportFiles {
+	max-height: 200px;
+	overflow: auto;
+	font-size: .9em;
+	background-color: #ffffff;
+        border: 1px solid #000000;
+}
+
+#supportFiles div {
+	margin: 8px;
+
+}
+
+#supportFiles img {
+	padding-right: 10px;
+}
+
+.WR_Search{
+    margin-left:0px;
+}
+.WR_Search li{
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    margin-right:1em;
+}
+.WR_Search li label{
+    padding-right:.5em;
+    font-weight:bolder;
+}
+/*
+.container{
+width:90%;
+
+}
+*/
+#PmaWorkRequestsTable {
+	border-color: #000;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	font-size: small;
+}
+
+#PmaWorkRequestsTable tr {
+	padding: 0;
+}
+
+#PmaWorkRequestsTable th {
+	background-color: #20578c;
+	color: white;
+	text-transform: capitalize;
+}
+
+#PmaWorkRequestsTable th a {
+	color: yellow;
+}
+
+#PmaWorkRequestsTable td {
+	border-color: #000;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	margin: 0;
+	padding: 0;
+}
+
+#PmaWorkRequestsTable tr:nth-child(even) {
+	background: #ECF0F1;
+}
+
+.PmaDatePicker {
+    
+}
+
+.ui-datepicker {
+	background: #fff;
+/* Old browsers */
+	background: #fff -moz-linear-gradient(top,#fcfcfc 0%,#fff 100%);
+/* FF3.6+ */
+	background: #fff -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fcfcfc), color-stop(100%,#fff));
+/* Chrome,Safari4+ */
+	background: #fff -webkit-linear-gradient(top,#fcfcfc 0%,#fff 100%);
+/* Chrome10+,Safari5.1+ */
+	background: #fff -o-linear-gradient(top,#fcfcfc 0%,#fff 100%);
+/* Opera11.10+ */
+	background: #fff -ms-linear-gradient(top,#fcfcfc 0%,#fff 100%);
+/* IE10+ */
+	background: #fff linear-gradient(top,#fcfcfc 0%,#fff 100%);
+/* W3C */
+	font-size: 11px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.ui-datepicker table {
+
+}
+
+.ui-datepicker table td {
+	text-align: center;
+}
+
+.ui-datepicker a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.ui-datepicker-prev {
+}
+
+.ui-datepicker-next {
+	float: right;
+}
+
+.ui-datepicker-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.errorMsg{
+    color:red;
+}
+
+
+
+.highlight
+{
+    background-color:yellow;
+}
+
+.overdue
+{
+    color:#ff0000;
+}
+.tixDesc{
+    display:inline-block;
+    overflow:auto;
+    max-height:200px;
+    font-size:.95em;
+    background-color:#fafafa;
+    margin-bottom:1em;
+    border:solid 1px #cccccc;
+    padding-left:.5em;
+}
+
+.pagination{
+    padding:0 1em 0 1em;
+}
+.EmployeeTable {
+    width:100%;
+}
+.EmployeeTable thead{background-color:#000000}
+.EmployeeTable thead th{color:#ffffff;}
+
+@media screen and (max-width: 750px ) {
+
+     #rightPanel{
+         border-top:solid 2px #cccccc;
+
+        float:left;
+        width:100%;
+    }
+    
+    .ChangeLogHeader {
+	float:left;
+        width:100%;
+	text-align: right;
+	font-size: larger;
+	font-weight: bolder;
+}
+    #supportFiles {
+	max-height: 100px;
+	overflow: auto;
+	font-size: .9em;
+	background-color: #fafafa;
+        border: 1px solid #000000;
+        width:95%;
+        float:left;
+        margin-left:1em;
+        margin-right:1em;
+        margin-bottom:2em;
+}
+    .log {
+        clear:both;
+        display:block;
+	max-height: 125px;
+	overflow: auto;
+	font-size: .9em;
+	padding: .5em;
+	width:95%;
+	background-color: #fafafa;
+	border: 1px solid #000000;
+        margin-bottom:1em;
+        margin-left:1em;
+        margin-right:1em;
+
+}
+
+    .BreadCrumbs{    
+        display:none;
+    }
+    
+    .WR_Search li{
+    display: block;
+    zoom:1;    
+    margin-right:1em;
+    }
+    .WR_Search li label{
+        display:block;
+    padding-right:.5em;
+    font-weight:bolder;
+    }
+    #PmaWorkRequestsTable{
+        border:1px solid #ccc;
+    }
+    #PmaWorkRequestsTable td{
+        border:none;
+    }
+     
+  /* Force table to not be like tables anymore */
+        .responsive-stacked-table thead {
+    	display: none;
+    }
+    .responsive-stacked-table{width:100%;}
+    .responsive-stacked-table tr,
+    .responsive-stacked-table th,
+    .responsive-stacked-table td {
+    	display: block;
+        min-width:100%;
+        max-width:100%;
+        white-space:nowrap;
+       
+    }
+    .responsive-stacked-table td {
+    }
+    .responsive-stacked-table tr td:first-child {
+    	font-weight: bold;
+    }
+
+    .responsive-stacked-table td:before{
+        content: attr(data-label);
+        display:block;
+        float:left;
+        text-transform:uppercase;
+        font-weight:bold;
+        width:30%;
+
+    }
+    
+}

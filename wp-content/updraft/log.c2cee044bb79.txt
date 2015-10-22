@@ -1,0 +1,7 @@
+0000.003 (0) Opened log file at time: Tue, 24 Mar 2015 21:09:27 +0000 on http://jxr980:8020/vinedev
+0000.021 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46.19 WP: 4.1 PHP: 5.6.3 (Windows NT JXR980 6.1 build 7601 (Windows 7 Business Edition Service Pack 1) i586) MySQL: 5.6.21 Server: Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31M | 31.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 34019.4 Mb
+0000.049 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.054 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.065 (0) No email will be sent - this backup set was empty.
+0000.068 (0) The backup apparently succeeded and is now complete
