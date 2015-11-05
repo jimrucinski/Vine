@@ -526,9 +526,10 @@ function email_subscribers($post_ID){
     $dbo->query($sql);
     $rows = $dbo->resultset();
     $emails = array();
-    foreach ($rows as $row){
-         $emails[] = $row['user_email'];
-     }
+	$emails[] = VinePostingEmailNode;
+    //foreach ($rows as $row){
+    //     $emails[] = $row['user_email'];
+    // }
     
      
     // $author = get_user_by('id', $post->post_author );
