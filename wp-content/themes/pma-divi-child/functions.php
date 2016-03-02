@@ -145,11 +145,16 @@ function pmaCurrentUserInformation()
 }
 add_shortcode('PMA-UserInfo','pmaCurrentUserInformation');
 
-function pmaCreateSeachForm(){
+function pmaCreateSeachForm($atts){
+    
+    $a =shortcode_atts(['deptid' => ''
+                        ], $atts
+	) ;
+    
     $str='<ul class="WR_Search"><li><label for="StatusType">Status</label>';
     $str .= do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypes' id=1 nme='StatusType' keepvalue='true' blank='0']");
     $str .= '</li><li><label for="agent">Agent</label>';
-    $str .= do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=1 nme='agent' keepvalue='true' blank='1']");
+    $str .= do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id='" .$a['deptid'] ."' nme='agent' keepvalue='true' blank='1']");
     $str .= '</li><li><label for="commentSearch">Resolution / Log Search</label>';
     $str .= '<input type="text" value="' . filter_input(INPUT_GET,'commentSearch',FILTER_SANITIZE_STRING) . '" id="commentSearch" name="commentSearch" style="width:200px;" />';
     $str .= '</li><li><label/><input  type="submit" value="submit"  />';
@@ -440,7 +445,115 @@ function pmaGetWorkRequest(){
     return $str;
 }
 add_shortcode('PMA-GetWorkRequest', 'pmaGetWorkRequest');
+   
+function pmaGetOfficeServicesRequest(){
+    //global $wp;
+    global $current_user;
+    //handle file delete request
+    /*if(isset($_REQUEST['SupportFile'])){
+        try{
+            get_currentuserinfo();
+            $curUser = $current_user->user_login;
+            $currentWID = $_REQUEST['workrequestid'];
+            $delId = $_REQUEST['SupportFile']; 
+            $sql = 'call sp_deleteSupportFile(' . $currentWID . ',' .$delId . ',"' . $curUser . '")';
+            $dbo = PmaPdoDb::getInstance();
+            $dbo->connect(DB_HOST,DB_USER, DB_PASSWORD, DB_NAME);
+            $dbo->query($sql);
+            $dbo->execute();
+            //$rs = $dbo->execute(); 
+        }
+        catch(Exception $exp)
+        {
+            echo "EXCEPTION:<br/>" . $exp.message;
+            die();
+        }
+    }*/
+    if(isset($_REQUEST['workrequestid']))
+    {
+    $wid = filter_input(INPUT_GET,"workrequestid");
+    }
+    else
+    {
+        return "<h4>There was no ID passed to the page, therefore no records found.</h4>";
+    }
     
+    $sql = 'call sp_getWorkRequest(' .$wid . ')';
+    $dbo = PmaPdoDb::getInstance();
+    $dbo->connect(DB_HOST,DB_USER, DB_PASSWORD, DB_NAME);
+    $rows = $dbo->queryForObjs($sql);
+
+    //store orginal values in session
+    //session_start();
+    $_SESSION['OriginalTicketVals'] = $rows;
+    $str=getTinyMceScript();     
+    //$str = do_shortcode("[PMA-Breadcrumbs]") . '<div style="float:right"><font class="ChangeLogHeader">Change Log</font></div>';
+    $str .= '<h4>' . $rows[0]['request_title'] .'</h4>';  
+    
+    $str .= '<script type="text/javascript">function checkFiles(){var F = document.getElementById("upload_file");if("files" in F){var s=0;for (var i = 0; i < F.files.length; i++){var file = F.files[i];s+=file.size;}};if(s > 8388608){alert("Total File Size is Greater Than Allowable 8 Meg Limit");return false;}else{return true;}}</script>';
+    $str .= '<form action="../../../../PMA/EditTicket.php" method="POST" name="EditTicket" id="EditTicket" enctype="multipart/form-data">';
+    $str .= '<div style="float:left;width:60%;"><fieldset style="position:relative;width:95%;" ><ul class="PmaSupportTicket">';
+    foreach($rows as $row){
+        $str .= '<li><label>Name</label>';
+        $str .=  $row['first_name'] . ' ' . $row['last_name'] . '</li><li><label>email</label><a href="mailto://' . $row['email'] . '">' . $row['email'] . '</a></li><li><label>date submitted</label>' . $row['date_submitted']  . '</li>';
+        $str .= '<li><label id="agent_label">assigned to</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=4 nme='agent' keepvalue=" . $row['agent']. " blank=0)]");  '</li>';
+        $str .= '<li><label>due date</label><input class="required" id="due_date"   name="due_date" type="text" value="' . $row['due_date'] . '" /></li>';
+       
+        $str .= '<li><label>materials to O.S.</label><input class="required" id="material_to_office_services"   name="material_to_office_services" type="text" value="' . $row['material_to_office_services'] . '" /></li>';
+        
+        $str .= '<li><label>charge code</label><input class="required" id="charge_code"   name="charge_code" type="text" value="' . $row['charge_code'] . '" /></li>';
+        $str .= '<li><label>quantity</label><input class="required" id="quantity"   name="quantity" type="text" value="' . $row['quantity'] . '" /></li>';
+        $str .= '<li><label>request type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getDeptRequestTypes' id=4 nme='requestType' keepvalue=" . $row['request_type'] . " blank=0]");  '</li>';
+        $str .= '<li><label>status</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypesForEdit' id=1 nme='status' keepvalue=" . $row['status'] . ']'); '</li>';
+        $str .= pmaCreateInputBox('requestTitle',  $row['request_title']);
+        $str .= '<li><label>description</label><span class="tixDesc">' . htmlspecialchars_decode($row['request_desc']) . '</span></li>';        
+        //$str .= '<li><label  id="upload_file_label">support files</label><input type="file" id="upload_file" name="upload_file[]" multiple=""/></li>';
+        $str .= ($row['resolution'] !='' ? '<li><label id="resolution_label">resolution</label><p style="display:inline-block;">' . nl2br($row['resolution']) .'</p></li>':'');
+        $str .= '<li><label id="comment_label">comment</label><textarea id="comments" name="comments" rows="3" style="width:98%;"></textarea>';        
+        $str .= '<li><label>&nbsp;</label><input type="submit" value="submit" id="go" name="go" /></li>';
+    }
+    $str .= '</ul></fieldset></div></div>';
+    $str .= '</form>';
+
+    //start Change Log 
+    $ticketlog = 'call sp_getTicketLog(' . $wid .',@tixDesc)';
+    $dbo->query($ticketlog);
+    $log = $dbo->resultset();
+    $str .='<div id="rightPanel">';
+    if(!empty($log)){
+        $str .= '<a target ="new" href="../../../../PMA/PrintLog.php?workrequestid=' . $wid . '">print log</a><br/>';         
+        $str .='<div class="log">';
+        foreach($log as $l){
+            $str .='<div><strong>' . $l["tstamp"] . ': ' . $l["user"] . '</strong><br/>' . str_replace("\\n","<br/>",$l["ticket_comment"]) . '</div>';
+        }
+        $str .= '</div>';
+    }
+    else{
+        $str .='<div class="log" style="background-color:#666666;color:#ffffff;text-align:center;">no log found</div>';
+    }
+    $str .='</div>';
+    //start File Attachments
+    $attachments = 'call sp_getTicketFileAttachments(' .$wid . ')';
+    $dbo->query($attachments);
+    $fas =  $dbo->resultset();
+
+
+    if(!empty($fas[0])){
+        $str .= '<div id="supportTix"><font class="ChangeLogHeader" style="text-align:left;">Support Documents</font>';
+        $str .='<div id="supportFiles">';
+        foreach($fas as $fa){
+            $str .=  '<div style="margin: 10px;"><a onclick="return confirm(\'Are you sure you want to delete the selected support document: ' . $fa['fileName'] . '?\');" href=".?workrequestid=' . $wid . '&SupportFile=' . $fa['id'] .'"><img style="margin-right:1em;border-right: .5px solid #ebebeb;" title="Delete ' . $fa['fileName'] . '"  src="' . get_option("siteurl") .'/PMA/images/delete-icon.png"/></a><a title="Download ' . $fa['fileName'] . '" href="' . get_option("siteurl") .'/PMA/PmaGetFile.php?id=' . $fa['id'] . '">';
+           $str .= getIconForMimeType($fa['mime']);
+           $str .= $fa['fileName'] . '</a></div>';
+        }
+        $str .='</div>';
+        
+    }
+   $str .= '</div>';
+ return $str;
+}
+add_shortcode('PMA-GetOfficeServicesRequest', 'pmaGetOfficeServicesRequest');
+
 function getIconForMimeType($mime)
 {
     $str='<img src="' . get_option("siteurl") .'/PMA/images/';
