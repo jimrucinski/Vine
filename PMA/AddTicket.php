@@ -23,6 +23,16 @@ $department = filter_input(INPUT_POST,"department");
 $logged_in_user = $current_user->user_login;
 $fileUpload = NULL;
 $fileArray = NULL;
+$chargeCode=filter_input(INPUT_POST,"charge_code");
+//must use variable here because of a bug in PHP see this site for explanation
+//https://beeznest.wordpress.com/2014/09/26/cant-use-function-return-value-in-write-context/
+$servicesDate = trim(filter_input(INPUT_POST,'material_to_office_services'));
+$materialToOfficeServices = (!empty($servicesDate))?$servicesDate:null;
+//end
+$quantity = filter_input(INPUT_POST,"quantity");
+
+
+
 
 
 if(count(array_filter($_FILES['upload_file']['name']))>0){
@@ -48,10 +58,16 @@ $tix->request_type=$requestType;
 $tix->agent = $agent;
 $tix->department = $department;
 $tix->logged_in_user = $logged_in_user;
+$tix->charge_code = $chargeCode;
+$tix->material_to_office_services = $materialToOfficeServices;
+$tix->quantity = $quantity;
+
+
 
 try{
 $dbo = PmaPdoDb::getInstance();
 $dbo->connect(DB_HOST,DB_USER, DB_PASSWORD, DB_NAME);
+
 $dbo->addTicket($tix, $fileArray);
 
 $requestId = $dbo->resultset();
@@ -74,15 +90,40 @@ $addresses = array();
 $addresses[] =$agentEmail[0]['email'];
 
 }
-$wrUrl = '<a href="' . get_page_link(get_page_by_title('Edit Work Request')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
-$addresses[] =WR_IT_Admin; //work request IT admin set in wp-config
+
+
+
+$redirectLocation;
+switch($department){
+    case 1:
+       $redirectLocation='/information-technology/review-it-work-requests/';
+        $addresses[] =WR_IT_Admin; //work request IT admin set in wp-config
+        $wrUrl = '<a href="' . get_page_link(get_page_by_title('Edit Work Request')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
+        break;
+    case 4:
+       $redirectLocation='/teams/office-services/office-services-request-review/';
+        $wrUrl = '<a href="' . get_page_link(get_page_by_title('Office Services Review')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
+        break;
+    default:
+       $redirectLocation=null;
+}
+
 
 $body = '<p><strong>A new Work Request was added for you.</strong></p>';
 $body .= '<p>' . $tix->request_title . '<br/>' .$requestDesc .  '</p>';
 
 sendMail('New Work Request', $body . $wrUrl , $addresses, true );
 
-wp_safe_redirect(get_page_link(get_page_by_title('Review IT Work Requests')->ID));
+
+
+
+wp_redirect(home_url() . $redirectLocation);
+//wp_safe_redirect( wp_get_referer());
+//exit;
+
+
+
+//wp_safe_redirect(get_page_link(get_page_by_title('Review IT Work Requests')->ID));
 }
 catch(Exception $exp)
 {
