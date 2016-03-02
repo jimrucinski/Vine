@@ -186,3 +186,43 @@ error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /ho
 [03-Sep-2015 19:16:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
 [06-Sep-2015 13:13:30 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
 [11-Sep-2015 13:12:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[21-Sep-2015 18:16:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE pma26606_wp621.sp_getTicketSubmissionEmail; expected 1, got 0' in /home/pma26606/public_html/vine/PMA/PmaDb.class.php:156
+Stack trace:
+#0 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(156): PDOStatement->execute()
+#1 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(159): PmaPdoDb->execute()
+#2 /home/pma26606/public_html/vine/PMA/EditTicket.php(56): PmaPdoDb->resultset()
+#3 {main}
+  thrown in /home/pma26606/public_html/vine/PMA/PmaDb.class.php on line 156
+[25-Sep-2015 16:29:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE pma26606_wp621.sp_getTicketSubmissionEmail; expected 1, got 0' in /home/pma26606/public_html/vine/PMA/PmaDb.class.php:156
+Stack trace:
+#0 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(156): PDOStatement->execute()
+#1 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(159): PmaPdoDb->execute()
+#2 /home/pma26606/public_html/vine/PMA/EditTicket.php(56): PmaPdoDb->resultset()
+#3 {main}
+  thrown in /home/pma26606/public_html/vine/PMA/PmaDb.class.php on line 156
+[17-Nov-2015 15:52:41 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[23-Nov-2015 20:13:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[23-Nov-2015 20:35:05 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[07-Dec-2015 14:00:34 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[09-Dec-2015 15:47:08 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[09-Dec-2015 16:11:00 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[18-Dec-2015 18:33:16 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:33:54 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:34:26 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:34:57 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:35:33 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:36:12 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:36:54 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:37:24 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:38:00 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:38:33 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:39:02 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[18-Dec-2015 18:39:30 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[22-Dec-2015 14:50:19 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[22-Dec-2015 17:56:03 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[04-Jan-2016 15:47:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[06-Jan-2016 16:49:43 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[21-Jan-2016 18:35:17 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[29-Jan-2016 15:00:11 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[10-Feb-2016 15:26:24 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[10-Feb-2016 15:28:27 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28

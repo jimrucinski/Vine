@@ -25,7 +25,7 @@ if(isset($_GET['id'])){
                 // Print headers
                 header("Content-Type: ". $fas[0]['mime']);
                 header("Content-Length: ". $fas[0]['size']);
-                header("Content-Disposition: attachment; filename=". $fas[0]['fileName']);
+                header('Content-Disposition: attachment; filename="'. $fas[0]['fileName'] . '"');
  
                 
                 while(@ob_end_clean());//this line is needed if server has output buffering on. Without this line all files besides PDF are corrupt on download.

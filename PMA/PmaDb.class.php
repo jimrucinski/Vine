@@ -44,9 +44,9 @@ if(!class_exists('PmaPdoDb')){
         }
         public function editTicket($tix, $cmt, $fileUp){
             try{       
-
                 
-                $this->stmt = self::$db->prepare('CALL sp_editTicket(?,?,?,?,?,?,?,?,?,?,?,?,?)');
+         
+                $this->stmt = self::$db->prepare('CALL sp_editTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
                 $this->stmt->bindParam(1,$tix->id);
                 $this->stmt->bindParam(2,$tix->agent);
                 $this->stmt->bindParam(3,$tix->status);
@@ -71,6 +71,10 @@ if(!class_exists('PmaPdoDb')){
                     $this->stmt->bindParam(12,$null); 
                 }
                 $this->stmt->bindParam(13,$tix->due_date);
+                $this->stmt->bindParam(14,$tix->charge_code);
+                $this->stmt->bindParam(15,$tix->material_to_office_services);
+                $this->stmt->bindParam(16,$tix->quantity);
+           
                 $this->stmt->execute();
             }
             catch(PDOException $e){
@@ -99,8 +103,8 @@ if(!class_exists('PmaPdoDb')){
         public function addTicket($tix, $fileUp){
             $null = NULL;
            try{
-               //echo('count = ' . count($fileUp));
-                $this->stmt = self::$db->prepare('CALL sp_insertPmaTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
+               //echo
+                $this->stmt = self::$db->prepare('CALL sp_insertPmaTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
                 $this->stmt->bindParam(1,$tix->first_name);
                 $this->stmt->bindParam(2,$tix->last_name);
                 $this->stmt->bindParam(3,$tix->email);
@@ -110,7 +114,10 @@ if(!class_exists('PmaPdoDb')){
                 $this->stmt->bindParam(7,$tix->request_type);
                 $this->stmt->bindParam(8,$tix->agent);   
                 $this->stmt->bindParam(9,$tix->department);
-                $this->stmt->bindParam(10,$tix->logged_in_user);                
+                $this->stmt->bindParam(10,$tix->logged_in_user);   
+                $this->stmt->bindParam(15,$tix->charge_code);
+                $this->stmt->bindParam(16,$tix->material_to_office_services);
+                $this->stmt->bindParam(17,$tix->quantity);
                 if($fileUp != NULL){
                     
                    // foreach ($fileUp as $file) {
@@ -181,8 +188,6 @@ if(!class_exists('PmaPdoDb')){
             
         }
         
-        
-       
     }
 }
 ?>
