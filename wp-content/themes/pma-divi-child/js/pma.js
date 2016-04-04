@@ -6,7 +6,10 @@ j(document).ready(function() {
      
  dateFormat : 'mm-dd-yy'
  });
-
+ j('#material_to_office_services').datepicker({
+     
+ dateFormat : 'mm-dd-yy'
+ });
 //alert(my_var);
 
  j('[name="EditTicket"]').submit(function(){

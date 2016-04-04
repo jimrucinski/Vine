@@ -393,7 +393,18 @@ function pmaGetWorkRequest(){
     foreach($rows as $row){
         $str .= '<li><label>Name</label>';
         $str .=  $row['first_name'] . ' ' . $row['last_name'] . '</li><li><label>email</label><a href="mailto://' . $row['email'] . '">' . $row['email'] . '</a></li><li><label>date submitted</label>' . $row['date_submitted']  . '</li>';
+        if($row['status']==3)
+        {
+            $str .= '<li><label>date complete</label>' . $row['date_complete'] . '</li>';
+            if($row['total_days']>0){
+
+               $str .= '<li><label>days to complete</label>' . $row['total_days'] . '</li>';
+            }
+            else {           
+            $str .= '<li><label>hours to complete</label>' . $row['total_hours'] . '</li>';}
+        }
         $str .= '<li><label>due date</label><input class="required" id="due_date"   name="due_date" type="text" value="' . $row['due_date'] . '" /></li>';
+        
         $str .= '<li><label id="agent_label">assigned to</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=1 nme='agent' keepvalue=" . $row['agent']. " blank=1)]");  '</li>';
         $str .= '<li><label>status</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypesForEdit' id=1 nme='status' keepvalue=" . $row['status'] . ']'); '</li>';
         $str .= '<li><label>request type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getDeptRequestTypes' id=1 nme='requestType' keepvalue=" . $row['request_type'] . " blank=0]");  '</li>';
@@ -496,7 +507,21 @@ function pmaGetOfficeServicesRequest(){
     foreach($rows as $row){
         $str .= '<li><label>Name</label>';
         $str .=  $row['first_name'] . ' ' . $row['last_name'] . '</li><li><label>email</label><a href="mailto://' . $row['email'] . '">' . $row['email'] . '</a></li><li><label>date submitted</label>' . $row['date_submitted']  . '</li>';
+
+        if($row['status']==3)
+        {
+            $str .= '<li><label>date complete</label>' . $row['date_complete'] . '</li>';
+            if($row['total_days']>0){
+
+               $str .= '<li><label>days to complete</label>' . $row['total_days'] . '</li>';
+            }
+            else {           
+            $str .= '<li><label>hours to complete</label>' . $row['total_hours'] . '</li>';}
+        }
         $str .= '<li><label id="agent_label">assigned to</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=4 nme='agent' keepvalue=" . $row['agent']. " blank=0)]");  '</li>';
+        
+        
+        
         $str .= '<li><label>due date</label><input class="required" id="due_date"   name="due_date" type="text" value="' . $row['due_date'] . '" /></li>';
        
         $str .= '<li><label>materials to O.S.</label><input class="required" id="material_to_office_services"   name="material_to_office_services" type="text" value="' . $row['material_to_office_services'] . '" /></li>';
@@ -504,6 +529,7 @@ function pmaGetOfficeServicesRequest(){
         $str .= '<li><label>charge code</label><input class="required" id="charge_code"   name="charge_code" type="text" value="' . $row['charge_code'] . '" /></li>';
         $str .= '<li><label>quantity</label><input class="required" id="quantity"   name="quantity" type="text" value="' . $row['quantity'] . '" /></li>';
         $str .= '<li><label>request type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getDeptRequestTypes' id=4 nme='requestType' keepvalue=" . $row['request_type'] . " blank=0]");  '</li>';
+        $str .= '<li><label>envelope type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getEnvelopeTypesForEdit' id=1 nme='envelope_type' keepvalue=" . $row['envelope_type'] . ']'); '</li>';
         $str .= '<li><label>status</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypesForEdit' id=1 nme='status' keepvalue=" . $row['status'] . ']'); '</li>';
         $str .= pmaCreateInputBox('requestTitle',  $row['request_title']);
         $str .= '<li><label>description</label><span class="tixDesc">' . htmlspecialchars_decode($row['request_desc']) . '</span></li>';        
