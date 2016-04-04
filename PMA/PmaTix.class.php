@@ -15,7 +15,7 @@ class PmaTix {
     public $id,$requestor,$request_title,$due_date,
             $date_submitted,$status,$assigned,
             $email,$first_name,$last_name,$request_desc,$request_type, $agent, $department, $logged_in_user, $current_agent_full_name,
-            $current_status_name,$current_request_type_name, $resolution, $charge_code, $material_to_office_services, $quantity;
+            $current_status_name,$current_request_type_name, $resolution, $charge_code, $material_to_office_services, $quantity, $envelope_type;
     
     
     public function __construct(){

@@ -30,6 +30,7 @@ $servicesDate = trim(filter_input(INPUT_POST,'material_to_office_services'));
 $materialToOfficeServices = (!empty($servicesDate))?$servicesDate:null;
 //end
 $quantity = filter_input(INPUT_POST,"quantity");
+$envelopeType = filter_input(INPUT_POST,"envelope_type");
 
 
 
@@ -61,6 +62,7 @@ $tix->logged_in_user = $logged_in_user;
 $tix->charge_code = $chargeCode;
 $tix->material_to_office_services = $materialToOfficeServices;
 $tix->quantity = $quantity;
+$tix->envelope_type=$envelopeType;
 
 
 

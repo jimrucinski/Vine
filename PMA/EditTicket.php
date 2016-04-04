@@ -27,6 +27,10 @@ $qty = trim(filter_input(INPUT_POST,'quantity'));
 $quantity = (!empty($qty))?$qty:null;
 
 
+$envelopeType = filter_input(INPUT_POST,"envelope_type");
+
+
+
 
 //$cmt = filter_input(INPUT_POST,"comments");
 $cmt = strip_tags(html_entity_decode(filter_input(INPUT_POST,"comments")),'<br><br/><p><a><strong><em><ul><ol><li>');
@@ -48,10 +52,10 @@ if(isset($_SESSION['OriginalTicketVals'])){
     
     $rows = $_SESSION['OriginalTicketVals'];//orignal ticket values
     
-    //foreach($rows[0] as $key => $value){
-    //    echo $key . ' - ' . $value . '<br/>';
-    //}
-    //die();
+ //   foreach($rows[0] as $key => $value){
+ //       echo $key . ' - ' . $value . '<br/>';
+ //   }
+ //   die();
 }
 
 $department = $rows[0]['department'];
@@ -125,6 +129,13 @@ if($chargeCode != $rows[0]['charge_code']){
 if($quantity != $rows[0]['quantity']){
     $log .= 'Quantity ' . $rows[0]['quantity'] .  ' changed to ' . $quantity . '\n' ; 
 }
+if($envelopeType != $rows[0]['envelope_type']){
+    
+    $sql = 'call sp_getEnvelopeType(' .$envelopeType . ')';
+    $dbo->query($sql);
+    $nme = $dbo->resultset();   
+    $log .= 'Envelope Type '. $rows[0]['envelope_types'] . ' changed to ' . $nme[0]['envelope_type'] . '\n' ; 
+}
 
 if(!empty($cmt)){
     $log .=  $cmt ;
@@ -144,6 +155,7 @@ $tix->resolution = ($status == 3?$cmt:'');
 $tix->material_to_office_services = $materialToOfficeServices;
 $tix->charge_code=$chargeCode;
 $tix->quantity=$quantity;
+$tix->envelope_type=$envelopeType;
 
 
 //$sql = 'call sp_getEmail(' .$agent . ')';

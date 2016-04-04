@@ -46,7 +46,7 @@ if(!class_exists('PmaPdoDb')){
             try{       
                 
          
-                $this->stmt = self::$db->prepare('CALL sp_editTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
+                $this->stmt = self::$db->prepare('CALL sp_editTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
                 $this->stmt->bindParam(1,$tix->id);
                 $this->stmt->bindParam(2,$tix->agent);
                 $this->stmt->bindParam(3,$tix->status);
@@ -74,6 +74,7 @@ if(!class_exists('PmaPdoDb')){
                 $this->stmt->bindParam(14,$tix->charge_code);
                 $this->stmt->bindParam(15,$tix->material_to_office_services);
                 $this->stmt->bindParam(16,$tix->quantity);
+                $this->stmt->bindParam(17,$tix->envelope_type);
            
                 $this->stmt->execute();
             }
@@ -104,7 +105,7 @@ if(!class_exists('PmaPdoDb')){
             $null = NULL;
            try{
                //echo
-                $this->stmt = self::$db->prepare('CALL sp_insertPmaTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
+                $this->stmt = self::$db->prepare('CALL sp_insertPmaTicket(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)');
                 $this->stmt->bindParam(1,$tix->first_name);
                 $this->stmt->bindParam(2,$tix->last_name);
                 $this->stmt->bindParam(3,$tix->email);
@@ -118,6 +119,7 @@ if(!class_exists('PmaPdoDb')){
                 $this->stmt->bindParam(15,$tix->charge_code);
                 $this->stmt->bindParam(16,$tix->material_to_office_services);
                 $this->stmt->bindParam(17,$tix->quantity);
+                $this->stmt->bindParam(18,$tix->envelope_type);
                 if($fileUp != NULL){
                     
                    // foreach ($fileUp as $file) {
