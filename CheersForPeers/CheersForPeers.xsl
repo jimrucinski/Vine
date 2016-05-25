@@ -10,13 +10,19 @@
               h2{padding-top:0px;margin-top:0px;}
               #receiver{position:absolute;top:200px;display:block;border:ridge 3px #84a372; width:320px; padding:1em; }
               #cheer{position:relative;dispaly:block;min-height:700px;margin-left:400px;top:80px;width:600px;}
-              #claim{border:none orange 3px;padding:.5em;font-size:1.5em;line-height:1.3em;padding-bottom:100px;}
+              #claim{border:none orange 3px;padding:.5em;font-size:1.25em;line-height:1.3em;padding-bottom:100px;}
               
               ul{margin:0;padding:0px;}
               li{display:inline;font-size:large;}
               li label{font-weight:bolder;}
               p{font-size:large;}
               
+          </style>
+          <style type="text/css" media="print">
+              -ms-transform:rotate(-90deg);
+        -o-transform:rotate(-90deg);
+        transform:rotate(-90deg);
+              -moz-transform: scale(58);
           </style>
         <TITLE></TITLE>
       </HEAD>

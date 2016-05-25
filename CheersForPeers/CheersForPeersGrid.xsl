@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+   
   <xsl:template match="/">
+      <xsl:param name="orderby" select="'submittedBy'"/>
+      <xsl:value-of select="$orderby"/>
     <HTML>
       <HEAD>
           <style>
@@ -23,8 +26,37 @@
                       <th>cheers for</th>
                       <th style="width:50%;">cheer</th>
                   </tr>
-              </thead>
-              <xsl:apply-templates />
+            </thead>
+                   <xsl:for-each select="cheer">
+                        <xsl:sort select="*[name()=$orderby]" order="ascending"/>
+                            <tr>
+                                <td>
+
+                                    <xsl:value-of select="dateSubmitted"/>
+                                </td>
+                                <td>
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            CheersForPeers.php?cheerid=<xsl:value-of select="@id"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">
+                                            new
+                                        </xsl:attribute>
+                                        <xsl:value-of select="submittedBy"/>
+                                    </xsl:element>
+
+                                </td>
+                                <td>
+                                    <xsl:value-of select="cheerFor"/>
+                                </td>
+                                <td>
+                                    <xsl:value-of select="cheerReason"/>
+                                </td>
+
+                            </tr>
+                    </xsl:for-each>
+              
+          
           </table>
           
          
@@ -32,31 +64,5 @@
     </HTML>
   </xsl:template>
   
-  <xsl:template match="cheer">
-    <tr>
-        <td>
-            <xsl:value-of select="dateSubmitted"/>
-        </td>
-        <td>
-            <xsl:element name="a">
-                <xsl:attribute name="href">
-                    CheersForPeers.php?cheerid=<xsl:value-of select="@id"/>
-                </xsl:attribute>
-                <xsl:attribute name="target">
-                    new
-                </xsl:attribute>
-                <xsl:value-of select="submittedBy"/>
-            </xsl:element>
-
-        </td>
-        <td>
-            <xsl:value-of select="cheerFor"/>
-        </td>
-        <td>
-            <xsl:value-of select="cheerReason"/>
-        </td>
-        
-    </tr>
-  </xsl:template>
 
 </xsl:stylesheet>

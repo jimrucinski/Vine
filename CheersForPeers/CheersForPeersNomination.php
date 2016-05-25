@@ -15,7 +15,7 @@ function createFile($xml_file)
     $submittedBy="";
     
     $dateSumbitted=date("m/d/Y");
-    $id=date("mdYhms");
+    $id=date("Ymdhms");
 
 
     $cheerFor=$_POST['txtCheersFor'];
@@ -32,39 +32,7 @@ function createFile($xml_file)
    $doc->save($file);
    
     
-    /*
-    $rootCheers = $xml->cheers;
     
-    $newCheer = $rootCheers->addChild('cheer');
-    $newCheer->addChild('dateSubmitted',$dateSubmitted);
-    $newCheer->addChild('cheersFor',$cheersFor);
-    $newCheer->addChild('cheers',$cheers);
-    $newCheer->addChild('submittedBy',$submittedBy);
-    
-    $xml->asXML($file);
-    */
-    /*
-    
-    $rootElement->$xml->cheers;
-    $rootElement->addChild('cheer');
-    
-
-    $element = $xml->createElement("dateSubmitted");
-    $element->appendChild($xml->createTextNode($dateSumbitted));
-    $rootElement->appendChild($element);
-    $element = $xml->createElement("cheersFor");
-    $element->appendChild($xml->createTextNode($cheersFor));   
-    $rootElement->appendChild($element);
-    $element = $xml->createElement("cheers");
-    $element->appendChild($xml->createTextNode($cheers));   
-    $rootElement->appendChild($element);
-    $element = $xml->createElement("submittedBy");
-    $element->appendChild($xml->createTextNode($submittedBy));   
-    $rootElement->appendChild($element);
-   
-    $xml->save($xml_file);
-
-    */
 }
 
 
@@ -76,7 +44,7 @@ function addRoot(&$xml)
 }
 
 ?>
-<form name="Cheers4Peers" action="Cheers4PeersNomination.php" method="post">
+<form name="Cheers4Peers" action="CheersForPeersNomination.php" method="post">
     
     
     <ul>
