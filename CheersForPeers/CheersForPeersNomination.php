@@ -2,8 +2,6 @@
 
 if (isset($_POST['lsr-submit']))
     {
-
-
     createFile('testing.xml');
     }
 
@@ -21,15 +19,65 @@ function createFile($xml_file)
     $cheerFor=$_POST['txtCheersFor'];
     $cheerReason=$_POST['txtCheers'];
     $submittedBy=$_POST['txtSubmittedBy'];
+    $cheerReason=nl2br($cheerReason);
         
     $file = "cheers.xml";
-    $doc = new DOMDocument();
+    $doc = new DOMDocument("1.0","UTF-8");
     $doc->load($file);
+    $root = $doc->documentElement;
+    $newCheer = $doc->createElement("cheer");
+    $att = $doc->createAttribute("id");
+    $att->value= $id;
+    $newCheer->appendChild($att);
+    $ds = $doc->createElement("dateSubmitted",(string)$dateSumbitted);
+    $newCheer->appendChild($ds);
+    $cf = $doc->createElement("cheerFor",$cheerFor);
+    $newCheer->appendChild($cf);
     
-   $fragment=$doc->createDocumentFragment();
+    //$cdata = $doc->createCDATASection(htmlentities($cheerReason));
+    $cr = $doc->createElement("cheerReason",  htmlentities($cheerReason));
+    //$cr->appendChild($cdata);
+    $newCheer->appendChild($cr);
+  
+    /*
+    $cr = $doc->createCDATASection($cheerReason);
+    $cr=$doc->createElement("cheerReason",$cr);
+    $reason=$doc->createElement(("cheerReason"));
+    $reason->appendChild($cr);
+    $newCheer->appendChild($reason);
+     */
+    
+    $sb = $doc->createElement("submittedBy",$submittedBy);
+    $newCheer->appendChild($sb);
+    
+    $root->appendChild($newCheer);
+
+    $doc->save($file);
+    
+    
+    
+    
+    
+    
+    
+   //$doc=simplexml_load_file($file);
+//$doc->load($file);
+   
+    //$cheerReason=nl2br($cheerReason);
+    
+   /*$fragment=$doc->createDocumentFragment();
    $fragment->appendXML("<cheer id='{$id}'><dateSubmitted>{$dateSumbitted}</dateSubmitted><cheerFor>{$cheerFor}</cheerFor><cheerReason>{$cheerReason}</cheerReason><submittedBy>{$submittedBy}</submittedBy></cheer>");
-   $doc->documentElement->appendChild($fragment);
-   $doc->save($file);
+   $doc->documentElement->appendChild($fragment);*/
+    /*
+    $newCheer = $doc->addChild('cheer');
+    $newCheer->addChild('dateSubmitted',$dateSumbitted);
+    $newCheer->addChild('cheerFor',$cheerFor);
+    $newCheer->addChild('cheerReason',$cheerReason);
+    $newCheer->addChild('submittedBy',$submittedBy);
+    file_put_contents($file,$doc->asXML());
+        */
+
+//$doc->save($file);
    
     
     

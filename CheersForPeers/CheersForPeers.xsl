@@ -56,7 +56,7 @@
             <div id="cheer">
                 <h2>Why are they being cheered on?</h2>
                 <div id="claim">
-                    <xsl:value-of select="cheerReason"/>     
+                    <xsl:value-of select="cheerReason" disable-output-escaping="yes"/>     
               </div>    
             </div>               
           </div>        
