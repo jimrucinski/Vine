@@ -343,8 +343,13 @@ function pmaAllWorkRequestsTable($atts){
 }
 add_shortcode('PMA-AllWorkRequestsTable','pmaAllWorkRequestsTable');
 
-function pmaGetWorkRequest(){
+function pmaGetWorkRequest($atts){
     //global $wp;
+    $a =shortcode_atts(['deptid' => ''
+                        ], $atts
+	) ;
+    
+    
     global $current_user;
     //handle file delete request
     if(isset($_REQUEST['SupportFile'])){
@@ -405,9 +410,9 @@ function pmaGetWorkRequest(){
         }
         $str .= '<li><label>due date</label><input class="required" id="due_date"   name="due_date" type="text" value="' . $row['due_date'] . '" /></li>';
         
-        $str .= '<li><label id="agent_label">assigned to</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=1 nme='agent' keepvalue=" . $row['agent']. " blank=1)]");  '</li>';
-        $str .= '<li><label>status</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypesForEdit' id=1 nme='status' keepvalue=" . $row['status'] . ']'); '</li>';
-        $str .= '<li><label>request type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getDeptRequestTypes' id=1 nme='requestType' keepvalue=" . $row['request_type'] . " blank=0]");  '</li>';
+        $str .= '<li><label id="agent_label">assigned to</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getTicketAgents' id=" . $a['deptid'] . " nme='agent' keepvalue=" . $row['agent']. " blank=1)]");  '</li>';
+        $str .= '<li><label>status</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getStatusTypesForEdit' id=" . $a['deptid'] . " nme='status' keepvalue=" . $row['status'] . ']'); '</li>';
+        $str .= '<li><label>request type</label>' . do_shortcode("[PMA-RequestSelectBox sp='sp_getDeptRequestTypes' id=" . $a['deptid'] . " nme='requestType' keepvalue=" . $row['request_type'] . " blank=0]");  '</li>';
         $str .= pmaCreateInputBox('requestTitle',  $row['request_title']);
         $str .= '<li><label>description</label><span class="tixDesc">' . htmlspecialchars_decode($row['request_desc']) . '</span></li>';        
         $str .= '<li><label  id="upload_file_label">support files</label><input type="file" id="upload_file" name="upload_file[]" multiple=""/></li>';

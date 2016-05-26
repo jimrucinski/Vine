@@ -4,6 +4,8 @@ get_header();
 
 $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 
+$show_navigation = get_post_meta( get_the_ID(), '_et_pb_project_nav', true );
+
 ?>
 
 <div id="main-content">
@@ -23,7 +25,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 				<?php if ( ! $is_page_builder_used ) : ?>
 
 					<div class="et_main_title">
-						<h1><?php the_title(); ?></h1>
+						<h1 class="entry-title"><?php the_title(); ?></h1>
 						<span class="et_project_categories"><?php echo get_the_term_list( get_the_ID(), 'project_category', '', ', ' ); ?></span>
 					</div>
 
@@ -57,6 +59,10 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 				<?php if ( ! $is_page_builder_used ) : ?>
 
 					<?php if ( 'et_full_width_page' !== $page_layout ) et_pb_portfolio_meta_box(); ?>
+
+				<?php endif; ?>
+
+				<?php if ( ! $is_page_builder_used || ( $is_page_builder_used && 'on' === $show_navigation ) ) : ?>
 
 					<div class="nav-single clearfix">
 						<span class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'Divi' ) . '</span> %title' ); ?></span>

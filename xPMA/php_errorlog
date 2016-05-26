@@ -1,0 +1,188 @@
+[12-Jun-2015 14:50:16 UTC] PHP Warning:  include(PmaSupportFile.class.php): failed to open stream: No such file or directory in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 5
+[12-Jun-2015 14:50:16 UTC] PHP Warning:  include(): Failed opening 'PmaSupportFile.class.php' for inclusion (include_path='.:/usr/local/php55/pear') in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 5
+[12-Jun-2015 14:50:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:5) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[12-Jun-2015 14:52:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[12-Jun-2015 15:00:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[12-Jun-2015 15:06:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[12-Jun-2015 15:24:13 UTC] PHP Fatal error:  Class 'PmaSupportFile' not found in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 104
+[12-Jun-2015 17:55:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:58) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 19:51:59 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 19:52:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 19:56:14 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 19:56:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 20:01:41 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 20:01:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 20:03:13 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 20:03:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 21:12:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 21:12:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 21:20:56 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 21:20:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[26-Jun-2015 21:22:09 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[26-Jun-2015 21:22:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[30-Jun-2015 18:24:39 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[30-Jun-2015 18:24:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[30-Jun-2015 19:01:52 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[30-Jun-2015 19:01:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[30-Jun-2015 19:18:56 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[30-Jun-2015 19:18:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[30-Jun-2015 19:19:14 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 96
+[30-Jun-2015 19:19:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:96) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[21-Jul-2015 18:24:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE pma26606_wp621.sp_getTicketLog; expected 1, got 2' in /home/pma26606/public_html/vine/PMA/PmaDb.class.php:156
+Stack trace:
+#0 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(156): PDOStatement->execute()
+#1 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(159): PmaPdoDb->execute()
+#2 /home/pma26606/public_html/vine/PMA/PrintLog.php(25): PmaPdoDb->resultset()
+#3 {main}
+  thrown in /home/pma26606/public_html/vine/PMA/PmaDb.class.php on line 156
+[24-Jul-2015 16:13:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[24-Jul-2015 16:14:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[27-Jul-2015 16:45:51 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 27
+[27-Jul-2015 16:45:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:27) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[28-Jul-2015 21:04:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[29-Jul-2015 12:43:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 15:34:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 18:00:25 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 27
+[11-Aug-2015 18:00:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:27) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 18:36:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 18:43:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 19:26:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[11-Aug-2015 19:28:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:168) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1196
+[21-Aug-2015 13:28:37 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[24-Aug-2015 13:21:00 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[24-Aug-2015 13:23:19 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[24-Aug-2015 14:26:37 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[24-Aug-2015 14:44:34 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[24-Aug-2015 14:46:51 UTC] PHP Fatal error:  Call to undefined method SMTP::getServerExt() in /home/pma26606/public_html/vine/wp-includes/class-phpmailer.php on line 1384
+[24-Aug-2015 14:47:58 UTC] PHP Fatal error:  Call to undefined method SMTP::getServerExt() in /home/pma26606/public_html/vine/wp-includes/class-phpmailer.php on line 1384
+[25-Aug-2015 03:41:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE pma26606_wp621.sp_getTicketSubmissionEmail; expected 1, got 0' in /home/pma26606/public_html/vine/PMA/PmaDb.class.php:156
+Stack trace:
+#0 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(156): PDOStatement->execute()
+#1 /home/pma26606/public_html/vine/PMA/PmaDb.class.php(159): PmaPdoDb->execute()
+#2 /home/pma26606/public_html/vine/PMA/EditTicket.php(56): PmaPdoDb->resultset()
+#3 {main}
+  thrown in /home/pma26606/public_html/vine/PMA/PmaDb.class.php on line 156
+[25-Aug-2015 17:38:24 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:38:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:38:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:38:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:39:16 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:39:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:39:56 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:39:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:42:25 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:42:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:42:34 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:42:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:46:33 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:46:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 17:50:41 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 17:50:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 18:43:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 18:43:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 19:32:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[25-Aug-2015 19:32:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/EditTicket.php:97) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[25-Aug-2015 20:07:14 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[25-Aug-2015 20:07:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[26-Aug-2015 18:23:58 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[26-Aug-2015 18:23:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[26-Aug-2015 18:24:15 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[26-Aug-2015 18:24:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[26-Aug-2015 18:24:46 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[26-Aug-2015 18:24:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[26-Aug-2015 18:25:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[26-Aug-2015 18:25:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/PMA/AddTicket.php:28) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[26-Aug-2015 18:47:16 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[26-Aug-2015 18:50:34 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[26-Aug-2015 19:14:46 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[28-Aug-2015 14:16:34 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[28-Aug-2015 14:20:37 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[28-Aug-2015 15:54:56 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 13:51:03 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 13:59:21 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:05:15 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:10:15 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:14:27 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:20:09 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:20:44 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:21:30 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:23:47 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:36:23 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 14:44:57 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[31-Aug-2015 19:46:43 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[01-Sep-2015 15:41:24 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[01-Sep-2015 16:00:42 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 08:00:26 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 13:00:00 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 13:08:56 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 13:14:54 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 13:19:33 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 14:09:16 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 14:11:21 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 15:50:39 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 17:19:08 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 18:08:07 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 18:59:32 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97
+[02-Sep-2015 19:01:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[02-Sep-2015 19:01:35 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 19:22:48 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 20:13:59 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 20:17:07 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[02-Sep-2015 20:31:17 UTC] PHP Warning:  stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure in /home/pma26606/public_html/vine/wp-includes/class-smtp.php on line 344
+[03-Sep-2015 14:32:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 14:37:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 14:49:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 14:54:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 14:57:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 15:01:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 15:56:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 15:57:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 15:58:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 16:01:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 16:06:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 16:06:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 16:06:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 18:04:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 18:22:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 18:23:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 18:53:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[03-Sep-2015 19:16:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pma26606/public_html/vine/wp-includes/class-smtp.php:234) in /home/pma26606/public_html/vine/wp-includes/pluggable.php on line 1207
+[06-Sep-2015 13:13:30 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/AddTicket.php on line 28
+[11-Sep-2015 13:12:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/pma26606/public_html/vine/PMA/EditTicket.php on line 97

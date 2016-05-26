@@ -45,7 +45,7 @@ $w = new wfConfig();
 			</tr>
 			<tr>
 				<td colspan="2">
-					<?php if ( wfConfig::get( 'isPaid' ) ) { ?>
+					<?php if (wfConfig::get('isPaid')): ?>
 						<table border="0">
 							<tr>
 								<td><a href="https://www.wordfence.com/gnl1optMngKys/manage-wordfence-api-keys/"
@@ -56,21 +56,36 @@ $w = new wfConfig();
 								           onclick="WFAD.downgradeLicense();"/></td>
 							</tr>
 						</table>
-					<?php } ?>
-
-
+					<?php else: ?>
+						<div class="wf-premium-callout">
+							<h3>Upgrade to Wordfence Premium today for less than $5 per month</h3>
+							<ul>
+								<li>Receive real-time Firewall and Scan engine rule updates for protection as threats emerge</li>
+								<li>Advanced features like IP reputation monitoring, country blocking, an advanced comment spam filter and cell phone sign-in give you the best protection available</li>
+								<li>Remote, frequent and scheduled scans</li>
+								<li>Access to Premium Support</li>
+								<li>Discounts of up to 75% for multiyear and multi-license purchases</li>
+							</ul>
+							<p class="center">
+								<a class="button button-primary"
+								   href="https://www.wordfence.com/gnl1optCallout1/wordfence-signup/">
+									Get Premium</a></p>
+						</div>
+					<?php endif ?>
+				</td>
+			</tr>
 			<tr>
 				<td colspan="2"><h2>Basic Options<a href="http://docs.wordfence.com/en/Wordfence_options#Basic_Options"
 				                                    target="_blank" class="wfhelp"></a></h2></td>
 			</tr>
 			<tr>
-				<th class="wfConfigEnable">Enable firewall<a
-						href="http://docs.wordfence.com/en/Wordfence_options#Enable_Firewall" target="_blank"
+				<th class="wfConfigEnable">Enable Rate Limiting and Advanced Blocking<a
+						href="https://docs.wordfence.com/en/Wordfence_options#Enable_Rate_Limiting_and_Advanced_Blocking" target="_blank"
 						class="wfhelp"></a></th>
 				<td><input type="checkbox" id="firewallEnabled" class="wfConfigElem" name="firewallEnabled"
 				           value="1" <?php $w->cb( 'firewallEnabled' ); ?> />&nbsp;<span
-						style="color: #F00;">NOTE:</span> This checkbox enables ALL firewall functions including IP,
-					country and advanced blocking and the "Firewall Rules" below.
+						style="color: #F00;">NOTE:</span> This checkbox enables ALL blocking/throttling functions including IP,
+					country and advanced blocking and the "Rate Limiting Rules" below.
 				</td>
 			</tr>
 			<tr>
@@ -379,17 +394,22 @@ $w = new wfConfig();
 				<tr>
 					<th>List of comma separated usernames to ignore:</th>
 					<td><input type="text" name="liveTraf_ignoreUsers" id="liveTraf_ignoreUsers"
-					           value="<?php echo $w->getHTML( 'liveTraf_ignoreUsers' ); ?>"/></td>
+					           value="<?php $w->f( 'liveTraf_ignoreUsers' ); ?>"/></td>
 				</tr>
 				<tr>
 					<th>List of comma separated IP addresses to ignore:</th>
 					<td><input type="text" name="liveTraf_ignoreIPs" id="liveTraf_ignoreIPs"
-					           value="<?php echo $w->getHTML( 'liveTraf_ignoreIPs' ); ?>"/></td>
+					           value="<?php $w->f( 'liveTraf_ignoreIPs' ); ?>"/></td>
 				</tr>
 				<tr>
 					<th>Browser user-agent to ignore:</th>
 					<td><input type="text" name="liveTraf_ignoreUA" id="liveTraf_ignoreUA"
-					           value="<?php echo $w->getHTML( 'liveTraf_ignoreUA' ); ?>"/></td>
+					           value="<?php $w->f( 'liveTraf_ignoreUA' ); ?>"/></td>
+				</tr>
+				<tr>
+					<th>Amount of Live Traffic data to store (number of rows):</th>
+					<td><input type="text" name="liveTraf_maxRows" id="liveTraf_maxRows"
+					           value="<?php $w->f( 'liveTraf_maxRows' ); ?>"/></td>
 				</tr>
 				<tr>
 					<td colspan="2">
@@ -426,6 +446,30 @@ $w = new wfConfig();
 					</td>
 				</tr>
 				<tr>
+					<th>Scan for publically accessible configuration, backup, or log files<a
+							href="http://docs.wordfence.com/en/Wordfence_options#Configuration_Readable"
+							target="_blank" class="wfhelp"></a></th>
+					<td><input type="checkbox" id="scansEnabled_checkReadableConfig" class="wfConfigElem"
+					           name="scansEnabled_checkReadableConfig" value="1" <?php $w->cb( 'scansEnabled_checkReadableConfig' ); ?> />
+					</td>
+				</tr>
+<!--				<tr>-->
+<!--					<th>Scan for Full Path Disclosure?<a-->
+<!--							href="http://docs.wordfence.com/en/Wordfence_options#Scan_for_Full_Path_Disclosure"-->
+<!--							target="_blank" class="wfhelp"></a></th>-->
+<!--					<td><input type="checkbox" id="scansEnabled_wpscan_fullPathDisclosure" class="wfConfigElem"-->
+<!--					           name="scansEnabled_wpscan_fullPathDisclosure" value="1" --><?php //$w->cb( 'scansEnabled_wpscan_fullPathDisclosure' ); ?><!-- />-->
+<!--					</td>-->
+<!--				</tr>-->
+<!--				<tr>-->
+<!--					<th>Scan for Directory Listing?<a-->
+<!--							href="http://docs.wordfence.com/en/Wordfence_options#Scan_for_Directory_Listing"-->
+<!--							target="_blank" class="wfhelp"></a></th>-->
+<!--					<td><input type="checkbox" id="scansEnabled_wpscan_directoryListingEnabled" class="wfConfigElem"-->
+<!--					           name="scansEnabled_wpscan_directoryListingEnabled" value="1" --><?php //$w->cb( 'scansEnabled_wpscan_directoryListingEnabled' ); ?><!-- />-->
+<!--					</td>-->
+<!--				</tr>-->
+				<tr>
 					<th>Scan core files against repository versions for changes<a
 							href="http://docs.wordfence.com/en/Wordfence_options#Scan_core_files_against_repository_version_for_changes"
 							target="_blank" class="wfhelp"></a></th>
@@ -460,15 +504,16 @@ $w = new wfConfig();
 							target="_blank" class="wfhelp"></a></th>
 					<td><input type="checkbox" id="scansEnabled_fileContents" class="wfConfigElem"
 					           name="scansEnabled_fileContents"
-					           value="1" <?php $w->cb( 'scansEnabled_fileContents' ); ?>/></td>
+					           value="1" <?php $w->cb( 'scansEnabled_fileContents' ); ?>/>
+
+						<a href="#add-more-rules" class="do-show" data-selector="#scan_include_extra">+ Add additional signatures</a>
+					</td>
 				</tr>
-				<tr>
-					<th>Scan database for backdoors, trojans and suspicious code<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Scan_database_for_backdoors.2C_trojans_and_suspicious_code"
-							target="_blank" class="wfhelp"></a></th>
-					<td><input type="checkbox" id="scansEnabled_database" class="wfConfigElem"
-					           name="scansEnabled_database"
-					           value="1" <?php $w->cb( 'scansEnabled_database' ); ?>/></td>
+				<tr class="hidden" id="scan_include_extra">
+					<th style="vertical-align: top;">Additional scan signatures</th>
+					<td><textarea class="wfConfigElement" cols="40" rows="4"
+					              name="scan_include_extra"><?php echo $w->getHTML('scan_include_extra'); ?></textarea>
+					</td>
 				</tr>
 				<tr>
 					<th>Scan posts for known dangerous URLs and suspicious content<a
@@ -491,6 +536,14 @@ $w = new wfConfig();
 					<td><input type="checkbox" id="scansEnabled_oldVersions" class="wfConfigElem"
 					           name="scansEnabled_oldVersions"
 					           value="1" <?php $w->cb( 'scansEnabled_oldVersions' ); ?>/></td>
+				</tr>
+				<tr>
+					<th>Scan for admin users created outside of WordPress<a
+							href="http://docs.wordfence.com/en/Wordfence_options#Scan_for_admin_users_created_outside_of_WordPress"
+							target="_blank" class="wfhelp"></a></th>
+					<td><input type="checkbox" id="scansEnabled_suspiciousAdminUsers" class="wfConfigElem"
+					           name="scansEnabled_suspiciousAdminUsers"
+					           value="1" <?php $w->cb( 'scansEnabled_suspiciousAdminUsers' ); ?>/></td>
 				</tr>
 				<tr>
 					<th>Check the strength of passwords<a
@@ -521,7 +574,7 @@ $w = new wfConfig();
 					           value="1" <?php $w->cb( 'other_scanOutside' ); ?> /></td>
 				</tr>
 				<tr>
-					<th>Scan image files as if they were executable<a
+					<th>Scan images and binary files as if they were executable<a
 							href="http://docs.wordfence.com/en/Wordfence_options#Scan_image_files_as_if_they_were_executable"
 							target="_blank" class="wfhelp"></a></th>
 					<td><input type="checkbox" id="scansEnabled_scanImages" class="wfConfigElem"
@@ -537,18 +590,19 @@ $w = new wfConfig();
 					</td>
 				</tr>
 				<tr>
-					<th>Exclude files from scan that match these wildcard patterns. Comma separated.<a
+					<th>Exclude files from scan that match these wildcard patterns. (One per line).<a
 							href="http://docs.wordfence.com/en/Wordfence_options#Exclude_files_from_scan_that_match_these_wildcard_patterns."
 							target="_blank" class="wfhelp"></a></th>
-					<td><input type="text" id="scan_exclude" class="wfConfigElem" name="scan_exclude" size="20"
-					           value="<?php echo $w->getHTML( 'scan_exclude' ); ?>"/>e.g. *.sql,*.tar,backup*.zip
+					<td>
+						<textarea id="scan_exclude" class="wfConfigElem" cols="40" rows="4"
+							name="scan_exclude"><?php echo wfUtils::cleanupOneEntryPerLine($w->getHTML( 'scan_exclude' )); ?></textarea>
 					</td>
 				</tr>
 				<tr>
 					<td colspan="2">
 						<div class="wfMarker" id="wfMarkerFirewallRules"></div>
-						<h3 class="wfConfigHeading">Firewall Rules<a
-								href="http://docs.wordfence.com/en/Wordfence_options#Firewall_Rules" target="_blank"
+						<h3 class="wfConfigHeading">Rate Limiting Rules<a
+								href="http://docs.wordfence.com/en/Wordfence_options#Rate_Limiting_Rules" target="_blank"
 								class="wfhelp"></a></h3>
 					</td>
 				</tr>
@@ -618,7 +672,7 @@ $w = new wfConfig();
 						require( 'wfAction.php' ); ?></td>
 				</tr>
 				<tr>
-					<th>If 404's for known vulnerable URL's exceed:<a
+					<th>If 404s for known vulnerable URLs exceed:<a
 							href="http://docs.wordfence.com/en/Wordfence_options#If_404.27s_for_known_vulnerable_URL.27s_exceed"
 							target="_blank" class="wfhelp"></a></th>
 					<td><?php $rateName = 'maxScanHits';
@@ -793,9 +847,11 @@ $w = new wfConfig();
 					<th>Immediately block the IP of users who try to sign in as these usernames<a
 							href="http://docs.wordfence.com/en/Wordfence_options#Immediately_block_the_IP_of_users_who_try_to_sign_in_as_these_usernames"
 							target="_blank" class="wfhelp"></a></th>
-					<td><input type="text" name="loginSec_userBlacklist" id="loginSec_userBlacklist"
-					           value="<?php echo $w->getHTML( 'loginSec_userBlacklist' ); ?>" size="40"/>&nbsp;(Comma
-						separated. Existing users won't be blocked.)
+					<td>
+						<textarea name="loginSec_userBlacklist" cols="40" rows="4" id="loginSec_userBlacklist"><?php
+							echo wfUtils::cleanupOneEntryPerLine($w->getHTML( 'loginSec_userBlacklist' ))
+						?></textarea><br/>
+						(One per line. Existing users won't be blocked.)
 					</td>
 				</tr>
 				<tr>
@@ -812,7 +868,7 @@ $w = new wfConfig();
 							href="http://docs.wordfence.com/en/Wordfence_options#Whitelisted_IP_addresses_that_bypass_all_rules"
 							target="_blank" class="wfhelp"></a></th>
 					<td><input type="text" name="whitelisted" id="whitelisted"
-					           value="<?php echo $w->getHTML( 'whitelisted' ); ?>" size="40"/></td>
+					           value="<?php $w->f( 'whitelisted' ); ?>" size="40"/></td>
 				</tr>
 				<tr>
 					<th colspan="2" style="color: #999;">Whitelisted IP's must be separated by commas. You can specify
@@ -826,19 +882,18 @@ $w = new wfConfig();
 							href="http://docs.wordfence.com/en/Wordfence_options#Immediately_block_IP.27s_that_access_these_URLs"
 							target="_blank" class="wfhelp"></a></th>
 					<td><input type="text" name="bannedURLs" id="bannedURLs"
-					           value="<?php echo $w->getHTML( 'bannedURLs' ); ?>" size="40"/></td>
+					           value="<?php $w->f( 'bannedURLs' ); ?>" size="40"/></td>
 				</tr>
 				<tr>
-					<th colspan="2" style="color: #999;">Separate multiple URL's with commas. If you see an attacker
-						repeatedly probing your site for a known vulnerability you can use this to immediately block
-						them.<br/>
-						All URL's must start with a '/' without quotes and must be relative. e.g. /badURLone/,
-						/bannedPage.html, /dont-access/this/URL/
+					<th colspan="2" style="color: #999;">Separate multiple URL's with commas. Asterisks are wildcards,
+						but use with care. If you see an attacker repeatedly probing your site for a known vulnerability
+						you can use this to immediately block them. All URL's must start with a '/' without quotes and
+						must be relative. e.g. /badURLone/, /bannedPage.html, /dont-access/this/URL/, /starts/with-*
 						<br/><br/></th>
 				</tr>
 
 				<tr>
-					<th style="vertical-align: top;">Whitelisted 404 URLs (one per line). </th>
+					<th style="vertical-align: top;">Whitelisted 404 URLs (one per line). <a href="http://docs.wordfence.com/en/Wordfence_options#Whitelisted_404_URLs" target="_blank" class="wfhelp"></a></th>
 					<td><textarea name="allowed404s" id="" cols="40" rows="4"><?php echo $w->getHTML( 'allowed404s' ); ?></textarea></td>
 				</tr>
 				<tr>
@@ -917,13 +972,6 @@ $w = new wfConfig();
 					</td>
 				</tr>
 				<tr>
-					<th>Enable debugging mode (increases database load)<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Enable_debugging_mode_.28increases_database_load.29"
-							target="_blank" class="wfhelp"></a></th>
-					<td><input type="checkbox" id="debugOn" class="wfConfigElem" name="debugOn"
-					           value="1" <?php $w->cb( 'debugOn' ); ?> /></td>
-				</tr>
-				<tr>
 					<th>Delete Wordfence tables and data on deactivation?<a
 							href="http://docs.wordfence.com/en/Wordfence_options#Delete_Wordfence_tables_and_data_on_deactivation.3F"
 							target="_blank" class="wfhelp"></a></th>
@@ -942,95 +990,12 @@ $w = new wfConfig();
 					</td>
 				</tr>
 				<tr>
-					<th>Start all scans remotely<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Start_all_scans_remotely"
-							target="_blank" class="wfhelp"></a></th>
-					<td><input type="checkbox" id="startScansRemotely" class="wfConfigElem" name="startScansRemotely"
-					           value="1" <?php $w->cb( 'startScansRemotely' ); ?> />(Try this if your scans aren't
-						starting and your site is publicly accessible)
-					</td>
-				</tr>
-				<tr>
-					<th>Disable config caching<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Disable_config_caching" target="_blank"
-							class="wfhelp"></a></th>
-					<td><input type="checkbox" id="disableConfigCaching" class="wfConfigElem"
-					           name="disableConfigCaching" value="1" <?php $w->cb( 'disableConfigCaching' ); ?> />(Try
-						this if your options aren't saving)
-					</td>
-				</tr>
-				<tr>
-					<th>Add a debugging comment to HTML source of cached pages.<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Add_a_debugging_comment_to_HTML_source_of_cached_pages"
-							target="_blank" class="wfhelp"></a></th>
-					<td><input type="checkbox" id="addCacheComment" class="wfConfigElem" name="addCacheComment"
-					           value="1" <?php $w->cb( 'addCacheComment' ); ?> />
-						<?php if ($w->get('allowHTTPSCaching')): ?>
-							<input type="hidden" name="allowHTTPSCaching" value="1"/>
-						<?php endif ?>
-					</td>
-				</tr>
-				<tr>
 					<th><label for="disableCodeExecutionUploads">Disable Code Execution for Uploads directory</label><a
 							href="http://docs.wordfence.com/en/Wordfence_options#Disable_Code_Execution_for_Uploads_directory"
 							target="_blank" class="wfhelp"></a></th>
 					<td><input type="checkbox" id="disableCodeExecutionUploads" class="wfConfigElem"
 					           name="disableCodeExecutionUploads"
 					           value="1" <?php $w->cb( 'disableCodeExecutionUploads' ); ?> /></td>
-				</tr>
-				<tr>
-					<th><label for="ssl_verify">Enable SSL Verification</label><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Enable_SSL_Verification"
-							target="_blank" class="wfhelp"></a>
-					</th>
-					<td style="vertical-align: top;"><input type="checkbox" id="ssl_verify" class="wfConfigElem"
-					           name="ssl_verify"
-					           value="1" <?php $w->cb( 'ssl_verify' ); ?> />
-						(Disable this if you are <strong><em>consistently</em></strong> unable to connect to the Wordfence servers.)
-					</td>
-				</tr>
-				<tr>
-					<th colspan="2"><a
-							href="<?php echo wfUtils::siteURLRelative(); ?>?_wfsf=conntest&nonce=<?php echo wp_create_nonce( 'wp-ajax' ); ?>"
-							target="_blank">Click to test connectivity to the Wordfence API servers</a><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Click_to_test_connectivity_to_the_Wordfence_API_servers"
-							target="_blank" class="wfhelp"></a></th>
-				</tr>
-				<tr>
-					<th colspan="2"><a
-							href="<?php echo wfUtils::siteURLRelative(); ?>?_wfsf=sysinfo&nonce=<?php echo wp_create_nonce( 'wp-ajax' ); ?>"
-							target="_blank">Click to view your system's configuration in a new window</a><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Click_to_view_your_system.27s_configuration_in_a_new_window"
-							target="_blank" class="wfhelp"></a></th>
-				</tr>
-				<tr>
-					<th colspan="2"><a
-							href="<?php echo wfUtils::siteURLRelative(); ?>?_wfsf=cronview&nonce=<?php echo wp_create_nonce( 'wp-ajax' ); ?>"
-							target="_blank">Click to view your systems scheduled jobs in a new window</a><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Click_to_view_your_system.27s_scheduled_jobs_in_a_new_window"
-							target="_blank" class="wfhelp"></a></th>
-				</tr>
-				<tr>
-					<th colspan="2"><a
-							href="<?php echo wfUtils::siteURLRelative(); ?>?_wfsf=dbview&nonce=<?php echo wp_create_nonce( 'wp-ajax' ); ?>"
-							target="_blank">Click to see a list of your system's database tables in a new window</a><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Click_to_see_a_list_of_your_system.27s_database_tables_in_a_new_window"
-							target="_blank" class="wfhelp"></a></th>
-				</tr>
-				<tr>
-					<th colspan="2"><a
-							href="<?php echo wfUtils::siteURLRelative(); ?>?_wfsf=testmem&nonce=<?php echo wp_create_nonce( 'wp-ajax' ); ?>"
-							target="_blank">Test your WordPress host's available memory</a><a
-							href="http://docs.wordfence.com/en/Wordfence_options#Test_your_WordPress_host.27s_available_memory"
-							target="_blank" class="wfhelp"></a></th>
-				</tr>
-				<tr>
-					<th>Send a test email from this WordPress server to an email address:<a
-							href="http://docs.wordfence.com/en/Wordfence_options#Send_a_test_email_from_this_WordPress_server_to_an_email_address"
-							target="_blank" class="wfhelp"></a></th>
-					<td><input type="text" id="testEmailDest" value="" size="20" maxlength="255" class="wfConfigElem"/>
-						<input type="button" value="Send Test Email"
-						       onclick="WFAD.sendTestEmail(jQuery('#testEmailDest').val());"/></td>
 				</tr>
 
 				<tr>
@@ -1126,7 +1091,7 @@ $w = new wfConfig();
 </script>
 <script type="text/x-jquery-template" id="wfContentFirewallRules">
 	<div>
-		<h3>Firewall Rules</h3>
+		<h3>Rate Limiting Rules</h3>
 
 		<p>
 			<strong>NOTE:</strong> Before modifying these rules, make sure you have access to the email address

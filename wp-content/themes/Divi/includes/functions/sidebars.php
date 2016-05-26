@@ -44,20 +44,5 @@ function et_widgets_init() {
 		'before_title' => '<h4 class="title">',
 		'after_title' => '</h4>',
 	) );
-
-	$et_pb_widgets = get_theme_mod( 'et_pb_widgets' );
-
-	if ( $et_pb_widgets['areas'] ) {
-		foreach ( $et_pb_widgets['areas'] as $id => $name ) {
-			register_sidebar( array(
-				'name' => sanitize_text_field( $name ),
-				'id' => sanitize_text_field( $id ),
-				'before_widget' => '<div id="%1$s" class="et_pb_widget %2$s">',
-				'after_widget' => '</div> <!-- end .et_pb_widget -->',
-				'before_title' => '<h4 class="widgettitle">',
-				'after_title' => '</h4>',
-			) );
-		}
-	}
 }
 add_action( 'widgets_init', 'et_widgets_init' );

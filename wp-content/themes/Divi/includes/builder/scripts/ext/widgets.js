@@ -32,7 +32,7 @@
 		$et_pb_sidebars.each( function() {
 			if ( $(this).is( '#et_pb_widget_area_create' ) || $(this).closest( '.inactive-sidebar' ).length ) return true;
 
-			$(this).closest('.widgets-holder-wrap').find('.sidebar-name h3').before( '<a href="#" class="et_pb_widget_area_remove">' + et_pb_options.delete_string + '</a>' );
+			$(this).closest('.widgets-holder-wrap').find('.sidebar-name h2, .sidebar-name h3').before( '<a href="#" class="et_pb_widget_area_remove">' + et_pb_options.delete_string + '</a>' );
 
 			$( '.et_pb_widget_area_remove' ).click( function( event ) {
 				var $this_el = $(this);
@@ -52,6 +52,8 @@
 						$( '#' + data ).closest( '.widgets-holder-wrap' ).remove();
 					}
 				} );
+
+				return false;
 			} );
 		} );
 	} );

@@ -2,29 +2,15 @@
 require_once('wfConfig.php');
 require_once('wfCountryMap.php');
 class wfUtils {
-	#We've modified this and removed some addresses which may be routable on the Net and cause auto-whitelisting. 
-	private static $privateAddrs = array(
-		//array('0.0.0.0/8',0,16777215), #Broadcast addr
-		array('10.0.0.0/8',167772160,184549375), #Private addrs
-		//array('100.64.0.0/10',1681915904,1686110207), #carrier-grade-nat for comms between ISP and subscribers
-		array('127.0.0.0/8',2130706432,2147483647), #loopback
-		//array('169.254.0.0/16',2851995648,2852061183), #link-local when DHCP fails e.g. os x
-		array('172.16.0.0/12',2886729728,2887778303), #private addrs
-		array('192.0.0.0/29',3221225472,3221225479), #used for NAT with IPv6, so basically a private addr
-		//array('192.0.2.0/24',3221225984,3221226239), #Only for use in docs and examples, not for public use
-		//array('192.88.99.0/24',3227017984,3227018239), #Used by 6to4 anycast relays
-		array('192.168.0.0/16',3232235520,3232301055), #Used for local communications within a private network
-		//array('198.18.0.0/15',3323068416,3323199487), #Used for testing of inter-network communications between two separate subnets
-		//array('198.51.100.0/24',3325256704,3325256959), #Assigned as "TEST-NET-2" in RFC 5737 for use solely in documentation and example source code and should not be used publicly.
-		//array('203.0.113.0/24',3405803776,3405804031), #Assigned as "TEST-NET-3" in RFC 5737 for use solely in documentation and example source code and should not be used publicly.
-		//array('224.0.0.0/4',3758096384,4026531839), #Reserved for multicast assignments as specified in RFC 5771
-		//array('240.0.0.0/4',4026531840,4294967295), #Reserved for future use, as specified by RFC 6890
-		//array('255.255.255.255/32',4294967295,4294967295) #Reserved for the "limited broadcast" destination address, as specified by RFC 6890
-	);
 	private static $isWindows = false;
 	public static $scanLockFH = false;
 	private static $lastErrorReporting = false;
 	private static $lastDisplayErrors = false;
+	public static function patternToRegex($pattern, $mod = 'i', $sep = '/') {
+		$pattern = preg_quote(trim($pattern), $sep);
+		$pattern = str_replace(' ', '\s', $pattern);
+		return $sep . '^' . str_replace('\*', '.*', $pattern) . '$' . $sep . $mod;
+	}
 	public static function makeTimeAgo($secs, $noSeconds = false) {
 		if($secs < 1){
 			return "a moment";
@@ -77,6 +63,130 @@ class wfUtils {
 		// $bytes /= (1 << (10 * $pow)); 
 
 		return round($bytes, $precision) . ' ' . $units[$pow];
+	}
+
+	/**
+	 * Check if an IP address is in a network block
+	 *
+	 * @param string	$subnet	Single IP or subnet in CIDR notation (e.g. '192.168.100.0' or '192.168.100.0/22')
+	 * @param string	$ip		IPv4 or IPv6 address in dot or colon notation
+	 * @return boolean
+	 */
+	public static function subnetContainsIP($subnet, $ip) {
+		list($network, $prefix) = array_pad(explode('/', $subnet, 2), 2, null);
+
+		if (filter_var($network, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+			// If no prefix was supplied, 32 is implied for IPv4
+			if ($prefix === null) {
+				$prefix = 32;
+			}
+
+			// Validate the IPv4 network prefix
+			if ($prefix < 0 || $prefix > 32) {
+				return false;
+			}
+
+			// Increase the IPv4 network prefix to work in the IPv6 address space
+			$prefix += 96;
+		} else {
+			// If no prefix was supplied, 128 is implied for IPv6
+			if ($prefix === null) {
+				$prefix = 128;
+			}
+
+			// Validate the IPv6 network prefix
+			if ($prefix < 1 || $prefix > 128) {
+				return false;
+			}
+		}
+
+		// Convert human readable addresses to 128 bit (IPv6) binary strings
+		// Note: self::inet_pton converts IPv4 addresses to IPv6 compatible versions
+		$binary_network = str_pad(wfHelperBin::bin2str(self::inet_pton($network)), 128, '0', STR_PAD_LEFT);
+		$binary_ip = str_pad(wfHelperBin::bin2str(self::inet_pton($ip)), 128, '0', STR_PAD_LEFT);
+
+		return 0 === substr_compare($binary_ip, $binary_network, 0, $prefix);
+	}
+
+	/**
+	 * Convert CIDR notation to a wfUserIPRange object
+	 *
+	 * @param string $cidr
+	 * @return wfUserIPRange
+	 */
+	public static function CIDR2wfUserIPRange($cidr) {
+		list($network, $prefix) = array_pad(explode('/', $cidr, 2), 2, null);
+		$ip_range = new wfUserIPRange();
+
+		if (filter_var($network, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+			// If no prefix was supplied, 32 is implied for IPv4
+			if ($prefix === null) {
+				$prefix = 32;
+			}
+
+			// Validate the IPv4 network prefix
+			if ($prefix < 0 || $prefix > 32) {
+				return $ip_range;
+			}
+
+			// Increase the IPv4 network prefix to work in the IPv6 address space
+			$prefix += 96;
+		} else {
+			// If no prefix was supplied, 128 is implied for IPv6
+			if ($prefix === null) {
+				$prefix = 128;
+			}
+
+			// Validate the IPv6 network prefix
+			if ($prefix < 1 || $prefix > 128) {
+				return $ip_range;
+			}
+		}
+
+		// Convert human readable address to 128 bit (IPv6) binary string
+		// Note: self::inet_pton converts IPv4 addresses to IPv6 compatible versions
+		$binary_network = self::inet_pton($network);
+		$binary_mask = wfHelperBin::str2bin(str_pad(str_repeat('1', $prefix), 128, '0', STR_PAD_RIGHT));
+
+		// Calculate first and last address
+		$binary_first = $binary_network & $binary_mask;
+		$binary_last = $binary_network | ~ $binary_mask;
+
+		// Convert binary addresses back to human readable strings
+		$first = self::inet_ntop($binary_first);
+		$last = self::inet_ntop($binary_last);
+
+		if (filter_var($network, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
+			$first = self::expandIPv6Address($first);
+			$last = self::expandIPv6Address($last);
+		}
+
+		// Split addresses into segments
+		$first_array = preg_split('/[\.\:]/', $first);
+		$last_array = preg_split('/[\.\:]/', $last);
+
+		// Make sure arrays are the same size. IPv6 '::' could cause problems otherwise.
+		// The strlen filter should leave zeros in place
+		$first_array = array_pad(array_filter($first_array, 'strlen'), count($last_array), '0');
+
+		$range_segments = array();
+
+		foreach ($first_array as $index => $segment) {
+			if ($segment === $last_array[$index]) {
+				$range_segments[] = str_pad(ltrim($segment, '0'), 1, '0');
+			} else if ($segment === '' || $last_array[$index] === '') {
+				$range_segments[] = '';
+			} else {
+				$range_segments[] = "[". str_pad(ltrim($segment, '0'), 1, '0') . "-" .
+					str_pad(ltrim($last_array[$index], '0'), 1, '0') . "]";
+			}
+		}
+
+		$delimiter = filter_var($network, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) ? '.' : ':';
+
+		$ip_range->setIPString(implode($delimiter, $range_segments));
+
+		return $ip_range;
 	}
 
 	/**
@@ -165,8 +275,8 @@ class wfUtils {
 		}
 
 		// IPv4 mapped IPv6
-		if (preg_match('/^((?:0{1,4}(?::|)){0,5})(::)?ffff:((?:\d{1,3}(?:\.|$)){4})$/i', $ip, $matches)) {
-			$octets = explode('.', $matches[3]);
+		if (preg_match('/^(?:\:(?:\:0{1,4}){0,4}\:|(?:0{1,4}\:){5})ffff\:(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$/i', $ip, $matches)) {
+			$octets = explode('.', $matches[1]);
 			return "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff" . chr($octets[0]) . chr($octets[1]) . chr($octets[2]) . chr($octets[3]);
 		}
 
@@ -195,23 +305,27 @@ class wfUtils {
 
 			$hex = bin2hex($ip);
 			$groups = str_split($hex, 4);
-			$collapse = false;
+			$in_collapse = false;
 			$done_collapse = false;
 			foreach ($groups as $index => $group) {
 				if ($group == '0000' && !$done_collapse) {
-					if (!$collapse) {
-						$groups[$index] = ':';
-					} else {
+					if ($in_collapse) {
 						$groups[$index] = '';
+						continue;
 					}
-					$collapse = true;
-				} else if ($collapse) {
+					$groups[$index] = ':';
+					$in_collapse = true;
+					continue;
+				}
+				if ($in_collapse) {
 					$done_collapse = true;
-					$collapse = false;
 				}
 				$groups[$index] = ltrim($groups[$index], '0');
+				if (strlen($groups[$index]) === 0) {
+					$groups[$index] = '0';
+				}
 			}
-			$ip = join(':', array_filter($groups));
+			$ip = join(':', array_filter($groups, 'strlen'));
 			$ip = str_replace(':::', '::', $ip);
 			return $ip == ':' ? '::' : $ip;
 		}
@@ -243,7 +357,7 @@ class wfUtils {
 		return false;
 	}
 	public static function getBaseURL(){
-		return plugins_url() . '/wordfence/';
+		return plugins_url('', WORDFENCE_FCPATH) . '/';
 	}
 	public static function getPluginBaseDir(){
 		if(function_exists('wp_normalize_path')){ //Older WP versions don't have this func and we had many complaints before this check.
@@ -263,15 +377,48 @@ class wfUtils {
 	}
 
 	/**
+	 * Get the list of whitelisted IPs and networks
+	 *
+	 * Results may include wfUserIPRange objects for now. Ideally everything would be in CIDR notation.
+	 *
+	 * @param string	$filter	Group name to filter whitelist by
+	 * @return array
+	 */
+	public static function getIPWhitelist($filter = null) {
+		static $wfIPWhitelist;
+
+		if (!isset($wfIPWhitelist)) {
+			include('wfIPWhitelist.php');
+
+			// Memoize user defined whitelist IPs and ranges
+			// TODO: Convert everything to CIDR
+			$wfIPWhitelist['user'] = array();
+
+			foreach (array_filter(explode(',', wfConfig::get('whitelisted'))) as $ip) {
+				$wfIPWhitelist['user'][] = new wfUserIPRange($ip);
+			}
+		}
+
+		$whitelist = array();
+
+		foreach ($wfIPWhitelist as $group => $values) {
+			if ($filter === null || $group === $filter) {
+				$whitelist = array_merge($whitelist, $values);
+			}
+		}
+
+		return $whitelist;
+	}
+
+	/**
 	 * @param string $addr Should be in dot or colon notation (127.0.0.1 or ::1)
 	 * @return bool
 	 */
 	public static function isPrivateAddress($addr) {
 		// Run this through the preset list for IPv4 addresses.
 		if (filter_var($addr, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4) !== false) {
-			$num = self::inet_aton($addr);
-			foreach (self::$privateAddrs as $a) {
-				if ($num >= $a[1] && $num <= $a[2]) {
+			foreach (self::getIPWhitelist('private') as $a) {
+				if (self::subnetContainsIP($a, $addr)) {
 					return true;
 				}
 			}
@@ -347,6 +494,94 @@ class wfUtils {
 			return false;
 		}
 	}
+
+	/**
+	 * Expects an array of items. The items are either IP's or IP's separated by comma, space or tab. Or an array of IP's.
+	 * We then examine all IP's looking for a public IP and storing private IP's in an array. If we find no public IPs we return the first private addr we found.
+	 *
+	 * @param array $arr
+	 * @return bool|mixed
+	 */
+	private static function getCleanIPAndServerVar($arr){
+		$privates = array(); //Store private addrs until end as last resort.
+		for($i = 0; $i < count($arr); $i++){
+			list($item, $var) = $arr[$i];
+			if(is_array($item)){
+				foreach($item as $j){
+					// try verifying the IP is valid before stripping the port off
+					if (!self::isValidIP($j)) {
+						$j = preg_replace('/:\d+$/', '', $j); //Strip off port
+					}
+					if (self::isValidIP($j)) {
+						if (self::isIPv6MappedIPv4($j)) {
+							$j = self::inet_ntop(self::inet_pton($j));
+						}
+
+						if (self::isPrivateAddress($j)) {
+							$privates[] = array($j, $var);
+						} else {
+							return array($j, $var);
+						}
+					}
+				}
+				continue; //This was an array so we can skip to the next item
+			}
+			$skipToNext = false;
+			foreach(array(',', ' ', "\t") as $char){
+				if(strpos($item, $char) !== false){
+					$sp = explode($char, $item);
+					foreach($sp as $j){
+						if (!self::isValidIP($j)) {
+							$j = preg_replace('/:\d+$/', '', $j); //Strip off port
+						}
+						if(self::isValidIP($j)){
+							if (self::isIPv6MappedIPv4($j)) {
+								$j = self::inet_ntop(self::inet_pton($j));
+							}
+
+							if(self::isPrivateAddress($j)){
+								$privates[] = array($j, $var);
+							} else {
+								return array($j, $var);
+							}
+						}
+					}
+					$skipToNext = true;
+					break;
+				}
+			}
+			if($skipToNext){ continue; } //Skip to next item because this one had a comma, space or tab so was delimited and we didn't find anything.
+
+			if (!self::isValidIP($item)) {
+				$item = preg_replace('/:\d+$/', '', $item); //Strip off port
+			}
+			if(self::isValidIP($item)){
+				if (self::isIPv6MappedIPv4($item)) {
+					$item = self::inet_ntop(self::inet_pton($item));
+				}
+
+				if(self::isPrivateAddress($item)){
+					$privates[] = array($item, $var);
+				} else {
+					return array($item, $var);
+				}
+			}
+		}
+		if(sizeof($privates) > 0){
+			return $privates[0]; //Return the first private we found so that we respect the order the IP's were passed to this function.
+		} else {
+			return false;
+		}
+	}
+
+	/**
+	 * @param string $ip
+	 * @return bool
+	 */
+	public static function isIPv6MappedIPv4($ip) {
+		return preg_match('/^(?:\:(?:\:0{1,4}){0,4}\:|(?:0{1,4}\:){5})ffff\:\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/i', $ip) > 0;
+	}
+
 	public static function extractHostname($str){
 		if(preg_match('/https?:\/\/([a-zA-Z0-9\.\-]+)(?:\/|$)/i', $str, $matches)){
 			return strtolower($matches[1]);
@@ -360,22 +595,41 @@ class wfUtils {
 		//return self::makeRandomIP();
 
 		// if no REMOTE_ADDR, it's probably running from the command line
-		$connection_ip = array_key_exists('REMOTE_ADDR', $_SERVER) ? $_SERVER['REMOTE_ADDR'] : '127.0.0.1';
+		$ip = self::getIPAndServerVarible();
+		if (is_array($ip)) {
+			list($IP, $variable) = $ip;
+			return $IP;
+		}
+		return false;
+	}
+
+	public static function getIPAndServerVarible() {
+		$connectionIP = array_key_exists('REMOTE_ADDR', $_SERVER) ? array($_SERVER['REMOTE_ADDR'], 'REMOTE_ADDR') : array('127.0.0.1', 'REMOTE_ADDR');
 
 		$howGet = wfConfig::get('howGetIPs', false);
 		if($howGet){
 			if($howGet == 'REMOTE_ADDR'){
-				$IP = self::getCleanIP(array($connection_ip));
+				return self::getCleanIPAndServerVar(array($connectionIP));
 			} else {
-				$IP = self::getCleanIP(array($_SERVER[$howGet], $connection_ip));
+				$ipsToCheck = array(
+					array($_SERVER[$howGet], $howGet),
+					$connectionIP,
+				);
+				return self::getCleanIPAndServerVar($ipsToCheck);
 			}
 		} else {
-			$IPs = array($connection_ip);
-			if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){ $IPs[] = $_SERVER['HTTP_X_FORWARDED_FOR']; }
-			if(isset($_SERVER['HTTP_X_REAL_IP'])){ $IPs[] = $_SERVER['HTTP_X_REAL_IP']; }
-			$IP = self::getCleanIP($IPs);
+			$ipsToCheck = array(
+				$connectionIP,
+			);
+			if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+				$ipsToCheck[] = array($_SERVER['HTTP_X_FORWARDED_FOR'], 'HTTP_X_FORWARDED_FOR');
+			}
+			if (isset($_SERVER['HTTP_X_REAL_IP'])) {
+				$ipsToCheck[] = array($_SERVER['HTTP_X_REAL_IP'], 'HTTP_X_REAL_IP');
+			}
+			return self::getCleanIPAndServerVar($ipsToCheck);
 		}
-		return $IP; //Returns a valid IP or false. 
+		return false; //Returns an array with a valid IP and the server variable, or false.
 	}
 	public static function isValidIP($IP){
 		return filter_var($IP, FILTER_VALIDATE_IP) !== false;
@@ -518,6 +772,31 @@ class wfUtils {
 		}
 		return self::$isWindows == 'yes' ? true : false;
 	}
+	public static function cleanupOneEntryPerLine($string) {
+		$string = str_replace(",", "\n", $string); // fix old format
+		return implode("\n", array_unique(array_filter(array_map('trim', explode("\n", $string)))));
+	}
+	public static function getScanFileError() {
+		$fileTime = wfConfig::get('scanFileProcessing');
+		if (! $fileTime) {
+			return;
+		}
+		list($file, $time) =  unserialize($fileTime);
+		if ($time+10 < time()) {
+			$files = wfConfig::get('scan_exclude') . "\n" . $file;
+			wfConfig::set('scan_exclude', self::cleanupOneEntryPerLine($files));
+			self::endProcessingFile();
+		}
+	}
+
+	public static function beginProcessingFile($file) {
+		wfConfig::set('scanFileProcessing', serialize(array($file, time())));
+	}
+
+	public static function endProcessingFile() {
+		wfConfig::set('scanFileProcessing', null);
+	}
+
 	public static function getScanLock(){
 		//Windows does not support non-blocking flock, so we use time.
 		$scanRunning = wfConfig::get('wf_scanRunning');
@@ -528,6 +807,10 @@ class wfUtils {
 		return true;
 	}
 	public static function clearScanLock(){
+		global $wpdb;
+		$wfdb = new wfDB();
+		$wfdb->truncate($wpdb->base_prefix . 'wfHoover');
+
 		wfConfig::set('wf_scanRunning', '');
 	}
 	public static function isScanRunning(){
@@ -869,13 +1152,6 @@ class wfUtils {
 	}
 
 	/**
-	 * @return array
-	 */
-	public static function getPrivateAddrs() {
-		return self::$privateAddrs;
-	}
-
-	/**
 	 * @param string $host
 	 * @return array
 	 */
@@ -910,6 +1186,92 @@ class wfUtils {
 		$ip = substr(preg_replace("/([a-f0-9]{4})/i", "$1:", $hex), 0, -1);
 		return $ip;
 	}
+
+	public static function set_html_content_type() {
+		return 'text/html';
+	}
+
+	public static function htmlEmail($to, $subject, $body) {
+		add_filter( 'wp_mail_content_type', 'wfUtils::set_html_content_type' );
+		$result = wp_mail($to, $subject, $body);
+		remove_filter( 'wp_mail_content_type', 'wfUtils::set_html_content_type' );
+		return $result;
+	}
+
+	/**
+	 * @param string $readmePath
+	 * @return bool
+	 */
+	public static function hideReadme($readmePath = null) {
+		if ($readmePath === null) {
+			$readmePath = ABSPATH . 'readme.html';
+		}
+
+		if (file_exists($readmePath)) {
+			$readmePathInfo = pathinfo($readmePath);
+			require_once ABSPATH . WPINC . '/pluggable.php';
+			$hiddenReadmeFile = $readmePathInfo['filename'] . '.' . wp_hash('readme') . '.' . $readmePathInfo['extension'];
+			return @rename($readmePath, $readmePathInfo['dirname'] . '/' . $hiddenReadmeFile);
+		}
+		return false;
+	}
+
+	/**
+	 * @param string $readmePath
+	 * @return bool
+	 */
+	public static function showReadme($readmePath = null) {
+		if ($readmePath === null) {
+			$readmePath = ABSPATH . 'readme.html';
+		}
+		$readmePathInfo = pathinfo($readmePath);
+		require_once ABSPATH . WPINC . '/pluggable.php';
+		$hiddenReadmeFile = $readmePathInfo['dirname'] . '/' . $readmePathInfo['filename'] . '.' . wp_hash('readme') . '.' . $readmePathInfo['extension'];
+		if (file_exists($hiddenReadmeFile)) {
+			return @rename($hiddenReadmeFile, $readmePath);
+		}
+		return false;
+	}
+
+	public static function htaccessAppend($code)
+	{
+		$htaccess = ABSPATH . '/.htaccess';
+		$content  = self::htaccess();
+		if (wfUtils::isNginx() || !is_writable($htaccess)) {
+			return false;
+		}
+
+		if (strpos($content, $code) === false) {
+			// make sure we write this once
+			file_put_contents($htaccess, $content . "\n" . trim($code), LOCK_EX);
+		}
+
+		return true;
+	}
+
+	public static function htaccess() {
+		if (is_readable(ABSPATH . '/.htaccess') && !wfUtils::isNginx()) {
+			return file_get_contents(ABSPATH . '/.htaccess');
+		}
+		return "";
+	}
+
+	/**
+	 * @param array $array
+	 * @param mixed $oldKey
+	 * @param mixed $newKey
+	 * @return array
+	 * @throws Exception
+	 */
+	public static function arrayReplaceKey($array, $oldKey, $newKey) {
+		$keys = array_keys($array);
+		if (($index = array_search($oldKey, $keys)) === false) {
+			throw new Exception(sprintf('Key "%s" does not exist', $oldKey));
+		}
+		$keys[$index] = $newKey;
+		return array_combine($keys, array_values($array));
+	}
+
 }
 
 // GeoIP lib uses these as well
@@ -924,5 +1286,145 @@ if (!function_exists('inet_pton')) {
 	}
 }
 
+
+class wfWebServerInfo {
+
+	const APACHE = 1;
+	const NGINX = 2;
+	const LITESPEED = 4;
+	const IIS = 8;
+
+	private $handler;
+	private $software;
+	private $softwareName;
+
+	/**
+	 *
+	 */
+	public static function createFromEnvironment() {
+		$serverInfo = new self;
+		if (stripos($_SERVER['SERVER_SOFTWARE'], 'apache') !== false) {
+			$serverInfo->setSoftware(self::APACHE);
+			$serverInfo->setSoftwareName('apache');
+		}
+		if (stripos($_SERVER['SERVER_SOFTWARE'], 'litespeed') !== false) {
+			$serverInfo->setSoftware(self::LITESPEED);
+			$serverInfo->setSoftwareName('litespeed');
+		}
+		if (strpos($_SERVER['SERVER_SOFTWARE'], 'nginx') !== false) {
+			$serverInfo->setSoftware(self::NGINX);
+			$serverInfo->setSoftwareName('nginx');
+		}
+		if (strpos($_SERVER['SERVER_SOFTWARE'], 'Microsoft-IIS') !== false || strpos($_SERVER['SERVER_SOFTWARE'], 'ExpressionDevServer') !== false) {
+			$serverInfo->setSoftware(self::IIS);
+			$serverInfo->setSoftwareName('iis');
+		}
+
+		$serverInfo->setHandler(php_sapi_name());
+
+		return $serverInfo;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isApache() {
+		return $this->getSoftware() === self::APACHE;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isNGINX() {
+		return $this->getSoftware() === self::NGINX;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isLiteSpeed() {
+		return $this->getSoftware() === self::LITESPEED;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isIIS() {
+		return $this->getSoftware() === self::IIS;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isApacheModPHP() {
+		return $this->isApache() && function_exists('apache_get_modules');
+	}
+
+	/**
+	 * Not sure if this can be implemented at the PHP level.
+	 * @return bool
+	 */
+	public function isApacheSuPHP() {
+		return $this->isApache() && $this->isCGI() &&
+			function_exists('posix_getuid') &&
+			getmyuid() === posix_getuid();
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isCGI() {
+		return !$this->isFastCGI() && stripos($this->getHandler(), 'cgi') !== false;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public function isFastCGI() {
+		return stripos($this->getHandler(), 'fastcgi') !== false || stripos($this->getHandler(), 'fpm-fcgi') !== false;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getHandler() {
+		return $this->handler;
+	}
+
+	/**
+	 * @param mixed $handler
+	 */
+	public function setHandler($handler) {
+		$this->handler = $handler;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getSoftware() {
+		return $this->software;
+	}
+
+	/**
+	 * @param mixed $software
+	 */
+	public function setSoftware($software) {
+		$this->software = $software;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getSoftwareName() {
+		return $this->softwareName;
+	}
+
+	/**
+	 * @param mixed $softwareName
+	 */
+	public function setSoftwareName($softwareName) {
+		$this->softwareName = $softwareName;
+	}
+}
 
 ?>
