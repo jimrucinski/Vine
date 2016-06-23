@@ -3,7 +3,7 @@
     <xsl:output method="html" indent="yes"/>
     <xsl:param name="sortby" select="'submittedBy'"/>
     <xsl:param name="year" />
-    <xsl:param name="direction"/>
+    <xsl:param name="direction" select="'descending'"/>
     
   <xsl:template match="/">
       
@@ -19,8 +19,7 @@
       <HEAD>
           <style>
               body{font-family:calibri;}
-              table{border:solid 1px #666666;}
-             
+              table{border:solid 1px #666666;}             
               td{border:solid 1px #cccccc;padding:.25em;}
               tr:nth-child(even) {background: #eee}
               tr:nth-child(odd) {background: #FFF}
@@ -29,13 +28,13 @@
       </HEAD>
       
       <BODY>
-          <table cellpadding="0" cellspacing="0">
+          <table cellpadding="0" cellspacing="0" class='responsive-stacked-table' id="PmaWorkRequestsTable" >
               <thead>
-                  <tr style="background-color:#000000;color:#ffffff;text-transform:capitalize;">
+                  <tr style="text-transform:capitalize;">
                       <th>
                           <xsl:element name="a">
                               <xsl:attribute name="href">
-                                  <xsl:value-of select="concat('ListCheersForPeers.php?sortby=dateSubmitted&amp;year=',$year,'&amp;direction=', $optDirection)"/>
+                                  <xsl:value-of select="concat('.?sortby=dateSubmitted&amp;year=',$year,'&amp;direction=', $optDirection)"/>
                               </xsl:attribute>
                               date submitted
                           </xsl:element>
@@ -43,7 +42,7 @@
                       <th>                      
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:value-of select="concat('ListCheersForPeers.php?sortby=submittedBy&amp;year=',$year,'&amp;direction=', $optDirection)"/>
+                                <xsl:value-of select="concat('.?sortby=submittedBy&amp;year=',$year,'&amp;direction=', $optDirection)"/>
                             </xsl:attribute>
                             submitted by
                         </xsl:element>
@@ -52,7 +51,7 @@
                               
                         <xsl:element name="a">
                             <xsl:attribute name="href">
-                                <xsl:value-of select="concat('ListCheersForPeers.php?sortby=cheerFor&amp;year=',$year,'&amp;direction=', $optDirection)"/>
+                                <xsl:value-of select="concat('.?sortby=cheerFor&amp;year=',$year,'&amp;direction=', $optDirection)"/>
                             </xsl:attribute>
                             cheers for
                         </xsl:element>
@@ -69,7 +68,7 @@
                                 <td>
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
-                                            CheersForPeers.php?cheerid=<xsl:value-of select="@id"/>
+                                            ../../../PMA/CheersForPeers/CheersForPeers.php?cheerid=<xsl:value-of select="@id"/>
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
                                             new

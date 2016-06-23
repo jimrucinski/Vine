@@ -1,0 +1,9 @@
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+  #master{display:block;margin-left:auto;margin-right:auto;margin-bottom:auto;margin-top:auto;padding:2em 2em 2em 2em;min-height:500px;width:780px; height:5800px;
+              border:groove 10px #cccccc;background-image:url('images/cheer-4-peers.png');background-position:right bottom; background-repeat:no-repeat;}
+h1{font-family:Perpetua;width:100%;text-align:right;font-size:2.5em;top:.05em;letter-spacing:3px;white-space:nowrap;margin-top:auto;margin-bottom:auto;}

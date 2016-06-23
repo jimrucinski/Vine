@@ -149,9 +149,30 @@ if(!class_exists('PmaPdoDb')){
             }           
         }
         
+		public function addRecognition($rec){
+			
+           try{
+                $this->stmt = self::$db->prepare('CALL sp_insertRecognition(?,?,?,?,?,?,?)');				
+                $this->stmt->bindParam(1,$rec->id);				
+                $this->stmt->bindParam(2,$rec->submit_date);				
+                $this->stmt->bindParam(3,$rec->submitted_by);				
+                $this->stmt->bindParam(4,$rec->recognition_type);				
+                $this->stmt->bindParam(5,$rec->recogniton_text);				
+                $this->stmt->bindParam(6,$rec->recognition_people);
+				$this->stmt->bindParam(7,$rec->recognition_title);
+                $this->stmt->execute();
+           }
+           catch(PDOException $e){
+			$e->getMessage();
+
+            }           
+        }
+		
+		
         public function query($sql){
             $this->stmt = self::$db->prepare($sql);
         }
+
         public function queryForObjs($sql){
             
             $this->stmt = self::$db->prepare($sql);
@@ -168,6 +189,10 @@ if(!class_exists('PmaPdoDb')){
             $this->execute();
             return $this->stmt->fetchALL(PDO::FETCH_ASSOC);
         }
+		public function singleRowResult(){
+			$this->execute();
+            return $this->stmt->fetch(PDO::FETCH_ASSOC);
+		}
         public function resultsetForObjs(){
             $this->execute();
             $this->stmt->fetchALL(PDO::FETCH_CLASS, 'PmaTix');

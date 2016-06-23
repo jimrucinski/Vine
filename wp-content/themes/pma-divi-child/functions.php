@@ -198,17 +198,21 @@ function pmaCreateRequestTypeDropdown($atts){
 			'id' => '',
 			'nme' => '',
                         'keepvalue' => '',
-                        'blank' => ''
+                        'blank' => '',
+                        'size' =>''
                         ], $atts
 	) ;
     $dbo = PmaPdoDb::getInstance();
     $dbo->connect(DB_HOST,DB_USER, DB_PASSWORD, DB_NAME);
+    $rows;
 
+if($a['sp'] !=''){
     $sql = 'call ' . $a['sp'] . "(" . $a['id'] . ")";
    
     $dbo->query($sql);
     $rows = $dbo->resultset();
-    $str = "<select name='" . $a['nme'] . "' id='" . $a['nme'] . "'>";
+}
+    $str = "<select style='min-width:200px;'" . ($a['size']>0 ? " multiple='multiple' name='" . $a['nme'] . "[]' " : "name='" . $a['nme'] . "'") . "  id='" . $a['nme'] . "' size='" .$a['size'] ."'>";
     
 
     if($a['blank']==1 || $a['blank']=='1'){

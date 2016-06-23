@@ -223,6 +223,7 @@ $dbo->editTicket($tix, $log,null);
 //$addresses[] =WR_IT_Admin; //work request IT admin set in wp-config
 //sendMail('Work Request', '<strong> and wrap your cords the right way</strong><p>blah ditty blah blah blah</p>', $addresses );
 $redirectLocation;
+
 switch($department){
     case 1:
        $redirectLocation='/information-technology/review-it-work-requests/';
@@ -262,7 +263,8 @@ switch($department){
             sendMail($subject, $body , $addresses, false );
         }
         break;
-        case 5:		 
+	 case 5:
+		 
        $redirectLocation='/teams/education/review-education-work-requests/';
         $subject = 'Education Work Request: ' . $tix->id;
         $wrUrl = '<a href="' . get_page_link(get_page_by_title('Edit Work Request')->ID) . '?workrequestid=' . $tix->id . '">Work Request #' . $tix->id .'</a>';
@@ -280,26 +282,7 @@ switch($department){
             //$addresses[]=$submissionEmail[0]['email'];
             sendMail($subject, $body , $addresses, false );
         }
-        break;
-        case 6:
-       $redirectLocation='/solution center/review-solution-center-work-requests/';
-        $subject = 'Solution Center Work Request: ' . $tix->id;
-        $wrUrl = '<a href="' . get_page_link(get_page_by_title('Edit Work Request')->ID) . '?workrequestid=' . $tix->id . '">Work Request #' . $tix->id .'</a>';
-        if($status == 3){    
-            $body ='<p>The following work request has been closed: ' . $wrUrl;
-            $body .='<p>' . $tix->request_title . '<br/>' . $rows[0]["request_desc"] .  '</p>';
-            $addresses[]=$submitterEmail;
-        //$addresses[]=$submissionEmail[0]['email'];
-            sendMail($subject, $body , $addresses, false );
-        }
-        else if($sendUpdateEmail == true){
-
-            $body ='<p>The following work request has been assigned to you: ' . $wrUrl . '</p>';
-            $body='<p><strong>' . $tix->request_title . '</strong><br/>' . $rows[0]["request_desc"] .  '</p>';
-            //$addresses[]=$submissionEmail[0]['email'];
-            sendMail($subject, $body , $addresses, false );
-        }
-        break;
+		break;
     default:
        $redirectLocation=null;
 }

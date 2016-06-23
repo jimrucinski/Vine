@@ -104,17 +104,18 @@ switch($department){
         break;
     case 4:
        $redirectLocation='/teams/office-services/office-services-request-review/';
+	   $addressess[] = $tix->email;
         $wrUrl = '<a href="' . get_page_link(get_page_by_title('Office Services Review')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
         break;
-    case 5:
+	case 5:
        $redirectLocation='/teams/education/review-education-work-requests/';
-        $addresses[] =WR_IT_Admin; //work request IT admin set in wp-config
         $wrUrl = '<a href="' . get_page_link(get_page_by_title('Edit Work Request')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
         break;
-    case 6:
+	case 6:
        $redirectLocation='/teams/solution-center/solution-center-request-review/';
         $wrUrl = '<a href="' . get_page_link(get_page_by_title('Office Services Review')->ID) . '?workrequestid=' . $requestId[0]['RequestId'] . '">Work Request #' . $requestId[0]['RequestId'] .'</a>';
         break;
+    default:
     default:
        $redirectLocation=null;
 }

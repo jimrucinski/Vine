@@ -183,7 +183,6 @@ function selectItemsInSelectList(id)
     }
 
 function changeRecStatus(id, status){
-
 	if(id=="")
 		return;
 	else{
